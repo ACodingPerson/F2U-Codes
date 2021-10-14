@@ -107,7 +107,7 @@
       </div>
 
       <!-- box -->
-      <div class="bg-faded mt-2 mb-2" style="margin:auto; width: 100%; height: 64px;">
+      <div class="bg-faded mt-2 mb-2" style="margin:auto; width: 100%; height: 65px;">
 
         <!-- the navigation bar thing for the photos -->
         <div class="m-auto justify-content-center p-3" style="font-family: 'Times New Roman', Times, serif;">
