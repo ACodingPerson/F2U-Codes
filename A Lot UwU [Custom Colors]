@@ -52,7 +52,7 @@
                 background-size: cover;">
                 <!-- information box thing -->
                 <div class="px-2 py-1" style="background-color:rgba(255, 255, 255, 0.8);">
-                    <span style="font-weight: 100; color: rgba(44, 39, 39, 1)"><a href="LINK_HERE" target="_blank"><i class="fas fa-image-polaroid mr-2 tooltipster" title="by _________" data-placement="left" style="color: rgba(44, 39, 39, 1)"></i></a>Stuff.</span>
+                    <span style="font-weight: 100; color: #2c2727"><a href="LINK_HERE" target="_blank"><i class="fas fa-image-polaroid mr-2 tooltipster" title="by _________" data-placement="left" style="color: #2c2727"></i></a>Stuff.</span>
                 </div>
             </div>
           </div>
@@ -65,7 +65,7 @@
               background-size: cover;">
               <!-- information box thing -->
               <div class="px-2 py-1" style="background-color:rgba(255, 255, 255, 0.8);">
-                <span style="font-weight: 100; color: rgba(110, 97, 97, 1)"><a href="LINK_HERE" target="_blank"><i class="fas fa-image-polaroid mr-2 tooltipster" title="by _________" data-placement="left" style="color: rgba(110, 97, 97, 1)"></i></a>Stuff.</span>
+                <span style="font-weight: 100; color: #6e6161"><a href="LINK_HERE" target="_blank"><i class="fas fa-image-polaroid mr-2 tooltipster" title="by _________" data-placement="left" style="color: #6e6161"></i></a>Stuff.</span>
               </div>
             </div>
           </div>
@@ -78,7 +78,7 @@
               background-size: cover;">
               <!-- information box thing -->
               <div class="px-2 py-1" style="background-color:rgba(255, 255, 255, 0.8);">
-                <span style="font-weight: 100; color: rgba(110, 97, 97, 1)"><a href="LINK_HERE" target="_blank"><i class="fas fa-image-polaroid mr-2 tooltipster" title="by _________" data-placement="left" style="color: rgba(110, 97, 97, 1)"></i></a>Stuff.</span>
+                <span style="font-weight: 100; color: #6e6161"><a href="LINK_HERE" target="_blank"><i class="fas fa-image-polaroid mr-2 tooltipster" title="by _________" data-placement="left" style="color: #6e6161"></i></a>Stuff.</span>
               </div>
             </div>
           </div>
@@ -91,7 +91,7 @@
               background-size: cover;">
               <!-- information box thing -->
               <div class="px-2 py-1" style="background-color:rgba(255, 255, 255, 0.8);">
-                <span style="font-weight: 100; color: rgba(44, 39, 39, 1)"><a href="LINK_HERE" target="_blank"><i class="fas fa-image-polaroid mr-2 tooltipster" title="by _________" data-placement="left" style="color: rgba(44, 39, 39, 1)"></i></a>Stuff.</span>
+                <span style="font-weight: 100; color: #2c2727"><a href="LINK_HERE" target="_blank"><i class="fas fa-image-polaroid mr-2 tooltipster" title="by _________" data-placement="left" style="color: #2c2727"></i></a>Stuff.</span>
               </div>
             </div>
           </div>
@@ -104,7 +104,7 @@
               background-size: cover;">
               <!-- information box thing -->
               <div class="px-2 py-1" style="background-color:rgba(255, 255, 255, 0.8);">
-                <span style="font-weight: 100; color: rgba(110, 97, 97, 1)"><a href="LINK_HERE" target="_blank"><i class="fas fa-image-polaroid mr-2 tooltipster" title="by _________" data-placement="left" style="color: rgba(110, 97, 97, 1)"></i></a>Stuff.</span>
+                <span style="font-weight: 100; color: #6e6161"><a href="LINK_HERE" target="_blank"><i class="fas fa-image-polaroid mr-2 tooltipster" title="by _________" data-placement="left" style="color: #6e6161"></i></a>Stuff.</span>
               </div>
             </div>
           </div>
@@ -159,42 +159,42 @@
         <ul class="nav nav-tabs mx-1" id="pills-tab" role="tablist" style="justify-content: right; font-size: 1vmax;">
             <li class="nav-item tooltipster" title="About" data-placement="left">
                 <a class="nav-link active" data-toggle="tab" href="#about">
-                    <i class="fas fa-user-circle" style="color: rgba(110, 97, 97, 1);"></i>
+                    <i class="fas fa-user-circle" style="color: #6e6161;"></i>
                 </a>
             </li>
             <li class="nav-item tooltipster" title="Appearance" data-placement="left">
               <a class="nav-link" data-toggle="tab" href="#appearance">
-                <i class="fas fa-id-badge" style="color: rgba(110, 97, 97, 1);"></i>
+                <i class="fas fa-id-badge" style="color: #6e6161;"></i>
               </a>
             </li>
             <li class="nav-item tooltipster" title="Personality" data-placement="left">
               <a class="nav-link" data-toggle="tab" href="#personality">
-                <i class="fas fa-address-book" style="color: rgba(110, 97, 97, 1);"></i>
+                <i class="fas fa-address-book" style="color: #6e6161;"></i>
               </a>
             </li>
             <li class="nav-item tooltipster" title="Abilities" data-placement="left">
               <a class="nav-link" data-toggle="tab" href="#abilities">
-                <i class="fas fa-skiing" style="color: rgba(110, 97, 97, 1);"></i>
+                <i class="fas fa-skiing" style="color: #6e6161;"></i>
               </a>
             </li>
             <li class="nav-item tooltipster" title="History" data-placement="left">
               <a class="nav-link" data-toggle="tab" href="#history">
-                <i class="fas fa-book-user" style="color: rgba(110, 97, 97, 1);"></i>
+                <i class="fas fa-book-user" style="color: #6e6161;"></i>
               </a>
             </li>
             <li class="nav-item tooltipster" title="Trivia" data-placement="left">
               <a class="nav-link" data-toggle="tab" href="#trivia">
-                <i class="fas fa-book-reader" style="color: rgba(110, 97, 97, 1);"></i>
+                <i class="fas fa-book-reader" style="color: #6e6161;"></i>
               </a>
             </li>
             <li class="nav-item tooltipster" title="Relationships" data-placement="left">
               <a class="nav-link" data-toggle="tab" href="#relationships">
-                <i class="fas fa-users" style="color: rgba(110, 97, 97, 1);"></i>
+                <i class="fas fa-users" style="color: #6e6161;"></i>
               </a>
             </li>
             <li class="nav-item tooltipster" title="Other" data-placement="left">
               <a class="nav-link" data-toggle="tab" href="#other">
-                <i class="fas fa-edit" style="color: rgba(110, 97, 97, 1);"></i>
+                <i class="fas fa-edit" style="color: #6e6161;"></i>
               </a>
             </li>
           </ul>
@@ -371,8 +371,8 @@
               <!-- /LISTED CONTENT ------ so long e.e -------->
 
               <!-- QUOTE THING --------------------->
-                <blockquote class="ml-4" style="color:rgba(110, 97, 97, 1)">
-                  "Another quote."
+                <blockquote class="ml-4" style="color:#6e6161">
+                  <span style="color: #000;">"Another quote."</span>
                 </blockquote>
               <!-- /QUOTE THING -------------------->
 
