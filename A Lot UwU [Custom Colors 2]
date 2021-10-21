@@ -1,0 +1,1554 @@
+<!-- 
+ 
+    A Lot UwU | Version 2 [Custom Colors]
+ 
+        HANDY WEBSITES
+            > Font Awesome (for icons): https://fontawesome.com/v5.15/icons/reddit?style=brands
+            > W3 Schools Bootstrap: https://www.w3schools.com/bootstrap/
+            > W3 Schools HTML: https://www.w3schools.com/html/default.asp
+            > Bootstrap Docs: https://getbootstrap.com/docs/5.1/getting-started/introduction/
+ 
+    THANKS FOR USING <3
+ 
+-->
+
+
+
+
+<!-- CONTAINER ------------------------------>
+<div class="shadow-lg my-3 container-fluid card p-3" style="max-width: 1000px;
+    background-image: url(https://images.unsplash.com/photo-1534447677768-be436bb09401?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1194&q=80);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;">
+
+<!-- QUOTE ----------------------------->
+    <div class="card p-2 mb-1 border-0" style="border-radius: 10px 10px 0px 0px; background-color: rgba(0, 0, 0, 0.7);">
+        <div style="font-weight: 100; font-variant: small-caps;">
+            <i class="fas fa-quote-left fa-xs" style="vertical-align: text-top; color:#6da8aa"></i>
+                <span style="font-size: 20px; color:#6da8aa">Quote.  Quote.  Quote.</span>
+            <i class="fas fa-quote-right fa-xs" style="vertical-align: text-top; color:#6da8aa"></i>
+        </div>
+    </div>
+<!-- /QUOTE ---------------------------->
+
+
+<!-- CONTENT BOX ----------------------------------------->
+
+<div class="row no-gutters">
+
+    <!-- left column --------------------------------->
+    <div class="col-md-4 pr-md-2">
+
+      <!-- le photos -->
+      <div class="tab-content" id="pills-tabContent">
+
+          <!-- first photo -->
+          <div class="tab-pane fade show active" data-toggle="pill" id="PONE">
+            <div class="card p-3 my-1 rounded-0 border-0" style="min-height: 550px;
+                background-image: url(https://images.unsplash.com/photo-1532692966749-619e0feb9e78?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80);
+                background-position: center;
+                background-size: cover;">
+                <!-- information box thing -->
+                <div class="px-2 py-1" style="background-color:rgba(0, 0, 0, 0.8);">
+                    <span style="font-weight: 100; color: #46879b"><a href="LINK_HERE" target="_blank"><i class="fas fa-image-polaroid mr-2 tooltipster" title="by _________" data-placement="left" style="color: #46879b"></i></a>Stuff.</span>
+                </div>
+            </div>
+          </div>
+
+          <!-- second photo -->
+          <div class="tab-pane fade" data-toggle="pill" id="PTWO">
+            <div class="card p-3 my-1 rounded-0 border-0" style="min-height: 550px;
+              background-image: url(https://images.unsplash.com/photo-1505322022379-7c3353ee6291?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80);
+              background-position: center;
+              background-size: cover;">
+              <!-- information box thing -->
+              <div class="px-2 py-1" style="background-color:rgba(0, 0, 0, 0.8);">
+                <span style="font-weight: 100; color: #46879b"><a href="LINK_HERE" target="_blank"><i class="fas fa-image-polaroid mr-2 tooltipster" title="by _________" data-placement="left" style="color: #46879b"></i></a>Stuff.</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- third photo -->
+          <div class="tab-pane fade" data-toggle="pill" id="PTHREE">
+            <div class="card p-3 my-1 rounded-0 border-0" style="min-height: 550px;
+              background-image: url(https://images.unsplash.com/photo-1488866022504-f2584929ca5f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1162&q=80);
+              background-position: center;
+              background-size: cover;">
+              <!-- information box thing -->
+              <div class="px-2 py-1" style="background-color:rgba(0, 0, 0, 0.8);">
+                <span style="font-weight: 100; color: #46879b"><a href="LINK_HERE" target="_blank"><i class="fas fa-image-polaroid mr-2 tooltipster" title="by _________" data-placement="left" style="color: #46879b"></i></a>Stuff.</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- fourth photo -->
+          <div class="tab-pane fade" data-toggle="pill" id="PFOUR">
+            <div class="card p-3 my-1 rounded-0 border-0" style="min-height: 550px;
+              background-image: url(https://images.unsplash.com/photo-1504941214544-9c1c44559ab4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);
+              background-position: center;
+              background-size: cover;">
+              <!-- information box thing -->
+              <div class="px-2 py-1" style="background-color:rgba(0, 0, 0, 0.8);">
+                <span style="font-weight: 100; color: #46879b"><a href="LINK_HERE" target="_blank"><i class="fas fa-image-polaroid mr-2 tooltipster" title="by _________" data-placement="left" style="color: #46879b"></i></a>Stuff.</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- fifth photo -->
+          <div class="tab-pane fade" data-toggle="pill" id="PFIVE">
+            <div class="card p-3 my-1 rounded-0 border-0" style="min-height: 550px;
+              background-image: url(https://images.unsplash.com/photo-1509515837298-2c67a3933321?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=388&q=80);
+              background-position: center;
+              background-size: cover;">
+              <!-- information box thing -->
+              <div class="px-2 py-1" style="background-color:rgba(0, 0, 0, 0.8);">
+                <span style="font-weight: 100; color: #46879b"><a href="LINK_HERE" target="_blank"><i class="fas fa-image-polaroid mr-2 tooltipster" title="by _________" data-placement="left" style="color: #46879b"></i></a>Stuff.</span>
+              </div>
+            </div>
+          </div>
+
+      </div>
+
+      <!-- box -->
+      <div class="mt-2 mb-2" style="margin:auto; width: 100%; height: 65px; background-color: rgba(0, 0, 0, 0.5);">
+
+        <!-- the navigation bar thing for the photos -->
+        <div class="m-auto justify-content-center p-3" style="font-family: 'Times New Roman', Times, serif;">
+          <ul class="nav nav-tabs justify-content-center">
+            <li class="nav-item mr-1 mb-1">
+              <a class="nav-link active btn btn-outline-secondary" data-toggle="tab" href="#PONE">I</a>
+            </li>
+            <li class="nav-item mr-1 mb-1">
+              <a class="nav-link btn btn-outline-secondary" data-toggle="tab" href="#PTWO">II</a>
+            </li>
+            <li class="nav-item mr-1 mb-1">
+              <a class="nav-link btn btn-outline-secondary" data-toggle="tab" href="#PTHREE">III</a>
+            </li>
+            <li class="nav-item mr-1 mb-1">
+              <a class="nav-link btn btn-outline-secondary" data-toggle="tab" href="#PFOUR">IV</a>
+            </li>
+            <li class="nav-item mr-1 mb-1">
+              <a class="nav-link btn btn-outline-secondary" data-toggle="tab" href="#PFIVE">V</a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+      <!-- /box -->
+
+    </div>
+    <!-- end left column --------------------------------->
+
+    <!-- right column ------------------------------>
+    <div class="col-md-8">
+    <div class="card p-3 my-1 pr-md-2 rounded-0 border-0" style="background-color: rgba(0, 0, 0, 0.8);">
+
+      <!-- name -->
+      <div class="px-2 mb-1" style="font-size:30px;font-variant:small-caps;letter-spacing:2px; border:0">
+        <div class="d-flex" style="flex-direction: row; align-items: center; font-weight: 100; border: 0; flex-grow: 0;">
+            <div style="font-size:x-large"><i class="fas fa-leaf-maple" style="vertical-align: middle; color: #43798f"></i></div>
+                <hr style="flex-grow: 1; margin-left: 10px; margin-right: 10px; height:1px; vertical-align: middle; background-color: #43798f">
+            <div style="font-size:xx-large; color: #43798f">N A M E</div>
+        </div>
+      </div>
+      <!-- name -->
+
+        <!-- navigation ------------------------->
+        <ul class="nav nav-pills mx-1 justify-content-center" id="pills-tab" role="tablist" style="font-size: 1vmax;">
+            
+            <li class="nav-item tooltipster mb-1 mr-1" title="About" data-placement="left">
+                <a class="nav-link active btn" data-toggle="tab" href="#about" style="color: #e6e6e6; background-color: rgba(93, 146, 153, 0.2); font-size: 1vmax;">
+                    <i class="fas fa-user-circle"></i>
+                </a>
+            </li>
+            <li class="nav-item tooltipster mb-1 mr-1" title="Appearance" data-placement="left">
+              <a class="nav-link btn" data-toggle="pill" href="#appearance" style="color: #e6e6e6; background-color: rgba(93, 146, 153, 0.2); font-size: 1vmax;">
+                <i class="fas fa-id-badge"></i>
+              </a>
+            </li>
+            <li class="nav-item tooltipster mb-1 mr-1" title="Personality" data-placement="left">
+              <a class="nav-link btn" data-toggle="pill" href="#personality" style="color: #e6e6e6; background-color: rgba(93, 146, 153, 0.2); font-size: 1vmax;">
+                <i class="fas fa-address-book"></i>
+              </a>
+            </li>
+            <li class="nav-item tooltipster mb-1 mr-1" title="Abilities" data-placement="left">
+              <a class="nav-link btn" data-toggle="pill" href="#abilities" style="color: #e6e6e6; background-color: rgba(93, 146, 153, 0.2); font-size: 1vmax;">
+                <i class="fas fa-skiing"></i>
+              </a>
+            </li>
+            <li class="nav-item tooltipster mb-1 mr-1" title="History" data-placement="left">
+              <a class="nav-link btn" data-toggle="pill" href="#history" style="color: #e6e6e6; background-color: rgba(93, 146, 153, 0.2); font-size: 1vmax;">
+                <i class="fas fa-book-user"></i>
+              </a>
+            </li>
+            <li class="nav-item tooltipster mb-1 mr-1" title="Trivia" data-placement="left">
+              <a class="nav-link btn" data-toggle="pill" href="#trivia" style="color: #e6e6e6; background-color: rgba(93, 146, 153, 0.2); font-size: 1vmax;">
+                <i class="fas fa-book-reader"></i>
+              </a>
+            </li>
+            <li class="nav-item tooltipster mb-1 mr-1" title="Relationships" data-placement="left">
+              <a class="nav-link btn" data-toggle="pill" href="#relationships" style="color: #e6e6e6; background-color: rgba(93, 146, 153, 0.2); font-size: 1vmax;">
+                <i class="fas fa-users"></i>
+              </a>
+            </li>
+            <li class="nav-item tooltipster mb-1 mr-1" title="Other" data-placement="left">
+              <a class="nav-link btn" data-toggle="pill" href="#other" style="color: #e6e6e6; background-color: rgba(93, 146, 153, 0.2); font-size: 1vmax;">
+                <i class="fas fa-edit"></i>
+              </a>
+            </li>
+
+          </ul>
+        <!-- end navigation --------------------->
+
+
+        <!-- TAB CONTENTS ----------------------------------------------------->
+        <div class="tab-content">
+
+          <!-- ABOUT ----------------------------------------------------------------------------->
+          <div class="tab-pane fade in active show" data-toggle="tab" id="about">
+            <div class="card p-3 d-block my-0 mx-1" style="max-height: 500px; overflow-y: auto; border-top: 0px; background-color: #000;">
+
+              <!-- LISTED CONTENT ------------->
+                <!-- first set ---------->
+                <div class="row px-3" style="font-size: 13px;">
+                  <!-- first row --->
+                  <div class="col-md-6">
+                    <div class="card  border-0 rounded-0 py-1" style="color: #fff; background-color: #000;">
+                    
+                    <!-- name -->
+                      <div class="col-12">
+                        <span class="pull-left">Name</span>
+                        <span class="pull-right" style="font-weight: 100;">Content</span>
+                      </div>
+
+                    <!-- species -->
+                      <div class="col-12">
+                        <span class="pull-left">Species</span>
+                        <span class="pull-right" style="font-weight: 100;">Content</span>
+                      </div>
+
+                    <!-- gender -->
+                      <div class="col-12">
+                        <span class="pull-left">Gender</span>
+                        <span class="pull-right" style="font-weight: 100;">Content</span>
+                      </div>
+
+                    </div>
+                  </div>
+                  <!-- second row --->
+                  <div class="col-md-6">
+                    <div class="card  border-0 rounded-0 py-1" style="color: #fff; background-color: #000;">
+                    
+                    <!-- age -->
+                    <div class="col-12">
+                      <span class="pull-left">Age</span>
+                      <span class="pull-right" style="font-weight: 100;">Content</span>
+                    </div>
+
+                    <!-- ethnicity -->
+                      <div class="col-12">
+                        <span class="pull-left">Ethnicity</span>
+                        <span class="pull-right" style="font-weight: 100;">Content</span>
+                      </div>
+
+                    <!-- sexuality -->
+                      <div class="col-12">
+                        <span class="pull-left">Sexuality</span>
+                        <span class="pull-right" style="font-weight: 100;">Content</span>
+                      </div>
+
+                    </div>
+                  </div>
+
+                </div>
+
+                <hr class="mt-1 mb-1" style="background-color: #dfdfdf; height: 0.2px;">
+
+                <!-- second set -------->
+                <div class="row px-3" style="font-size: 13px;">
+                  <!-- first row --->
+                  <div class="col-md-6">
+                    <div class="card  border-0 rounded-0 py-1" style="color: #fff; background-color: #000;">
+                    
+                    <!-- relationship -->
+                      <div class="col-12">
+                        <span class="pull-left">Relationship</span>
+                        <span class="pull-right" style="font-weight: 100;">Content</span>
+                      </div>
+
+                    <!-- religion -->
+                      <div class="col-12">
+                        <span class="pull-left">Religion</span>
+                        <span class="pull-right" style="font-weight: 100;">Content</span>
+                      </div>
+
+                    <!-- archetype -->
+                      <div class="col-12">
+                        <span class="pull-left">Archetype</span>
+                        <span class="pull-right" style="font-weight: 100;">Content</span>
+                      </div>
+
+                    <!-- occupation -->
+                      <div class="col-12">
+                        <span class="pull-left">Occupation</span>
+                        <span class="pull-right" style="font-weight: 100;">Content</span>
+                      </div>
+
+                    </div>
+                  </div>
+                  <!-- second row --->
+                  <div class="col-md-6">
+                    <div class="card  border-0 rounded-0 py-1" style="color: #fff; background-color: #000;">
+                    
+                    <!-- status -->
+                    <div class="col-12">
+                      <span class="pull-left">Status</span>
+                      <span class="pull-right" style="font-weight: 100;">Content</span>
+                    </div>
+
+                    <!-- residence -->
+                      <div class="col-12">
+                        <span class="pull-left">Residence</span>
+                        <span class="pull-right" style="font-weight: 100;">Content</span>
+                      </div>
+
+                    <!-- alignment -->
+                      <div class="col-12">
+                        <span class="pull-left">Alignment</span>
+                        <span class="pull-right" style="font-weight: 100;">Content</span>
+                      </div>
+
+                     <!-- role -->
+                      <div class="col-12">
+                        <span class="pull-left">Role</span>
+                        <span class="pull-right" style="font-weight: 100;">Content</span>
+                      </div>
+
+                    </div>
+                  </div>
+
+                </div>
+                
+                <hr class="mt-1 mb-1" style="background-color: #dfdfdf; height: 0.2px;">
+
+                <!-- third set --------->
+                <div class="row px-3" style="font-size: 13px;">
+                  <!-- first row --->
+                  <div class="col-md-6">
+                    <div class="card  border-0 rounded-0 py-1" style="color: #fff; background-color: #000;">
+                    
+                    <!-- nicknames -->
+                      <div class="col-12">
+                        <span class="pull-left">Nicknames</span>
+                        <span class="pull-right" style="font-weight: 100;">Content</span>
+                        <br><span class="pull-right" style="font-weight: 100;">Content</span>
+                        <br><span class="pull-right" style="font-weight: 100;">Content</span>
+                        <!-- add more above here -->
+                      </div>
+
+                    </div>
+                  </div>
+                  <!-- second row --->
+                  <div class="col-md-6">
+                    <div class="card  border-0 rounded-0 py-1" style="color: #fff; background-color: #000;">
+                    
+                    <!-- aliases -->
+                    <div class="col-12">
+                      <span class="pull-left">Aliases</span>
+                      <span class="pull-right" style="font-weight: 100;">Content</span>
+                      <br><span class="pull-right" style="font-weight: 100;">Content</span>
+                      <br><span class="pull-right" style="font-weight: 100;">Content</span>
+                      <!-- add more above here -->
+                    </div>
+
+                    </div>
+                  </div>
+
+                </div>
+
+                <hr style="background-color: #dfdfdf; height: 0.2px;">
+
+              <!-- /LISTED CONTENT ------ so long e.e -------->
+
+              <!-- QUOTE THING --------------------->
+                <blockquote class="ml-4" style="color:#46879b">
+                  <span style="color: #fff;">"Another quote."</span>
+                </blockquote>
+              <!-- /QUOTE THING -------------------->
+
+              <!-- WRITTEN CONTENT -------------------->
+                <div class="mb-1 text-justify" style="font-weight: 200; color: #fff;">
+                  <p>Here is where you put stuff about your character.  Just an intro.  Or not.  You can put everything about your character here if you want; I sure as heck won't stop you.  I dunno what you want to put here.  Feel free to go ham.  Hack the FBI and whack their secret documents.  Maybe your OC is in Area 51.  I dunno.  Go on and on and on.  Punch your keyboard until it breaks.  I should probably do the lorem thing now.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi nam est voluptatum quo, laudantium corrupti aliquid quaerat quam nesciunt perferendis accusamus eius veniam. Nostrum deleniti, totam sapiente quis perferendis veritatis.</p>
+                  <p>More stuff.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto ipsa magni soluta iste sapiente? Iure architecto doloribus nulla dolores, sequi possimus repellat similique consectetur temporibus dignissimos quos dolor natus alias!</p>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore delectus consequatur neque debitis? In molestias reiciendis, totam sunt excepturi officiis cum commodi aliquid minus dolores non, eligendi distinctio unde placeat.  More of le lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta odit, dolores cupiditate quam sapiente rem rerum minus tempora voluptatum at nemo, soluta suscipit veritatis. Dignissimos officiis et itaque sunt saepe.</p>
+                  <p>How long do you even want the intro to be?</p>
+                  <p>GTRGHGHTRGUGHIRTHGUTGH TUGRIHGURTGH GHRUHERUH IGHRTUGHU TIGHUTEROTU HUGHRTIHU HUTHGITHGRUHT UHUHUTH USHURSHTGU.</p>
+                  <p>UwU.</p>
+                </div>
+              <!-- /WRITTEN CONTENT ------------------->
+
+            </div>
+          </div>
+          <!-- /ABOUT ---------------------------------------------------------------------------->
+
+
+          <!-- APPEARANCE ------------------------------------------------------------------------>
+          <div class="tab-pane fade" data-toggle="tab" id="appearance">
+            <div class="card d-block rounded-0 p-3 my-0 mx-1" style="max-height: 500px; overflow-y: auto; border-top: 0px; background-color: #000;">
+
+              <!-- listed appearance stuff ------------------------>
+              
+              <!-- first set ---------->
+              <div class="row px-3" style="font-size: 13px;">
+                <!-- first row --->
+                <div class="col-md-6">
+                  <div class="card border-0 rounded-0 py-1" style="color: #fff; background-color: #000;">
+                  
+                  <!-- height -->
+                    <div class="col-12">
+                      <span class="pull-left">Height</span>
+                      <span class="pull-right" style="font-weight: 100;">Content</span>
+                    </div>
+
+                  <!-- body type -->
+                    <div class="col-12">
+                      <span class="pull-left">Body Type</span>
+                      <span class="pull-right" style="font-weight: 100;">Content</span>
+                    </div>
+
+                  </div>
+                </div>
+                <!-- second row --->
+                <div class="col-md-6">
+                  <div class="card border-0 rounded-0 py-1" style="color: #fff; background-color: #000;">
+                  
+                  <!-- weight -->
+                  <div class="col-12">
+                    <span class="pull-left">Weight</span>
+                    <span class="pull-right" style="font-weight: 100;">Content</span>
+                  </div>
+
+                  <!-- body shape -->
+                    <div class="col-12">
+                      <span class="pull-left">Body Shape</span>
+                      <span class="pull-right" style="font-weight: 100;">Content</span>
+                    </div>
+
+                  </div>
+                </div>
+
+              </div>
+
+              <hr class="mt-1 mb-1" style="background-color: #bfbfbf; height: 0.2px;">
+
+              <!-- second set --------->
+              <div class="row px-3" style="font-size: 13px;">
+                <!-- first row --->
+                <div class="col-md-6">
+                  <div class="card  border-0 rounded-0 py-1" style="color: #fff; background-color: #000;">
+                  
+                  <!-- voice -->
+                    <div class="col-12">
+                      <span class="pull-left">Voice</span>
+                      <span class="pull-right" style="font-weight: 100;"><a href="LINK_HERE" style="color:#bd6e24">Claim</a></span>
+                      <br><span class="pl-3 pull-right text-justify" style="font-weight: 100;">Accent, volume, etc. Lorem ipsum dolor sit amet consectetur adipisicing elit. Et doloremque modi enim tenetur perspiciatis dignissimos illo vel minus beatae alias non excepturi, voluptatibus eaque illum earum quod voluptatem nihil saepe.</span>
+                      <!-- add more above here -->
+                    </div>
+
+                  </div>
+                </div>
+                <!-- second row --->
+                <div class="col-md-6">
+                  <div class="card  border-0 rounded-0 py-1" style="color: #fff; background-color: #000;">
+                  
+                  <!-- handwriting -->
+                  <div class="col-12">
+                    <span class="pull-left">Handwriting</span>
+                    <span class="pull-right" style="font-weight: 100;">Handedness</span>
+                    <br><span class="pl-3 pull-right text-justify" style="font-weight: 100;">Description of handwriting.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi eveniet cum vitae voluptatum atque! Eaque, vero! Minima natus sint vitae consectetur, iure consequuntur.</span>
+                    <!-- add more above here -->
+                  </div>
+
+                  </div>
+                </div>
+
+              </div>
+
+              <hr style="background-color: #dfdfdf; height: 0.2px;">
+              <!-- end ALL the listed appearance stuff ------------------------>
+
+              <!-- WRITTEN CONTENT OF APPEARANCE -------------------------------------->
+              <div class="pr-3 mb-2" style="max-height: 300px; overflow-y: auto;">
+                <div class="text-justify" style="font-weight: 200; color: #fff;">
+                  <!-- write here -->
+                  <p>Appearance stuff about your character.  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore tempore est alias obcaecati, nisi fugit doloremque commodi laborum exercitationem ducimus aliquid nemo repudiandae quam fuga veniam repellendus dignissimos dolorum magni?</p>
+                  <p>This box scrolls.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam culpa sint eaque magnam cumque eveniet unde aut facere amet, reiciendis laudantium excepturi expedita, quos, accusantium natus. Ex doloremque consectetur laboriosam! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita dignissimos velit tempora quis veniam perspiciatis, esse iste commodi dolorum, voluptates ad dolores aliquid. Soluta vero provident tempora? Dolores, saepe ex.</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates in esse nobis beatae cupiditate qui, eveniet sed eius velit id asperiores iste ducimus, nisi eum ex, adipisci consectetur vitae recusandae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, voluptatum delectus minima eum animi ipsum amet consectetur deleniti! Similique voluptate id tempore quasi expedita. Aspernatur earum ea porro illum quidem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa amet repudiandae modi maiores ut nostrum eligendi corporis possimus, esse eveniet impedit, aut ratione veniam voluptate accusantium debitis voluptatibus. Totam, rem!</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, perferendis. Odio consequuntur, voluptatem rerum consequatur iusto laboriosam molestias illum vitae sapiente culpa impedit aliquam rem corporis error accusantium praesentium voluptatum.</p>
+                </div>
+              </div>
+              <!-- /WRITTEN CONTENT OF APPEARANCE ------------------------------------->
+
+              <hr style="background-color: #dfdfdf; height: 0.2px;">
+
+              <!-- ATTIRE ----------------------------------------------------->
+              <div class="mb-4">
+                <div class="text-justify" style="font-weight: 200;">
+                  <div style="font-size: 19px; color: #fff;">Attire <span class="pull-right"><i class="fas fa-tshirt" style="color: #fff"></i></span></div>
+                    <div style="max-height: 200px; overflow-y: auto;">
+                      <div class="px-3" style="font-size: 14px; color: #fff;">
+                        <!-- write here -->
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic dolor, corrupti omnis maiores laborum voluptates nostrum voluptatibus nisi delectus dolores repellendus ipsam neque earum repellat, rem quam reprehenderit tempora. Nihil.</p>
+                        <p>This box scrolls.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex explicabo natus in aspernatur commodi, culpa at. Adipisci quisquam minus molestias cumque explicabo, dignissimos libero reprehenderit et deserunt mollitia quaerat facilis?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto perferendis, eveniet odio tempore aperiam aut consectetur sunt quasi nobis, vero hic saepe, doloremque doloribus facere accusamus laborum quos sit sed.</p>
+                      </div>
+                    </div>
+                </div>
+              </div>
+              <!-- /ATTIRE ---------------------------------------------------->
+
+              <!-- ACCESSORIES ------------------------------------------------>
+              <div class="mb-4">
+                <div class="text-justify" style="font-weight: 200;">
+                  <div style="font-size: 19px; color: #fff;">Accessories <span class="pull-right"><i class="fas fa-scarf" style="color: #fff;"></i></span></div>
+                    <div style="max-height: 200px; overflow-y: auto;">
+                      <div class="px-3" style="font-size: 14px; color: #fff;">
+                        <!-- write here -->
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic dolor, corrupti omnis maiores laborum voluptates nostrum voluptatibus nisi delectus dolores repellendus ipsam neque earum repellat, rem quam reprehenderit tempora. Nihil.</p>
+                        <p>This box scrolls.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex explicabo natus in aspernatur commodi, culpa at. Adipisci quisquam minus molestias cumque explicabo, dignissimos libero reprehenderit et deserunt mollitia quaerat facilis?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto perferendis, eveniet odio tempore aperiam aut consectetur sunt quasi nobis, vero hic saepe, doloremque doloribus facere accusamus laborum quos sit sed.</p>
+                      </div>
+                    </div>
+                </div>
+              </div>
+              <!-- /ACCESSORIES ----------------------------------------------->
+
+              <!-- BODY MODIFICATIONS ----------------------------------------->
+              <div class="mb-5">
+                <div class="text-justify" style="font-weight: 200;">
+                  <div style="font-size: 19px; color: #fff;">Body Modifications <span class="pull-right"><i class="fas fa-claw-marks" style="color: #fff;"></i></span></div>
+                    <div style="max-height: 200px; overflow-y: auto;">
+                      <div class="px-3" style="font-size: 14px; color: #fff;">
+                        <!-- write here -->
+                        <p>Scars, tattoos, piercings, and the like.  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic dolor, corrupti omnis maiores laborum voluptates nostrum voluptatibus nisi delectus dolores repellendus ipsam neque earum repellat, rem quam reprehenderit tempora. Nihil.</p>
+                        <p>This box scrolls.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex explicabo natus in aspernatur commodi, culpa at. Adipisci quisquam minus molestias cumque explicabo, dignissimos libero reprehenderit et deserunt mollitia quaerat facilis?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto perferendis, eveniet odio tempore aperiam aut consectetur sunt quasi nobis, vero hic saepe, doloremque doloribus facere accusamus laborum quos sit sed.</p>
+                      </div>
+                    </div>
+                </div>
+              </div>
+              <!-- /BODY MODIFICATIONS ---------------------------------------->
+
+              <!-- PALETTE THING ---------------------------------------------->
+              <div class="row no-gutters mb-5" style="height: 30px; border-radius: 1em">
+                <div class="col" style="background-color: #a18484" style="max-width: 50px;"></div>
+                <div class="col" style="background-color: #dfd3c8" style="max-width: 50px;"></div>
+                <div class="col" style="background-color: #abc7e0" style="max-width: 50px;"></div>
+                <div class="col" style="background-color: #8491a1" style="max-width: 50px;"></div>
+                <!-- add more above this line -->
+              </div>
+              <!-- /PALETTE --------------------------------------------------->
+
+              <!-- DESIGN NOTES ----------------------------------------------->
+              <div class="mb-1">
+                <div class="text-justify" style="font-weight: 200;">
+                  <div style="font-size: 20px; color: #fff;">Design Notes <span class="pull-right"><i class="fas fa-palette" style="color: #fff;"></i></span></div>
+                    <div style="max-height: 200px; overflow-y: auto;">
+                      <div class="pr-3" style="font-size: 14px; color: #fff;">
+                        <!-- write here -->
+                        <ul>
+                          <li>Content.</li>
+                          <li>Content.</li>
+                          <li>Content.</li>
+                        </ul>
+                      </div>
+                    </div>
+                </div>
+              </div>
+              <!-- /DESIGN NOTES ---------------------------------------------->
+
+            </div>
+          </div>
+          <!-- /APPEARANCE ----------------------------------------------------------------------->
+
+
+          <!-- PERSONALITY ----------------------------------------------------------------------->
+          <div class="tab-pane fade" data-toggle="tab" id="personality">
+            <div class="card d-block rounded-0 p-3 my-0 mx-1" style="max-height: 500px; overflow-y: auto; border-top: 0px; background-color: #000;">
+
+              <!-- personality traits -------------->
+                <!-- first set ---------->
+              <div class="row px-3" style="font-size: 13px;">
+
+                <!-- positive traits --->
+                <div class="col-md-4">
+                  <div class="card  border-0 rounded-0 py-1" style="background-color: #000; color: #fff;">
+                    <div class="col-12">
+                      <span class="pull-left">Positive Traits</span>
+                      <br>
+                      <div class="pl-3">
+                        <span class="badge" style="background-color: #658f58">trait</span>
+                        <span class="badge" style="background-color: #658f58">trait</span>
+                        <span class="badge" style="background-color: #658f58">trait</span>
+                        <span class="badge" style="background-color: #658f58">trait</span>
+                        <span class="badge" style="background-color: #658f58">trait</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- neutral traits --->
+                <div class="col-md-4">
+                  <div class="card  border-0 rounded-0 py-1" style="background-color: #000; color: #fff;">
+                    <div class="col-12">
+                      <span class="pull-left">Neutral Traits</span>
+                      <br>
+                      <div class="pl-3">
+                        <span class="badge" style="background-color: #e0a141;">trait</span>
+                        <span class="badge" style="background-color: #e0a141;">trait</span>
+                        <span class="badge" style="background-color: #e0a141;">trait</span>
+                        <span class="badge" style="background-color: #e0a141;">trait</span>
+                        <span class="badge" style="background-color: #e0a141;">trait</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- negative traits -->
+                <div class="col-md-4">
+                  <div class="card  border-0 rounded-0 py-1" style="background-color: #000; color: #fff;">
+                    <div class="col-12">
+                      <span class="pull-left">Negative Traits</span>
+                      <br>
+                      <div class="pl-3">
+                        <span class="badge" style="background-color: #b41b1b">trait</span>
+                        <span class="badge" style="background-color: #b41b1b">trait</span>
+                        <span class="badge" style="background-color: #b41b1b">trait</span>
+                        <span class="badge" style="background-color: #b41b1b">trait</span>
+                        <span class="badge" style="background-color: #b41b1b">trait</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+              <hr class="mt-2 mb-1" style="background-color: #bfbfbf; height: 0.2px;">
+
+              <!-- second set --------->
+              <div class="row px-3" style="font-size: 13px;">
+                <!-- first row --->
+                <div class="col-md-6">
+                  <div class="card  border-0 rounded-0 py-1" style="background-color: #000; color: #fff;">
+                  
+                  <!-- goals -->
+                    <div class="col-12">
+                      <span class="pull-left">Goals</span>
+                      <br><span class="pl-3 pull-right text-justify" style="font-weight: 100;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam provident molestias quisquam animi! Nisi ipsum, voluptates odit eaque nostrum, eveniet consequatur!</span>
+                    </div>
+
+                  <!-- hopes -->
+                    <div class="col-12">
+                      <span class="pull-left">Hopes</span>
+                      <br><span class="pl-3 pull-right text-justify" style="font-weight: 100;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam provident molestias quisquam animi! Nisi ipsum, voluptates odit eaque nostrum, eveniet consequatur!</span>
+                    </div>
+
+                  </div>
+                </div>
+                <!-- second row --->
+                <div class="col-md-6">
+                  <div class="card  border-0 rounded-0 py-1" style="background-color: #000; color: #fff;">
+                  
+                  <!-- secrets -->
+                    <div class="col-12">
+                      <span class="pull-left">Secrets</span>
+                      <br><span class="pl-3 pull-right text-justify" style="font-weight: 100;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi eveniet cum vitae voluptatum atque! Eaque, vero! Minima natus sint vitae consectetur, iure consequuntur.</span>
+                    </div>
+
+                  <!-- dreams -->
+                    <div class="col-12">
+                      <span class="pull-left">Dreams</span>
+                      <br><span class="pl-3 pull-right text-justify" style="font-weight: 100;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam provident molestias quisquam animi! Nisi ipsum, voluptates odit eaque nostrum, eveniet consequatur!</span>
+                    </div>
+
+                  </div>
+                </div>
+
+              </div>
+
+              <hr style="background-color: #bfbfbf; height: 0.2px;">
+              <!-- /personality traits ------------->
+
+              <!-- WRITTEN CONTENT OF PERSONALITY -------------------------------------->
+              <div class="pr-3 mb-2" style="max-height: 300px; overflow-y: auto;">
+                <div class="text-justify" style="font-weight: 200; color: #fff;">
+                  <!-- write here -->
+                  <p>Personality stuff about your character.  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore tempore est alias obcaecati, nisi fugit doloremque commodi laborum exercitationem ducimus aliquid nemo repudiandae quam fuga veniam repellendus dignissimos dolorum magni?</p>
+                  <p>This box scrolls.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam culpa sint eaque magnam cumque eveniet unde aut facere amet, reiciendis laudantium excepturi expedita, quos, accusantium natus. Ex doloremque consectetur laboriosam! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita dignissimos velit tempora quis veniam perspiciatis, esse iste commodi dolorum, voluptates ad dolores aliquid. Soluta vero provident tempora? Dolores, saepe ex.</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates in esse nobis beatae cupiditate qui, eveniet sed eius velit id asperiores iste ducimus, nisi eum ex, adipisci consectetur vitae recusandae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, voluptatum delectus minima eum animi ipsum amet consectetur deleniti! Similique voluptate id tempore quasi expedita. Aspernatur earum ea porro illum quidem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa amet repudiandae modi maiores ut nostrum eligendi corporis possimus, esse eveniet impedit, aut ratione veniam voluptate accusantium debitis voluptatibus. Totam, rem!</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, perferendis. Odio consequuntur, voluptatem rerum consequatur iusto laboriosam molestias illum vitae sapiente culpa impedit aliquam rem corporis error accusantium praesentium voluptatum.</p>
+                </div>
+              </div>
+              <!-- /WRITTEN CONTENT OF PERSONALITY ------------------------------------->
+
+              <hr style="background-color: #bfbfbf; height: 0.2px;">
+
+              <div class="row no-gutters">
+                <!-- LOVES ----------------------------------------------------->
+                <div class="col-md-6 mb-4 pr-md-2">
+                  <div class="text-justify" style="font-weight: 200;">
+                    <div style="font-size: 19px; color: #fff;">Loves <span class="pull-right"><i class="fas fa-heart" style="color: #fff;"></i></span></div>
+                      <div style="max-height: 200px; overflow-y: auto;">
+                        <div class="pr-3" style="font-size: 14px;">
+                          <ul class="pr-3" style="font-size: 14px; color: #fff;">
+                            <!-- write here -->
+                            <li>Content.</li>
+                            <li>Content.</li>
+                            <li>Content. Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ab recusandae doloribus qui vel vero. Soluta dolorem, iste, ullam, fuga dolores quibusdam delectus numquam repellendus alias inventore explicabo ducimus debitis.</li>
+                          </ul>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+                <!-- /LOVES ---------------------------------------------------->
+
+                <!-- LIKES ------------------------------------------------>
+                <div class="col-md-6 mb-4 pl-md-2">
+                  <div class="text-justify" style="font-weight: 200;">
+                    <div style="font-size: 19px; color: #fff;">Likes <span class="pull-right"><i class="fas fa-check-square" style="color: #fff;"></i></span></div>
+                      <div style="max-height: 200px; overflow-y: auto;">
+                        <div class="pr-3" style="font-size: 14px;">
+                          <ul class="pr-3" style="font-size: 14px; color: #fff;">
+                            <!-- write here -->
+                            <li>Content.</li>
+                            <li>Content.</li>
+                            <li>Content. Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ab recusandae doloribus qui vel vero. Soluta dolorem, iste, ullam, fuga dolores quibusdam delectus numquam repellendus alias inventore explicabo ducimus debitis.</li>
+                          </ul>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+                <!-- /LIKES ----------------------------------------------->
+              </div>
+
+              <div class="row no-gutters">
+              <!-- DISLIKES ----------------------------------------->
+              <div class="col-md-6 mb-4 pr-md-2">
+                <div class="text-justify" style="font-weight: 200;">
+                  <div style="font-size: 19px; color: #fff;">Dislikes <span class="pull-right"><i class="fas fa-times-square" style="color: #fff;"></i></span></div>
+                    <div style="max-height: 200px; overflow-y: auto;">
+                      <div class="pr-3" style="font-size: 14px;">
+                        <ul class="pr-3" style="font-size: 14px; color: #fff;">
+                          <!-- write here -->
+                          <li>Content.</li>
+                          <li>Content.</li>
+                          <li>Content. Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ab recusandae doloribus qui vel vero. Soluta dolorem, iste, ullam, fuga dolores quibusdam delectus numquam repellendus alias inventore explicabo ducimus debitis.</li>
+                        </ul>
+                      </div>
+                    </div>
+                </div>
+              </div>
+              <!-- /DISLIKES ---------------------------------------->
+
+              <!-- HATES ----------------------------------------->
+              <div class="col-md-6 mb-3 pl-md-2">
+                <div class="text-justify" style="font-weight: 200;">
+                  <div style="font-size: 19px; color: #fff;">Hates <span class="pull-right"><i class="fas fa-heart-broken" style="color: #fff;"></i></span></div>
+                    <div style="max-height: 200px; overflow-y: auto;">
+                      <div class="pr-3" style="font-size: 14px;">
+                        <ul class="pr-3" style="font-size: 14px; color: #fff;">
+                          <!-- write here -->
+                          <li>Content.</li>
+                          <li>Content. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, beatae debitis assumenda praesentium dolorum molestias adipisci harum, impedit aperiam, reprehenderit blanditiis delectus consectetur ea sequi quasi a ex enim! Consectetur!</li>
+                          <li>Content.</li>
+                        </ul>
+                      </div>
+                    </div>
+                </div>
+              </div>
+              <!-- /HATES ---------------------------------------->
+              </div>
+
+              <hr style="background-color: #bfbfbf; height: 0.2px;">
+
+              <!-- MOODBOARD THING ------------------------------------>
+              <div class="mt-md-4" style="border-radius:2.3rem">
+
+                <!-- first row -->
+                <div class="row no-gutters">
+                  <div class="col-md-4 pr-md-1 mb-2">
+                    <div style="background-image:url(https://images.unsplash.com/photo-1534400984015-ec242122bc65?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80);background-size:cover;background-position:center;min-height:190px;"></div>
+                  </div>
+                  <div class="col-md-4 px-md-1 mb-2">
+                    <div style="background-image:url(https://images.unsplash.com/photo-1493243350443-9e3048ce7288?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1340&q=80);background-size:cover;background-position:center;min-height:190px;"></div>
+                  </div>
+                  <div class="col-md-4 pl-md-1 mb-2">
+                    <div style="background-image:url(https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=465&q=80);background-size:cover;background-position:center;min-height:190px;"></div>
+                  </div>
+                </div>
+
+                <!-- second row -->
+                <div class="row no-gutters">
+                  <div class="col-md-6 pr-md-1 mb-2">
+                    <div style="background-image:url(https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=435&q=80);background-size:cover;background-position:center;min-height:190px;"></div>
+                  </div>
+                  <div class="col-md-6 pl-md-1 mb-2">
+                    <div style="background-image:url(https://images.unsplash.com/photo-1501186758051-167ca3c0fde8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80);background-size:cover;background-position:center;min-height:190px;"></div>
+                  </div>
+                </div>
+
+                <!-- third row -->
+                <div class="row no-gutters">
+                  <div class="col-md-12 mb-2">
+                    <div style="background-image:url(https://images.unsplash.com/photo-1467635624863-33cf388d9a2e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);background-size:cover;background-position:center;min-height:190px;"></div>
+                  </div>
+                </div>
+
+              </div>
+              <!-- /MOODBOARD ----------------------------------------->
+
+            </div>
+          </div>
+          <!-- /PERSONALITY ---------------------------------------------------------------------->
+
+
+          <!-- ABILITIES ------------------------------------------------------------------------->
+          <div class="tab-pane fade" data-toggle="tab" id="abilities">
+            <div class="card d-block rounded-0 p-3 my-0 mx-1" style="max-height: 500px; overflow-y: auto; border-top: 0px; background-color: #000;">
+
+              <!-- STATS ------------->
+              <div class="px-4">
+                <div class="row no-gutters">
+
+                  <!-- PSYCHOLOGICAL STATS ---------->
+
+                  <!-- FIRST ROW ---->
+                  <div class="col-md-4 px-2 pt-1 pb-2">
+                      <div class="card  rounded-0 border-0" style="background-color: #000; color: #fff;">
+                          <!-- STAT -->
+                              <div class="col-12 p-2">
+                                  <span class="pull-left" style="letter-spacing:1px; font-size: 10px;">
+                                      mental stat
+                                  </span>
+                                      <br>
+                                          <!-- PROGRESS BARS -->
+                                          <div class="progress" style="background-color: #e7d3d3;">
+                                              <!-- adjust width -->
+                                          <div class="progress-bar" style="width:50%; height:2px; background-color:#b37e4d">
+                                      <br>
+                                          </div>
+                                          </div>
+                              </div>
+                          <!-- STAT -->
+                              <div class="col-12 p-2">
+                                  <span class="pull-left" style="letter-spacing:1px; font-size: 10px;">
+                                      stat
+                                  </span>
+                                      <br>
+                                          <!-- PROGRESS BARS -->
+                                          <div class="progress" style="background-color: #e7d3d3;">
+                                              <!-- adjust width -->
+                                          <div class="progress-bar" style="width:50%; height:2px; background-color:#b37e4d">
+                                      <br>
+                                          </div>
+                                          </div>
+                              </div>
+                      </div>
+                  </div>
+                  <!-- END FIRST ROW -->
+
+                  <!-- SECOND ROW ---->
+                  <div class="col-md-4 px-2 pt-1 pb-2">
+                      <div class=" card  rounded-0 border-0" style="background-color: #000; color: #fff;">
+                          <!-- STAT-STAT -->
+                              <div class="col-12 p-2">
+                                  <div class="mx-auto">
+                                      <span class="text-justify" style="letter-spacing:1px; font-size: 10px;">
+                                          stat 1
+                                      </span>
+                                      <span class="pull-right" style="letter-spacing:1px; font-size: 10px;">
+                                          stat 2
+                                      </span>
+                                  </div>
+                                      <!-- PROGRESS BARS -->
+                                      <div class="progress" style="background-color: #e7d3d3;">
+                                          <div class="progress-bar" style="width:50%; height:2px; background-color: #b37e4d">
+                                              <br>
+                                          </div>
+                                      </div>
+                              </div>
+                          <!-- STAT-STAT -->
+                              <div class="col-12 p-2">
+                                  <div class="mx-auto">
+                                      <span class="text-justify" style="letter-spacing:1px; font-size: 10px;">
+                                          stat 1
+                                      </span>
+                                      <span class="pull-right" style="letter-spacing:1px; font-size: 10px;">
+                                          stat 2
+                                      </span>
+                                  </div>
+                                      <!-- PROGRESS BARS -->
+                                      <div class="progress" style="background-color: #e7d3d3;">
+                                          <div class="progress-bar" style="width:50%; height:2px; background-color: #b37e4d">
+                                              <br>
+                                          </div>
+                                      </div>
+                              </div>
+                      </div>
+                  </div>
+
+                  <!-- THIRD ROW ---->
+                  <div class="col-md-4 px-2 pt-1 pb-2">
+                      <div class="card  rounded-0 border-0" style="background-color: #000; color: #fff;">
+                          <!-- STAT -->
+                              <div class="col-12 p-2">
+                                  <span class="pull-right" style="letter-spacing:1px; font-size: 10px;">
+                                      stat
+                                  </span>
+                                          <br>
+                                      <!-- PROGRESS BARS -->
+                                      <div class="progress" style="background-color: #e7d3d3;">
+                                          <div class="progress-bar" style="width:50%; height:2px; background-color: #b37e4d">
+                                              <br>
+                                          </div>
+                                      </div>
+                              </div>
+                          <!-- STAT -->
+                              <div class="col-12 p-2">
+                                  <span class="pull-right" style="letter-spacing:1px; font-size: 10px;">
+                                      stat
+                                  </span>
+                                          <br>
+                                      <!-- PROGRESS BARS -->
+                                      <div class="progress" style="background-color: #e7d3d3;">
+                                        <div class="progress-bar" style="width:50%; height:2px; background-color: #b37e4d">
+                                              <br>
+                                          </div>
+                                      </div>
+                              </div>
+                      </div>
+                  </div>
+
+                  <!-- END PSYCHOLOGICAL STATS -->
+
+                  <hr>
+
+                  <!-- PHYSICAL STATS ---------->
+
+                  <!-- FIRST ROW ---->
+                  <div class="col-md-4 px-2 pt-1 pb-2">
+                      <div class="card  rounded-0 border-0" style="background-color: #000; color: #fff;">
+                          <!-- STAT -->
+                              <div class="col-12 p-2">
+                                  <span class="pull-left" style="letter-spacing:1px; font-size: 10px;">
+                                      physical stat
+                                  </span>
+                                      <br>
+                                          <!-- PROGRESS BARS -->
+                                          <div class="progress" style="background-color: #e7d3d3;">
+                                              <!-- adjust width -->
+                                          <div class="progress-bar" style="width:50%; height:2px; background-color:#b37e4d">
+                                      <br>
+                                          </div>
+                                          </div>
+                              </div>
+                          <!-- STAT -->
+                              <div class="col-12 p-2">
+                                  <span class="pull-left" style="letter-spacing:1px; font-size: 10px;">
+                                      stat
+                                  </span>
+                                      <br>
+                                          <!-- PROGRESS BARS -->
+                                          <div class="progress" style="background-color: #e7d3d3;">
+                                              <!-- adjust width -->
+                                          <div class="progress-bar" style="width:50%; height:2px; background-color:#b37e4d">
+                                      <br>
+                                          </div>
+                                          </div>
+                              </div>
+                      </div>
+                  </div>
+                  <!-- END FIRST ROW -->
+
+                  <!-- SECOND ROW ---->
+                  <div class="col-md-4 px-2 pt-1 pb-2">
+                      <div class=" card  rounded-0 border-0" style="background-color: #000; color: #fff;">
+                          <!-- STAT-STAT -->
+                              <div class="col-12 p-2">
+                                  <div class="mx-auto">
+                                      <span class="text-justify" style="letter-spacing:1px; font-size: 10px;">
+                                          stat 1
+                                      </span>
+                                      <span class="pull-right" style="letter-spacing:1px; font-size: 10px;">
+                                          stat 2
+                                      </span>
+                                  </div>
+                                      <!-- PROGRESS BARS -->
+                                      <div class="progress" style="background-color: #e7d3d3;">
+                                          <div class="progress-bar" style="width:50%; height:2px; background-color: #b37e4d">
+                                              <br>
+                                          </div>
+                                      </div>
+                              </div>
+                          <!-- STAT-STAT -->
+                              <div class="col-12 p-2">
+                                  <div class="mx-auto">
+                                      <span class="text-justify" style="letter-spacing:1px; font-size: 10px;">
+                                          stat 1
+                                      </span>
+                                      <span class="pull-right" style="letter-spacing:1px; font-size: 10px;">
+                                          stat 2
+                                      </span>
+                                  </div>
+                                      <!-- PROGRESS BARS -->
+                                      <div class="progress" style="background-color: #e7d3d3;">
+                                          <div class="progress-bar" style="width:50%; height:2px; background-color: #b37e4d">
+                                              <br>
+                                          </div>
+                                      </div>
+                              </div>
+                      </div>
+                  </div>
+
+                  <!-- THIRD ROW ---->
+                  <div class="col-md-4 px-2 pt-1 pb-2">
+                      <div class="card  rounded-0 border-0" style="background-color: #000; color: #fff;">
+                          <!-- STAT -->
+                              <div class="col-12 p-2">
+                                  <span class="pull-right" style="letter-spacing:1px; font-size: 10px;">
+                                      stat
+                                  </span>
+                                          <br>
+                                      <!-- PROGRESS BARS -->
+                                      <div class="progress" style="background-color: #e7d3d3;">
+                                          <div class="progress-bar" style="width:50%; height:2px; background-color: #b37e4d">
+                                              <br>
+                                          </div>
+                                      </div>
+                              </div>
+                          <!-- STAT -->
+                              <div class="col-12 p-2">
+                                  <span class="pull-right" style="letter-spacing:1px; font-size: 10px;">
+                                      stat
+                                  </span>
+                                          <br>
+                                      <!-- PROGRESS BARS -->
+                                      <div class="progress" style="background-color: #e7d3d3;">
+                                          <div class="progress-bar" style="width:50%; height:2px; background-color: #b37e4d">
+                                              <br>
+                                          </div>
+                                      </div>
+                              </div>
+                      </div>
+                  </div>
+
+                  <!-- END PHYSICAL STATS -->
+
+
+                </div>
+            </div>
+            <!-- END STATS --------------->
+
+            <hr style="background-color: #bfbfbf; height: 0.2px;">
+
+            <div class="row no-gutters">
+              <!-- STRENGTHS ----------------------------------------->
+              <div class="col-md-6 mb-4 pr-md-2">
+                <div class="text-justify" style="font-weight: 200;">
+                  <div style="font-size: 19px; color: #fff;">Strengths <span class="pull-right"><i class="fas fa-plus-circle" style="color: #fff;"></i></span></div>
+                    <div style="max-height: 200px; overflow-y: auto;">
+                      <div class="pr-3" style="font-size: 14px;">
+                        <ul class="pr-3" style="font-size: 14px; color: #fff;">
+                          <!-- write here -->
+                          <li>Content.</li>
+                          <li>Content.</li>
+                          <li>Content. Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ab recusandae doloribus qui vel vero. Soluta dolorem, iste, ullam, fuga dolores quibusdam delectus numquam repellendus alias inventore explicabo ducimus debitis.</li>
+                        </ul>
+                      </div>
+                    </div>
+                </div>
+              </div>
+              <!-- /STRENGTHS ---------------------------------------->
+
+              <!-- WEAKNESSES ----------------------------------------->
+              <div class="col-md-6 mb-4 pl-md-2">
+                <div class="text-justify" style="font-weight: 200;">
+                  <div style="font-size: 19px; color: #fff;">Weaknesses <span class="pull-right"><i class="fas fa-minus-circle" style="color: #fff;"></i></span></div>
+                    <div style="max-height: 200px; overflow-y: auto;">
+                      <div class="pr-3" style="font-size: 14px;">
+                        <ul class="pr-3" style="font-size: 14px; color: #fff;">
+                          <!-- write here -->
+                          <li>Content.</li>
+                          <li>Content. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, beatae debitis assumenda praesentium dolorum molestias adipisci harum, impedit aperiam, reprehenderit blanditiis delectus consectetur ea sequi quasi a ex enim! Consectetur!</li>
+                          <li>Content.</li>
+                        </ul>
+                      </div>
+                    </div>
+                </div>
+              </div>
+              <!-- /WEAKNESSES ---------------------------------------->
+              </div>
+
+              <hr style="background-color: #dfdfdf; height: 0.2px;">
+
+              <!-- SKILLS INFORMATION ---------------------------->
+              <div class="px-2 py-1">
+                            
+                <!-- some written content -->
+                <p style="font-weight: 300; color: #fff;">Box won't scroll. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, magnam vero dignissimos iure, porro reiciendis amet laudantium modi odit et sint vitae obcaecati quidem quia delectus voluptas eligendi fugiat corrupti?</p>
+                
+                <!-- skills/ability/power/whatever -->
+
+                <div class="pt-2 pb-2">
+                <span style="font-weight: 100; font-size: 18px; color: #fff;"><i class="fas fa-feather-alt mr-2" style="color: #fff;"></i>Skill Name</span>
+                    <span class="pl-2 mb-1" style="font-weight: 300; color: #fff;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, culpa et. Cumque cupiditate labore beatae laudantium perspiciatis provident unde nam architecto quis, culpa voluptatum ab? Dolor numquam ullam deleniti animi?</span>
+                </div>
+                
+                <div class="pb-2">
+                <span style="font-weight: 100; font-size: 18px; color: #fff;"><i class="fas fa-bolt mr-2" style="color: #fff;"></i>Ability Name</span>
+                    <span class="pl-2 mb-1" style="font-weight: 300; color: #fff;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, culpa et. Cumque cupiditate labore beatae laudantium perspiciatis provident unde nam architecto quis, culpa voluptatum ab? Dolor numquam ullam deleniti animi?</span>
+                </div>
+
+                <div class="pb-2">
+                <span style="font-weight: 100; font-size: 18px; color: #fff;"><i class="fas fa-sparkles mr-2" style="color: #fff;"></i>Talent Name</span>
+                    <span class="pl-2 mb-1" style="font-weight: 300; color: #fff;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, culpa et. Cumque cupiditate labore beatae laudantium perspiciatis provident unde nam architecto quis, culpa voluptatum ab? Dolor numquam ullam deleniti animi?</span>
+                </div>
+
+                <!-- /skillz -->
+              </div>
+              <!-- END SKILLS INFORMATION ------------------------>
+
+            </div>
+          </div>
+          <!-- /ABILITIES ------------------------------------------------------------------------>
+
+
+          <!-- HISTORY --------------------------------------------------------------------------->
+          <div class="tab-pane fade" data-toggle="tab" id="history">
+            <div class="card d-block rounded-0 p-3 my-0 mx-1" style="max-height: 500px; overflow-y: auto; border-top: 0px; background-color: #000;">
+
+              <p style="font-weight: 300; color: #fff;">Pretty much none of the boxes here (except for main card, obv) will scroll. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, magnam vero dignissimos iure, porro reiciendis amet laudantium modi odit et sint vitae obcaecati quidem quia delectus voluptas eligendi fugiat corrupti?</p>
+
+              <hr style="background-color: #bfbfbf; height: 0.2px;">
+
+              <!-- FIRST -->
+              <div class="pt-2 mb-2">
+                  <div style="font-weight: 100; font-size: 20px; color: #fff;"><i class="fas fa-bookmark" style="color: #fff;"></i>&nbsp;
+                      Header
+                  </div>
+                      <div class="pl-3" style="font-weight: 100; font-size: 17px; color: #7e7e7e;"><i class="far fa-bookmark"></i>&nbsp;
+                          Subheader
+                      </div>
+                          <div class="pl-5 mb-1" style="font-size:15px;">
+                              <p style="font-weight: 100; color: #fff;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, culpa et. Cumque cupiditate labore beatae laudantium perspiciatis provident unde nam architecto quis, culpa voluptatum ab? Dolor numquam ullam deleniti animi?</p>
+                          </div>
+              </div>
+
+              <!-- SECOND -->
+              <div class="pt-2 mb-2">
+                  <div style="font-weight: 100; font-size: 20px; color: #fff;"><i class="fas fa-bookmark" style="color: #fff;"></i>&nbsp;
+                      Header
+                  </div>
+                      <div class="pl-3" style="font-weight: 100; font-size: 17px; color: #7e7e7e;"><i class="far fa-bookmark"></i>&nbsp;
+                          Subheader
+                      </div>
+                          <div class="pl-5 mb-1" style="font-size:15px;">
+                              <p style="font-weight: 100; color: #fff;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, culpa et. Cumque cupiditate labore beatae laudantium perspiciatis provident unde nam architecto quis, culpa voluptatum ab? Dolor numquam ullam deleniti animi?</p>
+                          </div>
+              </div>
+
+              <!-- THIRD -->
+              <div class="pt-2 mb-2">
+                  <div style="font-weight: 100; font-size: 20px; color: #fff;"><i class="fas fa-bookmark" style="color: #fff;"></i>&nbsp;
+                      Header
+                  </div>
+                      <div class="pl-3" style="font-weight: 100; font-size: 17px; color: #7e7e7e;"><i class="far fa-bookmark"></i>&nbsp;
+                          Subheader
+                      </div>
+                          <div class="pl-5 mb-1" style="font-size:15px;">
+                              <p style="font-weight: 100; color: #fff;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, culpa et. Cumque cupiditate labore beatae laudantium perspiciatis provident unde nam architecto quis, culpa voluptatum ab? Dolor numquam ullam deleniti animi?</p>
+                          </div>
+              </div>
+
+              <!-- FOURTH -->
+              <div class="pt-2 mb-2">
+                  <div style="font-weight: 100; font-size: 20px; color: #fff;"><i class="fas fa-bookmark" style="color: #fff;"></i>&nbsp;
+                      Header
+                  </div>
+                      <div class="pl-3" style="font-weight: 100; font-size: 17px; color: #7e7e7e;"><i class="far fa-bookmark"></i>&nbsp;
+                          Subheader
+                      </div>
+                          <div class="pl-5 mb-1" style="font-size:15px;">
+                              <p style="font-weight: 100; color: #fff;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, culpa et. Cumque cupiditate labore beatae laudantium perspiciatis provident unde nam architecto quis, culpa voluptatum ab? Dolor numquam ullam deleniti animi?</p>
+                          </div>
+              </div>
+
+              <!-- add more above this line -->
+
+                <hr style="background-color: #bfbfbf; height: 0.2px;">
+
+            </div>
+          </div>
+          <!-- /HISTORY -------------------------------------------------------------------------->
+
+
+          <!-- TRIVIA ---------------------------------------------------------------------------->
+          <div class="tab-pane fade" data-toggle="tab" id="trivia">
+            <div class="card d-block rounded-0 p-3 my-0 mx-1" style="max-height: 500px; overflow-y: auto; border-top: 0px; background-color: #000;">
+
+              <!-- LE FUN FACTS --------------------------------->
+              <div class="mb-4">
+                <div class="text-justify" style="font-weight: 200;">
+                  <div style="font-size: 20px; color: #fff;">Fun Facts <span class="pull-right"><i class="fas fa-pen-nib" style="color: #fff;"></i></span></div>
+                    <div style="max-height: 325px; overflow-y: auto;">
+                      <ul class="pr-3" style="font-size: 14px; color: #fff;">
+                        <!-- write here -->
+                        <li>Content. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum, unde eius. Officia, nihil! Perferendis aliquam ipsam, facilis vero quaerat officiis iste soluta quos laboriosam quibusdam quis incidunt nisi reprehenderit totam.</li>
+                        <li>Content.</li>
+                        <li>Content. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ducimus expedita quia impedit voluptas pariatur dolores doloribus, amet, totam officia facere, autem alias deleniti. Facere ducimus commodi iste non aspernatur.</li>
+                        <li>Content.</li>
+                        <li>Content. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere animi veniam perspiciatis odio harum molestias placeat consequatur inventore illo, suscipit quia omnis officiis optio quae sit dolor recusandae explicabo ullam.</li>
+                        <li>Content.</li>
+                        <li>Content. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga perspiciatis assumenda quod consectetur cumque, deserunt nesciunt et commodi laudantium maiores debitis, quibusdam nostrum dolorem, dolores vel sed suscipit quae facere.</li>
+                        <li>Content.</li>
+                      </ul>
+                    </div>
+                </div>
+              </div>
+              <!-- /LE FUN FACTS ------------------------------>
+
+              <hr style="background-color: #bfbfbf; height: 0.2px;">
+
+              <div class="row no-gutters">
+                <!-- HOBBIES ----------------------------------------------------->
+                <div class="col-md-6 mb-4 pr-md-2">
+                  <div class="text-justify" style="font-weight: 200;">
+                    <div style="font-size: 19px; color: #fff;">Hobbies <span class="pull-right"><i class="fas fa-chess" style="color: #fff;"></i></span></div>
+                      <div style="max-height: 200px; overflow-y: auto;">
+                        <div class="pr-3" style="font-size: 14px;">
+                          <ul class="pr-3" style="font-size: 14px; color: #fff;">
+                            <!-- write here -->
+                            <li>Just stuff the character likes to do.</li>
+                            <li>Content.</li>
+                            <li>Content. Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ab recusandae doloribus qui vel vero. Soluta dolorem, iste, ullam, fuga dolores quibusdam delectus numquam repellendus alias inventore explicabo ducimus debitis.</li>
+                          </ul>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+                <!-- /HOBBIES ---------------------------------------------------->
+
+                <!-- VALUES ------------------------------------------------>
+                <div class="col-md-6 mb-4 pl-md-2">
+                  <div class="text-justify" style="font-weight: 200;">
+                    <div style="font-size: 19px; color: #fff;">Values <span class="pull-right"><i class="fas fa-comment" style="color: #fff;"></i></span></div>
+                      <div style="max-height: 200px; overflow-y: auto;">
+                        <div class="pr-3" style="font-size: 14px;">
+                          <ul class="pr-3" style="font-size: 14px; color: #fff;">
+                            <!-- write here -->
+                            <li>Morals, philosophy, stuff like that.  I couldn't think of a good icon to use, lol—</li>
+                            <li>Content.</li>
+                            <li>Content. Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ab recusandae doloribus qui vel vero. Soluta dolorem, iste, ullam, fuga dolores quibusdam delectus numquam repellendus alias inventore explicabo ducimus debitis.</li>
+                          </ul>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+                <!-- /VALUES ----------------------------------------------->
+              </div>
+
+              <div class="row no-gutters">
+              <!-- FAVORITES ----------------------------------------->
+              <div class="col-md-6 mb-4 pr-md-2">
+                <div class="text-justify" style="font-weight: 200;">
+                  <div style="font-size: 19px; color: #fff;">Favorites <span class="pull-right"><i class="fas fa-sign" style="color: #fff;"></i></span></div>
+                    <div style="max-height: 200px; overflow-y: auto;">
+                      <div class="pr-3" style="font-size: 14px;">
+                        <ul class="pr-3" style="font-size: 14px; color: #fff;">
+                          <!-- write here -->
+                          <li>Content.  Character's favorite stuff.</li>
+                          <li>Content.</li>
+                          <li>Content. Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ab recusandae doloribus qui vel vero. Soluta dolorem, iste, ullam, fuga dolores quibusdam delectus numquam repellendus alias inventore explicabo ducimus debitis.</li>
+                        </ul>
+                      </div>
+                    </div>
+                </div>
+              </div>
+              <!-- /FAVORITE ---------------------------------------->
+
+              <!-- POSSESSIONS ----------------------------------------->
+              <div class="col-md-6 mb-4 pl-md-2">
+                <div class="text-justify" style="font-weight: 200;">
+                  <div style="font-size: 19px; color: #fff;">Possessions <span class="pull-right"><i class="fas fa-backpack" style="color: #fff;"></i></span></div>
+                    <div style="max-height: 200px; overflow-y: auto;">
+                      <div class="pr-3" style="font-size: 14px;">
+                        <ul class="pr-3" style="font-size: 14px; color: #fff;">
+                          <!-- write here -->
+                          <li>Content.  Stuff your character has.  Weapons, important valuables, and so on.</li>
+                          <li>Content. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, beatae debitis assumenda praesentium dolorum molestias adipisci harum, impedit aperiam, reprehenderit blanditiis delectus consectetur ea sequi quasi a ex enim! Consectetur!</li>
+                          <li>Content.</li>
+                        </ul>
+                      </div>
+                    </div>
+                </div>
+              </div>
+              <!-- /POSSESSIONS ---------------------------------------->
+              </div>
+
+              <hr style="background-color: #bfbfbf; height: 0.2px;">
+
+              <!-- ANOTHER MOODBOARD THING -- CUZ I COULDN'T FIGURE OUT WHAT ELSE TO PUT ---->
+              <div class="mt-md-4" style="border-radius:2.3rem">
+
+                <!-- first row -->
+                <div class="row no-gutters">
+                  <div class="col-md-4 pr-md-1 mb-2">
+                    <div style="background-image:url(https://images.unsplash.com/photo-1473252812967-d565c3607e28?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);background-size:cover;background-position:center;min-height:190px;"></div>
+                  </div>
+                  <div class="col-md-8 px-md-1 mb-2">
+                    <div style="background-image:url(https://images.unsplash.com/photo-1495640452828-3df6795cf69b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80);background-size:cover;background-position:center;min-height:190px;"></div>
+                  </div>
+                </div>
+
+                <!-- second row -->
+                <div class="row no-gutters">
+                  <div class="col-md-7 pr-md-1 mb-2">
+                    <div style="background-image:url(https://images.unsplash.com/photo-1506962240359-bd03fbba0e3d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1165&q=80);background-size:cover;background-position:center;min-height:190px;"></div>
+                  </div>
+                  <div class="col-md-5 px-md-1 mb-2">
+                    <div style="background-image:url(https://images.unsplash.com/photo-1604520024165-2f48dfca2a8b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);background-size:cover;background-position:center;min-height:190px;"></div>
+                  </div>
+                </div>
+
+                <!-- third row -->
+                <div class="row no-gutters">
+                  <div class="col-md-4 pr-md-1 mb-2">
+                    <div style="background-image:url(https://images.unsplash.com/photo-1633179895302-b59133548261?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80);background-size:cover;background-position:center;min-height:190px;"></div>
+                  </div>
+                  <div class="col-md-4 px-md-1 mb-2">
+                    <div style="background-image:url(https://images.unsplash.com/photo-1631809290466-e57f6449d1fc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80);background-size:cover;background-position:center;min-height:190px;"></div>
+                  </div>
+                  <div class="col-md-4 px-md-1 mb-2">
+                    <div style="background-image:url(https://images.unsplash.com/photo-1619203596659-6029850f0c73?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);background-size:cover;background-position:center;min-height:190px;"></div>
+                  </div>
+                </div>
+
+              </div>
+              <!-- /MOODBOARD 2 ----------------------------------------->
+
+            </div>
+          </div>
+          <!-- /TRIVIA --------------------------------------------------------------------------->
+
+
+          <!-- RELATIONSHIPS --------------------------------------------------------------------->
+          <div class="tab-pane fade" data-toggle="tab" id="relationships">
+            <div class="card d-block rounded-0 p-3 my-0 mx-1" style="max-height: 500px; overflow-y: auto; border-top: 0px; background-color: #000;">
+
+              <div class="row no-gutters">
+
+                <!-- 1 ------------>
+                    <!-- content -->
+                    <div class="col-md-12 p-2">
+                        <span class="pull-left" style="font-weight: 200; font-size: 15px;"><a href="LINK_HERE" style="color: #598996;">Name</a></span>
+                        <span style="font-weight: 200; font-size: 12px; color: #7e7e7e">&nbsp;[relationship]</span>
+                        <span class="pull-right" style="font-weight: 200; font-size: 15px; vertical-align: middle;">
+                            <!-- fas = full | far = hollow | fa-heart-broken for broken heart w/ fas & far also = full & hollow respectively-->
+                            <i class="fas fa-heart fa-sm" style="color: rgb(119, 162, 170);"></i>
+                            <i class="far fa-heart fa-sm" style="color: rgb(119, 162, 170);"></i>
+                            <i class="far fa-heart fa-sm" style="color: rgb(119, 162, 170);"></i>
+                            <i class="far fa-heart fa-sm" style="color: rgb(119, 162, 170);"></i>
+                            <i class="far fa-heart fa-sm" style="color: rgb(119, 162, 170);"></i>
+                        </span>
+                            <hr class="mt-0 mb-1">
+                            <!-- info --->
+                            <p style="font-weight: 200; font-size: 13px; color: #fff;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit eius perspiciatis suscipit quos voluptates iusto in maxime consequatur assumenda voluptatibus veniam labore, tenetur, quo ipsum soluta sunt, laboriosam voluptas provident!</p>
+                    </div>
+
+                <!-- 2 ------------>
+                    <!-- content -->
+                    <div class="col-md-12 p-2">
+                        <span class="pull-left" style="font-weight: 200; font-size: 15px;"><a href="LINK_HERE" style="color: #598996;">Name</a></span>
+                        <span style="font-weight: 200; font-size: 12px; color: #7e7e7e">&nbsp;[relationship]</span>
+                        <span class="pull-right" style="font-weight: 200; font-size: 15px; vertical-align: middle;">
+                            <!-- fas = full | far = hollow | fa-heart-broken for broken heart w/ fas & far also = full & hollow respectively-->
+                            <i class="fas fa-heart fa-sm" style="color: rgb(119, 162, 170);"></i>
+                            <i class="fas fa-heart fa-sm" style="color: rgb(119, 162, 170);"></i>
+                            <i class="far fa-heart fa-sm" style="color: rgb(119, 162, 170);"></i>
+                            <i class="far fa-heart fa-sm" style="color: rgb(119, 162, 170);"></i>
+                            <i class="far fa-heart fa-sm" style="color: rgb(119, 162, 170);"></i>
+                        </span>
+                            <hr class="mt-0 mb-1">
+                            <!-- info --->
+                            <p style="font-weight: 200; font-size: 13px; color: #fff;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit eius perspiciatis suscipit quos voluptates iusto in maxime consequatur assumenda voluptatibus veniam labore, tenetur, quo ipsum soluta sunt, laboriosam voluptas provident!</p>
+                    </div>
+
+                <!-- 3 ------------>
+                    <!-- content -->
+                      <div class="col-md-12 p-2">
+                        <span class="pull-left" style="font-weight: 200; font-size: 15px;"><a href="LINK_HERE" style="color: #598996;">Name</a></span>
+                        <span style="font-weight: 200; font-size: 12px; color: #7e7e7e">&nbsp;[relationship]</span>
+                        <span class="pull-right" style="font-weight: 200; font-size: 15px; vertical-align: middle;">
+                            <!-- fas = full | far = hollow | fa-heart-broken for broken heart w/ fas & far also = full & hollow respectively-->
+                            <i class="fas fa-heart fa-sm" style="color: rgb(119, 162, 170);"></i>
+                            <i class="fas fa-heart fa-sm" style="color: rgb(119, 162, 170);"></i>
+                            <i class="fas fa-heart fa-sm" style="color: rgb(119, 162, 170);"></i>
+                            <i class="far fa-heart fa-sm" style="color: rgb(119, 162, 170);"></i>
+                            <i class="far fa-heart fa-sm" style="color: rgb(119, 162, 170);"></i>
+                        </span>
+                            <hr class="mt-0 mb-1">
+                            <!-- info --->
+                            <p style="font-weight: 200; font-size: 13px; color: #fff;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit eius perspiciatis suscipit quos voluptates iusto in maxime consequatur assumenda voluptatibus veniam labore, tenetur, quo ipsum soluta sunt, laboriosam voluptas provident!</p>
+                    </div>
+
+                <!-- 4 ------------>
+                    <!-- content -->
+                    <div class="col-md-12 p-2">
+                        <span class="pull-left" style="font-weight: 200; font-size: 15px;"><a href="LINK_HERE" style="color: #598996;">Name</a></span>
+                        <span style="font-weight: 200; font-size: 12px; color: #7e7e7e">&nbsp;[relationship]</span>
+                        <span class="pull-right" style="font-weight: 200; font-size: 15px; vertical-align: middle;">
+                            <!-- fas = full | far = hollow | fa-heart-broken for broken heart w/ fas & far also = full & hollow respectively-->
+                            <i class="fas fa-heart fa-sm" style="color: rgb(119, 162, 170);"></i>
+                            <i class="fas fa-heart fa-sm" style="color: rgb(119, 162, 170);"></i>
+                            <i class="fas fa-heart fa-sm" style="color: rgb(119, 162, 170);"></i>
+                            <i class="fas fa-heart fa-sm" style="color: rgb(119, 162, 170);"></i>
+                            <i class="far fa-heart fa-sm" style="color: rgb(119, 162, 170);"></i>
+                        </span>
+                            <hr class="mt-0 mb-1">
+                            <!-- info --->
+                            <p style="font-weight: 200; font-size: 13px; color: #fff;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit eius perspiciatis suscipit quos voluptates iusto in maxime consequatur assumenda voluptatibus veniam labore, tenetur, quo ipsum soluta sunt, laboriosam voluptas provident!</p>
+                    </div>
+
+                <!-- 5 ------------>
+                    <!-- content -->
+                    <div class="col-md-12 p-2">
+                        <span class="pull-left" style="font-weight: 200; font-size: 15px;"><a href="LINK_HERE" style="color: #598996;">Name</a></span>
+                        <span style="font-weight: 200; font-size: 12px; color: #7e7e7e">&nbsp;[relationship]</span>
+                        <span class="pull-right" style="font-weight: 200; font-size: 15px; vertical-align: middle;">
+                            <!-- fas = full | far = hollow | fa-heart-broken for broken heart w/ fas & far also = full & hollow respectively-->
+                            <i class="fas fa-heart fa-sm" style="color: rgb(119, 162, 170);"></i>
+                            <i class="far fa-heart fa-sm" style="color: rgb(119, 162, 170);"></i>
+                            <i class="far fa-heart fa-sm" style="color: rgb(119, 162, 170);"></i>
+                            <i class="far fa-heart-broken fa-sm" style="color: rgb(119, 162, 170);"></i>
+                            <i class="far fa-heart-broken fa-sm" style="color: rgb(119, 162, 170);"></i>
+                        </span>
+                            <hr class="mt-0 mb-1">
+                            <!-- info --->
+                            <p style="font-weight: 200; font-size: 13px; color: #fff;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit eius perspiciatis suscipit quos voluptates iusto in maxime consequatur assumenda voluptatibus veniam labore, tenetur, quo ipsum soluta sunt, laboriosam voluptas provident!</p>
+                    </div>
+
+                <!-- add more above this line -->
+
+              </div>
+
+            </div>
+          </div>
+          <!-- /RELATIONSHIPS -------------------------------------------------------------------->
+
+
+          <!-- OTHER ----------------------------------------------------------------------------->
+          <div class="tab-pane fade" data-toggle="tab" id="other">
+            <div class="card d-block rounded-0 p-3 my-0 mx-1" style="max-height: 500px; overflow-y: auto; border-top: 0px; background-color: #000;">
+
+              <!-- AUTHOR'S TRIVIA -------------------------------------------------------->
+              <div class="mb-4">
+                <div class="text-justify" style="font-weight: 200;">
+                  <div style="font-size: 20px; color: #fff;">Author's Trivia<span class="pull-right"><i class="fas fa-user-edit" style="color: #fff;"></i></span></div>
+                    <div style="max-height: 325px; overflow-y: auto;">
+                      <ul class="pr-3" style="font-size: 14px; color: #fff;">
+                        <!-- write here -->
+                        <li>This is where you, the creator of this character, will write about character stuff.  I dunno.  Talk about how your character started off, your development of said character, your first drafts, your unhealthy attachment—anything.  W r i t e.</li>
+                        <li>Content.</li>
+                        <li>Content. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ducimus expedita quia impedit voluptas pariatur dolores doloribus, amet, totam officia facere, autem alias deleniti. Facere ducimus commodi iste non aspernatur.</li>
+                        <li>Content.</li>
+                        <li>Content. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere animi veniam perspiciatis odio harum molestias placeat consequatur inventore illo, suscipit quia omnis officiis optio quae sit dolor recusandae explicabo ullam.</li>
+                        <li>Content.</li>
+                        <li>Content. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga perspiciatis assumenda quod consectetur cumque, deserunt nesciunt et commodi laudantium maiores debitis, quibusdam nostrum dolorem, dolores vel sed suscipit quae facere.</li>
+                        <li>Content.</li>
+                      </ul>
+                    </div>
+                </div>
+              </div>
+              <!-- /AUTHOR'S TRIVIA ------------------------------------------------------->
+
+              <hr>
+
+              <div class="row no-gutters">
+                <!-- PLAYLIST ----------------------------------------->
+                <div class="col-md-6 mb-4 pr-md-2">
+                  <div class="text-justify" style="font-weight: 200;">
+                    <div style="font-size: 18px; color: #fff;">Playlist <span class="pull-right"><i class="fas fa-list-music" style="color: #fff;"></i></span></div>
+                      <div style="max-height: 150px; overflow-y: auto;">
+                        <div class="pr-3" style="font-size: 13px;">
+                          <ul class="pr-3" style="font-size: 13px; color: #fff;">
+                            <!-- write here -->
+                            <li>Song - Artist <span class="pull-right"><a href="LINK_HERE" target="_blank" style="color:#5ca6c4"><i class="fas fa-music"></i></a></span></li>
+                            <li>Song - Artist <span class="pull-right"><a href="LINK_HERE" target="_blank" style="color:#5ca6c4"><i class="fas fa-music"></i></a></span></li>
+                            <li>Song - Artist <span class="pull-right"><a href="LINK_HERE" target="_blank" style="color:#5ca6c4"><i class="fas fa-music"></i></a></span></li>
+                            <li>Song - Artist <span class="pull-right"><a href="LINK_HERE" target="_blank" style="color:#5ca6c4"><i class="fas fa-music"></i></a></span></li>
+                            <li>Song - Artist <span class="pull-right"><a href="LINK_HERE" target="_blank" style="color:#5ca6c4"><i class="fas fa-music"></i></a></span></li>
+                            <li>Song - Artist <span class="pull-right"><a href="LINK_HERE" target="_blank" style="color:#5ca6c4"><i class="fas fa-music"></i></a></span></li>
+                            <!-- add more above this line -->
+                          </ul>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+                <!-- /PLAYLIST ---------------------------------------->
+  
+                <!-- INSPIRATIONS ----------------------------------------->
+                <div class="col-md-6 mb-4 pl-md-2">
+                  <div class="text-justify" style="font-weight: 200;">
+                    <div style="font-size: 18px; color: #fff;">Inspirations <span class="pull-right"><i class="fas fa-paper-plane" style="color: #fff;"></i></span></div>
+                      <div style="max-height: 150px; overflow-y: auto;">
+                        <div class="pr-3" style="font-size: 13px;">
+                          <ul class="pr-3" style="font-size: 13px; color: #fff;">
+                            <!-- write here -->
+                            <li>The characters, books, personal experiences, whatever that made this character poof into existence.</li>
+                            <li>Contemt.</li>
+                            <li>Content.</li>
+                            <li>Content.</li>
+                          </ul>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+                <!-- /POSSESSIONS ---------------------------------------->
+                </div>
+
+            </div>
+          </div>
+          <!-- /OTHER ---------------------------------------------------------------------------->
+
+
+        </div>
+        <!-- /TAB CONTENTS ----------------------------------------------------->
+
+
+
+    </div>
+    </div>
+    <!-- END RIGHT COLUMN --------------------------------------------------------------->
+
+</div>
+
+
+
+<!-- /CONTENT BOX ---------------------------------------->
+
+<!-- CREDITS --------------------------------------->
+<div class="card p-2 mb-1 border-0" style="border-radius: 0px 0px 10px 10px; background-color: rgba(0, 0, 0, 0.7);">
+  <div style="font-weight: 100; font-variant: small-caps; letter-spacing: 5px;">
+      <span class="pull-right">
+        <a href="https://unsplash.com/"><i class="fas fa-images tooltipster" style="color:#5982a3" title="photos by ________" data-placement="left"></i></a>
+          |
+        <a href="https://toyhou.se/acodingperson"><i class="fas fa-blanket tooltipster" style="color:#5982a3" title="code by acp" data-placement="left"></i></a>
+      </span>
+  </div>
+</div>
+<!-- /CREDITS -------------------------------------->
+
+</div>
+<!-- END EVERYTHING ------------------------------------------------------------------------------->
