@@ -1,0 +1,402 @@
+<!-- 
+
+    IDK LOL | Version 1 [Bootstrap]
+ 
+        HANDY WEBSITES
+            > Font Awesome (for icons): https://fontawesome.com/v5.15/icons/reddit?style=brands
+            > W3 Schools Bootstrap: https://www.w3schools.com/bootstrap/
+            > W3 Schools HTML: https://www.w3schools.com/html/default.asp
+            > Bootstrap Docs: https://getbootstrap.com/docs/5.1/getting-started/introduction/
+ 
+    THANKS FOR USING <3
+
+-->
+
+
+
+<!-- BACKGROUND IMAGE HERE --------------------------->
+<div class="pt-4 pb-4" style="background: url(LINK_HERE) fixed cover;">
+<!-- CONTAINER ---------------------------------------------------------->
+<div class="container-fluid pt-4 pb-4" style="max-width: 1100px;">
+
+<div class="row no-gutters">
+
+<!-------------------- RIGHT COLUMN ----------------------------->
+<div class="col-md-8 order-md-2">
+    <div class="card d-block bg-faded border-0 p-3" style="border-radius: 2em; max-height: 500px; box-shadow: 0 0 15px 10px rgba(0, 0, 0, 0.4);">
+        
+        <!------------- HEADER ------------>
+        <div class="display-4 text-center" style="letter-spacing: 5px;">
+            <!-- LEFT ICON --> <span class="pull-left"><i class="fas fa-seedling"></i></span> 
+                <!-- WRITE NAME HERE --> Name
+            <!-- RIGHT ICON --> <span class="pull-right"><i class="fas fa-seedling"></i></span>
+        </div>
+        <!--------- END HEADER ------------->
+
+        <!-- ADJECTIVES ---------------------->
+        <div class="text-center pb-2 text-muted" style="font-weight: 200; letter-spacing: 7px;">adjective • adjective • adjective</div>
+        
+
+        <!-------------------- BEGIN CONTENT BLOCK ----------------------------->
+        <div class="card d-block pl-md-5 pr-md-3 py-3" style="overflow-y: auto; height: 220px;">
+            <!-------------------------- BEGIN TAB CONTENT ----------------------->
+            <div class="tab-content">
+
+
+            <!--------------------------- FIRST TAB | ABOUT -------------------------------------------------------->
+            <div class="tab-pane fade show active" data-toggle="pill" id="ONE">
+                <!-- WRITTEN CONTENT -------------------->
+                <p class="text-center mb-1 px-3 px-md-0" style="font-size: 13px; font-weight: 200;">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut vero molestiae earum incidunt ab consequuntur alias cumque? Cupiditate similique eveniet optio, impedit modi fugit sed eius officia fuga aliquid magni.
+                </p>
+                <!-- AVI PHOTO WHATEVER ----- CAN BE ANY SIZE ------------------------->
+                <img src="https://via.placeholder.com/150" class="rounded d-block mx-auto mb-1 mt-2 tooltipster" title="art by _________" data-placement="left" style="max-height: 115px;">
+            </div>
+            <!--------------------------- /FIRST TAB | ABOUT -------------------------------------------------------->
+
+
+            <!----------------------------- SECOND TAB | PERSONAL  ------------------------------------------------------->
+            <div class="tab-pane fade" data-toggle="pill" id="TWO">
+
+                <!-------------------------- FIRST ROW --------------------------------->
+                <div class="row no-gutters mb-md-4 mb-2">
+
+                    <!--------------- PLAYLIST ----------------------------------->
+                    <div class="col-md-6 p-3 p-md-0 pr-md-2">
+                        <div style="font-size: 18px;"><span class="pull-left" style="font-weight: 200;">PLAYLIST</span> <span class="pull-right"><i class="fal fa-list-music"></i></span></div>
+                        <hr class="mt-0 mb-1">
+                            <div class="pl-2 pr-2" style="font-size: 10px">
+                                Song - Artist<span class="pull-right"><a href="SONG LINK HERE" target="_blank"><i class="far fa-play-circle"></i></a></span>
+                                <br>Song - Artist<span class="pull-right"><a href="SONG LINK HERE" target="_blank"><i class="far fa-play-circle"></i></a></span>
+                                <br>Song - Artist<span class="pull-right"><a href="SONG LINK HERE" target="_blank"><i class="far fa-play-circle"></i></a></span>
+                                <!----- add more above this line ------>
+                            </div>
+                    </div>
+                    <!--------------- /PLAYLIST ----------------------------------->
+
+                    <!---------------- TO-DO ------------------------------------>
+                    <div class="col-md-6 pl-md-2 p-3 p-md-0">
+                        <!-- HEADER --> 
+                        <div style="font-size: 18px;"><span class="pull-left" style="font-weight: 200;">TO-DO</span> <span class="pull-right"><i class="fal fa-calendar-edit"></i></span></div>
+                        <hr class="mt-0 mb-1">
+                        <!-- /HEADER -->
+
+                        <div class="pl-2 pr-2" style="font-size: 10px;">
+                            <!-------------- TO DO CONTENT HERE -------------------->
+                            <!-- 1 -->
+                            Red <span class="pull-right text-italics text-muted">[Thing]</span>
+                            <br>
+                                <div class="px-2">
+                                    <div class="mt-1 progress bg-faded">
+                                        <div class="progress-bar text-primary bg-danger" style="width:15%; height:3px;"></div>
+                                    </div>
+                                </div>
+                            <br>
+                            <!-- 2 -->
+                            Yellow <span class="pull-right text-italics text-muted">[Thing]</span>
+                            <br>
+                                <div class="px-2">
+                                    <div class="mt-1 progress bg-faded">
+                                        <div class="progress-bar text-primary bg-warning" style="width:50%; height:3px;"></div>
+                                    </div>
+                                </div>
+                            <br>
+                            <!-- 3 -->
+                            Green <span class="pull-right text-italics text-muted">[Thing]</span>
+                            <br>
+                                <div class="px-2">
+                                    <div class="mt-1 progress bg-faded">
+                                        <div class="progress-bar text-primary bg-success" style="width:75%; height:3px;"></div>
+                                    </div>
+                                </div>
+                            <br>
+                            <!---------- add more above this line ---------->
+                        </div>
+                    </div>
+                    <!---------------- /TO-DO ------------------------------------>
+                
+                </div>
+                <!--------------------------- END FIRST ROW ---------------------------->
+                
+                <!-- START SECOND ROW/PREFERENCES -------------------------------------->
+                <div class="row no-gutters">
+
+                    <!------- LIKES -------------------------------->
+                    <div class="col-md-4 pr-md-2 px-3 pt-1 px-md-0">
+                        <div style="font-size: 16px;"><span class="pull-left" style="font-weight: 200;">LIKES</span> <span class="pull-right"><i class="fas fa-plus-circle"></i></span></div>
+                        <hr class="mt-0 mb-1">
+                            <div class="pr-2" style="font-size: 11px;">
+                                <!-------- LISTED CONTENT -------->
+                                <ul style="padding-left: 17px;">
+                                    <li>Content.</li>
+                                    <li>Content.</li>
+                                    <li>Content.</li>
+                                    <!-- add more above this line -->
+                                </ul>
+                                <!------- /LISTED CONTENT -------->
+                            </div>
+                    </div>
+                    <!-------- /LIKES -------------------------------->
+
+                    <!------ DISLIKES -------------------------------->
+                    <div class="col-md-4 pl-md-2 pr-md-2 px-3 pt-1 px-md-0">
+                        <div style="font-size: 16px;"><span class="pull-left" style="font-weight: 200;">DISLIKES</span> <span class="pull-right"><i class="fas fa-minus-circle"></i></span></div>
+                        <hr class="mt-0 mb-1">
+                            <div class="pl-2 pr-2" style="font-size: 11px;">
+                                <!-------- LISTED CONTENT -------->
+                                <ul style="padding-left: 17px;">
+                                    <li>Content.</li>
+                                    <li>Content.</li>
+                                    <li>Content.</li>
+                                    <!-- add more above this line -->
+                                </ul>
+                                <!------- /LISTED CONTENT -------->
+                            </div>
+                    </div>
+                    <!------ /DISLIKES -------------------------------->
+
+                    <!-------- INTERESTS -------------------------------->
+                    <div class="col-md-4 pl-md-2 px-3 pt-1 px-md-0">
+                        <div style="font-size: 16px;"><span class="pull-left" style="font-weight: 200;">INTERESTS</span> <span class="pull-right"><i class="fas fa-heart-circle"></i></span></div>
+                        <hr class="mt-0 mb-1">
+                            <div class="pl-2 pr-2" style="font-size: 11px;">
+                                <!-------- LISTED CONTENT -------->
+                                <ul style="padding-left: 17px;">
+                                    <li>Content.</li>
+                                    <li>Content.</li>
+                                    <li>Content.</li>
+                                    <!-- add more above this line -->
+                                </ul>
+                                <!------- /LISTED CONTENT -------->
+                            </div>
+                    </div>
+                    <!-------- /INTERESTS -------------------------------->
+
+                </div>
+                <!-- END SECOND ROW/PREFERENCES --------------------------------->
+
+            </div>
+            <!-------------------------- /SECOND TAB | PERSONAL -------------------------------------------------------->
+
+
+            <!----------------------------- THIRD TAB | UPDATES -------------------------------------------------------->
+            <div class="tab-pane fade" data-toggle="pill" id="THREE">
+                <div class="row no-gutters">
+
+                    <div class="col-md-5 pr-md-2 p-3 p-md-0 pt-md-4" style="font-size: 12px;">
+                        <!---------------- commissions ------------------>
+                            <div class="card d-flex" style="flex-direction: row; align-items: center; border: 0; flex-grow: 0; background-color:rgba(0, 0, 0, 0)">
+                                <div>commissions</div>
+                                    <hr style="flex-grow: 1; margin-left: 10px; margin-right: 10px; height:1px;">
+                                <a href="LINK_HERE" target="_blank"><div>content</div></a>
+                            </div>
+                        <!-------------- trades ------------------------>
+                            <div class="card d-flex" style="flex-direction: row; align-items: center; border: 0; flex-grow: 0; background-color:rgba(0, 0, 0, 0)">
+                                <div>trades</div>
+                                    <hr style="flex-grow: 1; margin-left: 10px; margin-right: 10px; height:1px;">
+                                <a href="LINK_HERE" target="_blank"><div>content</div></a>
+                            </div>
+                        <!------------------- requests ----------------->
+                            <div class="card d-flex" style="flex-direction: row; align-items: center; border: 0; flex-grow: 0; background-color:rgba(0, 0, 0, 0)">
+                                <div>requests</div>
+                                    <hr style="flex-grow: 1; margin-left: 10px; margin-right: 10px; height:1px;">
+                                <a href="LINK_HERE" target="_blank"><div>content</div></a>
+                            </div>
+                    </div>
+
+                    <!-- NOTICE BOARD -------------------------------------->
+                    <div class="col-md-7 pl-md-2 p-3 p-md-0">
+                        <!-- HEADER --> <div style="font-size: 19px;"><span class="pull-left" style="font-weight: 200;">NOTICE BOARD</span> <span class="pull-right"><i class="fas fa-typewriter"></i></span></div>
+                        <hr class="mt-0 mb-1">
+
+                        <div class="pl-2 pr-2" style="font-size: 12px;">
+                            <!-- LISTED CONTENT ------->
+                            <ul>
+                                <li><b class="mr-2">XX.XX.XX</b>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quam dolorem nihil eveniet repudiandae tempora dignissimos illum ducimus suscipit doloribus et fugiat soluta ipsam ullam facilis, explicabo similique perspiciatis incidunt!</li>
+                                <li><b class="mr-2">XX.XX.XX</b>Content.</li>
+                                <li><b class="mr-2">XX.XX.XX</b>Content.</li>
+                                <!-- add more above this line -->
+                            </ul>
+                            <!-- /LISTED CONTENT ------->
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!------------------------ /THIRD TAB | UPDATES -------------------------------------------------------->
+
+
+            <!------------------------- FOURTH TAB | AFFILIATIONS  -------------------------------------------------------->
+            <div class="tab-pane fade" data-toggle="pill" id="FOUR">
+                <div class="p-3 p-md-0">
+                    <!-------------- HEADER -------------->
+                    <div style="font-size: 20px;"><span class="pull-right" style="font-weight: 200;">AFFILIATIONS</span> <span class="pull-left"><i class="fas fa-users"></i></span></div>
+                    <hr class="mt-0 mb-1">
+                    <!-------------- /HEADER ------------->
+
+                        <div class="pl-2 pr-2">
+                            <!------------------- SINGLES --------------------->
+                            <!-- FIRST ROW -------------->
+                            <div class="row no-gutters py-2">
+                                <!-- 1 -->
+                                <div class="col-md-12">
+                                    <img src="https://via.placeholder.com/100" class="float-left mr-2" style="max-height: 100px;">
+                                        <div class="" style="font-size: 16px;">@ user</div>
+                                        <div class="text-muted" style="font-size: 11px;">"Quote."</div>
+                                            <p class="text-justify" style="font-size: 12px;">Words, words, words.</p>
+                                </div>
+                            </div>
+                            <!-- SECOND ROW -------------->
+                            <div class="row no-gutters py-2">
+                                <!-- 2 (Only Quote) -->
+                                <div class="col-md-12">
+                                    <img src="https://via.placeholder.com/100" class="float-left mr-2" style="max-height: 100px;">
+                                        <div class="" style="font-size: 16px;">@ user</div>
+                                        <div class="text-muted" style="font-size: 11px;">"Quote."</div>
+                                </div>
+                            </div>
+                            <!---- add ANOTHER ROW above this line ----->
+
+                            <!------------------ PAIRS -------------------------->
+                            <!-- THIRD ROW -------------->
+                            <div class="row no-gutters">
+                                <!-- 7 -->
+                                <div class="col-md-6 py-2 pr-md-2">
+                                    <img src="https://via.placeholder.com/100" class="float-left mr-2" style="max-height: 100px;">
+                                        <div class="" style="font-size: 16px;">@ user</div>
+                                        <div class="text-muted" style="font-size: 11px;">"Quote."</div>
+                                            <p class="text-justify" style="font-size: 12px;">Words, words, words.</p>
+                                </div>
+                                <!-- 8 -->
+                                <div class="col-md-6 py-2 pl-md-2">
+                                    <img src="https://via.placeholder.com/100" class="float-left mr-2" style="max-height: 100px;">
+                                        <div class="" style="font-size: 16px;">@ user</div>
+                                        <div class="text-muted" style="font-size: 11px;">"Quote."</div>
+                                            <p class="text-justify" style="font-size: 12px;">Words, words, words.</p>
+                                </div>
+                            </div>
+                            <!-- FOURTH ROW (Only Quote) ----->
+                            <div class="row no-gutters">
+                                <!-- 9 -->
+                                <div class="col-md-6 py-2 pr-md-2">
+                                    <img src="https://via.placeholder.com/100" class="float-left mr-2" style="max-height: 100px;">
+                                        <div class="" style="font-size: 16px;">@ user</div>
+                                        <div class="text-muted" style="font-size: 11px;">"Quote."</div>
+                                </div>
+                                <!-- 10 -->
+                                <div class="col-md-6 py-2 pl-md-2">
+                                    <img src="https://via.placeholder.com/100" class="float-left mr-2" style="max-height: 100px;">
+                                        <div class="" style="font-size: 16px;">@ user</div>
+                                        <div class="text-muted" style="font-size: 11px;">"Quote."</div>
+                                </div>
+                            </div>
+                            <!------ add ANOTHER ROW above this line ------>
+                            
+                        </div>
+                </div>
+            </div>
+            <!----------------------------- /FOURTH TAB | AFFILIATIONS  -------------------------------------------------------->
+
+
+            <!------------------------------------ FIFTH TAB | FEATURED -------------------------------------------------------->
+            <div class="tab-pane fade" data-toggle="pill" id="FIVE">
+                <!-- HEADER -->
+                <div class="card d-flex mb-3" style="flex-direction: row; align-items: center; border: 0; flex-grow: 0; background-color:rgba(0, 0, 0, 0)">
+                        <hr style="vertical-align: middle; flex-grow: 1; margin-left: 10px; margin-right: 10px; height:1px;">
+                    <div style="font-size: 20px; font-weight: 100; letter-spacing: 10px;">FEATURED</div>
+                        <hr style="vertical-align: middle; flex-grow: 1; margin-left: 10px; margin-right: 10px; height:1px;">
+                </div>
+                <!-- /HEADER -->
+
+                <!-- MAIN FEATURED ---------------------------------->
+                <div class="text-center px-2">
+                    <a href="PHOTO LINK HERE" target="_blank"><img src="https://via.placeholder.com/350x350" style="max-height: 350px;"></a>
+                    <br> <div class="px-4"> <!-- BUTTON FOR FEATURED --> <a href="FEATURED LINK HERE" target="_blank" class="mt-2 btn btn-outline-secondary btn-sm btn-block">NAME</a> </div>
+                    <hr>
+                        <!-- WRITTEN CONTENT HERE --> <div class="px-4" style="font-size: 12px; font-weight: 200;">Some random text here. Not sure what you can put here, exactly.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae mollitia hic odio illum ex dignissimos nihil voluptatem quae nobis soluta voluptates, voluptas aliquid quos eaque quia fugiat excepturi a! Quod!</div>
+                    <hr>
+                </div>
+                <!-- /MAIN FEATURED ---------------------------------->
+
+                <!-------- THREE FEATURED ----------->
+                <div class="row no-gutters px-2">
+                    <!------- 1 -------->
+                    <div class="col-md-4 text-center pr-md-4"> <img src="https://via.placeholder.com/150" style="max-height: 150px;">
+                        <!-- button --> <a href="FEATURED LINK HERE" target="_blank" class="mt-2 btn btn-outline-secondary btn-sm btn-block">NAME</a>
+                    </div>
+                    <!------- 2 -------->
+                    <div class="col-md-4 text-center pt-3 pt-md-0"> <img src="https://via.placeholder.com/150" style="max-height: 150px;">
+                        <!-- button --> <a href="FEATURED LINK HERE" target="_blank" class="mt-2 btn btn-outline-secondary btn-sm btn-block">NAME</a>
+                    </div>
+                    <!------- 3 -------->
+                    <div class="col-md-4 text-center pt-3 pl-md-4 pt-md-0"> <img src="https://via.placeholder.com/150" style="max-height: 150px;">
+                        <!-- button --> <a href="FEATURED LINK HERE" target="_blank" class="mt-2 btn btn-outline-secondary btn-sm btn-block">NAME</a>
+                    </div>
+                </div>
+                <!-------- /THREE FEATURED ----------->
+
+            </div>
+            <!-------------------------- /FIFTH TAB | FEATURED -------------------------------------------------------->
+
+
+            </div>
+        </div>
+        <!------------------------------------------------------- END TAB CONTENT ------------------------------------------------------------>
+
+        <!---------------------------------- NAVIGATION ------------------------------------------------------------->
+        <div class="pt-2" style="font-family: 'Times New Roman', Times, serif;">
+            <ul class="nav nav-pills" style="justify-content: flex-end;">
+                <li class="nav-item mr-1 mb-1">
+                    <a class="nav-link active btn btn-secondary btn-outline-dark" data-toggle="tab" href="#ONE">I</a>
+                </span>
+                <li class="nav-item mr-1 mb-1">
+                    <a class="nav-link btn btn-secondary btn-outline-dark" data-toggle="tab" href="#TWO">II</a>
+                </span>
+                <li class="nav-item mr-1 mb-1">
+                    <a class="nav-link btn btn-secondary btn-outline-dark" data-toggle="tab" href="#THREE">III</a>
+                </span>
+                <li class="nav-item mr-1 mb-1">
+                    <a class="nav-link btn btn-secondary btn-outline-dark" data-toggle="tab" href="#FOUR">IV</a>
+                </span>
+                <li class="nav-item mr-1 mb-1">
+                    <a class="nav-link btn btn-secondary btn-outline-dark" data-toggle="tab" href="#FIVE">V</a>
+                </span>
+            </ul>
+        </div>
+        <!---------------------------------- /NAVIGATION ------------------------------------------------------------>
+
+        <hr>
+
+        <!----------------------------- LINKS --------------------------------------------------------------->
+        <div class="justify-content-center py-2" style="font-size: 25px;">
+            <a href="LINK_HERE" target="_blank"><i class="fab fa-deviantart tooltipster mr-3 text-muted" title="DeviantArt" data-placement="top"></i></a>
+            <a href="LINK_HERE" target="_blank"><i class="fab fa-instagram tooltipster text-muted mr-3" title="Instagram" data-placement="top"></i></a>
+            <a href="LINK_HERE" target="_blank"><i class="fab fa-twitter tooltipster text-muted mr-3" title="Twitter" data-placement="top"></i></a>
+            <a href="LINK_HERE" target="_blank"><i class="fab fa-tumblr tooltipster mr-3 text-muted" title="Tumblr" data-placement="top"></i></a>
+            <a href=""><i class="fab fa-discord tooltipster text-muted mr-3" title="user#XXXX" data-placement="top"></i></a>
+            <span class="text-muted">|</span>
+            <a href="LINK_HERE" target="_blank"><i class="fas fa-image text-muted tooltipster ml-3 mr-3" title="background by _____________" data-placement="top"></i></a>
+            <a href="https://toyhou.se/acodingperson" target="_blank"><i class="fas fa-blanket text-muted tooltipster" title="code by ACP" data-placement="top"></i></a>
+        </div>
+        <!---------------------------- /LINKS --------------------------------------------------------------->
+        
+
+    </div>
+
+</div>
+<!---------------------------- END RIGHT COLUMN ------------------------------------------>
+
+<!---------------------------- LEFT COLUMN ------------------------------------------>
+<div class="col-md-4 m-auto text-center">
+    <!-- SHOWS UP ONLY ON PC -------- IT CAN BE ANY SIZE | TRANSPARENT BACKGROUND RECOMMENDED ------------------------->
+    <img src="https://via.placeholder.com/420" style="z-index: 99; max-width: 420px;" class="hidden-sm-down tooltipster" data-placement="bottom;" title="art by _______">
+    <!-- SHOWS UP ONLY ON MOBILE ------- IT CAN BE ANY SIZE | TRANSPARENT BACKGROUND RECOMMENDED ---------------------->
+    <img src="https://via.placeholder.com/420" style="z-index: 99; max-width: 320px;" class="hidden-md-up tooltipster mt-5" data-placement="bottom;" title="art by _________">
+</div>
+<!--------------------------- /LEFT COLUMN ------------------------------------------>
+
+</div>
+
+</div>
+<!-- END CONTAINER ----------------------------->
+</div>
