@@ -1,0 +1,1679 @@
+<!-- 
+
+
+    Shawty | Version 1 [Bootstrap]
+ 
+        HANDY WEBSITES:
+            > Font Awesome (for icons): https://fontawesome.com/v5.15/icons/reddit?style=brands
+            > W3 Schools Bootstrap: https://www.w3schools.com/bootstrap/
+            > W3 Schools HTML: https://www.w3schools.com/html/default.asp
+            > Bootstrap Docs: https://getbootstrap.com/docs/5.1/getting-started/introduction/
+ 
+    THANKS FOR USING <3
+    
+        THINGS TO NOTE:
+            icon used for borders: fas fa-pie
+
+
+-->
+
+
+
+
+
+<!------------------ CONTAINER -------------------->
+<div class="container-fluid my-5" style="max-width: 1200px;">
+
+    <!----------- HEADER HERE ---------------->
+    <div class="display-3 text-muted px-2">
+        <!-- NAME --> <span class="pull-left pb-1" style="font-variant: small-caps; z-index: 5;"> <!-- ADD NAME HERE --> Name.  Surname.</span> 
+    </div>
+        <hr class="mt-0">
+    <!---------- /HEADER  HERE ---------------->
+
+
+    <!-------------------------- CONTENT BLOCK ------------------------------------->
+    <div class="card p-3 rounded-0" style="border-top: 0; border-bottom: 0;">
+        <div class="row no-gutters">
+
+            <!-------------- RIGHT COLUMN ------------------->
+            <div class="col-md-4 pl-md-2 order-md-2">
+                <!-------- IMAGE HERE ---------------------->
+                <div style="background: url(https://via.placeholder.com/374x548) cover center; height: 548px;">
+                    <!-- adjectives & collapse btn --------->
+                        <a data-toggle="collapse" class="btn btn-block px-2 py-1 text-white text-center" style="background-color: rgba(0, 0, 0, 0.5); font-size: 13px; font-weight: 100; cursor: pointer;" href="#info" aria-expanded="false">
+                            <span class="pull-left"><i class="fad fa-arrow-circle-down"></i></span>
+                            <!-- ADD HERE --> adj • adj • adj
+                            <span class="pull-right"><i class="fad fa-arrow-circle-down"></i></span>
+                        </a>
+                    <!-- /adjectives & collapse btn ------------>
+                    <!-- collapse content --------------------->
+                        <div class="collapse" id="info">
+                            <div class="card rounded-0 border-0 d-block m-3 p-2 pr-3 text-white" style="background-color: rgba(0, 0, 0, 0.5); font-size: 12px;">
+                            <!-- META INFORMATION -->
+                                <div class="col-12 p-1 px-2 mb-1" style="background-color: rgba(0, 0, 0, 0.3); border-radius: 1em;"><i class="fas fa-user-edit mr-1"></i>
+                                    Creator 
+                                    <span class="pull-right"><a href="LINK_HERE" target="_blank" class="text-white">Content</a></span>
+                                </div>
+
+                                <div class="col-12 p-1 px-2 mb-1" style="background-color: rgba(0, 0, 0, 0.3); border-radius: 1em;"><i class="fas fa-pencil-paintbrush mr-1"></i>
+                                    Designer 
+                                    <span class="pull-right"><a href="LINK_HERE" target="_blank" class="text-white">Content</a></span>
+                                </div>
+
+                                <div class="col-12 p-1 px-2 mb-1" style="background-color: rgba(0, 0, 0, 0.3); border-radius: 1em;"><i class="fas fa-calendar mr-1"></i>
+                                    Obtained 
+                                    <span class="pull-right">XX/XX/XX | <a href="LINK_HERE" target="_blank" class="text-white">Via</a></span>
+                                </div>
+
+                                <div class="col-12 p-1 px-2 mb-1" style="background-color: rgba(0, 0, 0, 0.3); border-radius: 1em;"><i class="fas fa-dollar-sign mr-1"></i>
+                                    Worth
+                                    <span class="pull-right"><a href="LINK_HERE (PROOF)" target="_blank" class="text-white">Value</a></span>
+                                </div>
+                                <!-- /META INFORMATION -->
+                                <hr class="bg-light">
+
+                                <!-- WRITTEN CONTENT -->
+                                <div class="px-2 text-center" style="font-size: 11px;">
+                                    This does not scroll.  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus quos blanditiis distinctio vitae corrupti molestias exercitationem sint similique doloremque. Hic commodi distinctio saepe, sit odit dolorem numquam veritatis totam ullam.
+                                </div>
+
+                            </div>
+                        </div>
+                    <!-- /collapse content --------------->
+
+                    <!-- CREDIT ---------------------->
+                    <div style="position: absolute; bottom: 5px; right: 5px;">
+                        <!-- IMAGE --> <a href="LINK_HERE" target="_blank" class="text-white pr-2"><i class="fas fa-camera-retro tooltipster" title="art by __________" data-placement="left"></i></a>
+                        <!-- CODE | DO NOT REMOVE --> <a href="https://toyhou.se/acodingperson" target="_blank" class="text-white"><i class="fas fa-blanket tooltipster" title="code by ACP" data-placement="left"></i></a>
+                    </div>
+                    <!-- CREDIT --------------------->
+
+                </div>
+            </div>
+            <!------------- /RIGHT COLUMN ------------------->
+
+
+
+            <!-------------- LEFT COLUMN ------------------>
+            <div class="col-md-8 pr-md-2">
+                <!-- CALLED (WHAT YOUR CHARACTER IS CALLED) --> <div class="display-4 text-center px-2 py-1 bg-faded mb-3">C A L L E D</div> <!-- /CALLED -->
+                
+                <!-- DIVIDER WITH ICONS --> 
+                <div class="d-flex" style="flex-direction: row; align-items: center; font-weight: 100; border: 0; flex-grow: 0;">
+                    <!-- icon 1 --> <i class="fas fa-pie text-muted" style="vertical-align: middle;"></i>
+                        <hr style="flex-grow: 1; margin-left: 10px; margin-right: 10px; height:1px; vertical-align: middle;">
+                    <!-- icon 2 --> <i class="fas fa-pie text-muted" style="vertical-align: middle;"></i>
+                </div>
+                <!-- /DIVIDER WITH ICONS -->
+
+                <!-------------- TAB CONTENT ----------------------->
+                <div class="tab-content">
+
+                    <!------------------- ABOUT BLOCK ---------------------------->
+                    <div class="tab-pane fade show active" id="about">
+                        <div class="py-2 px-2" style="max-height: 380px; overflow-y: auto;">
+
+                        <!-- LISTED CONTENT ------------->
+                        <div class="mb-2" style="font-size: 13px; font-weight: 200;">
+
+                            <!-- FIRST GROUP ------->
+                            <div class="row no-gutters">
+
+                                <!-- first column -->
+                                <div class="col-md-6 px-md-2">
+                                    <!-- FULL NAME -->
+                                    <div class="col-12">
+                                        <span class="pull-left"><b>Full Name</b></span>
+                                        <span class="pull-right">Content</span>
+                                    </div><br>
+                                    <!-- AGE -->
+                                    <div class="col-12">
+                                        <span class="pull-left"><b>Age</b></span>
+                                        <span class="pull-right">Content</span>
+                                    </div><br>
+                                    <!-- SPECIES -->
+                                    <div class="col-12">
+                                        <span class="pull-left"><b>Species</b></span>
+                                        <span class="pull-right">Content</span>
+                                    </div><br>
+                                    <!-- GENDER -->
+                                    <div class="col-12">
+                                        <span class="pull-left"><b>Gender</b></span>
+                                        <span class="pull-right">Content</span>
+                                    </div><br>
+                                </div>
+                                <!-- second column -->
+                                <div class="col-md-6 px-md-2">
+                                    <!-- BIRTH NAME -->
+                                    <div class="col-12">
+                                        <span class="pull-left"><b>Birth Name</b></span>
+                                        <span class="pull-right">Content</span>
+                                    </div><br>
+                                    <!-- DATE OF BIRTH -->
+                                    <div class="col-12">
+                                        <span class="pull-left"><b>D.o.B.</b></span>
+                                        <span class="pull-right">XX/XX/XXXX</span>
+                                    </div><br>
+                                    <!-- ETHNICITY -->
+                                    <div class="col-12">
+                                        <span class="pull-left"><b>Ethnicity</b></span>
+                                        <span class="pull-right">Content</span>
+                                    </div><br>
+                                    <!-- SEXUALITY -->
+                                    <div class="col-12">
+                                        <span class="pull-left"><b>Sexuality</b></span>
+                                        <span class="pull-right">Content</span>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!-- /FIRST GROUP ------>
+                            <div class="px-5"><hr></div>
+                            <!-- SECOND GROUP ------>
+                            <div class="row no-gutters">
+
+                                <!-- first column -->
+                                <div class="col-md-6 px-md-2">
+                                    <!-- RELATIONSHIP -->
+                                    <div class="col-12">
+                                        <span class="pull-left"><b>Relationship</b></span>
+                                        <span class="pull-right">Content</span>
+                                    </div><br>
+                                    <!-- RELIGION -->
+                                    <div class="col-12">
+                                        <span class="pull-left"><b>Religion</b></span>
+                                        <span class="pull-right">Content</span>
+                                    </div><br>
+                                    <!-- ARCHETYPE -->
+                                    <div class="col-12">
+                                        <span class="pull-left"><b>Archetype</b></span>
+                                        <span class="pull-right">Content</span>
+                                    </div><br>
+                                    <!-- MBTI -->
+                                    <div class="col-12">
+                                        <span class="pull-left"><b>MBTI</b></span>
+                                        <span class="pull-right">Content</span>
+                                    </div><br>
+                                </div>
+                                <!-- second column -->
+                                <div class="col-md-6 px-md-2">
+                                    <!-- STATUS -->
+                                    <div class="col-12">
+                                        <span class="pull-left"><b>Status</b></span>
+                                        <span class="pull-right">Content</span>
+                                    </div><br>
+                                    <!-- RESIDENCE -->
+                                    <div class="col-12">
+                                        <span class="pull-left"><b>Residence</b></span>
+                                        <span class="pull-right">Content</span>
+                                    </div><br>
+                                    <!-- ALIGNMENT -->
+                                    <div class="col-12">
+                                        <span class="pull-left"><b>Alignment</b></span>
+                                        <span class="pull-right">Content</span>
+                                    </div><br>
+                                    <!-- ROLE -->
+                                    <div class="col-12">
+                                        <span class="pull-left"><b>Role</b></span>
+                                        <span class="pull-right">Content</span>
+                                    </div><br>
+                                </div>
+
+                            </div>
+                            <!-- /SECOND GROUP ----->
+                            <div class="px-5"><hr></div>
+                            <!-- THIRD GROUP ------->
+                            <div class="row no-gutters">
+
+                                <!-- first column -->
+                                <div class="col-md-6 px-md-2">
+                                    <!-- NICKNAMES -->
+                                    <div class="col-12">
+                                        <span class="pull-left"><b>Nicknames</b></span>
+                                        <span class="pull-right">Content</span><br>
+                                        <span class="pull-right">Content</span><br>
+                                        <span class="pull-right">Content</span><br>
+                                        <!-- add more above this line -->
+                                    </div>
+                                </div>
+                                <!-- second column -->
+                                <div class="col-md-6 px-md-2">
+                                    <!-- ALIASES  -->
+                                    <div class="col-12">
+                                        <span class="pull-left"><b>Aliases</b></span>
+                                        <span class="pull-right">Content</span><br>
+                                        <span class="pull-right">Content</span><br>
+                                        <span class="pull-right">Content</span><br>
+                                        <!-- add more above this line -->
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!-- /THIRD GROUP ------>
+
+                            <div class="px-4"><hr></div>
+
+                        </div>
+                        <!-- /LISTED CONTENT -------------->
+
+                        <!-- WRITTEN CONTENT -------------->
+                        <div class="card border-0 rounded-0 px-3 text-justify mt-3" style="font-weight: 300; font-size: 13.5px;">
+                            <p>This box scrolls.  Try to keep things short; this is just an intro and you'll be able to add more later on.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus modi suscipit molestias iure tenetur alias ab adipisci porro sed nulla fuga doloremque, voluptates maiores accusamus, consectetur quos eaque numquam aliquid.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut, vero aspernatur. Perspiciatis repellendus laboriosam alias recusandae ipsum reprehenderit aliquam deleniti facere, nam mollitia asperiores minus dolorum. Dicta illum voluptate cupiditate!</p>
+                        </div>
+                        <!-- /WRITTEN CONTENT ------------->
+
+                        </div>
+
+                        <!-- DIVIDER WITH ICONS | ABOUT --> 
+                        <div class="d-flex" style="flex-direction: row; align-items: center; font-weight: 100; border: 0; flex-grow: 0;">
+                            <!-- icon 1 --> <i class="fas fa-pie text-muted" style="vertical-align: middle;"></i>
+                                <hr style="flex-grow: 1; margin-left: 10px; margin-right: 10px; height:1px; vertical-align: middle;">
+                                    <div style="letter-spacing: 5px;">ABOUT</div>
+                                <hr style="flex-grow: 1; margin-left: 10px; margin-right: 10px; height:1px; vertical-align: middle;">
+                            <!-- icon 2 --> <i class="fas fa-pie text-muted" style="vertical-align: middle;"></i>
+                        </div>
+                        <!-- /DIVIDER WITH ICONS -->
+
+                    </div>
+                    <!------------------ /ABOUT BLOCK ----------------------->
+
+
+                    <!------------------- APPEARANCE BLOCK ------------------>
+                    <div class="tab-pane fade" id="appearance">
+                        <div class="py-2 px-2" style="max-height: 380px; overflow-y: auto;">
+
+                        <!-- LISTED CONTENT ------------->
+                        <div class="mb-2" style="font-size: 13px; font-weight: 200;">
+
+                            <!-- FIRST GROUP ------->
+                            <div class="row no-gutters">
+
+                                <!-- first column -->
+                                <div class="col-md-6 px-md-2">
+                                    <!-- HEIGHT -->
+                                    <div class="col-12">
+                                        <span class="pull-left"><b>Height</b></span>
+                                        <span class="pull-right">Content</span>
+                                    </div><br>
+                                    <!-- BODY TYPE -->
+                                    <div class="col-12">
+                                        <span class="pull-left"><b>Body Type</b></span>
+                                        <span class="pull-right">Content</span>
+                                    </div><br>
+                                    <!-- BLOOD TYPE -->
+                                    <div class="col-12">
+                                        <span class="pull-left"><b>Blood Type</b></span>
+                                        <span class="pull-right">Content</span>
+                                    </div><br>
+                                    <!-- RACE -->
+                                    <div class="col-12">
+                                        <span class="pull-left"><b>Race</b></span>
+                                        <span class="pull-right">Content</span>
+                                    </div><br>
+                                </div>
+                                <!-- second column -->
+                                <div class="col-md-6 px-md-2">
+                                    <!-- WEIGHT -->
+                                    <div class="col-12">
+                                        <span class="pull-left"><b>Weight</b></span>
+                                        <span class="pull-right">Content</span>
+                                    </div><br>
+                                    <!-- BODY SHAPE -->
+                                    <div class="col-12">
+                                        <span class="pull-left"><b>Body Shape</b></span>
+                                        <span class="pull-right">Content</span>
+                                    </div><br>
+                                    <!-- BLOOD RHESUS -->
+                                    <div class="col-12">
+                                        <span class="pull-left"><b>Blood Rhesus</b></span>
+                                        <span class="pull-right">Content</span>
+                                    </div><br>
+                                    <!-- SEX -->
+                                    <div class="col-12">
+                                        <span class="pull-left"><b>Sex</b></span>
+                                        <span class="pull-right">Content</span>
+                                    </div><br>
+                                </div>
+
+                            </div>
+                            <!-- /FIRST GROUP ------>
+                            <div class="px-5"><hr></div>
+                            <!-- SECOND GROUP ------->
+                            <div class="row no-gutters">
+
+                                <!-- first column -->
+                                <div class="col-md-6 px-md-2 pb-2 pb-md-0">
+                                    <!-- VOICE -->
+                                    <div class="col-12">
+                                        <span class="pull-left"><b>Voice</b></span>
+                                        <span class="pull-right"><a href="LINK_HERE" target="_blank">Claim</a></span><br>
+                                            <span class="pull-right pl-3 text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate sit ex possimus, quidem voluptates dolorem, eos perferendis ea temporibus, ratione cupiditate inventore cum quaerat unde sapiente aliquam quisquam quo autem.</span>
+                                    </div>
+                                </div>
+                                <!-- second column -->
+                                <div class="col-md-6 px-md-2">
+                                    <!-- HANDWRITING -->
+                                    <div class="col-12">
+                                        <span class="pull-left"><b>Handwriting</b></span>
+                                        <span class="pull-right">Handedness</span><br>
+                                            <span class="pull-right pl-3 text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate sit ex possimus, quidem voluptates dolorem, eos perferendis ea temporibus, ratione cupiditate inventore cum quaerat unde sapiente aliquam quisquam quo autem.</span>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!-- /SECOND GROUP ------>
+
+                            <div class="px-4"><hr></div>
+
+                        </div>
+                        <!-- /LISTED CONTENT -------------->
+
+                        <!-- WRITTEN CONTENT ----------------------------->
+                        <div class="card border-0 rounded-0 px-3 text-justify mt-3" style="font-weight: 300; font-size: 13.5px; max-height: 300px; overflow-y: auto;">
+                            <!-- write here -->
+                            <p>This box scrolls.  This is where you'll add information about how your character looks.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus modi suscipit molestias iure tenetur alias ab adipisci porro sed nulla fuga doloremque, voluptates maiores accusamus, consectetur quos eaque numquam aliquid.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut, vero aspernatur. Perspiciatis repellendus laboriosam alias recusandae ipsum reprehenderit aliquam deleniti facere, nam mollitia asperiores minus dolorum. Dicta illum voluptate cupiditate!</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, reprehenderit hic cum modi magni perspiciatis obcaecati, ut ratione vitae enim illum possimus est, similique soluta praesentium qui excepturi? Aliquam, officiis.  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, quos ea dolores fuga itaque perspiciatis repellendus odio magnam! Quasi natus dolorem saepe deserunt similique dignissimos itaque, veniam soluta maiores culpa?</p>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam dolorum est fugit illo, iste sequi eum at deleniti aliquid pariatur perferendis eveniet quo accusamus laborum tempore sit voluptas, incidunt consequatur.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium ullam, culpa consequuntur temporibus molestiae dolores, vel error voluptas maiores ad neque quidem perspiciatis incidunt quisquam doloribus esse excepturi officiis labore.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, maxime nihil? Pariatur temporibus numquam cupiditate eveniet earum dignissimos, architecto beatae obcaecati consectetur dolorem quae explicabo possimus ut facilis esse exercitationem.</p>
+                        </div>
+                        <!-- /WRITTEN CONTENT ---------------------------->
+
+                        <div class="px-4"><hr></div>
+
+                        <!-- ATTIRE ----------------------------->
+                        <div class="px-3 mb-4 text-justify" style="font-weight: 200;">
+                            <div style="font-size: 18px; font-variant: small-caps;">Attire <span class="pull-right"><i class="fas fa-tshirt"></i></span></div>
+                            <div class="px-3" style="max-height: 175px; overflow-y: auto; font-size: 13px;">
+                                <!-- write here -->
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic dolor, corrupti omnis maiores laborum voluptates nostrum voluptatibus nisi delectus dolores repellendus ipsam neque earum repellat, rem quam reprehenderit tempora. Nihil.</p>
+                                <p>This box scrolls.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex explicabo natus in aspernatur commodi, culpa at. Adipisci quisquam minus molestias cumque explicabo, dignissimos libero reprehenderit et deserunt mollitia quaerat facilis?</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto perferendis, eveniet odio tempore aperiam aut consectetur sunt quasi nobis, vero hic saepe, doloremque doloribus facere accusamus laborum quos sit sed.</p>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium dicta nemo, beatae facere nisi omnis molestias quod, delectus aliquid fugiat modi ullam culpa cupiditate sint tenetur, reprehenderit rerum exercitationem totam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus, culpa illum placeat voluptas suscipit quos esse explicabo incidunt reiciendis, deleniti libero impedit, aperiam officiis id quis corporis temporibus. Iste, repellat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex sapiente consequatur, corporis, velit expedita est iste mollitia animi quidem odit dolore temporibus eveniet adipisci excepturi soluta quaerat nesciunt ut? Fugit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti officia enim reiciendis asperiores fugit repellendus aliquid eos unde nihil odio modi laborum, beatae soluta vero aspernatur ratione, veritatis dolores suscipit!</p>
+                            </div>
+                        </div>
+                        <!-- /ATTIRE ---------------------------->
+
+                        <!-- ACCESSORIES ----------------------------->
+                        <div class="px-3 mb-4 text-justify" style="font-weight: 200;">
+                            <div style="font-size: 18px; font-variant: small-caps;">Accessories <span class="pull-right"><i class="fas fa-scarf"></i></span></div>
+                            <div class="px-3" style="max-height: 175px; overflow-y: auto; font-size: 13px;">
+                                <!-- write here -->
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic dolor, corrupti omnis maiores laborum voluptates nostrum voluptatibus nisi delectus dolores repellendus ipsam neque earum repellat, rem quam reprehenderit tempora. Nihil.</p>
+                                <p>This box scrolls.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex explicabo natus in aspernatur commodi, culpa at. Adipisci quisquam minus molestias cumque explicabo, dignissimos libero reprehenderit et deserunt mollitia quaerat facilis?</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto perferendis, eveniet odio tempore aperiam aut consectetur sunt quasi nobis, vero hic saepe, doloremque doloribus facere accusamus laborum quos sit sed.</p>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium dicta nemo, beatae facere nisi omnis molestias quod, delectus aliquid fugiat modi ullam culpa cupiditate sint tenetur, reprehenderit rerum exercitationem totam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus, culpa illum placeat voluptas suscipit quos esse explicabo incidunt reiciendis, deleniti libero impedit, aperiam officiis id quis corporis temporibus. Iste, repellat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex sapiente consequatur, corporis, velit expedita est iste mollitia animi quidem odit dolore temporibus eveniet adipisci excepturi soluta quaerat nesciunt ut? Fugit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti officia enim reiciendis asperiores fugit repellendus aliquid eos unde nihil odio modi laborum, beatae soluta vero aspernatur ratione, veritatis dolores suscipit!</p>
+                            </div>
+                        </div>
+                        <!-- /ACCESSORIES ---------------------------->
+
+                        <!-- BODY MODIFICATIONS ---------------------->
+                        <div class="px-3 mb-4 text-justify" style="font-weight: 200;">
+                            <div style="font-size: 18px; font-variant: small-caps;">Body Modifications <span class="pull-right"><i class="fas fa-claw-marks"></i></span></div>
+                            <div class="px-3" style="max-height: 175px; overflow-y: auto; font-size: 13px;">
+                                <!-- write here -->
+                                <p>Scars, tattoos, piercings, etc.  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic dolor, corrupti omnis maiores laborum voluptates nostrum voluptatibus nisi delectus dolores repellendus ipsam neque earum repellat, rem quam reprehenderit tempora. Nihil.</p>
+                                <p>This box scrolls.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex explicabo natus in aspernatur commodi, culpa at. Adipisci quisquam minus molestias cumque explicabo, dignissimos libero reprehenderit et deserunt mollitia quaerat facilis?</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto perferendis, eveniet odio tempore aperiam aut consectetur sunt quasi nobis, vero hic saepe, doloremque doloribus facere accusamus laborum quos sit sed.</p>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium dicta nemo, beatae facere nisi omnis molestias quod, delectus aliquid fugiat modi ullam culpa cupiditate sint tenetur, reprehenderit rerum exercitationem totam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus, culpa illum placeat voluptas suscipit quos esse explicabo incidunt reiciendis, deleniti libero impedit, aperiam officiis id quis corporis temporibus. Iste, repellat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex sapiente consequatur, corporis, velit expedita est iste mollitia animi quidem odit dolore temporibus eveniet adipisci excepturi soluta quaerat nesciunt ut? Fugit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti officia enim reiciendis asperiores fugit repellendus aliquid eos unde nihil odio modi laborum, beatae soluta vero aspernatur ratione, veritatis dolores suscipit!</p>
+                            </div>
+                        </div>
+                        <!-- /BODY MODIFICATIONS -------------------->
+
+                        <div class="px-4"><hr></div>
+
+                        <!-- DESIGN NOTES -------------------------------->
+                        <div class="px-3 mb-4 text-justify" style="font-weight: 200;">
+                            <div style="font-size: 18px; font-variant: small-caps;">    Design Notes
+                                <!-- REF SHEET LINK --> <a class="text-white" href="LINK_HERE" target="_blank"><span class="pull-right"><i class="fas fa-palette tooltipster" title="Complete Reference Sheet" data-placement="left"></i></span></a>   </div>
+                            <div class="pl-1 pr-3" style="max-height: 185px; overflow-y: auto; font-size: 13.5px;">
+                                <!-- write here -->
+                                <ul>
+                                    <li>Content.</li>
+                                    <li>Content.</li>
+                                    <li>Content.</li>
+                                </ul>
+                        </div>
+                            <!-- PALETTE -- ADJUST BACKGROUND COLOR -->
+                            <div class="row no-gutters modal-open" style="height: 25px; border-radius: 3em;">
+                                <div class="col tooltipster" title="Skin" data-placement="bottom" style="background-color: #a18484"></div>
+                                <div class="col tooltipster" title="Hair" data-placement="bottom" style="background-color: #dfd3c8"></div>
+                                <div class="col tooltipster" title="Eyes" data-placement="bottom" style="background-color: #abc7e0"></div>
+                                <div class="col tooltipster" title="Attire Base" data-placement="bottom" style="background-color: #8491a1"></div>
+                                <!-- add more above this line -->
+                            </div>
+                            <!-- /PALETTE -->
+                        </div>
+                        <!-- /DESIGN NOTES ------------------------------->
+
+                        </div>
+
+                        <!-- DIVIDER WITH ICONS | APPEARANCE --> 
+                        <div class="d-flex" style="flex-direction: row; align-items: center; font-weight: 100; border: 0; flex-grow: 0;">
+                            <!-- icon 1 --> <i class="fas fa-pie text-muted" style="vertical-align: middle;"></i>
+                                <hr style="flex-grow: 1; margin-left: 10px; margin-right: 10px; height:1px; vertical-align: middle;">
+                                    <div style="letter-spacing: 5px;">APPEARANCE</div>
+                                <hr style="flex-grow: 1; margin-left: 10px; margin-right: 10px; height:1px; vertical-align: middle;">
+                            <!-- icon 2 --> <i class="fas fa-pie text-muted" style="vertical-align: middle;"></i>
+                        </div>
+                        <!-- /DIVIDER WITH ICONS -->
+
+                    </div>
+                    <!------------------- /APPEARANCE BLOCK ---------------------->
+
+
+                    <!------------------- PERSONALITY BLOCK ---------------------->
+                    <div class="tab-pane fade" id="personality">
+                        <div class="py-2 px-2" style="max-height: 380px; overflow-y: auto;">
+
+                        <!-- LISTED CONTENT ------------->
+                        <div class="mb-2" style="font-size: 13px; font-weight: 200;">
+
+                            <!-- FIRST GROUP ------->
+                            <div class="row no-gutters">
+
+                                <!-- first column -->
+                                <div class="col-md-4 px-md-2 pb-md-0 pb-2">
+                                    <!-- POSITIVE TRAITS -->
+                                    <div class="col-12">
+                                        <span class="pull-left"><b>Positive Traits</b></span>
+                                    </div><br>
+                                        <div class="pl-3">
+                                            <span class="badge bg-success">trait</span>
+                                            <span class="badge bg-success">trait</span>
+                                            <span class="badge bg-success">trait</span>
+                                            <span class="badge bg-success">trait</span>
+                                            <span class="badge bg-success">trait</span>
+                                            <!-- add more above this line -->
+                                        </div>
+                                </div>
+                                <!-- second column -->
+                                <div class="col-md-4 px-md-2 pb-md-0 pb-2">
+                                    <!-- NEUTRAL TRAITS -->
+                                    <div class="col-12">
+                                        <span class="pull-left"><b>Neutral Traits</b></span>
+                                    </div><br>
+                                        <div class="pl-3">
+                                            <span class="badge bg-warning">trait</span>
+                                            <span class="badge bg-warning">trait</span>
+                                            <span class="badge bg-warning">trait</span>
+                                            <span class="badge bg-warning">trait</span>
+                                            <span class="badge bg-warning">trait</span>
+                                            <!-- add more above this line -->
+                                        </div>
+                                </div>
+                                <!-- third column -->
+                                <div class="col-md-4 px-md-2">
+                                    <!-- NEGATIVE TRAITS -->
+                                    <div class="col-12">
+                                        <span class="pull-left"><b>Negative Traits</b></span>
+                                    </div><br>
+                                        <div class="pl-3">
+                                            <span class="badge bg-danger">trait</span>
+                                            <span class="badge bg-danger">trait</span>
+                                            <span class="badge bg-danger">trait</span>
+                                            <span class="badge bg-danger">trait</span>
+                                            <span class="badge bg-danger">trait</span>
+                                            <!-- add more above this line -->
+                                        </div>
+                                </div>
+
+                            </div>
+                            <!-- /FIRST GROUP ------>
+                            <div class="px-5"><hr></div>
+                            <!-- SECOND GROUP ------->
+                                <!-- FIRST SET -->
+                                <div class="row no-gutters">
+                                    <!-- first column -->
+                                    <div class="col-md-6 px-md-2 pb-2">
+                                        <!-- GOALS -->
+                                        <div class="col-12">
+                                            <span class="pull-left"><b>Goals</b></span>
+                                            <br>
+                                                <span class="pull-right pl-3 text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate sit ex possimus, quidem voluptates dolorem, eos perferendis ea temporibus, ratione cupiditate inventore cum quaerat unde sapiente aliquam quisquam quo autem.</span>
+                                        </div>
+                                    </div>
+                                    <!-- second column -->
+                                    <div class="col-md-6 px-md-2 pb-2">
+                                        <!-- DREAMS -->
+                                        <div class="col-12">
+                                            <span class="pull-left"><b>Dreams</b></span>
+                                            <br>
+                                                <span class="pull-right pl-3 text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate sit ex possimus, quidem voluptates dolorem, eos perferendis ea temporibus, ratione cupiditate inventore cum quaerat unde sapiente aliquam quisquam quo autem.</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <!-- SECOND SET -->
+                                <div class="row no-gutters">
+                                    <!-- first column -->
+                                    <div class="col-md-6 px-md-2 pb-2">
+                                        <!-- SECRETS -->
+                                        <div class="col-12">
+                                            <span class="pull-left"><b>Secrets</b></span>
+                                            <br>
+                                                <span class="pull-right pl-3 text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate sit ex possimus, quidem voluptates dolorem, eos perferendis ea temporibus, ratione cupiditate inventore cum quaerat unde sapiente aliquam quisquam quo autem.</span>
+                                        </div>
+                                    </div>
+                                    <!-- second column -->
+                                    <div class="col-md-6 px-md-2">
+                                        <!-- FEARS -->
+                                        <div class="col-12">
+                                            <span class="pull-left"><b>Fears</b></span>
+                                            <br>
+                                                <span class="pull-right pl-3 text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate sit ex possimus, quidem voluptates dolorem, eos perferendis ea temporibus, ratione cupiditate inventore cum quaerat unde sapiente aliquam quisquam quo autem.</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            <!-- /SECOND GROUP ------>
+
+                            <div class="px-4"><hr></div>
+
+                        </div>
+                        <!-- /LISTED CONTENT -------------->
+
+                        <!-- WRITTEN BLOCK ----------------------------->
+                        <div class="card border-0 rounded-0 px-3 text-justify mt-3" style="font-weight: 300; font-size: 13.5px; max-height: 300px; overflow-y: auto;">
+                            <!-- write here -->
+                            <p>This box scrolls.  This is where you'll add information about how your character behaves/acts/whatever.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus modi suscipit molestias iure tenetur alias ab adipisci porro sed nulla fuga doloremque, voluptates maiores accusamus, consectetur quos eaque numquam aliquid.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut, vero aspernatur. Perspiciatis repellendus laboriosam alias recusandae ipsum reprehenderit aliquam deleniti facere, nam mollitia asperiores minus dolorum. Dicta illum voluptate cupiditate!</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, reprehenderit hic cum modi magni perspiciatis obcaecati, ut ratione vitae enim illum possimus est, similique soluta praesentium qui excepturi? Aliquam, officiis.  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, quos ea dolores fuga itaque perspiciatis repellendus odio magnam! Quasi natus dolorem saepe deserunt similique dignissimos itaque, veniam soluta maiores culpa?</p>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam dolorum est fugit illo, iste sequi eum at deleniti aliquid pariatur perferendis eveniet quo accusamus laborum tempore sit voluptas, incidunt consequatur.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium ullam, culpa consequuntur temporibus molestiae dolores, vel error voluptas maiores ad neque quidem perspiciatis incidunt quisquam doloribus esse excepturi officiis labore.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, maxime nihil? Pariatur temporibus numquam cupiditate eveniet earum dignissimos, architecto beatae obcaecati consectetur dolorem quae explicabo possimus ut facilis esse exercitationem.</p>
+                        </div>
+                        <!-- /WRITTEN BLOCK ---------------------------->
+
+                            <div class="px-4"><hr></div>
+
+                        <div class="row no-gutters">
+                            <!-- LOVES ---------------------------->
+                            <div class="col-md-6">
+                                <div class="px-3 mb-4 text-justify" style="font-weight: 200;">
+                                    <div style="font-size: 17px; font-variant: small-caps;">Loves <span class="pull-right"><i class="fas fa-heart"></i></span></div>
+                                    <ul class="pl-4 pr-3" style="max-height: 150px; overflow-y: auto; font-size: 12.5px;">
+                                        <!-- write here -->
+                                        <li>Content.</li>
+                                        <li>Content.</li>
+                                        <li>Content.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- /LOVES --------------------------->
+                            <!-- LIKES ---------------------------->
+                            <div class="col-md-6">
+                                <div class="px-3 mb-4 text-justify" style="font-weight: 200;">
+                                    <div style="font-size: 17px; font-variant: small-caps;">Likes <span class="pull-right"><i class="fas fa-check"></i></span></div>
+                                    <ul class="pl-4 pr-3" style="max-height: 150px; overflow-y: auto; font-size: 12.5px;">
+                                        <!-- write here -->
+                                        <li>Content.</li>
+                                        <li>Content.</li>
+                                        <li>Content.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- /LIKES --------------------------->
+                        </div>
+                        <div class="row no-gutters">
+                            <!-- DISLIKES ------------------------->
+                            <div class="col-md-6">
+                                <div class="px-3 mb-4 text-justify" style="font-weight: 200;">
+                                    <div style="font-size: 17px; font-variant: small-caps;">Dislikes <span class="pull-right"><i class="fas fa-times"></i></span></div>
+                                    <ul class="pl-4 pr-3" style="max-height: 150px; overflow-y: auto; font-size: 12.5px;">
+                                        <!-- write here -->
+                                        <li>Content.</li>
+                                        <li>Content.</li>
+                                        <li>Content.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- /DISLIKES ------------------------>
+                            <!-- HATES ---------------------------->
+                            <div class="col-md-6">
+                                <div class="px-3 mb-4 text-justify" style="font-weight: 200;">
+                                    <div style="font-size: 17px; font-variant: small-caps;">Hates <span class="pull-right"><i class="fas fa-heart-broken"></i></span></div>
+                                    <ul class="pl-4 pr-3" style="max-height: 150px; overflow-y: auto; font-size: 12.5px;">
+                                        <!-- write here -->
+                                        <li>Content.</li>
+                                        <li>Content.</li>
+                                        <li>Content.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- /HATES --------------------------->
+                        </div>
+
+                        <!-- DEMEANOR ----------------------------->
+                        <div class="px-3 mb-4 text-justify" style="font-weight: 200;">
+                            <div style="font-size: 18px; font-variant: small-caps;">Demeanor <span class="pull-right"><i class="fas fa-street-view"></i></span></div>
+                            <div class="px-3" style="max-height: 175px; overflow-y: auto; font-size: 13px;">
+                                <!-- write here -->
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic dolor, corrupti omnis maiores laborum voluptates nostrum voluptatibus nisi delectus dolores repellendus ipsam neque earum repellat, rem quam reprehenderit tempora. Nihil.</p>
+                                <p>This box scrolls.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex explicabo natus in aspernatur commodi, culpa at. Adipisci quisquam minus molestias cumque explicabo, dignissimos libero reprehenderit et deserunt mollitia quaerat facilis?</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto perferendis, eveniet odio tempore aperiam aut consectetur sunt quasi nobis, vero hic saepe, doloremque doloribus facere accusamus laborum quos sit sed.</p>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium dicta nemo, beatae facere nisi omnis molestias quod, delectus aliquid fugiat modi ullam culpa cupiditate sint tenetur, reprehenderit rerum exercitationem totam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus, culpa illum placeat voluptas suscipit quos esse explicabo incidunt reiciendis, deleniti libero impedit, aperiam officiis id quis corporis temporibus. Iste, repellat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex sapiente consequatur, corporis, velit expedita est iste mollitia animi quidem odit dolore temporibus eveniet adipisci excepturi soluta quaerat nesciunt ut? Fugit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti officia enim reiciendis asperiores fugit repellendus aliquid eos unde nihil odio modi laborum, beatae soluta vero aspernatur ratione, veritatis dolores suscipit!</p>
+                            </div>
+                        </div>
+                        <!-- /DEMEANOR ---------------------------->
+
+                        <!-- PHILOSOPHY ----------------------------->
+                        <div class="px-3 mb-4 text-justify" style="font-weight: 200;">
+                            <div style="font-size: 18px; font-variant: small-caps;">Philosophy <span class="pull-right"><i class="fas fa-books"></i></span></div>
+                            <div class="px-3" style="max-height: 175px; overflow-y: auto; font-size: 13px;">
+                                <!-- write here -->
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic dolor, corrupti omnis maiores laborum voluptates nostrum voluptatibus nisi delectus dolores repellendus ipsam neque earum repellat, rem quam reprehenderit tempora. Nihil.</p>
+                                <p>This box scrolls.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex explicabo natus in aspernatur commodi, culpa at. Adipisci quisquam minus molestias cumque explicabo, dignissimos libero reprehenderit et deserunt mollitia quaerat facilis?</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto perferendis, eveniet odio tempore aperiam aut consectetur sunt quasi nobis, vero hic saepe, doloremque doloribus facere accusamus laborum quos sit sed.</p>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium dicta nemo, beatae facere nisi omnis molestias quod, delectus aliquid fugiat modi ullam culpa cupiditate sint tenetur, reprehenderit rerum exercitationem totam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus, culpa illum placeat voluptas suscipit quos esse explicabo incidunt reiciendis, deleniti libero impedit, aperiam officiis id quis corporis temporibus. Iste, repellat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex sapiente consequatur, corporis, velit expedita est iste mollitia animi quidem odit dolore temporibus eveniet adipisci excepturi soluta quaerat nesciunt ut? Fugit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti officia enim reiciendis asperiores fugit repellendus aliquid eos unde nihil odio modi laborum, beatae soluta vero aspernatur ratione, veritatis dolores suscipit!</p>
+                            </div>
+                        </div>
+                        <!-- /PHILOSOPHY ---------------------------->
+
+                        <div class="row no-gutters">
+                            <!-- QUIRKS ---------------------------->
+                            <div class="col-md-6">
+                                <div class="px-3 mb-4 text-justify" style="font-weight: 200;">
+                                    <div style="font-size: 17px; font-variant: small-caps;">Quirks <span class="pull-right"><i class="fas fa-user-ninja"></i></span></div>
+                                    <ul class="pl-4 pr-3" style="max-height: 150px; overflow-y: auto; font-size: 12.5px;">
+                                        <!-- write here -->
+                                        <li>Content.</li>
+                                        <li>Content.</li>
+                                        <li>Content.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- /QUIRKS --------------------------->
+                            <!-- HABITS ---------------------------->
+                            <div class="col-md-6">
+                                <div class="px-3 mb-4 text-justify" style="font-weight: 200;">
+                                    <div style="font-size: 17px; font-variant: small-caps;">Habits <span class="pull-right"><i class="fas fa-running"></i></span></div>
+                                    <ul class="pl-4 pr-3" style="max-height: 150px; overflow-y: auto; font-size: 12.5px;">
+                                        <!-- write here -->
+                                        <li>Content.</li>
+                                        <li>Content.</li>
+                                        <li>Content.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- /HABITS --------------------------->
+                        </div>
+                        <div class="row no-gutters">
+                            <!-- MANNERISMS --------------------------->
+                            <div class="col-md-6">
+                                <div class="px-3 mb-4 text-justify" style="font-weight: 200;">
+                                    <div style="font-size: 17px; font-variant: small-caps;">Mannerisms <span class="pull-right"><i class="fas fa-hand-peace"></i></span></div>
+                                    <ul class="pl-4 pr-3" style="max-height: 150px; overflow-y: auto; font-size: 12.5px;">
+                                        <!-- write here -->
+                                        <li>Content.</li>
+                                        <li>Content.</li>
+                                        <li>Content.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- /MANNERISMS -------------------------->
+                            <!-- HOBBIES ------------------------------>
+                            <div class="col-md-6">
+                                <div class="px-3 mb-4 text-justify" style="font-weight: 200;">
+                                    <div style="font-size: 17px; font-variant: small-caps;">Hobbies <span class="pull-right"><i class="fas fa-chess"></i></span></div>
+                                    <ul class="pl-4 pr-3" style="max-height: 150px; overflow-y: auto; font-size: 12.5px;">
+                                        <!-- write here -->
+                                        <li>Content.</li>
+                                        <li>Content.</li>
+                                        <li>Content.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- /HOBBIES ----------------------------->
+                        </div>
+                        <div class="row no-gutters">
+                            <!-- FAVORITES ---------------------------->
+                            <div class="col-md-6">
+                                <div class="px-3 mb-4 text-justify" style="font-weight: 200;">
+                                    <div style="font-size: 17px; font-variant: small-caps;">Favorites <span class="pull-right"><i class="fas fa-stars"></i></span></div>
+                                    <ul class="pl-4 pr-3" style="max-height: 150px; overflow-y: auto; font-size: 12.5px;">
+                                        <!-- write here -->
+                                        <li>Content.</li>
+                                        <li>Content.</li>
+                                        <li>Content.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- /FAVORITES --------------------------->
+                            <!-- VALUES ---------------------===------->
+                            <div class="col-md-6">
+                                <div class="px-3 mb-4 text-justify" style="font-weight: 200;">
+                                    <div style="font-size: 17px; font-variant: small-caps;">Values <span class="pull-right"><i class="fas fa-gavel"></i></span></div>
+                                    <ul class="pl-4 pr-3" style="max-height: 150px; overflow-y: auto; font-size: 12.5px;">
+                                        <!-- write here -->
+                                        <li>Content.</li>
+                                        <li>Content.</li>
+                                        <li>Content.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- /VALUES ------------------------------>
+                        </div>
+
+                        </div>
+
+                        <!-- DIVIDER WITH ICONS | PERSONALITY --> 
+                        <div class="d-flex" style="flex-direction: row; align-items: center; font-weight: 100; border: 0; flex-grow: 0;">
+                            <!-- icon 1 --> <i class="fas fa-pie text-muted" style="vertical-align: middle;"></i>
+                                <hr style="flex-grow: 1; margin-left: 10px; margin-right: 10px; height:1px; vertical-align: middle;">
+                                    <div style="letter-spacing: 5px;">PERSONALITY</div>
+                                <hr style="flex-grow: 1; margin-left: 10px; margin-right: 10px; height:1px; vertical-align: middle;">
+                            <!-- icon 2 --> <i class="fas fa-pie text-muted" style="vertical-align: middle;"></i>
+                        </div>
+                        <!-- /DIVIDER WITH ICONS -->
+
+                    </div>
+                    <!------------------- /PERSONALITY BLOCK --------------------->
+
+
+                    <!------------------- ABILITY BLOCK -------------------------->
+                    <div class="tab-pane fade" id="abilities">
+                        <div class="py-2 px-2" style="max-height: 380px; overflow-y: auto;">
+
+                            <!-- BEGIN STATS --------------------------->
+
+                                <!-- PSYCHOLOGICAL STATS ----------------------->
+                                <div class="row no-gutters px-3" style="letter-spacing: 1px; font-size: 10px;">
+                                    <!-- FIRST COLUMN (SINGLE STAT) ---------->
+                                        <div class="col-md-4 pr-md-1">
+                                            <!-- 1 -->
+                                                <div class="col-12 pb-2"> <span class="pull-left">intelligence</span><br>
+                                                    <div class="progress bg-faded" style="height: 3px;">
+                                                        <!-- adjust width -->
+                                                        <div class="progress-bar bg-info" style="width: 50%;"></div>
+                                                    </div>
+                                                </div>
+                                            <!-- 2 -->
+                                                <div class="col-12 pb-2"> <span class="pull-left">discipline</span><br>
+                                                    <div class="progress bg-faded" style="height: 3px;">
+                                                        <!-- adjust width -->
+                                                        <div class="progress-bar bg-info" style="width: 50%;"></div>
+                                                    </div>
+                                                </div>
+                                            <!-- 3 -->
+                                                <div class="col-12 pb-2"> <span class="pull-left">charisma</span><br>
+                                                    <div class="progress bg-faded" style="height: 3px;">
+                                                        <!-- adjust width -->
+                                                        <div class="progress-bar bg-info" style="width: 50%;"></div>
+                                                    </div>
+                                                </div>
+                                            <!-- 4 -->
+                                                <div class="col-12 pb-2"> <span class="pull-left">greediness</span><br>
+                                                    <div class="progress bg-faded" style="height: 3px;">
+                                                        <!-- adjust width -->
+                                                        <div class="progress-bar bg-info" style="width: 50%;"></div>
+                                                    </div>
+                                                </div>
+                                            <!-- 5 -->
+                                                <div class="col-12 pb-2"> <span class="pull-left">confidence</span><br>
+                                                    <div class="progress bg-faded" style="height: 3px;">
+                                                        <!-- adjust width -->
+                                                        <div class="progress-bar bg-info" style="width: 50%;"></div>
+                                                    </div>
+                                                </div>
+                                            <!-- 6 -->
+                                                <div class="col-12 pb-2"> <span class="pull-left">sanity</span><br>
+                                                    <div class="progress bg-faded" style="height: 3px;">
+                                                        <!-- adjust width -->
+                                                        <div class="progress-bar bg-info" style="width: 50%;"></div>
+                                                    </div>
+                                                </div>
+                                            <!-- 7 -->
+                                                <div class="col-12 pb-2"> <span class="pull-left">decisiveness</span><br>
+                                                    <div class="progress bg-faded" style="height: 3px;">
+                                                        <!-- adjust width -->
+                                                        <div class="progress-bar bg-info" style="width: 50%;"></div>
+                                                    </div>
+                                                </div>
+                                            <!-- add more above this line -->
+                                        </div>
+                                    <!-- SECOND COLUMN --------->
+                                        <div class="col-md-4 px-md-1 pt-3 pt-md-0">
+                                            <!-- 1 -->
+                                                <div class="col-12 pb-2"> <span class="pull-left">pessimist</span> <span class="pull-right">optimist</span><br>
+                                                    <div class="progress bg-faded" style="height: 3px;">
+                                                        <!-- adjust width -->
+                                                        <div class="progress-bar bg-info" style="width: 50%;"></div>
+                                                    </div>
+                                                </div>
+                                            <!-- 2 -->
+                                                <div class="col-12 pb-2"> <span class="pull-left">naïve</span> <span class="pull-right">perceptive</span><br>
+                                                    <div class="progress bg-faded" style="height: 3px;">
+                                                        <!-- adjust width -->
+                                                        <div class="progress-bar bg-info" style="width: 50%;"></div>
+                                                    </div>
+                                                </div>
+                                            <!-- 3 -->
+                                                <div class="col-12 pb-2"> <span class="pull-left">introverted</span> <span class="pull-right">extroverted</span><br>
+                                                    <div class="progress bg-faded" style="height: 3px;">
+                                                        <!-- adjust width -->
+                                                        <div class="progress-bar bg-info" style="width: 50%;"></div>
+                                                    </div>
+                                                </div>
+                                            <!-- 4 -->
+                                                <div class="col-12 pb-2"> <span class="pull-left">open</span> <span class="pull-right">reserved</span><br>
+                                                    <div class="progress bg-faded" style="height: 3px;">
+                                                        <!-- adjust width -->
+                                                        <div class="progress-bar bg-info" style="width: 50%;"></div>
+                                                    </div>
+                                                </div>
+                                            <!-- 5 -->
+                                                <div class="col-12 pb-2"> <span class="pull-left">sassy</span> <span class="pull-right">polite</span><br>
+                                                    <div class="progress bg-faded" style="height: 3px;">
+                                                        <!-- adjust width -->
+                                                        <div class="progress-bar bg-info" style="width: 50%;"></div>
+                                                    </div>
+                                                </div>
+                                            <!-- 6 -->
+                                                <div class="col-12 pb-2"> <span class="pull-left">moral</span> <span class="pull-right">immoral</span><br>
+                                                    <div class="progress bg-faded" style="height: 3px;">
+                                                        <!-- adjust width -->
+                                                        <div class="progress-bar bg-info" style="width: 50%;"></div>
+                                                    </div>
+                                                </div>
+                                            <!-- 7 -->
+                                                <div class="col-12 pb-2"> <span class="pull-left">patient</span> <span class="pull-right">foolhardy</span><br>
+                                                    <div class="progress bg-faded" style="height: 3px;">
+                                                        <!-- adjust width -->
+                                                        <div class="progress-bar bg-info" style="width: 50%;"></div>
+                                                    </div>
+                                                </div>
+                                            <!-- add more above this line -->
+                                        </div>
+                                    <!-- THIRD COLUMN ----------->
+                                        <div class="col-md-4 pl-md-1 pt-3 pt-md-0">
+                                            <!-- 1 -->
+                                                <div class="col-12 pb-2"> <span class="pull-right">wisdom</span><br>
+                                                    <div class="progress bg-faded" style="height: 3px;">
+                                                        <!-- adjust width -->
+                                                        <div class="progress-bar bg-info" style="width: 50%;"></div>
+                                                    </div>
+                                                </div>
+                                            <!-- 2 -->
+                                                <div class="col-12 pb-2"> <span class="pull-right">leadership</span><br>
+                                                    <div class="progress bg-faded" style="height: 3px;">
+                                                        <!-- adjust width -->
+                                                        <div class="progress-bar bg-info" style="width: 50%;"></div>
+                                                    </div>
+                                                </div>
+                                            <!-- 3 -->
+                                                <div class="col-12 pb-2"> <span class="pull-right">frankness</span><br>
+                                                    <div class="progress bg-faded" style="height: 3px;">
+                                                        <!-- adjust width -->
+                                                        <div class="progress-bar bg-info" style="width: 50%;"></div>
+                                                    </div>
+                                                </div>
+                                            <!-- 4 -->
+                                                <div class="col-12 pb-2"> <span class="pull-right">libido</span><br>
+                                                    <div class="progress bg-faded" style="height: 3px;">
+                                                        <!-- adjust width -->
+                                                        <div class="progress-bar bg-info" style="width: 50%;"></div>
+                                                    </div>
+                                                </div>
+                                            <!-- 5 -->
+                                                <div class="col-12 pb-2"> <span class="pull-right">temper</span><br>
+                                                    <div class="progress bg-faded" style="height: 3px;">
+                                                        <!-- adjust width -->
+                                                        <div class="progress-bar bg-info" style="width: 50%;"></div>
+                                                    </div>
+                                                </div>
+                                            <!-- 6 -->
+                                                <div class="col-12 pb-2"> <span class="pull-right">bloodthirst</span><br>
+                                                    <div class="progress bg-faded" style="height: 3px;">
+                                                        <!-- adjust width -->
+                                                        <div class="progress-bar bg-info" style="width: 50%;"></div>
+                                                    </div>
+                                                </div>
+                                            <!-- 7 -->
+                                                <div class="col-12 pb-2"> <span class="pull-right">impulsitivity</span><br>
+                                                    <div class="progress bg-faded" style="height: 3px;">
+                                                        <!-- adjust width -->
+                                                        <div class="progress-bar bg-info" style="width: 50%;"></div>
+                                                    </div>
+                                                </div>
+                                            <!-- add more above this line -->
+                                        </div>
+                                </div>
+                                <!-- /PSYCHOLOGICAL STATS ---------------------->
+                                    <div class="px-5"><hr></div>
+                                <!-- PHYSICAL STATS ---------------------------->
+                                <div class="row no-gutters px-3" style="letter-spacing: 1px; font-size: 10px;">
+                                    <!-- FIRST COLUMN (SINGLE STAT) ---------->
+                                        <div class="col-md-4 pr-md-1">
+                                            <!-- 1 -->
+                                                <div class="col-12 pb-2"> <span class="pull-left">strength</span><br>
+                                                    <div class="progress bg-faded" style="height: 3px;">
+                                                        <!-- adjust width -->
+                                                        <div class="progress-bar bg-info" style="width: 50%;"></div>
+                                                    </div>
+                                                </div>
+                                            <!-- 2 -->
+                                                <div class="col-12 pb-2"> <span class="pull-left">constitution</span><br>
+                                                    <div class="progress bg-faded" style="height: 3px;">
+                                                        <!-- adjust width -->
+                                                        <div class="progress-bar bg-info" style="width: 50%;"></div>
+                                                    </div>
+                                                </div>
+                                            <!-- add more above this line -->
+                                        </div>
+                                    <!-- SECOND COLUMN --------->
+                                        <div class="col-md-4 px-md-1 pt-3 pt-md-0">
+                                            <!-- 1 -->
+                                                <div class="col-12 pb-2"> <span class="pull-left">fight</span> <span class="pull-right">flight</span><br>
+                                                    <div class="progress bg-faded" style="height: 3px;">
+                                                        <!-- adjust width -->
+                                                        <div class="progress-bar bg-info" style="width: 50%;"></div>
+                                                    </div>
+                                                </div>
+                                            <!-- 2 -->
+                                                <div class="col-12 pb-2"> <span class="pull-left">fawn</span> <span class="pull-right">freeze</span><br>
+                                                    <div class="progress bg-faded" style="height: 3px;">
+                                                        <!-- adjust width -->
+                                                        <div class="progress-bar bg-info" style="width: 50%;"></div>
+                                                    </div>
+                                                </div>
+                                            <!-- add more above this line -->
+                                        </div>
+                                    <!-- THIRD COLUMN ----------->
+                                        <div class="col-md-4 pl-md-1 pt-3 pt-md-0">
+                                            <!-- 1 -->
+                                                <div class="col-12 pb-2"> <span class="pull-right">dexterity</span><br>
+                                                    <div class="progress bg-faded" style="height: 3px;">
+                                                        <!-- adjust width -->
+                                                        <div class="progress-bar bg-info" style="width: 50%;"></div>
+                                                    </div>
+                                                </div>
+                                            <!-- 2 -->
+                                                <div class="col-12 pb-2"> <span class="pull-right">stealth</span><br>
+                                                    <div class="progress bg-faded" style="height: 3px;">
+                                                        <!-- adjust width -->
+                                                        <div class="progress-bar bg-info" style="width: 50%;"></div>
+                                                    </div>
+                                                </div>
+                                            <!-- add more above this line -->
+                                        </div>
+                                </div>
+                                <!-- /PHYSICAL STATS --------------------------->
+
+                                <!-- END STATS ----------------------------->
+
+                                <div class="px-4"><hr></div>
+
+                                <div class="row no-gutters">
+                                    <!-- STRENGTHS ---------------------------->
+                                    <div class="col-md-6">
+                                        <div class="px-3 mb-4 text-justify" style="font-weight: 200;">
+                                            <div style="font-size: 19px; font-variant: small-caps;">Strengths <span class="pull-right"><i class="fas fa-plus-circle"></i></span></div>
+                                            <ul class="pl-4 pr-3" style="max-height: 175px; overflow-y: auto; font-size: 14px;">
+                                                <!-- write here -->
+                                                <li>Content.</li>
+                                                <li>Content.</li>
+                                                <li>Content.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <!-- /STRENGTHS --------------------------->
+                                    <!-- WEAKNESSES --------------------------->
+                                    <div class="col-md-6">
+                                        <div class="px-3 mb-4 text-justify" style="font-weight: 200;">
+                                            <div style="font-size: 19px; font-variant: small-caps;">Weaknesses <span class="pull-right"><i class="fas fa-minus-circle"></i></span></div>
+                                            <ul class="pl-4 pr-3" style="max-height: 175px; overflow-y: auto; font-size: 14px;">
+                                                <!-- write here -->
+                                                <li>Content.</li>
+                                                <li>Content.</li>
+                                                <li>Content.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <!-- /WEAKNESSES -------------------------->
+                                </div>
+
+                                <!-- SKILLS ----------------------------->
+                                <div class="px-3 mb-4 text-justify" style="font-weight: 200;">
+                                    <div style="font-size: 20px; font-variant: small-caps;">Skills <span class="pull-right"><i class="fas fa-violin"></i></span></div>
+                                    <ul class="pl-4 pr-3" style="max-height: 180px; overflow-y: auto; font-size: 13px;">
+                                        <li>Content.  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem eaque ipsum, voluptas pariatur autem iure quo excepturi enim modi possimus corrupti aut laboriosam commodi. Eveniet facere sunt voluptas tenetur hic.</li>
+                                        <li>Content.</li>
+                                        <li>Content.</li>
+                                    </ul>
+                                </div>
+                                <!-- /SKILLS ---------------------------->
+
+                                <!-- TALENTS ---------------------------->
+                                <div class="px-3 mb-4 text-justify" style="font-weight: 200;">
+                                    <div style="font-size: 20px; font-variant: small-caps;">Talents <span class="pull-right"><i class="fas fa-sunglasses"></i></span></div>
+                                    <ul class="pl-4 pr-3" style="max-height: 180px; overflow-y: auto; font-size: 13px;">
+                                        <li>Content.  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem eaque ipsum, voluptas pariatur autem iure quo excepturi enim modi possimus corrupti aut laboriosam commodi. Eveniet facere sunt voluptas tenetur hic.</li>
+                                        <li>Content.</li>
+                                        <li>Content.</li>
+                                    </ul>
+                                </div>
+                                <!-- /TALENTS --------------------------->
+
+                                <!-- ABILITIES -------------------------->
+                                <div class="px-3 mb-4 text-justify" style="font-weight: 200;">
+                                    <div style="font-size: 20px; font-variant: small-caps;">Abilities <span class="pull-right"><i class="fas fa-sparkles"></i></span></div>
+                                    <ul class="pl-4 pr-3" style="max-height: 180px; overflow-y: auto; font-size: 13px;">
+                                        <li>Content.  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem eaque ipsum, voluptas pariatur autem iure quo excepturi enim modi possimus corrupti aut laboriosam commodi. Eveniet facere sunt voluptas tenetur hic.</li>
+                                        <li>Content.</li>
+                                        <li>Content.</li>
+                                    </ul>
+                                </div>
+                                <!-- /ABILITIES ------------------------->
+
+                            <div class="px-4"><hr></div>
+
+                            <!-- INVENTORY ---------------------------------->
+                            <div class="px-3 text-justify" style="font-weight: 200;">
+                                <div style="font-size: 22px; font-variant: small-caps;">Inventory <span class="pull-right"><i class="fas fa-briefcase"></i></span></div>
+                                <!-- WEAPONS -->
+                                <div style="font-size: 19px;"><i class="fas fa-dagger mr-2"></i>Weapons</div>
+                                    <ul class="pl-5 pr-3" style="max-height: 180px; overflow-y: auto; font-size: 14px;">
+                                        <li>Content.  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem eaque ipsum, voluptas pariatur autem iure quo excepturi enim modi possimus corrupti aut laboriosam commodi. Eveniet facere sunt voluptas tenetur hic.</li>
+                                        <li>Content.</li>
+                                        <li>Content.</li>
+                                    </ul>
+                                <!-- MISC -->
+                                <div style="font-size: 19px;"><i class="fas fa-umbrella mr-2"></i>MISC</div>
+                                    <ul class="pl-5 pr-3" style="max-height: 180px; overflow-y: auto; font-size: 14px;">
+                                        <li>Content.  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem eaque ipsum, voluptas pariatur autem iure quo excepturi enim modi possimus corrupti aut laboriosam commodi. Eveniet facere sunt voluptas tenetur hic.</li>
+                                        <li>Content.</li>
+                                        <li>Content.</li>
+                                    </ul>
+                                <!-- add more above this line -->
+                            </div>
+                            <!-- /INVENTORY -------------------------------->
+                                
+                        </div>
+
+                        <!-- DIVIDER WITH ICONS | ABILITIES --> 
+                         <div class="d-flex" style="flex-direction: row; align-items: center; font-weight: 100; border: 0; flex-grow: 0;">
+                            <!-- icon 1 --> <i class="fas fa-pie text-muted" style="vertical-align: middle;"></i>
+                                <hr style="flex-grow: 1; margin-left: 10px; margin-right: 10px; height:1px; vertical-align: middle;">
+                                    <div style="letter-spacing: 5px;">ABILITIES</div>
+                                <hr style="flex-grow: 1; margin-left: 10px; margin-right: 10px; height:1px; vertical-align: middle;">
+                            <!-- icon 2 --> <i class="fas fa-pie text-muted" style="vertical-align: middle;"></i>
+                        </div>
+                        <!-- /DIVIDER WITH ICONS -->
+
+                    </div>
+                    <!------------------- /ABILITY BLOCK ------------------------->
+
+
+                    <!------------------- HISTORY BLOCK -------------------------->
+                    <div class="tab-pane fade" id="history">
+                        <div class="py-2 px-2" style="max-height: 380px; overflow-y: auto;">
+
+                            <div class="row no-gutters px-4">
+                                <!-- LISTED CONTENT ------------->
+                                <div class="col-md-7 pr-2 text-justify" style="font-weight: 200; font-size: 13px;">
+                                    <!-- BIRTHPLACE -->
+                                    <div class="col-12">
+                                        <span class="pull-left"><b>Birthplace</b></span>
+                                        <span class="pull-right">Content</span>
+                                    </div><br>
+                                    <!-- CURRENT RESIDENCE -->
+                                    <div class="col-12">
+                                        <span class="pull-left"><b>Current Residence</b></span>
+                                        <span class="pull-right">Content</span>
+                                    </div><br>
+                                    <!-- CURRENT OCCUPATION -->
+                                    <div class="col-12 pb-1">
+                                        <span class="pull-left"><b>Current Occupation</b></span>
+                                        <span class="pull-right">Content</span>
+                                    </div><br>
+                                    <!-- PREVIOUS RESIDENCE -->
+                                    <div class="col-12 pb-1">
+                                        <span class="pull-left"><b>Previous Residence(s)</b></span>
+                                        <span class="pull-right">Content</span><br>
+                                        <span class="pull-right">Content</span><br>
+                                        <span class="pull-right">Content</span>
+                                    </div><br>
+                                    <!-- PREVIOUS OCCUPATION -->
+                                    <div class="col-12 pb-1">
+                                        <span class="pull-left"><b>Previous Occupation(s)</b></span>
+                                        <span class="pull-right">Content</span><br>
+                                        <span class="pull-right">Content</span><br>
+                                        <span class="pull-right">Content</span>
+                                    </div><br>
+                                    <!-- EDUCATION LEVEL -->
+                                    <div class="col-12">
+                                        <span class="pull-left"><b>Education Level</b></span>
+                                        <span class="pull-right">Content</span>
+                                    </div><br>
+                                </div>
+                                <!-- QUOTES -->
+                                <div class="col-md-5 px-2 pt-4 pt-md-0 text-justify" style="font-weight: 200; font-size: 12px;">
+                                    <!-- 1 -->
+                                        <p class="mb-0">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante."</p>
+                                            <span class="text-muted pl-3" style="font-size: 10px;">—character to character in something | XXXX</span>
+                                    <!-- 2 -->
+                                        <p class="mb-0">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante."</p>
+                                            <span class="text-muted pl-3" style="font-size: 10px;">—character to character in something | XXXX</span>
+                                    <!-- 3 -->
+                                        <p class="mb-0">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante."</p>
+                                            <span class="text-muted pl-3" style="font-size: 10px;">—character to character in something | XXXX</span>
+                                </div>
+                            </div>  
+                            
+                            <div class="px-4"><hr></div>
+
+                            <!-- FIRST ------------------------->
+                                <!-- HEADER --> <h2 class="px-3" style="font-weight: 300;"><i class="fas fa-bookmark mr-2"></i>Header</h2>
+                                <!-- SUBHEADER --> <h4 class="pl-5 pr-3 text-muted" style="font-weight: 200;"><i class="far fa-bookmark mr-2"></i>Subheader</h4>
+                                    <!-- WRITTEN CONTENT -->
+                                        <div class="ml-5 pl-4 pr-3" style="font-size: 13.5px; font-weight: 100;">
+                                            <p>This box does not scroll.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos sed, quod consequatur voluptatibus, eveniet ipsa pariatur exercitationem iste doloremque magni optio natus possimus? Laborum hic, ab modi maxime laudantium voluptates.</p>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, quam excepturi a voluptate quasi nam molestias, aliquam quaerat animi amet reiciendis aperiam autem modi non. Sunt voluptate magnam enim placeat? Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur in facilis voluptatum nemo ipsa iusto non aperiam voluptas, praesentium excepturi libero ullam vitae sint dolor mollitia possimus, pariatur hic beatae. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam exercitationem beatae, consequatur voluptas culpa ducimus accusantium? Neque, sint officiis, esse modi eligendi blanditiis, eveniet unde architecto praesentium eius voluptatem nulla.</p>
+                                        </div>
+                                    <!-- /WRITTEN CONTENT -->
+                            <!-- /FIRST ------------------------>
+
+                            <!-- SECOND ------------------------>
+                            <!-- HEADER --> <h2 class="px-3 pt-4" style="font-weight: 300;"><i class="fas fa-bookmark mr-2"></i>Header</h2>
+                                <!-- SUBHEADER --> <h4 class="pl-5 pr-3 text-muted" style="font-weight: 200;"><i class="far fa-bookmark mr-2"></i>Subheader 1</h4>
+                                    <!-- WRITTEN CONTENT -->
+                                        <div class="ml-5 pl-4 pr-3" style="font-size: 13.5px; font-weight: 100;">
+                                            <p>This box does not scroll.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos sed, quod consequatur voluptatibus, eveniet ipsa pariatur exercitationem iste doloremque magni optio natus possimus? Laborum hic, ab modi maxime laudantium voluptates.</p>
+                                        </div>
+                                    <!-- /WRITTEN CONTENT -->
+                                <!-- SUBHEADER --> <h4 class="pl-5 pr-3 text-muted" style="font-weight: 200;"><i class="far fa-bookmark mr-2"></i>Subheader 2</h4>
+                                    <!-- WRITTEN CONTENT -->
+                                        <div class="ml-5 pl-4 pr-3" style="font-size: 13.5px; font-weight: 100;">
+                                            <p>This box does not scroll.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos sed, quod consequatur voluptatibus, eveniet ipsa pariatur exercitationem iste doloremque magni optio natus possimus? Laborum hic, ab modi maxime laudantium voluptates.</p>
+                                        </div>
+                                    <!-- /WRITTEN CONTENT -->
+                            <!-- /SECOND ----------------------->
+
+                            <!-- THIRD ------------------------->
+                            <!-- HEADER --> <h2 class="px-3 pt-4" style="font-weight: 300;"><i class="fas fa-bookmark mr-2"></i>Header</h2>
+                                <!-- SUBHEADER --> <h4 class="pl-5 pr-3 text-muted" style="font-weight: 200;"><i class="far fa-bookmark mr-2"></i>Subheader 1</h4>
+                                    <!-- WRITTEN CONTENT -->
+                                        <div class="ml-5 pl-4 pr-3" style="font-size: 13.5px; font-weight: 100;">
+                                            <p>This box does not scroll.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos sed, quod consequatur voluptatibus, eveniet ipsa pariatur exercitationem iste doloremque magni optio natus possimus? Laborum hic, ab modi maxime laudantium voluptates.</p>
+                                        </div>
+                                    <!-- /WRITTEN CONTENT -->
+                                <!-- SUBHEADER --> <h4 class="pl-5 pr-3 text-muted" style="font-weight: 200;"><i class="far fa-bookmark mr-2"></i>Subheader 2</h4>
+                                    <!-- WRITTEN CONTENT -->
+                                        <div class="ml-5 pl-4 pr-3" style="font-size: 13.5px; font-weight: 100;">
+                                            <p>This box does not scroll.  Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                        </div>
+                                    <!-- /WRITTEN CONTENT -->
+                                <!-- SUBHEADER --> <h4 class="pl-5 pr-3 text-muted" style="font-weight: 200;"><i class="far fa-bookmark mr-2"></i>Subheader 3</h4>
+                                    <!-- WRITTEN CONTENT -->
+                                        <div class="ml-5 pl-4 pr-3" style="font-size: 13.5px; font-weight: 100;">
+                                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque suscipit rerum pariatur molestias ex! Vel aliquid ut nihil aperiam corrupti qui quasi.</p>
+                                        </div>
+                                    <!-- /WRITTEN CONTENT -->
+                            <!-- /THIRD ------------------------>
+
+                        </div>
+
+                        <!-- DIVIDER WITH ICONS | HISTORY --> 
+                        <div class="d-flex" style="flex-direction: row; align-items: center; font-weight: 100; border: 0; flex-grow: 0;">
+                            <!-- icon 1 --> <i class="fas fa-pie text-muted" style="vertical-align: middle;"></i>
+                                <hr style="flex-grow: 1; margin-left: 10px; margin-right: 10px; height:1px; vertical-align: middle;">
+                                    <div style="letter-spacing: 5px;">HISTORY</div>
+                                <hr style="flex-grow: 1; margin-left: 10px; margin-right: 10px; height:1px; vertical-align: middle;">
+                            <!-- icon 2 --> <i class="fas fa-pie text-muted" style="vertical-align: middle;"></i>
+                        </div>
+                        <!-- /DIVIDER WITH ICONS -->
+
+                    </div>
+                    <!------------------- /HISTORY BLOCK ------------------------->
+
+
+                    <!------------------- RELATIONSHIPS BLOCK -------------------->
+                    <div class="tab-pane fade" id="relationships">
+                        <div class="py-2 px-3" style="max-height: 380px; overflow-y: auto;">
+
+                        <!-- BEHAVIOR TOWARDS --------------->
+                        <div class="row no-gutters" style="font-weight: 200;">
+                            <div class="col-12"> <div style="font-size: 20px; font-variant: small-caps;">Behavior Towards...<span class="pull-right"><i class="fas fa-users-class"></i></span></div> </div>
+                                    <div class="col-md-6 pl-2 pr-md-2" style="font-size: 12px;">
+
+                                        <!--  STRANGERS -->
+                                        <div class="col-12">
+                                            <span class="pull-left"><b> Strangers</b></span>
+                                            <br>
+                                                <span class="pull-right pb-2 pl-3 text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate sit ex possimus, quidem voluptates dolorem, eos perferendis ea temporibus, ratione cupiditate inventore cum quaerat unde sapiente aliquam quisquam quo autem.</span>
+                                        </div>
+
+                                        <!--  FRIENDS -->
+                                        <div class="col-12">
+                                            <span class="pull-left"><b> Friends</b></span>
+                                            <br>
+                                                <span class="pull-right pb-2 pl-3 text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate sit ex possimus, quidem voluptates dolorem, eos perferendis ea temporibus, ratione cupiditate inventore cum quaerat unde sapiente aliquam quisquam quo autem.</span>
+                                        </div>
+
+                                        <!--  LOVE INTERESTS/CRUSHES-->
+                                        <div class="col-12 pb-2">
+                                            <span class="pull-left"><b> Love Interests/Crushes</b></span>
+                                            <br>
+                                                <span class="pull-right pb-2 pl-3 text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate sit ex possimus, quidem voluptates dolorem, eos perferendis ea temporibus, ratione cupiditate inventore cum quaerat unde sapiente aliquam quisquam quo autem.</span>
+                                        </div>
+
+                                        <!--  PARENTS -->
+                                        <div class="col-12 pb-2">
+                                            <span class="pull-left"><b> Parents</b></span>
+                                            <br>
+                                                <span class="pull-right pb-2 pl-3 text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate sit ex possimus, quidem voluptates dolorem, eos perferendis ea temporibus, ratione cupiditate inventore cum quaerat unde sapiente aliquam quisquam quo autem.</span>
+                                        </div>
+
+                                        <!--  COUSINS -->
+                                        <div class="col-12 pb-2">
+                                            <span class="pull-left"><b> Cousins</b></span>
+                                            <br>
+                                                <span class="pull-right pb-2 pl-3 text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate sit ex possimus, quidem voluptates dolorem, eos perferendis ea temporibus, ratione cupiditate inventore cum quaerat unde sapiente aliquam quisquam quo autem.</span>
+                                        </div>
+
+                                        <!--  RIVALS -->
+                                        <div class="col-12 pb-2">
+                                            <span class="pull-left"><b> Rivals</b></span>
+                                            <br>
+                                                <span class="pull-right pb-2 pl-3 text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate sit ex possimus, quidem voluptates dolorem, eos perferendis ea temporibus, ratione cupiditate inventore cum quaerat unde sapiente aliquam quisquam quo autem.</span>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="col-md-6 pl-md-2 pr-2" style="font-size: 12px;">
+
+                                        <!--  ACQUAINTANCES -->
+                                        <div class="col-12">
+                                            <span class="pull-left"><b> Acquaintances</b></span>
+                                            <br>
+                                                <span class="pull-right pb-2 pl-3 text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate sit ex possimus, quidem voluptates dolorem, eos perferendis ea temporibus, ratione cupiditate inventore cum quaerat unde sapiente aliquam quisquam quo autem.</span>
+                                        </div>
+
+                                        <!--  CLOSE FRIENDS -->
+                                        <div class="col-12">
+                                            <span class="pull-left"><b> Close Friends</b></span>
+                                            <br>
+                                                <span class="pull-right pb-2 pl-3 text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate sit ex possimus, quidem voluptates dolorem, eos perferendis ea temporibus, ratione cupiditate inventore cum quaerat unde sapiente aliquam quisquam quo autem.</span>
+                                        </div>
+
+                                        <!--  LOVERS -->
+                                        <div class="col-12">
+                                            <span class="pull-left"><b> Lovers</b></span>
+                                            <br>
+                                                <span class="pull-right pb-2 pl-3 text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate sit ex possimus, quidem voluptates dolorem, eos perferendis ea temporibus, ratione cupiditate inventore cum quaerat unde sapiente aliquam quisquam quo autem.</span>
+                                        </div>
+
+                                        <!--  SIBLINGS -->
+                                        <div class="col-12">
+                                            <span class="pull-left"><b> Siblings</b></span>
+                                            <br>
+                                                <span class="pull-right pb-2 pl-3 text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate sit ex possimus, quidem voluptates dolorem, eos perferendis ea temporibus, ratione cupiditate inventore cum quaerat unde sapiente aliquam quisquam quo autem.</span>
+                                        </div>
+
+                                        <!--  OTHER RELATIVES -->
+                                        <div class="col-12 pb-2">
+                                            <span class="pull-left"><b> Other Relatives</b></span>
+                                            <br>
+                                                <span class="pull-right pb-2 pl-3 text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate sit ex possimus, quidem voluptates dolorem, eos perferendis ea temporibus, ratione cupiditate inventore cum quaerat unde sapiente aliquam quisquam quo autem.</span>
+                                        </div>
+
+                                        <!--  ENEMIES -->
+                                        <div class="col-12 pb-2">
+                                            <span class="pull-left"><b> Enemies</b></span>
+                                            <br>
+                                                <span class="pull-right pb-2 pl-3 text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate sit ex possimus, quidem voluptates dolorem, eos perferendis ea temporibus, ratione cupiditate inventore cum quaerat unde sapiente aliquam quisquam quo autem.</span>
+                                        </div>
+
+                                    </div>
+                        </div>
+
+                        <div class="px-4"><hr></div>
+
+                            <!-- 1 ------------>
+                            <div class="row no-gutters mb-2">
+                                <!-- image & hearts -->
+                                <div class="col-md-3 text-center">
+                                    <!-- image here --> <img class="fr-rounded" src="https://via.placeholder.com/150"><br>
+                                    <!-- hearts | far = hollow, fas = full; fa-heart-broken = broken heart, fa-heart = regular heart -->
+                                        <i class="fas fa-heart mr-1"></i>
+                                        <i class="fas fa-heart mr-1"></i>
+                                        <i class="fas fa-heart mr-1"></i>
+                                        <i class="fas fa-heart mr-1"></i>
+                                        <i class="fas fa-heart mr-1"></i>
+                                </div>
+                                <!-- content -->
+                                <div class="col-md-9">
+
+                                    <div class="col-12 p-2">
+                                        <!-- name --> <span class="pull-left" style="font-weight: 200; font-size: 17px;"><a href="LINK_HERE">Name</a></span>
+                                        <!-- relationship --> <span class="text-muted pull-right" style="font-weight: 200; font-size: 13px;">&nbsp;[relationship]</span>
+                                                <hr class="mt-0 mb-1">
+                                            <!-- main info --->
+                                            <p style="font-weight: 200; font-size: 12px;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit eius perspiciatis suscipit quos voluptates iusto in maxime consequatur assumenda voluptatibus veniam labore, tenetur, quo ipsum soluta sunt, laboriosam voluptas provident!</p>
+                                            <!-- headcannons/trivia/whatever -->
+                                            <ul style="font-weight: 200; font-size: 11px;">
+                                                <li>Content.</li>
+                                                <li>Content.</li>
+                                                <li>Content.</li>
+                                            </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <!-- /1 ------------>
+
+                            <!-- 2 ------------>
+                            <div class="row no-gutters mb-2">
+                                <!-- image & hearts -->
+                                <div class="col-md-3 text-center order-md-2">
+                                    <!-- image here --> <img class="fr-rounded" src="https://via.placeholder.com/150"><br>
+                                    <!-- hearts | far = hollow, fas = full; fa-heart-broken = broken heart, fa-heart = regular heart -->
+                                        <i class="fas fa-heart mr-1"></i>
+                                        <i class="fas fa-heart mr-1"></i>
+                                        <i class="fas fa-heart mr-1"></i>
+                                        <i class="fas fa-heart mr-1"></i>
+                                        <i class="fas fa-heart mr-1"></i>
+                                </div>
+                                <!-- content -->
+                                <div class="col-md-9">
+
+                                    <div class="col-12 p-2">
+                                        <!-- name --> <span class="pull-left" style="font-weight: 200; font-size: 17px;"><a href="LINK_HERE">Name</a></span>
+                                        <!-- relationship --> <span class="text-muted pull-right" style="font-weight: 200; font-size: 13px;">&nbsp;[relationship]</span>
+                                                <hr class="mt-0 mb-1">
+                                            <!-- main info --->
+                                            <p style="font-weight: 200; font-size: 12px;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit eius perspiciatis suscipit quos voluptates iusto in maxime consequatur assumenda voluptatibus veniam labore, tenetur, quo ipsum soluta sunt, laboriosam voluptas provident!</p>
+                                            <!-- headcannons/trivia/whatever -->
+                                            <ul style="font-weight: 200; font-size: 11px;">
+                                                <li>Content.</li>
+                                                <li>Content.</li>
+                                                <li>Content.</li>
+                                            </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <!-- /2 ------------>
+
+                            <!-- 3 ------------>
+                            <div class="row no-gutters mb-2">
+                                <!-- image & hearts -->
+                                <div class="col-md-3 text-center">
+                                    <!-- image here --> <img class="fr-rounded" src="https://via.placeholder.com/150"><br>
+                                    <!-- hearts | far = hollow, fas = full; fa-heart-broken = broken heart, fa-heart = regular heart -->
+                                        <i class="fas fa-heart mr-1"></i>
+                                        <i class="fas fa-heart mr-1"></i>
+                                        <i class="fas fa-heart mr-1"></i>
+                                        <i class="fas fa-heart mr-1"></i>
+                                        <i class="fas fa-heart mr-1"></i>
+                                </div>
+                                <!-- content -->
+                                <div class="col-md-9">
+
+                                    <div class="col-12 p-2">
+                                        <!-- name --> <span class="pull-left" style="font-weight: 200; font-size: 17px;"><a href="LINK_HERE">Name</a></span>
+                                        <!-- relationship --> <span class="text-muted pull-right" style="font-weight: 200; font-size: 13px;">&nbsp;[relationship]</span>
+                                                <hr class="mt-0 mb-1">
+                                            <!-- main info --->
+                                            <p style="font-weight: 200; font-size: 12px;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit eius perspiciatis suscipit quos voluptates iusto in maxime consequatur assumenda voluptatibus veniam labore, tenetur, quo ipsum soluta sunt, laboriosam voluptas provident!</p>
+                                            <!-- headcannons/trivia/whatever -->
+                                            <ul style="font-weight: 200; font-size: 11px;">
+                                                <li>Content.</li>
+                                                <li>Content.</li>
+                                                <li>Content.</li>
+                                            </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <!-- /3 ------------>
+
+                            <!---- add more above this line ----->
+
+                        </div>
+
+
+                        <!-- DIVIDER WITH ICONS | RELATIONSHIPS --> 
+                        <div class="d-flex" style="flex-direction: row; align-items: center; font-weight: 100; border: 0; flex-grow: 0;">
+                            <!-- icon 1 --> <i class="fas fa-pie text-muted" style="vertical-align: middle;"></i>
+                                <hr style="flex-grow: 1; margin-left: 10px; margin-right: 10px; height:1px; vertical-align: middle;">
+                                    <div style="letter-spacing: 5px;">RELATIONSHIPS</div>
+                                <hr style="flex-grow: 1; margin-left: 10px; margin-right: 10px; height:1px; vertical-align: middle;">
+                            <!-- icon 2 --> <i class="fas fa-pie text-muted" style="vertical-align: middle;"></i>
+                        </div>
+                        <!-- /DIVIDER WITH ICONS -->
+
+                    </div>
+                    <!------------------- /RELATIONSHIPS BLOCK ------------------->
+
+                    <!------------------- MISC BLOCK ----------------------------->
+                    <div class="tab-pane fade" id="misc">
+                        <div class="py-2 px-3" style="max-height: 380px; overflow-y: auto;">
+                            
+                            <!-- TRIVIA --------------------------------->
+                            <div class="px-2 mb-3 text-justify" style="font-weight: 200;">
+                                <div style="font-size: 23px; font-variant: small-caps;">Trivia <span class="pull-right"><i class="fas fa-clipboard-list"></i></span></div>
+                                <ul class="pl-4 pr-3" style="max-height: 200px; overflow-y: auto; font-size: 14px;">
+                                    <li>IC trivia stuff.  Content.  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem eaque ipsum, voluptas pariatur autem iure quo excepturi enim modi possimus corrupti aut laboriosam commodi. Eveniet facere sunt voluptas tenetur hic.</li>
+                                    <li>Content.</li>
+                                    <li>Content.</li>
+                                </ul>
+                            </div>
+                            <!-- /TRIVIA -------------------------------->
+
+                            <div class="row no-gutters px-2" style="font-weight: 200;">
+                                <!-- PLAYLIST ------------------->
+                                <div class="col-md-6 pr-md-2">
+                                    <!-- header --> <div class="px-2" style="font-size: 19px; font-variant: small-caps;">Playlist <span class="pull-right"><i class="fas fa-list-music"></i></span></div>
+                                    <!-- content here -->
+                                        <div class="pl-3 pr-4" style="font-size: 13px;">
+                                            <span class="pull-left">Song - Artist</span> <span class="pull-right"><a href="SONG_LINK_HERE" target="_blank"><i class="fas fa-play-circle"></i></a></span><br>
+                                            <span class="pull-left">Song - Artist</span> <span class="pull-right"><a href="SONG_LINK_HERE" target="_blank"><i class="fas fa-play-circle"></i></a></span><br>
+                                            <span class="pull-left">Song - Artist</span> <span class="pull-right"><a href="SONG_LINK_HERE" target="_blank"><i class="fas fa-play-circle"></i></a></span><br>
+                                            <!-- add more above this line -->
+                                        </div>
+                                </div>
+                                <!-- /PLAYLIST ------------------->
+                                <!-- FUN FACTS ------------------->
+                                <div class="col-md-6 pl-md-2 pt-md-0 pt-3">
+                                    <!-- header --> <div class="px-2" style="font-size: 19px; font-variant: small-caps;">Fun Facts <span class="pull-right"><i class="fas fa-chart-network"></i></span></div>
+                                    <!-- content here -->
+                                        <ul class="ml-3 pl-3 pr-4" style="font-size: 13px;">
+                                            <li>A few fun facts.</li>
+                                            <li>Content.</li>
+                                            <li>Content.</li>
+                                        </ul>
+                                </div>
+                                <!-- /FUN FACTS ------------------->
+                            </div>
+
+                            <div class="px-5"><hr></div>
+
+                            <!-- MOODBOARD -------------------------->
+                            <div class="px-2">
+                                <!-- FIRST ROW -->
+                                <div class="row no-gutters">
+                                    <!-- 1 -->
+                                    <div class="col-4">
+                                        <div style="padding-top: 100%;">
+                                            <div style="position: absolute; top: 0; bottom: 0; left: 0; right: 0;
+                                                background-image: url(https://via.placeholder.com/230); background-size: cover; background-position: center; background-repeat: no-repeat;"></div>
+                                        </div>
+                                    </div>
+                                    <!-- 2 -->
+                                    <div class="col-4">
+                                        <div style="padding-top:100%;">
+                                            <div style="position: absolute; top: 0; bottom: 0; left: 0; right: 0;
+                                                background-image: url(https://via.placeholder.com/230); background-size: cover; background-position: center; background-repeat: no-repeat;"></div>
+                                        </div>
+                                    </div>
+                                    <!-- 3 -->
+                                    <div class="col-4">
+                                        <div style="padding-top:100%;">
+                                            <div style="position: absolute; top: 0; bottom: 0; left: 0; right: 0;
+                                                background-image: url(https://via.placeholder.com/230); background-size: cover; background-position: center; background-repeat: no-repeat;"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- SECOND ROW -->
+                                <div class="row no-gutters">
+                                    <!-- 4 -->
+                                    <div class="col-4">
+                                        <div style="padding-top: 100%;">
+                                            <div style="position: absolute; top: 0; bottom: 0; left: 0; right: 0;
+                                                background-image: url(https://via.placeholder.com/230); background-size: cover; background-position: center; background-repeat: no-repeat;"></div>
+                                        </div>
+                                    </div>
+                                    <!-- 5 -->
+                                    <div class="col-4">
+                                        <div style="padding-top:100%;">
+                                            <div style="position: absolute; top: 0; bottom: 0; left: 0; right: 0;
+                                                background-image: url(https://via.placeholder.com/230); background-size: cover; background-position: center; background-repeat: no-repeat;"></div>
+                                        </div>
+                                    </div>
+                                    <!-- 6 -->
+                                    <div class="col-4">
+                                        <div style="padding-top:100%;">
+                                            <div style="position: absolute; top: 0; bottom: 0; left: 0; right: 0;
+                                                background-image: url(https://via.placeholder.com/230); background-size: cover; background-position: center; background-repeat: no-repeat;"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- THIRD ROW -->
+                                <div class="row no-gutters">
+                                    <!-- 7 -->
+                                    <div class="col-4">
+                                        <div style="padding-top: 100%;">
+                                            <div style="position: absolute; top: 0; bottom: 0; left: 0; right: 0;
+                                                background-image: url(https://via.placeholder.com/230); background-size: cover; background-position: center; background-repeat: no-repeat;"></div>
+                                        </div>
+                                    </div>
+                                    <!-- 8 -->
+                                    <div class="col-4">
+                                        <div style="padding-top:100%;">
+                                            <div style="position: absolute; top: 0; bottom: 0; left: 0; right: 0;
+                                                background-image: url(https://via.placeholder.com/230); background-size: cover; background-position: center; background-repeat: no-repeat;"></div>
+                                        </div>
+                                    </div>
+                                    <!-- 9 -->
+                                    <div class="col-4">
+                                        <div style="padding-top:100%;">
+                                            <div style="position: absolute; top: 0; bottom: 0; left: 0; right: 0;
+                                                background-image: url(https://via.placeholder.com/230); background-size: cover; background-position: center; background-repeat: no-repeat;"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /MOODBOARD ------------------------->
+
+                            <div class="px-4"><hr></div>
+
+                            <!-- AUTHOR'S/OWNER'S/CREATOR'S/IDK'S TRIVIA | OTHER/OOC TRIVIA ------------------->
+                            <div class="px-2 text-justify" style="font-weight: 200;">
+                                <div style="font-size: 23px; font-variant: small-caps;">OOC Trivia <span class="pull-right"><i class="fas fa-th-list"></i></span></div>
+                                <ul class="pl-4 pr-3" style="max-height: 200px; overflow-y: auto; font-size: 14px;">
+                                    <li>This exists for you, the creator/author/owner/whoever you are, to explain your progress of this character.  I.e., their original version, their first design, a buncha stuff you have planned for them, yada-yada.  OOC stuff, pretty much.</li>
+                                    <li>Content.</li>
+                                    <li>Content.</li>
+                                </ul>
+                            </div>
+                            <!-- /OTHER/OOC TRIVIA -------------------------------->
+                            <div class="row no-gutters" style="font-weight: 200;">
+                                <!-- INSPIRATIONS --------------->
+                                <div class="col-md-6 pl-md-2">
+                                    <!-- header --> <div style="font-size: 19px; font-variant: small-caps;">Inspirations <span class="pull-right"><i class="fas fa-candle-holder"></i></span></div>
+                                    <!-- content here -->
+                                    <ul class="ml-2 pl-3 pr-3" style="max-height: 150px; overflow-y: auto; font-size: 13px;">
+                                        <li>Whatever inspired this character.</li>
+                                        <li>Content.</li>
+                                        <li>Content.</li>
+                                    <!-- add more above this line -->
+                                    </ul>
+                                </div>
+                                <!-- EXTRA NOTES --------------->
+                                <div class="col-md-6 pl-md-2">
+                                    <!-- header --> <div style="font-size: 19px; font-variant: small-caps;">Extra Notes <span class="pull-right"><i class="fas fa-edit"></i></span></div>
+                                    <!-- content here -->
+                                    <ul class="ml-2 pl-3 pr-3" style="max-height: 150px; overflow-y: auto; font-size: 13px;">
+                                        <li>Some extra notes.</li>
+                                        <li>Content.</li>
+                                        <li>Content.</li>
+                                    <!-- add more above this line -->
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                        
+
+                        <!-- DIVIDER WITH ICONS | TRIVIA --> 
+                        <div class="d-flex" style="flex-direction: row; align-items: center; font-weight: 100; border: 0; flex-grow: 0;">
+                            <!-- icon 1 --> <i class="fas fa-pie text-muted" style="vertical-align: middle;"></i>
+                                <hr style="flex-grow: 1; margin-left: 10px; margin-right: 10px; height:1px; vertical-align: middle;">
+                                    <div style="letter-spacing: 5px;">MISCELLANEOUS</div>
+                                <hr style="flex-grow: 1; margin-left: 10px; margin-right: 10px; height:1px; vertical-align: middle;">
+                            <!-- icon 2 --> <i class="fas fa-pie text-muted" style="vertical-align: middle;"></i>
+                        </div>
+                        <!-- /DIVIDER WITH ICONS -->
+
+                    </div>
+                    <!------------------- /MISC BLOCK ---------------------------->
+
+
+                </div>
+                <!-------------------- END TAB CONTENT ------------------------------------------->
+
+                
+                <!-- NAVIGATION | MOBILE (HIDDEN ON PC) ---------------------> 
+                <div class="text-center px-2 py-1 bg-faded">
+                    <ul class="nav nav-pills justify-content-center">
+                        <li class="nav-item border-0">
+                            <a class="nav-link active btn btn-outline-secondary border-0" href="#about" data-toggle="pill"><i class="fas fa-user"></i></a>
+                        </li>
+                        <li class="nav-item border-0">
+                            <a class="nav-link btn btn-outline-secondary border-0" href="#appearance" data-toggle="pill"><i class="fas fa-user-tie"></i></a>
+                        </li>
+                        <li class="nav-item border-0">
+                            <a class="nav-link btn btn-outline-secondary border-0" href="#personality" data-toggle="pill"><i class="fas fa-user-secret"></i></a>
+                        </li>
+                        <li class="nav-item border-0">
+                            <a class="nav-link btn btn-outline-secondary border-0" href="#abilities" data-toggle="pill"><i class="fas fa-skiing"></i></a>
+                        </li>
+                        <li class="nav-item border-0">
+                            <a class="nav-link btn btn-outline-secondary border-0" href="#history" data-toggle="pill"><i class="fas fa-book-reader"></i></a>
+                        </li>
+                        <li class="nav-item border-0">
+                            <a class="nav-link btn btn-outline-secondary border-0" href="#relationships" data-toggle="pill"><i class="fas fa-users"></i></a>
+                        </li>
+                        <li class="nav-item border-0">
+                            <a class="nav-link btn btn-outline-secondary border-0" href="#misc" data-toggle="pill"><i class="fas fa-user-tag"></i></a>
+                        </li>
+                    </ul>
+                </div> 
+                <!-- /NAVIGATION -------------------->
+
+            </div>
+            <!------------- /LEFT COLUMN ------------------>
+
+
+        </div>
+
+    </div>
+
+
+    <!----------- QUOTE HERE ---------------->
+        <hr class="mb-0">
+    <div class="text-center lead text-muted px-4"> 
+        <span class="pull-left"><i class="fad fa-quote-left"></i></span>
+        <!-- ADD HERE --> QUOTE.  QUOTE.  QUOTE.
+        <span class="pull-right"><i class="fad fa-quote-right"></i></span>
+    </div>
+    <!---------- /QUOTE HERE ---------------->
+
+
+</div>
+<!----------------- /CONTAINER -------------------->
