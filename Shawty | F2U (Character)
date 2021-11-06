@@ -21,6 +21,7 @@
 
 
 
+
 <!------------------ CONTAINER -------------------->
 <div class="container-fluid my-5" style="max-width: 1200px;">
 
@@ -1118,6 +1119,11 @@
                                     <!-- BIRTHPLACE -->
                                     <div class="col-12">
                                         <span class="pull-left"><b>Birthplace</b></span>
+                                        <span class="pull-right">Content</span>
+                                    </div><br>
+                                    <!-- NATIONALITY -->
+                                    <div class="col-12">
+                                        <span class="pull-left"><b>Nationality</b></span>
                                         <span class="pull-right">Content</span>
                                     </div><br>
                                     <!-- CURRENT RESIDENCE -->
