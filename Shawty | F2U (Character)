@@ -259,7 +259,7 @@
                         <!-- /LISTED CONTENT -------------->
 
                         <!-- WRITTEN CONTENT -------------->
-                        <div class="card border-0 rounded-0 px-3 mr-3 text-justify mt-3" style="font-weight: 300; font-size: 13.5px;">
+                        <div class="card border-0 rounded-0 px-3 text-justify mt-3" style="font-weight: 300; font-size: 13.5px;">
                             <p>This box scrolls.  Try to keep things short; this is just an intro and you'll be able to add more later on.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus modi suscipit molestias iure tenetur alias ab adipisci porro sed nulla fuga doloremque, voluptates maiores accusamus, consectetur quos eaque numquam aliquid.</p>
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut, vero aspernatur. Perspiciatis repellendus laboriosam alias recusandae ipsum reprehenderit aliquam deleniti facere, nam mollitia asperiores minus dolorum. Dicta illum voluptate cupiditate!</p>
                         </div>
