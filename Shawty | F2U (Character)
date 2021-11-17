@@ -259,7 +259,7 @@
                         <!-- /LISTED CONTENT -------------->
 
                         <!-- WRITTEN CONTENT -------------->
-                        <div class="card border-0 rounded-0 px-3 text-justify mt-3" style="font-weight: 300; font-size: 13.5px;">
+                        <div class="card border-0 rounded-0 px-3 mr-3 text-justify mt-3" style="font-weight: 300; font-size: 13.5px;">
                             <p>This box scrolls.  Try to keep things short; this is just an intro and you'll be able to add more later on.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus modi suscipit molestias iure tenetur alias ab adipisci porro sed nulla fuga doloremque, voluptates maiores accusamus, consectetur quos eaque numquam aliquid.</p>
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut, vero aspernatur. Perspiciatis repellendus laboriosam alias recusandae ipsum reprehenderit aliquam deleniti facere, nam mollitia asperiores minus dolorum. Dicta illum voluptate cupiditate!</p>
                         </div>
@@ -372,7 +372,7 @@
                         <!-- /LISTED CONTENT -------------->
 
                         <!-- WRITTEN CONTENT ----------------------------->
-                        <div class="card border-0 rounded-0 px-3 text-justify mt-3" style="font-weight: 300; font-size: 13.5px; max-height: 300px; overflow-y: auto;">
+                        <div class="card border-0 rounded-0 px-3 mr-3 text-justify mt-3" style="font-weight: 300; font-size: 13.5px; max-height: 300px; overflow-y: auto;">
                             <!-- write here -->
                             <p>This box scrolls.  This is where you'll add information about how your character looks.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus modi suscipit molestias iure tenetur alias ab adipisci porro sed nulla fuga doloremque, voluptates maiores accusamus, consectetur quos eaque numquam aliquid.</p>
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut, vero aspernatur. Perspiciatis repellendus laboriosam alias recusandae ipsum reprehenderit aliquam deleniti facere, nam mollitia asperiores minus dolorum. Dicta illum voluptate cupiditate!</p>
@@ -438,7 +438,10 @@
                                     <li>Content.</li>
                                 </ul>
                         </div>
-                            <!-- PALETTE -- ADJUST BACKGROUND COLOR -->
+                        </div>
+                        <!-- /DESIGN NOTES ------------------------------->
+                        <!-- PALETTE -- ADJUST BACKGROUND COLOR -->
+                        <div class="px-4">
                             <div class="row no-gutters modal-open" style="height: 25px; border-radius: 3em;">
                                 <div class="col tooltipster" title="Skin" data-placement="bottom" style="background-color: #a18484"></div>
                                 <div class="col tooltipster" title="Hair" data-placement="bottom" style="background-color: #dfd3c8"></div>
@@ -446,9 +449,8 @@
                                 <div class="col tooltipster" title="Attire Base" data-placement="bottom" style="background-color: #8491a1"></div>
                                 <!-- add more above this line -->
                             </div>
-                            <!-- /PALETTE -->
                         </div>
-                        <!-- /DESIGN NOTES ------------------------------->
+                        <!-- /PALETTE -->
 
                         </div>
 
@@ -578,7 +580,7 @@
                         <!-- /LISTED CONTENT -------------->
 
                         <!-- WRITTEN BLOCK ----------------------------->
-                        <div class="card border-0 rounded-0 px-3 text-justify mt-3" style="font-weight: 300; font-size: 13.5px; max-height: 300px; overflow-y: auto;">
+                        <div class="card border-0 rounded-0 px-3 mr-3 text-justify mt-3" style="font-weight: 300; font-size: 13.5px; max-height: 300px; overflow-y: auto;">
                             <!-- write here -->
                             <p>This box scrolls.  This is where you'll add information about how your character behaves/acts/whatever.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus modi suscipit molestias iure tenetur alias ab adipisci porro sed nulla fuga doloremque, voluptates maiores accusamus, consectetur quos eaque numquam aliquid.</p>
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut, vero aspernatur. Perspiciatis repellendus laboriosam alias recusandae ipsum reprehenderit aliquam deleniti facere, nam mollitia asperiores minus dolorum. Dicta illum voluptate cupiditate!</p>
