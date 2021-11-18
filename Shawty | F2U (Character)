@@ -1592,7 +1592,7 @@
                             <!-- /OTHER/OOC TRIVIA -------------------------------->
                             <div class="row no-gutters" style="font-weight: 200;">
                                 <!-- INSPIRATIONS --------------->
-                                <div class="col-md-6 pl-md-2">
+                                <div class="col-md-6 pr-md-2">
                                     <!-- header --> <div style="font-size: 19px; font-variant: small-caps;">Inspirations <span class="pull-right"><i class="fas fa-candle-holder"></i></span></div>
                                     <!-- content here -->
                                     <ul class="ml-2 pl-3 pr-3" style="max-height: 150px; overflow-y: auto; font-size: 13px;">
