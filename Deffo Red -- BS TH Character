@@ -13,11 +13,13 @@
     THANKS FOR USING <3
     
         THINGS TO NOTE:
-            icon used for borders: danger = red | primary = blue | warning = yellow | success = green
+            - danger = red | primary = blue | warning = yellow | success = green
                 if you'd like for these to be custom colors:
                     > remove all "bg-danger" from classes. add "background-color: #____;" in style of element
                     > remove all "text-danger" from classes.  add "color: #____;" in style of element
-                I will most likely make a custom colors version, though, so, if you're patient, you may not need to suffer so much.
+                I will most likely make a custom colors version, though, so, if you're patient, you may not need to suffer so much :')
+            - text-white = white text | text-dark = dark text
+            - replace all placeholder images (those that begin with https://via.placeholder.com/) w/ the images of your choosing
 
 
 -->
