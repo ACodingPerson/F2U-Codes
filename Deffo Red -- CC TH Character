@@ -1,0 +1,547 @@
+
+<!-- 
+
+
+    Deffo Red | Version 2 [Custom Colors]
+ 
+        HANDY WEBSITES:
+            > Font Awesome (for icons): https://fontawesome.com/v5.15/icons/reddit?style=brands
+            > W3 Schools Bootstrap: https://www.w3schools.com/bootstrap/
+            > W3 Schools HTML: https://www.w3schools.com/html/default.asp
+            > Bootstrap Docs: https://getbootstrap.com/docs/5.1/getting-started/introduction/
+ 
+    THANKS FOR USING <3
+    
+        THINGS TO NOTE:
+            - color for red text: #a51f1f
+            - color for light text: #fff
+            - background colors: #a51f1f
+            - muted text: #a07e7e
+            - replace all placeholder images (those that begin with https://via.placeholder.com/) w/ the images of your choosing
+
+
+-->
+
+
+
+
+
+
+
+
+<div class="container-fluid py-5" style="max-width: 950px;">
+    <div class="row no-gutters">
+            <!-- HEADER --------------------------->
+            <div class="col-12 mb-2 p-2 text-right font-weight-light" style="font-size: 40px; font-variant: small-caps; letter-spacing: 15px; text-shadow: 5px;
+                background: url(https://via.placeholder.com/920x75) center; background-size: cover;
+                    color: #fff;">
+                TBA
+            </div>
+    
+        <!-- BEGIN FIRST SECTION ------------------------------->
+            <!-- FIRST COLUMN ------------------------->
+            <div class="col-md-4">
+                <!-- avatar ---------------->
+                <a href="LINK_HERE" target="_blank">
+                    <!-- image here | transparent recommended --> <img src="https://via.placeholder.com/300" style="margin-top: -65px;">
+                </a>
+            </div>
+    
+            <!-- SECOND COLUMN ------------------------->
+            <div class="col-md-8">
+                <!-- COLUMN HEADER -->
+                <div class="pt-md-0 pt-2 d-flex" style="flex-direction: row; align-items: center; font-weight: 100; border: 0; flex-grow: 0;">
+                    <hr style="flex-grow: 1; margin-right: 10px; height: 0.5px; vertical-align: middle; background-color: #a51f1f;">
+                        <!-- icon | credit background image used for header --> <a href="LINK_HERE" target="_blank"> <i class="fas fa-theater-masks fa-2x" style="vertical-align: middle; color: #a51f1f;"></i>  </a>
+                    <hr style="flex-grow: 1; margin-left: 10px; height: 0.5px; vertical-align: middle; background-color: #a51f1f;">
+                </div>
+                <!-- WRITTEN CONTENT -->
+                <div class="font-weight-light text-justify" style="font-size: 12px; max-height: 205px; overflow-y: auto;">
+                    <p>This box will scroll.  Keep things short and concise.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque eos corporis voluptatum aspernatur repellat harum temporibus et nemo. Soluta beatae impedit debitis quas magni blanditiis aperiam sunt necessitatibus maxime dolorem.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ut nostrum repellat sit repellendus voluptates modi animi unde excepturi voluptatibus praesentium ratione, ipsum expedita culpa libero. Dolorem cum placeat suscipit.</p>
+                </div>
+            </div>
+        <!-- END FIRST SECTION ----------------------------->
+    
+            <!-- QUOTE -------------------------->
+            <div class="col-md-12 my-2 px-2 py-2 text-center" style="font-variant: small-caps; letter-spacing: 10px; color: #fff;
+            background: url(https://via.placeholder.com/920x40) center;">
+                <span class="pull-left"> <!-- credit source of quote --> <a href="LINK_HERE" target="_blank" style="color: #fff;">   <i class="fad fa-quote-left"></i>   </a>    </span>
+                    Quote Quote Quote
+                <span class="pull-right"> <!-- credit background image --> <a href="LINK_HERE" target="_blank" style="color: #fff;">   <i class="fad fa-quote-right"></i>  </a>    </span>
+            </div>
+    
+        <!-- BEGIN SECOND SECTION ------------------------->
+            <!-- MIDDLE COLUMN ------------------------>
+            <div class="col-md-4 order-md-2">
+                <div style="padding-top: 100%;">
+                    <div style="position: absolute; top: 0; bottom: 0; left: 0; right: 0;
+                        background: url(https://via.placeholder.com/310x310) center; background-size: cover;">
+                            <!-- credit --> <a href="LINK_HERE" target="_blank" style="position: absolute; bottom: 0.25px; right: 5px; color: #a07e7e;"> <i class="fas fa-image"></i></a>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- LEFT COLUMN -------------------------->
+            <div class="col-md-4 pr-md-2 order-md-1 font-weight-light" style="font-size: 13px;">
+                <hr style="height: 2px; background-color: #a51f1f;" class="mt-md-0 mt-3 mb-1">
+                <!-- LIST CONTENT ---------------->
+                <div class="pb-2" style="font-variant: small-caps;">
+                    <!-- 1 -->
+                    <div class="w-100 pb-1">
+                        <span class="badge mr-2" style="font-size: 13px; background-color: #a51f1f;"><i class="fas fa-signature" style="color: #fff;"></i></span>
+                            <span class="pull-right">Name Name Name</span>
+                    </div>
+                    <!-- 2 -->
+                    <div class="w-100 pb-1">
+                        <span class="badge mr-2" style="font-size: 13px; background-color: #a51f1f;"><i class="fas fa-thumbtack" style="color: #fff;"></i></span>
+                            <span class="pull-right">Nickname, nickname, nickname</span>
+                    </div>
+                    <!-- 3 -->
+                    <div class="w-100 pb-1">
+                        <span class="badge mr-2" style="font-size: 13px; background-color: #a51f1f;"><i class="fas fa-ruler" style="color: #fff;"></i></span>
+                            <span class="pull-right">Height</span>
+                    </div>
+                    <!-- 4 -->
+                    <div class="w-100 pb-1">
+                        <span class="badge mr-2" style="font-size: 13px; background-color: #a51f1f;"><i class="fas fa-birthday-cake" style="color: #fff;"></i></span>
+                            <span class="pull-right">Age</span>
+                    </div>
+                    <!-- 5 -->
+                    <div class="w-100 pb-1">
+                        <span class="badge mr-2" style="font-size: 13px; background-color: #a51f1f;"><i class="fas fa-stars" style="color: #fff;"></i></span>
+                            <span class="pull-right">Zodiac Sign</span>
+                    </div>
+                    <!-- 6 -->
+                    <div class="w-100 pb-1">
+                        <span class="badge mr-2" style="font-size: 13px; background-color: #a51f1f;"><i class="fas fa-shoe-prints" style="color: #fff;"></i></span>
+                            <span class="pull-right">Species</span>
+                    </div>
+                    <!-- 7 -->
+                    <div class="w-100 pb-1">
+                        <span class="badge mr-2" style="font-size: 13px; background-color: #a51f1f;"><i class="fas fa-tally" style="color: #fff;"></i></span>
+                            <span class="pull-right">MBTI</span>
+                    </div>
+                </div>
+                <!-- PROGRESS BARS ------------>
+                <div class="text-uppercase pt-2">
+                    <!-- 1 -->
+                    <div class="pt-0">CONFIDENCE</div>
+                    <div class="progress bg-faded" style="height: 5px;">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 50%; background-color: #a51f1f;"></div>
+                    </div>
+                    <!-- 2 -->
+                    <div class="pt-1">INTELLECT</div>
+                    <div class="progress bg-faded" style="height: 5px;">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 50%; background-color: #a51f1f;"></div>
+                    </div>
+                    <!-- 3 -->
+                    <div class="pt-1">CHARISMA</div>
+                    <div class="progress bg-faded" style="height: 5px;">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 50%; background-color: #a51f1f;"></div>
+                    </div>
+                    <!-- 4 -->
+                    <div class="pt-1">WISDOM</div>
+                    <div class="progress bg-faded" style="height: 5px;">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 50%; background-color: #a51f1f;"></div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- RIGHT COLUMN ------------------------->
+            <div class="col-md-4 pl-md-2 order-md-3 font-weight-light" style="font-size: 13px;">
+                <!-- PROGRESS BARS ------------>
+                <div class="text-uppercase pb-4">
+                    <!-- 1 -->
+                    <div class="pt-0">HUMOR</div>
+                    <div class="progress bg-faded" style="height: 5px;">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 50%; background-color: #a51f1f;"></div>
+                    </div>
+                    <!-- 2 -->
+                    <div class="pt-1">STRENGTH</div>
+                    <div class="progress bg-faded" style="height: 5px;">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 50%; background-color: #a51f1f;"></div>
+                    </div>
+                    <!-- 3 -->
+                    <div class="pt-1">KINDNESS</div>
+                    <div class="progress bg-faded" style="height: 5px;">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 50%; background-color: #a51f1f;"></div>
+                    </div>
+                    <!-- 4 -->
+                    <div class="pt-1">PATIENCE</div>
+                    <div class="progress bg-faded" style="height: 5px;">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 50%; background-color: #a51f1f;"></div>
+                    </div>
+                </div>
+                <!-- LIST CONTENT ---------------->
+                <div style="font-variant: small-caps;">
+                    <!-- 1 -->
+                    <div class="w-100 pt-1">
+                        <span class="badge mr-2" style="font-size: 13px; background-color: #a51f1f;"><i class="fas fa-transgender-alt" style="color: #fff;"></i></span>
+                            <span class="pull-right">Gender</span>
+                    </div>
+                    <!-- 2 -->
+                    <div class="w-100 pt-1">
+                        <span class="badge mr-2" style="font-size: 13px; background-color: #a51f1f;"><i class="fas fa-venus-mars" style="color: #fff;"></i></span>
+                            <span class="pull-right">Orientation</span>
+                    </div>
+                    <!-- 3 -->
+                    <div class="w-100 pt-1">
+                        <span class="badge mr-2" style="font-size: 13px; background-color: #a51f1f;"><i class="fas fa-home" style="color: #fff;"></i></span>
+                            <span class="pull-right">Residence</span>
+                    </div>
+                    <!-- 4 -->
+                    <div class="w-100 pt-1">
+                        <span class="badge mr-2" style="font-size: 13px; background-color: #a51f1f;"><i class="fas fa-scroll" style="color: #fff;"></i></span>
+                            <span class="pull-right">Occupation</span>
+                    </div>
+                    <!-- 5 -->
+                    <div class="w-100 pt-1">
+                        <span class="badge mr-2" style="font-size: 13px; background-color: #a51f1f;"><i class="fas fa-church" style="color: #fff;"></i></span>
+                            <span class="pull-right">Religion</span>
+                    </div>
+                    <!-- 6 -->
+                    <div class="w-100 pt-1">
+                        <span class="badge mr-2" style="font-size: 13px; background-color: #a51f1f;"><i class="fas fa-object-group" style="color: #fff;"></i></span>
+                            <span class="pull-right">Alignment</span>
+                    </div>
+                    <!-- 7 -->
+                    <div class="w-100 pt-1">
+                        <span class="badge mr-2" style="font-size: 13px; background-color: #a51f1f;"><i class="fas fa-balance-scale-right" style="color: #fff;"></i></span>
+                            <span class="pull-right">Status</span>
+                    </div>
+                </div>
+                <hr style="height: 2px; background-color: #a51f1f;" class="mt-1 mb-md-0 mb-3">
+            </div>
+        <!-- END SECOND SECTION --------------------------->
+    </div>
+    
+            <!-- PALETTE --------------------->
+            <div class="row no-gutters mt-md-3 mb-3">
+                <!-- 1 -->
+                <div class="col-2 tooltipster" title="hair" data-placement="left" style="height: 10px; background: #8d623f;"></div>
+                <!-- 2 -->
+                <div class="col-2 tooltipster" title="eyes" data-placement="left" style="height: 10px; background: #631600;"></div>
+                <!-- 3 -->
+                <div class="col-2 tooltipster" title="skin" data-placement="left" style="height: 10px; background: #fcf7f0;"></div>
+                <!-- 4 -->
+                <div class="col-2 tooltipster" title="scarf" data-placement="left" style="height: 10px; background: #1a1919;"></div>
+                <!-- 5 -->
+                <div class="col-2 tooltipster" title="coat" data-placement="left" style="height: 10px; background: #1b1b1b;"></div>
+                <!-- 6 -->
+                <div class="col-2 tooltipster" title="earphones" data-placement="left" style="height: 10px; background: #181818;"></div>
+            </div>
+    
+        <!-- BEGIN THIRD SECTION --------------------------------------->
+        <div class="row no-gutters">
+            <!-- CHARACTER -------------------------------------->
+            <div class="col-md-8 font-weight-light" style="max-height: 500px; overflow-y: auto;">
+            <div class="w-100 px-2 text-center mb-2" style="letter-spacing: 10px; font-size: 20px; background-color: #a51f1f; color: #fff;"><b>ABOUT</b></div>
+                    <!-- ADJECTIVES --> <p class="text-center mt-0 mb-2 pb-1" style="font-size: 13px;">adjective • adjective • adjective</p>
+                <!-- APPEARANCE TAB ---------------------------------->
+                <div class="w-100 px-2 text-right mb-2" style="font-variant: small-caps; letter-spacing: 5px; font-size: 17px; background-color: #a51f1f; color: #fff;"><b>Appearance</b></div>
+                    <div class="row no-gutters">
+                        <div class="col-md-8">
+                            <!-- WRITTEN CONTENT -->
+                            <div class="mb-2" style="font-size: 13px;">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt corporis nihil autem sapiente a sequi pariatur? Quae, recusandae voluptas tempore beatae repellat, sed rerum inventore incidunt perspiciatis nesciunt facere veniam.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit eaque ipsam eligendi quia vitae! Ab odio qui facilis praesentium necessitatibus, sit error nesciunt! Adipisci eaque beatae est dicta officia repellat!</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <!-- DESIGN NOTES -->
+                            <div class="pl-md-2" style="font-size: 12px;">
+                                <ul>
+                                    <li>Content.</li>
+                                    <li>Content.</li>
+                                    <li>Content.</li>
+                                    <li>Content.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+    
+                <!-- PERSONALITY TAB --------------------------------->
+                <div class="w-100 px-2 text-right mb-2" style="font-variant: small-caps; letter-spacing: 5px; font-size: 17px; background-color: #a51f1f; color: #fff;"><b>Personality</b></div>
+                    <div class="row no-gutters">
+                        <div class="col-md-8">
+                            <!-- WRITTEN CONTENT -->
+                            <div class="mb-2" style="font-size: 13px;">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt corporis nihil autem sapiente a sequi pariatur? Quae, recusandae voluptas tempore beatae repellat, sed rerum inventore incidunt perspiciatis nesciunt facere veniam.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit eaque ipsam eligendi quia vitae! Ab odio qui facilis praesentium necessitatibus, sit error nesciunt! Adipisci eaque beatae est dicta officia repellat!</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <!-- DESIGN NOTES -->
+                            <div class="pl-md-2" style="font-size: 12px;">
+                                <ul class="fa-ul">
+                                    <li><i class="fa-li fa fa-plus fa-xs" style="vertical-align: middle;"></i>Positive Trait.</li>
+                                    <li><i class="fa-li fa fa-plus fa-xs"></i>Positive Trait.</li>
+                                    <!-- add more above this line -->
+                                    <li><i class="fa-li fa fa-wave-sine fa-xs" style="vertical-align: middle;"></i>Neutral Trait.</li>
+                                    <li><i class="fa-li fa fa-wave-sine fa-xs" style="vertical-align: middle;"></i>Neutral Trait.</li>
+                                    <!-- add more above this line -->
+                                    <li><i class="fa-li fa fa-minus fa-xs" style="vertical-align: middle;"></i>Negative Trait.</li>
+                                    <li><i class="fa-li fa fa-minus fa-xs" style="vertical-align: middle;"></i>Negative Trait.</li>
+                                    <!-- add more above this line -->
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+    
+            <!-- TRIVIA ------------------------------>
+            <div class="col-md-4 pl-md-2 font-weight-light mt-md-0 mt-2" style="max-height: 500px; overflow-y: auto;">
+                <div class="w-100 px-2 text-center mb-2 mt-md-0 mt-2" style="letter-spacing: 10px; font-size: 20px; background-color: #a51f1f; color: #fff;"><b>TRIVIA</b></div>
+    
+                <!-- MAIN THEME ---------------------------------->
+                <a href="MAIN_THEME_SONG_HERE" target="_blank"
+                    class="btn btn-block rounded-0 text-right py-1 mb-md-2 mb-3" style="font-variant: small-caps; letter-spacing: 5px; font-size: 15px; background-color: #a51f1f; color: #fff;">
+                        <span class="pull-left"><i class="fas fa-record-vinyl"></i></span><b>Main Theme</b></a>
+                
+                <div class="row no-gutters">
+                    <!-- LIKES -------------->
+                    <div class="col-md-6 pr-md-1">
+                        <span class="w-100 badge rounded-0 font-weight-light" style="font-variant: small-caps; font-size: 15px; background-color: #a51f1f; color: #fff;">Likes</span>
+                            <!-- CONTENT LIST -->
+                            <ul class="pl-3" style="font-size: 11px;">
+                                <li>Content.</li>
+                                <li>Content.</li>
+                                <li>Content.</li>
+                            </ul>
+                    </div>
+                    <!-- DISLIKES -------->
+                    <div class="col-md-6 pl-md-1">
+                        <span class="w-100 badge rounded-0 font-weight-light" style="font-variant: small-caps; font-size: 15px; background-color: #a51f1f; color: #fff;">Dislikes</span>
+                            <!-- CONTENT LIST -->
+                            <ul class="pl-3" style="font-size: 11px;">
+                                <li>Content.</li>
+                                <li>Content.</li>
+                                <li>Content.</li>
+                            </ul>
+                    </div>
+                </div>
+    
+                <!-- MISC TAB ----------------------------------->
+                <div class="w-100 px-2 text-right mb-1" style="font-variant: small-caps; letter-spacing: 5px; font-size: 17px; background-color: #a51f1f; color: #fff;"><b>Fun Facts</b></div>
+                    <!-- CONTENT LIST -->
+                    <ul class="pl-3 pb-md-1" style="font-size: 11px;">
+                        <li>Content.</li>
+                        <li>Content.</li>
+                        <li>Content.</li>
+                    </ul>
+    
+                <!-- PLAYLIST TAB ------------------------------>
+                <div class="w-100 px-2 text-right mb-1" style="font-variant: small-caps; letter-spacing: 5px; font-size: 17px; background-color: #a51f1f; color: #fff;"><b>Playlist</b></div>
+                    <!-- CONTENT LIST -->
+                    <div style="font-size: 11px;">
+                        <!-- 1 -->
+                        <a href="SONG_LINK_HERE" target="_blank" style="color: #a51f1f;"><i class="fas fa-play-circle mr-2"></i></a>Song Name - Artist <br>
+                        <!-- 2 -->
+                        <a href="SONG_LINK_HERE" target="_blank" style="color: #a51f1f;"><i class="fas fa-play-circle mr-2"></i></a>Song Name - Artist <br>
+                        <!-- 3 -->
+                        <a href="SONG_LINK_HERE" target="_blank" style="color: #a51f1f;"><i class="fas fa-play-circle mr-2"></i></a>Song Name - Artist <br>
+                            <!-- add more above this line -->
+                    </div>
+    
+            </div>
+    
+        </div>
+        <!-- END THIRD SECTION ---------------------------------------->
+    
+        <!-- BEGIN FOURTH SECTION ------------------------------------->
+        <div class="row no-gutters mt-2">
+            <!-- MOODBOARD ------------------>
+            <div class="col-md-6 my-md-0 my-4">
+                <div class="row no-gutters">
+                    <!-- 1 -->
+                    <div class="col-4">
+                        <div style="padding-top: 100%;">
+                            <div style="position: absolute; top: 0; bottom: 0; left: 0; right: 0;
+                                background: url(https://via.placeholder.com/153) no-repeat center; background-size: cover;">
+                                    <!-- credit --> <a target="_blank" href="LINK_HERE" class="d-flex btn btn-outline-secondary faded rounded-0 border-0 w-100 h-100" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0;"></a>    
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 2 -->
+                    <div class="col-4">
+                        <div style="padding-top: 100%;">
+                            <div style="position: absolute; top: 0; bottom: 0; left: 0; right: 0;
+                                background: url(https://via.placeholder.com/153) no-repeat center; background-size: cover;">
+                                    <!-- credit --> <a target="_blank" href="LINK_HERE" class="d-flex btn btn-outline-secondary faded rounded-0 border-0 w-100 h-100" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0;"></a>    
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 3 -->
+                    <div class="col-4">
+                        <div style="padding-top: 100%;">
+                            <div style="position: absolute; top: 0; bottom: 0; left: 0; right: 0;
+                                background: url(https://via.placeholder.com/153) no-repeat center; background-size: cover;">
+                                    <!-- credit --> <a target="_blank" href="LINK_HERE" class="d-flex btn btn-outline-secondary faded rounded-0 border-0 w-100 h-100" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0;"></a>    
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 4 -->
+                    <div class="col-4">
+                        <div style="padding-top: 100%;">
+                            <div style="position: absolute; top: 0; bottom: 0; left: 0; right: 0;
+                                background: url(https://via.placeholder.com/153) no-repeat center; background-size: cover;">
+                                    <!-- credit --> <a target="_blank" href="LINK_HERE" class="d-flex btn btn-outline-secondary faded rounded-0 border-0 w-100 h-100" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0;"></a>    
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 5 -->
+                    <div class="col-4">
+                        <div style="padding-top: 100%;">
+                            <div style="position: absolute; top: 0; bottom: 0; left: 0; right: 0;
+                                background: url(https://via.placeholder.com/153) no-repeat center; background-size: cover;">
+                                    <!-- credit --> <a target="_blank" href="LINK_HERE" class="d-flex btn btn-outline-secondary faded rounded-0 border-0 w-100 h-100" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0;"></a>    
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 6 -->
+                    <div class="col-4">
+                        <div style="padding-top: 100%;">
+                            <div style="position: absolute; top: 0; bottom: 0; left: 0; right: 0;
+                                background: url(https://via.placeholder.com/153) no-repeat center; background-size: cover;">
+                                    <!-- credit --> <a target="_blank" href="LINK_HERE" class="d-flex btn btn-outline-secondary faded rounded-0 border-0 w-100 h-100" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0;"></a>    
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 7 -->
+                    <div class="col-4">
+                        <div style="padding-top: 100%;">
+                            <div style="position: absolute; top: 0; bottom: 0; left: 0; right: 0;
+                                background: url(https://via.placeholder.com/153) no-repeat center; background-size: cover;">
+                                    <!-- credit --> <a target="_blank" href="LINK_HERE" class="d-flex btn btn-outline-secondary faded rounded-0 border-0 w-100 h-100" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0;"></a>    
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 8 -->
+                    <div class="col-4">
+                        <div style="padding-top: 100%;">
+                            <div style="position: absolute; top: 0; bottom: 0; left: 0; right: 0;
+                                background: url(https://via.placeholder.com/153) no-repeat center; background-size: cover;">
+                                    <!-- credit --> <a target="_blank" href="LINK_HERE" class="d-flex btn btn-outline-secondary faded rounded-0 border-0 w-100 h-100" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0;"></a>    
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 9 -->
+                    <div class="col-4">
+                        <div style="padding-top: 100%;">
+                            <div style="position: absolute; top: 0; bottom: 0; left: 0; right: 0;
+                                background: url(https://via.placeholder.com/153) no-repeat center; background-size: cover;">
+                                    <!-- credit --> <a target="_blank" href="LINK_HERE" class="d-flex btn btn-outline-secondary faded rounded-0 border-0 w-100 h-100" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0;"></a>    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- STORY/HISTORY -------------------------------->
+            <div class="col-md-6 pl-md-2 font-weight-light" style="max-height: 460px; overflow-y: auto;">
+                <div class="w-100 px-2 text-center mb-2 mt-md-0 mt-2" style="letter-spacing: 10px; font-size: 20px; background-color: #a51f1f; color: #fff;"><b>STORY</b></div>
+                    <!-- PRESENT-DAY -->
+                    <div style="font-size: 11px;">
+                        <p>Character in present-day.  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam ratione, quo, aspernatur perspiciatis reiciendis culpa quaerat ad maxime corporis accusamus commodi laudantium amet magni soluta distinctio autem assumenda est iusto!</p>
+                    </div>
+                    <!-- HEADER 1 -->
+                    <span class="pt-2" style="font-size: 16px; color: #a51f1f;"><i class="fas fa-bookmark mr-2"></i>Header 1</span>
+                        <div style="font-size: 12px;">
+                            <!-- written content -->
+                            <p>You can redact text like so: &#9608;&#9608;&#9608; <!-- use &#9608; --> Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque rerum, pariatur dolorem reprehenderit doloribus harum sed facilis veniam tenetur enim ipsum delectus soluta eum ex adipisci accusantium cumque est distinctio.</p>
+                        </div>
+                    <!-- HEADER 2 -->
+                    <span class="pt-2" style="font-size: 16px; color: #a51f1f;"><i class="fas fa-bookmark mr-2"></i>Header 2</span>
+                        <div style="font-size: 12px;">
+                            <!-- written content -->
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque rerum, pariatur dolorem reprehenderit doloribus harum sed facilis veniam tenetur enim ipsum delectus soluta eum ex adipisci accusantium cumque est distinctio.</p>
+                        </div>
+                    <!-- HEADER 3 -->
+                    <span class="pt-2" style="font-size: 16px; color: #a51f1f;"><i class="fas fa-bookmark mr-2"></i>Header 3</span>
+                        <div style="font-size: 12px;">
+                            <!-- written content -->
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque rerum, pariatur dolorem reprehenderit doloribus harum sed facilis veniam tenetur enim ipsum delectus soluta eum ex adipisci accusantium cumque est distinctio.</p>
+                        </div>
+            </div>
+    
+        </div>
+        <!-- END FOURTH SECTION --------------------------------------->
+        
+        <!-- BEGIN FIFTH SECTION -------------------------------------->
+        <!-- THIS IS THE RELATIONSHIPS TAB --------------------->
+        <div class="font-weight-light text-center mt-md-2 mt-4">
+            <div class="w-100 px-2 mb-2" style="letter-spacing: 10px; font-size: 20px; background-color: #a51f1f; color: #fff;"><b>RELATIONSHIPS</b></div>
+                <div class="row no-gutters">
+    
+                    <!-- 1 -->
+                    <div class="col-md-4">
+                        <!-- image here --> <img class="fr-rounded" src="https://via.placeholder.com/150"><br>
+                        <!-- hearts | far = hollow, fas = full; fa-heart-broken = broken heart, fa-heart = regular heart -->
+                            <i class="fas fa-heart mr-1"></i>
+                            <i class="fas fa-heart mr-1"></i>
+                            <i class="fas fa-heart mr-1"></i>
+                            <i class="far fa-heart mr-1"></i>
+                            <i class="far fa-heart mr-1"></i>
+                        <!-- content -->
+                            <div class="w-100 p-2">
+                                <!-- name --> <span class="pull-left" style="font-weight: 200; font-size: 17px;"><a href="LINK_HERE" style="color: #a51f1f;">NAME</a></span>
+                                <!-- relationship --> <span class="pull-right" style="font-weight: 200; font-size: 13px; color: #a07e7e;">&nbsp;[relationship]</span>
+                                        <hr class="mt-0 mb-1">
+                                    <!-- main info --->
+                                    <p style="font-weight: 200; font-size: 12px;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit eius perspiciatis suscipit quos voluptates iusto in maxime consequatur assumenda voluptatibus veniam labore, tenetur, quo ipsum soluta sunt, laboriosam voluptas provident!</p>
+                            </div>
+                    </div>
+    
+                    <!-- 2 -->
+                    <div class="col-md-4">
+                        <!-- image here --> <img class="fr-rounded" src="https://via.placeholder.com/150"><br>
+                        <!-- hearts | far = hollow, fas = full; fa-heart-broken = broken heart, fa-heart = regular heart -->
+                            <i class="fas fa-heart mr-1"></i>
+                            <i class="fas fa-heart mr-1"></i>
+                            <i class="fas fa-heart mr-1"></i>
+                            <i class="far fa-heart mr-1"></i>
+                            <i class="far fa-heart mr-1"></i>
+                        <!-- content -->
+                            <div class="w-100 p-2">
+                                <!-- name --> <span class="pull-left" style="font-weight: 200; font-size: 17px;"><a href="LINK_HERE" style="color: #a51f1f;">NAME</a></span>
+                                <!-- relationship --> <span class="pull-right" style="font-weight: 200; font-size: 13px; color: #a07e7e;">&nbsp;[relationship]</span>
+                                        <hr class="mt-0 mb-1">
+                                    <!-- main info --->
+                                    <p style="font-weight: 200; font-size: 12px;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit eius perspiciatis suscipit quos voluptates iusto in maxime consequatur assumenda voluptatibus veniam labore, tenetur, quo ipsum soluta sunt, laboriosam voluptas provident!</p>
+                            </div>
+                    </div>
+    
+                    <!-- 3 -->
+                    <div class="col-md-4">
+                        <!-- image here --> <img class="fr-rounded" src="https://via.placeholder.com/150"><br>
+                        <!-- hearts | far = hollow, fas = full; fa-heart-broken = broken heart, fa-heart = regular heart -->
+                            <i class="fas fa-heart mr-1"></i>
+                            <i class="fas fa-heart mr-1"></i>
+                            <i class="fas fa-heart mr-1"></i>
+                            <i class="far fa-heart mr-1"></i>
+                            <i class="far fa-heart mr-1"></i>
+                        <!-- content -->
+                            <div class="w-100 p-2">
+                                <!-- name --> <span class="pull-left" style="font-weight: 200; font-size: 17px;"><a href="LINK_HERE" style="color: #a51f1f;">NAME</a></span>
+                                <!-- relationship --> <span class="pull-right" style="font-weight: 200; font-size: 13px; color: #a07e7e;">&nbsp;[relationship]</span>
+                                        <hr class="mt-0 mb-1">
+                                    <!-- main info --->
+                                    <p style="font-weight: 200; font-size: 12px;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit eius perspiciatis suscipit quos voluptates iusto in maxime consequatur assumenda voluptatibus veniam labore, tenetur, quo ipsum soluta sunt, laboriosam voluptas provident!</p>
+                            </div>
+                    </div>
+
+                    <!----- add more above this line ----->
+    
+                </div>
+        </div>
+        <!-- END FIFTH SECTION ---------------------------------------->
+
+    <!-- CREDIT | DO NOT REMOVE ------------------------->
+    <div class="pt-5 d-flex" style="flex-direction: row; align-items: center; font-weight: 100; border: 0; flex-grow: 0;">
+        <hr style="flex-grow: 1; margin-right: 10px; height: 0.5px; vertical-align: middle; background-color: #a07e7e;">
+            <a href="acodingperson" target="_blank" style="color: #a07e7e;"> <i class="fas fa-blanket tooltipster" title="code by acp" data-placement="bottom" style="vertical-align: middle;"></i>  </a>
+        <hr style="flex-grow: 1; margin-left: 10px; height: 0.5px; vertical-align: middle; background-color: #a07e7e;">
+    </div>
+    
+</div>
