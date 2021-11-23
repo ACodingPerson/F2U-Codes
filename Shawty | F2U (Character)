@@ -1636,7 +1636,7 @@
                 <!-------------------- END TAB CONTENT ------------------------------------------->
 
                 
-                <!-- NAVIGATION | MOBILE (HIDDEN ON PC) ---------------------> 
+                <!-- NAVIGATION ------------------------------------------------> 
                 <div class="text-center px-2 py-1 bg-faded">
                     <ul class="nav nav-pills justify-content-center">
                         <li class="nav-item border-0">
