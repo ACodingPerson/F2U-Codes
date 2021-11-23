@@ -14,10 +14,6 @@
     
         THINGS TO NOTE:
             - danger = red | primary = blue | warning = yellow | success = green
-                if you'd like for these to be custom colors:
-                    > remove all "bg-danger" from classes. add "background-color: #____;" in style of element
-                    > remove all "text-danger" from classes.  add "color: #____;" in style of element
-                I will most likely make a custom colors version, though, so, if you're patient, you may not need to suffer so much :')
             - text-white = white text | text-dark = dark text
             - replace all placeholder images (those that begin with https://via.placeholder.com/) w/ the images of your choosing
 
@@ -220,17 +216,17 @@
             <!-- PALETTE --------------------->
             <div class="row no-gutters mt-md-3 mb-3">
                 <!-- 1 -->
-                <div class="col-2 tooltipster" title="hair" data-placement="left" style="height: 10px; background: #8d623f;"></div>
+                <div class="col-2 tooltipster" title="word" data-placement="left" style="height: 10px; background: #8d623f;"></div>
                 <!-- 2 -->
-                <div class="col-2 tooltipster" title="eyes" data-placement="left" style="height: 10px; background: #631600;"></div>
+                <div class="col-2 tooltipster" title="word" data-placement="left" style="height: 10px; background: #631600;"></div>
                 <!-- 3 -->
-                <div class="col-2 tooltipster" title="skin" data-placement="left" style="height: 10px; background: #fcf7f0;"></div>
+                <div class="col-2 tooltipster" title="word" data-placement="left" style="height: 10px; background: #fcf7f0;"></div>
                 <!-- 4 -->
-                <div class="col-2 tooltipster" title="scarf" data-placement="left" style="height: 10px; background: #1a1919;"></div>
+                <div class="col-2 tooltipster" title="word" data-placement="left" style="height: 10px; background: #1a1919;"></div>
                 <!-- 5 -->
-                <div class="col-2 tooltipster" title="coat" data-placement="left" style="height: 10px; background: #1b1b1b;"></div>
+                <div class="col-2 tooltipster" title="word" data-placement="left" style="height: 10px; background: #1b1b1b;"></div>
                 <!-- 6 -->
-                <div class="col-2 tooltipster" title="earphones" data-placement="left" style="height: 10px; background: #181818;"></div>
+                <div class="col-2 tooltipster" title="word" data-placement="left" style="height: 10px; background: #181818;"></div>
             </div>
     
         <!-- BEGIN THIRD SECTION --------------------------------------->
