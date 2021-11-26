@@ -429,7 +429,7 @@
                         <!-- DESIGN NOTES -------------------------------->
                         <div class="px-3 mb-4 text-justify" style="font-weight: 200;">
                             <div style="font-size: 18px; font-variant: small-caps;">    Design Notes
-                                <!-- REF SHEET LINK --> <a class="text-white" href="LINK_HERE" target="_blank"><span class="pull-right"><i class="fas fa-palette tooltipster" title="Complete Reference Sheet" data-placement="left"></i></span></a>   </div>
+                                <!-- REF SHEET LINK --> <a href="LINK_HERE" target="_blank"><span class="pull-right"><i class="fas fa-palette tooltipster" title="Complete Reference Sheet" data-placement="left"></i></span></a>   </div>
                             <div class="pl-1 pr-3" style="max-height: 185px; overflow-y: auto; font-size: 13.5px;">
                                 <!-- write here -->
                                 <ul>
