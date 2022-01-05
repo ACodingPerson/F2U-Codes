@@ -45,11 +45,11 @@
                 <div class="p-1 h-100 bg-faded" style="border-radius: 0px 50px 0px 0px;">
                     
                     <!-- PHOTO HERE -------------------->
-                    <div style="background-position: center; background-size: cover; position: relative; height: 500px; border-radius: 0px 50px 0px 0px;
+                    <div style="background-position: center; background-size: cover; position: relative; height: 500px;
                         background-image: url(https://via.placeholder.com/250x500);">
 
                         <!-- ADJECTIVES -------------->
-                        <div class="px-2 py-1 bg-faded" style="border-radius: 0px 50px 0px 0px;">
+                        <div class="px-2 py-1 bg-faded">
                                 <!-- ART CREDIT ---------------->
                                 <a href="LINK_HERE" 
                                     class="mr-2 tooltipster" data-placement="right" 
