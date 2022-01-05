@@ -1,0 +1,891 @@
+<!-- A Look C | Revamped Version 2 [Bootstrap] || Made by ACP (acodingperson) @Toyhou.se
+
+    HANDY WEBSITES:
+        > Font Awesome v5 (for old icons): https://fontawesome.com/
+        > Font Awesome v6 (for new icons): https://fontawesome.com/v6.0/icons
+        > W3 Schools Bootstrap: https://www.w3schools.com/bootstrap/
+        > W3 Schools HTML: https://www.w3schools.com/html/default.asp
+        > Bootstrap Docs: https://getbootstrap.com/docs/5.1/getting-started/introduction/
+
+    TO KEEP IN MIND:
+        > replace all placeholder images (those that begin with https://via.placeholder.com/) with the images of your choosing
+        > read through and understand my TOS - https://toyhou.se/~bulletins/491483.global-tos
+        > bump my thread~ - https://toyhou.se/~forums/16.htmlcss-graphics/245374.the-codes-of-a-person-acp-s-coding-thread
+        > you can erase this entire block for ease of use
+
+    THANK YOU FOR USING <3
+
+-->
+
+
+
+
+
+
+
+<!-- CONTAINER ----------------------------------------->
+<div class="mx-auto p-3 shadow-lg rounded font-weight-light bg-dark" style="max-width: 850px; border: 0.5px solid;">
+
+    <!-- BEGIN QUOTE ---------------------------------------->
+        <div class="p-2 mb-2 bg-faded" style="border-style: double; border-width: 4px; border-radius: 0px 0px 30px 0px; font-variant: small-caps; font-size: 19px;">
+                <i class="fa-solid fa-quote-left fa-2xs mt-2" style="vertical-align: text-top;"></i>
+                    <!-- ADD HERE --> Quote.  Lorem ipsum dolor sit amet.
+                <i class="fa-solid fa-quote-right fa-2xs mt-2" style="vertical-align: text-top;"></i>
+        </div>
+    <!-- END QUOTE ------------------------------------------>
+
+
+    <!-- BEGIN CONTENT BLOCK ------------------------------------------------------>
+    <div class="p-3 my-1 bg-faded" style="border-style: dashed; border-width: 1.2px; border-radius: 0px 50px 0px 50px;">
+
+        <div class="row no-gutters">
+
+            <!-- BEGIN RIGHT COLUMN ---------------------------------->
+            <div class="col-md-4 order-md-2">
+                <div class="p-1 h-100 bg-faded" style="border-radius: 0px 50px 0px 0px;">
+                    
+                    <!-- PHOTO HERE -------------------->
+                    <div style="background-position: center; background-size: cover; position: relative; height: 500px; border-radius: 0px 50px 0px 0px;
+                        background-image: url(https://via.placeholder.com/250x500);">
+
+                        <!-- ADJECTIVES -------------->
+                        <div class="px-2 py-1 bg-faded" style="border-radius: 0px 50px 0px 0px;">
+                                <!-- ART CREDIT ---------------->
+                                <a href="LINK_HERE" 
+                                    class="mr-2 tooltipster" data-placement="right" 
+                                        title="art by ______">
+                                            <!-- icon --> <i class="fas fa-image-polaroid"></i>
+                                </a>
+                                        <!-- ADD ADJECTIVES HERE --> adj - adj - adj
+                        </div>
+                        <!-- END ADJECTIVES -------------->
+                
+                    </div>
+                    <!-- END PHOTO ----------------------->
+
+                    <!-- BEGIN META INFO LIST ----------------------->
+                    <div class="mt-1 py-3 px-3 text-justify">
+
+                        <!-- 1 -->
+                        <div class="w-100">
+                            <span class="font-weight-normal">Age</span>
+                            <span class="pull-right">Content</span>
+                        </div>
+                            <hr class="mt-0 mb-1 bg-light">
+                        <!-- 2 -->
+                        <div class="w-100">
+                            <span class="font-weight-normal">Gender</span>
+                            <span class="pull-right">Content</span>
+                        </div>
+                            <hr class="mt-0 mb-1 bg-light">
+                        <!-- 3 -->
+                        <div class="w-100">
+                            <span class="font-weight-normal">Pronouns</span>
+                            <span class="pull-right">Con/tent</span>
+                        </div>
+                            <hr class="mt-0 mb-1 bg-light">
+                        <!-- 4 -->
+                        <div class="w-100">
+                            <span class="font-weight-normal">Orientation</span>
+                            <span class="pull-right">Content</span>
+                        </div>
+                            <hr class="mt-0 mb-1 bg-light">
+                        <!-- 5 -->
+                        <div class="w-100">
+                            <span class="font-weight-normal">Role</span>
+                            <span class="pull-right">Content</span>
+                        </div>
+                            <hr class="mt-0 mb-1 bg-light">
+                        <!-- 6 -->
+                        <div class="w-100">
+                            <span class="font-weight-normal">Alignment</span>
+                            <span class="pull-right">Content</span>
+                        </div>
+                            <hr class="mt-0 mb-1 bg-light">
+                        <!-- 7 -->
+                        <div class="w-100">
+                            <span class="font-weight-normal">Status</span>
+                            <span class="pull-right">Content | Content</span>
+                        </div>
+                            <hr class="mt-0 mb-2 bg-light">
+
+                        <!-- THEME SONG -->
+                        <a href="LINK_HERE" class="btn btn-block bg-dark text-white border-0 rounded-0 text-center">
+                            <i class="fa-solid fa-circle-play fa-lg"></i>
+                        </a>
+
+                    </div>
+                    <!-- END META INFO LIST ------------------------->
+                
+                </div>
+            </div>
+            <!-- END RIGHT COLUMN --------------------------------->
+
+            
+            <!-- BEGIN LEFT COLUMN -------------------------------->
+            <div class="col-md-8">
+                <div class="pr-md-1 pl-md-2 px-md-0 px-1 pt-2 h-100 bg-faded" style="border-radius: 0px 0px 0px 50px;">
+
+
+                    <!-- NAME HERE ------------------------->
+                    <div class="text-center px-2 py-1 bg-secondary text-white" style="font-size: 23px; letter-spacing: 3px; ">
+                        <!-- ICON 1 --> <span class="pull-left">    <i class="fa-solid fa-trees"></i>   </span>
+                            <!-- ADD HERE --> NAME
+                        <!-- ICON 2 --> <span class="pull-right">   <i class="fa-solid fa-trees"></i>   </span>
+                    </div>
+
+                        <!-- ABOUT SECTION ------------------->
+                        <div class="pr-4 pl-3 pt-1 text-justify" style="max-height: 100px; overflow-y: auto; font-size: 13px;">
+                            <p>Write basic character info here (summary). Box scrolls.  Try to keep it short.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non nesciunt sapiente repudiandae culpa laudantium distinctio veniam ab.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate nam quos error neque distinctio earum, rerum expedita eaque eos, aperiam sit. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores, neque! Perferendis, illum porro, facilis nam voluptas similique nostrum. Nam.</p>
+                        </div>
+
+
+                    <!-- NAVIGATION ------------------------>
+                    <ul class="nav nav-pills nav-fill text-center py-2" style="font-size: 11px;">
+
+                        <!-- APPEARANCE -->
+                        <li class="nav-item active pr-2">
+                            <a class="nav-link active bg-secondary text-white" data-toggle="tab" href="#APPEARANCE" style="border-radius: 0;">
+                                <i class="fas fa-sparkles"></i>
+                            </a>
+                        </li>
+                        <!-- PERSONALITY -->
+                        <li class="nav-item pr-2">
+                            <a class="nav-link bg-secondary text-white" data-toggle="tab" href="#PERSONALITY" style="border-radius: 0;">
+                                <i class="fas fa-snowflakes"></i>
+                            </a>
+                        </li>
+                        <!-- ABILITIES -->
+                        <li class="nav-item pr-2">
+                            <a class="nav-link bg-secondary text-white" data-toggle="tab" href="#ABILITIES" style="border-radius: 0;">
+                                <i class="fas fa-abacus"></i>
+                            </a>
+                        </li>
+                        <!-- HISTORY -->
+                        <li class="nav-item pr-2">
+                            <a class="nav-link bg-secondary text-white" data-toggle="tab" href="#HISTORY" style="border-radius: 0;">
+                                <i class="fas fa-books"></i>
+                            </a>
+                        </li>
+                        <!-- TRIVIA -->
+                        <li class="nav-item pr-2">
+                            <a class="nav-link bg-secondary text-white" data-toggle="tab" href="#TRIVIA" style="border-radius: 0;">
+                                <i class="fas fa-map-pin"></i>
+                            </a>
+                        </li>
+                        <!-- LINKS -->
+                        <li class="nav-item">
+                            <a class="nav-link bg-secondary text-white" data-toggle="tab" href="#LINKS" style="border-radius: 0;">
+                                <i class="fas fa-link"></i>
+                            </a>
+                        </li>
+
+                    </ul>
+                    <!-- /NAVIGATION ----------------------->
+
+
+                    <!------------------------------ BEGIN TAB CONTENT HERE ------------------------------------->
+                    <div class="tab-content">
+                        
+                        <!-- BEGIN TAB 1 | APPEARANCE --------------------------------------------------------->
+                        <div class="tab-pane fade in active show" id="APPEARANCE">
+                            
+                            <div class="py-2 px-4" style="height: 545px; overflow-y: auto;">
+
+                                <!-- BEGIN APPEARANCE LISTED INFO ----------------------->
+                                <div class="row no-gutters px-3 py-2" style="font-size: 13px;">
+                                    <!-- FIRST COLUMN ---------------->
+                                    <div class="col-md-6 pr-md-3">
+                                        <!-- 1 -->
+                                        <div class="w-100">
+                                            <span class="pull-left font-weight-normal">Height</span>
+                                            <span class="pull-right">Content</span>
+                                                <hr class="my-1 bg-light">
+                                        </div>
+                                        <!-- 2 -->
+                                        <div class="w-100">
+                                            <span class="pull-left font-weight-normal">Weight</span>
+                                            <span class="pull-right">Content</span>
+                                                <hr class="my-1 bg-light">
+                                        </div>
+                                        <!-- 3 -->
+                                        <div class="w-100">
+                                            <span class="pull-left font-weight-normal">Ethnicity</span>
+                                            <span class="pull-right">Content</span>
+                                                <hr class="my-1 bg-light">
+                                        </div>
+                                    </div>
+                                    <!-- SECOND COLUMN -------------->
+                                    <div class="col-md-6 pl-md-3">
+                                        <!-- 1 -->
+                                        <div class="w-100">
+                                            <span class="pull-left font-weight-normal">Body Type</span>
+                                            <span class="pull-right">Content</span>
+                                                <hr class="my-1 bg-light">
+                                        </div>
+                                        <!-- 2 -->
+                                        <div class="w-100">
+                                            <span class="pull-left font-weight-normal">Body Shape</span>
+                                            <span class="pull-right">Content</span>
+                                                <hr class="my-1 bg-light">
+                                        </div>
+                                        <!-- 3 -->
+                                        <div class="w-100">
+                                            <span class="pull-left font-weight-normal">Species</span>
+                                            <span class="pull-right">Content</span>
+                                                <hr class="my-1 bg-light">
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- END APPEARANCE LISTED INFO --------------------->
+
+                                <!-- BEGIN DESIGN NOTES ----------------------------->
+
+                                    <!-- HEADER ------->
+                                    <div class="text-left pt-3" style="font-size: 20px;">
+                                        Design Notes
+                                        <span class="pull-right">    <i class="fa-solid fa-palette"></i>    </span>
+                                            <hr class="mt-0 mb-1 bg-light">
+                                    </div>
+
+                                    <!-- CONTENT HERE --------->
+                                    <ul class="fa-ul text-justify" style="font-size: 13.5px;">
+                                        <li><i class="fa-li fas fa-paint-brush-alt fa-xs"></i>Content.</li>
+                                        <li><i class="fa-li fas fa-paint-brush-alt fa-xs"></i>Content.</li>
+                                        <li><i class="fa-li fas fa-paint-brush-alt fa-xs"></i>Content.</li>
+                                        <li><i class="fa-li fas fa-paint-brush-alt fa-xs"></i>Content.</li>
+                                        <li><i class="fa-li fas fa-paint-brush-alt fa-xs"></i>Content.</li>
+                                        <li><i class="fa-li fas fa-paint-brush-alt fa-xs"></i>Content.</li>
+                                        <li><i class="fa-li fas fa-paint-brush-alt fa-xs"></i>Content.</li>
+                                        <!-- add more above this line -->
+                                    </ul>
+
+                                <!-- END DESIGN NOTES ------------------------------->
+
+                                <!-- BEGIN PARAGRAPH WRITTEN CONTENT ---------------->
+                                <div class="mt-2 text-justify">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius sapiente commodi qui voluptatibus omnis aperiam molestias maxime explicabo laboriosam sequi? Sed quidem, porro nobis amet consequatur quam quisquam neque. Asperiores!</p>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor assumenda, quos blanditiis tenetur at alias et quia quae, veritatis quasi veniam officiis? A totam iure exercitationem esse suscipit in vitae!</p>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum dolor et dicta iure illo pariatur, ratione adipisci. Quasi ullam ratione sunt corporis ab itaque, nihil obcaecati, quas distinctio deleniti quam!</p>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure cupiditate aspernatur iste voluptate? Minus sequi, dolorem reprehenderit enim mollitia, totam porro nobis nisi expedita, voluptates voluptatem nesciunt aspernatur commodi officia!</p>
+                                    <!-- add more above this line -->
+                                </div>
+                                <!-- END PARAGRAPH WRITTEN CONTENT ------------------>
+
+                                <!-- PALLETTE --------------->
+                                <div class="row no-gutters mt-3 modal-open" style="border-radius: 10px; height: 25px;">
+                                    <!-- adjust background-color -->
+                                    <div class="col w-100 h-100" style="background-color: #2a3029;"></div>
+                                    <div class="col w-100 h-100" style="background-color: #6d8d8d;"></div>
+                                    <div class="col w-100 h-100" style="background-color: #c0dbdd;"></div>
+                                    <div class="col w-100 h-100" style="background-color: #8d7f6d;"></div>
+                                    <div class="col w-100 h-100" style="background-color: #ddd1dd;"></div>
+                                    <!-- add more above this line -->
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <!-- END TAB 1 | APPEARANCE ----------------------------------------------------------->
+
+
+                        <!-- BEGIN TAB 2 | PERSONALITY -------------------------------------------------------->
+                        <div class="tab-pane fade" id="PERSONALITY">
+                            
+                            <div class="py-2 px-4" style="height: 545px; overflow-y: auto;">
+
+                                <!-- BEGIN PERSONALITY LISTED INFO ---------------------->
+                                <div class="px-3 py-2 text-justify" style="font-size: 13px;">
+                                    <!-- 1 -->
+                                    <div class="w-100">
+                                        <span class="pull-left font-weight-normal">Positive Traits</span>
+                                        <span class="pull-right">Trait + Trait + Trait</span>
+                                            <hr class="my-1 bg-light">
+                                    </div>
+                                    <!-- 2 -->
+                                    <div class="w-100">
+                                        <span class="pull-left font-weight-normal">Neutral Traits</span>
+                                        <span class="pull-right">Trait ~ Trait ~ Trait</span>
+                                            <hr class="my-1 bg-light">
+                                    </div>
+                                    <!-- 3 -->
+                                    <div class="w-100">
+                                        <span class="pull-left font-weight-normal">Negative Traits</span>
+                                        <span class="pull-right">Trait - Trait - Trait</span>
+                                            <hr class="my-1 bg-light">
+                                    </div>
+                                </div>
+                                <!-- END PERSONALITY LISTED INFO -------------------->
+
+                                <!-- BEGIN LIKES & DISLIKES ------------------------->
+                                <div class="row no-gutters">
+
+                                    <!-- BEGIN LIKES ------------------------>
+                                    <div class="col-md-6 pr-md-2">
+                                        <!-- HEADER ------->
+                                        <div class="text-left pt-3" style="font-size: 19px;">
+                                            Likes
+                                            <span class="pull-right">    <i class="fa-solid fa-circle-check"></i>    </span>
+                                                <hr class="mt-0 mb-1 bg-light">
+                                        </div>
+
+                                        <!-- CONTENT HERE --------->
+                                        <ul class="pl-4 text-justify" style="font-size: 13px;">
+                                            <li>Content.</li>
+                                            <li>Content.</li>
+                                            <li>Content.</li>
+                                            <li>Content.</li>
+                                            <li>Content.</li>
+                                            <li>Content.</li>
+                                            <li>Content.</li>
+                                            <!-- add more above this line -->
+                                        </ul>
+                                    </div>
+                                    <!-- END LIKES -------------------------->
+
+                                    <!-- BEGIN DISLIKES --------------------->
+                                    <div class="col-md-6 pl-md-2">
+                                        <!-- HEADER ------->
+                                        <div class="text-left pt-3" style="font-size: 19px;">
+                                            Dislikes
+                                            <span class="pull-right">    <i class="fa-solid fa-circle-xmark"></i>    </span>
+                                                <hr class="mt-0 mb-1 bg-light">
+                                        </div>
+
+                                        <!-- CONTENT HERE --------->
+                                        <ul class="pl-4 text-justify" style="font-size: 13px;">
+                                            <li>Content.</li>
+                                            <li>Content.</li>
+                                            <li>Content.</li>
+                                            <li>Content.</li>
+                                            <li>Content.</li>
+                                            <li>Content.</li>
+                                            <li>Content.</li>
+                                            <!-- add more above this line -->
+                                        </ul>
+                                    </div>
+                                    <!-- END DISLIKES ----------------------->
+
+                                </div>
+                                <!-- END LIKES & DISLIKES ------------------------->
+
+                                <!-- BEGIN PARAGRAPH WRITTEN CONTENT ---------------->
+                                <div class="mt-2 text-justify">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius sapiente commodi qui voluptatibus omnis aperiam molestias maxime explicabo laboriosam sequi? Sed quidem, porro nobis amet consequatur quam quisquam neque. Asperiores!</p>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor assumenda, quos blanditiis tenetur at alias et quia quae, veritatis quasi veniam officiis? A totam iure exercitationem esse suscipit in vitae!</p>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum dolor et dicta iure illo pariatur, ratione adipisci. Quasi ullam ratione sunt corporis ab itaque, nihil obcaecati, quas distinctio deleniti quam!</p>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure cupiditate aspernatur iste voluptate? Minus sequi, dolorem reprehenderit enim mollitia, totam porro nobis nisi expedita, voluptates voluptatem nesciunt aspernatur commodi officia!</p>
+                                    <!-- add more above this line -->
+                                </div>
+                                <!-- END PARAGRAPH WRITTEN CONTENT ------------------>
+
+                            </div>
+
+                        </div>
+                        <!-- END TAB 2 | PERSONALITY ---------------------------------------------------------->
+
+
+                        <!-- BEGIN TAB 3 | ABILITIES ---------------------------------------------------------->
+                        <div class="tab-pane fade" id="ABILITIES">
+                            
+                            <div class="py-2 px-4" style="height: 545px; overflow-y: auto;">
+
+                                <!-- BEGIN STATS -------------------------------->
+                                <div class="row no-gutters px-3 py-2 text-justify" style="font-size: 13px;">
+                                    <!-- COLUMN 1 ------------------>
+                                    <div class="col-6 pr-3">
+                                        <!-- 1 -->
+                                        <div class="w-100 pb-2 text-uppercase"> <span class="pull-left">stat</span><br>
+                                            <div class="progress bg-light" style="height: 3px;">
+                                                <!-- adjust width -->
+                                                <div class="progress-bar bg-dark" style="width: 50%;"></div>
+                                            </div>
+                                        </div>
+                                        <!-- 2 -->
+                                        <div class="w-100 pb-2 text-uppercase"> <span class="pull-left">stat</span><br>
+                                            <div class="progress bg-light" style="height: 3px;">
+                                                <!-- adjust width -->
+                                                <div class="progress-bar bg-dark" style="width: 50%;"></div>
+                                            </div>
+                                        </div>
+                                        <!-- 3 -->
+                                        <div class="w-100 pb-2 text-uppercase"> <span class="pull-left">stat</span><br>
+                                            <div class="progress bg-light" style="height: 3px;">
+                                                <!-- adjust width -->
+                                                <div class="progress-bar bg-dark" style="width: 50%;"></div>
+                                            </div>
+                                        </div>
+                                        <!-- add more above this line -->
+                                    </div>
+                                    <!-- COLUMN 2 ------------------>
+                                    <div class="col-6 pl-3">
+                                        <!-- 4 -->
+                                        <div class="w-100 pb-2 text-uppercase"> <span class="pull-left">stat</span><br>
+                                            <div class="progress bg-light" style="height: 3px;">
+                                                <!-- adjust width -->
+                                                <div class="progress-bar bg-dark" style="width: 50%;"></div>
+                                            </div>
+                                        </div>
+                                        <!-- 5 -->
+                                        <div class="w-100 pb-2 text-uppercase"> <span class="pull-left">stat</span><br>
+                                            <div class="progress bg-light" style="height: 3px;">
+                                                <!-- adjust width -->
+                                                <div class="progress-bar bg-dark" style="width: 50%;"></div>
+                                            </div>
+                                        </div>
+                                        <!-- 6 -->
+                                        <div class="w-100 pb-2 text-uppercase"> <span class="pull-left">stat</span><br>
+                                            <div class="progress bg-light" style="height: 3px;">
+                                                <!-- adjust width -->
+                                                <div class="progress-bar bg-dark" style="width: 50%;"></div>
+                                            </div>
+                                        </div>
+                                        <!-- add more above this line -->
+                                    </div>
+                                </div>
+                                <!-- END STATS ----------------------------->
+
+                                <!-- BEGIN STRENGTHS & WEAKNESSES ---------------------->
+                                <div class="row no-gutters">
+
+                                    <!-- BEGIN STRENGTHS ------------------------>
+                                    <div class="col-md-6 pr-md-2">
+                                        <!-- HEADER ------->
+                                        <div class="text-left pt-3" style="font-size: 20px;">
+                                            Strengths
+                                            <span class="pull-right">    <i class="fa-solid fa-circle-plus"></i>    </span>
+                                                <hr class="mt-0 mb-1 bg-light">
+                                        </div>
+
+                                        <!-- CONTENT HERE --------->
+                                        <ul class="pl-4 text-justify" style="font-size: 13px;">
+                                            <li>Content.</li>
+                                            <li>Content.</li>
+                                            <li>Content.</li>
+                                            <li>Content.</li>
+                                            <li>Content.</li>
+                                            <li>Content.</li>
+                                            <li>Content.</li>
+                                            <!-- add more above this line -->
+                                        </ul>
+                                    </div>
+                                    <!-- END STRENGTHS -------------------------->
+
+                                    <!-- BEGIN WEAKNESSES --------------------->
+                                    <div class="col-md-6 pl-md-2">
+                                        <!-- HEADER ------->
+                                        <div class="text-left pt-3" style="font-size: 20px;">
+                                            Weaknesses
+                                            <span class="pull-right">    <i class="fa-solid fa-circle-minus"></i>    </span>
+                                                <hr class="mt-0 mb-1 bg-light">
+                                        </div>
+
+                                        <!-- CONTENT HERE --------->
+                                        <ul class="pl-4 text-justify" style="font-size: 13px;">
+                                            <li>Content.</li>
+                                            <li>Content.</li>
+                                            <li>Content.</li>
+                                            <li>Content.</li>
+                                            <li>Content.</li>
+                                            <li>Content.</li>
+                                            <li>Content.</li>
+                                            <!-- add more above this line -->
+                                        </ul>
+                                    </div>
+                                    <!-- END WEAKNESSES ----------------------->
+
+                                </div>
+                                <!-- END STRENGTHS & WEAKNESSES ------------------------->
+
+                                <!-- BEGIN SKILLS ----------------------------->
+                                <div class="mt-2 text-justify" style="font-size: 14px;">
+                                    <!-- paragraph information -------------->
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius sapiente commodi qui voluptatibus omnis aperiam molestias maxime explicabo laboriosam sequi? Sed quidem, porro nobis amet consequatur quam quisquam neque. Asperiores!</p>
+                                        
+                                        <!-- SKILL 1 ---------->
+                                        <p>
+                                            <!-- TITLE --> <span class="mr-2" style="font-size: 18px;"> <i class="fa-solid fa-feather"></i> <!-- add skill name here --> Skill Name </span>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor assumenda, quos blanditiis tenetur at alias et quia quae, veritatis quasi veniam officiis? A totam iure exercitationem esse suscipit in vitae!
+                                        </p>
+
+                                        <!-- SKILL 2 ---------->
+                                        <p>
+                                            <!-- TITLE --> <span class="mr-2" style="font-size: 18px;"> <i class="fa-solid fa-bolt"></i> <!-- add skill name here --> Skill Name </span>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor assumenda, quos blanditiis tenetur at alias et quia quae, veritatis quasi veniam officiis? A totam iure exercitationem esse suscipit in vitae!
+                                        </p>
+
+                                        <!-- SKILL 3 ---------->
+                                        <p>
+                                            <!-- TITLE --> <span class="mr-2" style="font-size: 18px;"> <i class="fa-solid fa-cloud-meatball"></i> <!-- add skill name here --> Skill Name </span>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor assumenda, quos blanditiis tenetur at alias et quia quae, veritatis quasi veniam officiis? A totam iure exercitationem esse suscipit in vitae!
+                                        </p>
+
+                                        <!-- add more above this line -->
+                                </div>
+                                <!-- END SKILLS ---------------------------->
+
+                            </div>
+
+                        </div>
+                        <!-- END TAB 3 | ABILITIES ------------------------------------------------------------>
+
+
+                        <!-- BEGIN TAB 4 | HISTORY ------------------------------------------------------------>
+                        <div class="tab-pane fade" id="HISTORY">
+                            
+                            <div class="py-2 px-4 text-justify" style="height: 545px; overflow-y: auto;">
+
+                                <!-- HEADER 1 -------------------------->
+                                <div class="pb-1" style="font-size: 20px;">
+                                    <i class="fa-solid fa-bookmark"></i>
+                                    HEADER
+                                </div>
+                                    <!-- HEADER CONTENT -->
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita dicta atque totam repudiandae sapiente voluptates cupiditate, magnam labore consequuntur voluptas nihil odit praesentium porro sequi dolore incidunt quis similique dolorum!</p>
+                                        <!-- SUBHEADER 1 -------->
+                                        <div class="pl-4">
+                                            <div class="pb-1 text-muted" style="font-size: 18px;">
+                                                <i class="fa-regular fa-bookmark"></i>
+                                                SUBHEADER
+                                            </div>
+                                                <!-- SUBHEADER CONTENT -->
+                                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam fugiat corporis eum provident excepturi minus? Error sit minus veritatis distinctio architecto eius, tempora alias at porro, ullam, ad culpa a.</p>
+                                        </div>
+
+                                <!-- HEADER 2 -------------------------->
+                                <div class="pb-1 mt-3" style="font-size: 20px;">
+                                    <i class="fa-solid fa-bookmark"></i>
+                                    HEADER
+                                </div>
+                                    <!-- HEADER CONTENT -->
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita dicta atque totam repudiandae sapiente voluptates cupiditate, magnam labore consequuntur voluptas nihil odit praesentium porro sequi dolore incidunt quis similique dolorum!</p>
+                                        <!-- SUBHEADER 1 -------->
+                                        <div class="pl-4">
+                                            <div class="pb-1 text-muted" style="font-size: 18px;">
+                                                <i class="fa-regular fa-bookmark"></i>
+                                                SUBHEADER
+                                            </div>
+                                                <!-- SUBHEADER CONTENT -->
+                                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam fugiat corporis eum provident excepturi minus? Error sit minus veritatis distinctio architecto eius, tempora alias at porro, ullam, ad culpa a.</p>
+                                        </div>
+                                        <!-- SUBHEADER 2 -------->
+                                        <div class="pl-4 pt-2">
+                                            <div class="pb-1 text-muted" style="font-size: 18px;">
+                                                <i class="fa-regular fa-bookmark"></i>
+                                                SUBHEADER
+                                            </div>
+                                                <!-- SUBHEADER CONTENT -->
+                                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam fugiat corporis eum provident excepturi minus? Error sit minus veritatis distinctio architecto eius, tempora alias at porro, ullam, ad culpa a.</p>
+                                        </div>
+
+                                <!-- HEADER 3 -------------------------->
+                                <div class="pb-1 mt-3" style="font-size: 20px;">
+                                    <i class="fa-solid fa-bookmark"></i>
+                                    HEADER
+                                </div>
+                                    <!-- HEADER CONTENT -->
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita dicta atque totam repudiandae sapiente voluptates cupiditate, magnam labore consequuntur voluptas nihil odit praesentium porro sequi dolore incidunt quis similique dolorum!</p>
+                                        <!-- SUBHEADER 1 -------->
+                                        <div class="pl-4 pt-2">
+                                            <div class="pb-1 text-muted" style="font-size: 18px;">
+                                                <i class="fa-regular fa-bookmark"></i>
+                                                SUBHEADER
+                                            </div>
+                                                <!-- SUBHEADER CONTENT -->
+                                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam fugiat corporis eum provident excepturi minus? Error sit minus veritatis distinctio architecto eius, tempora alias at porro, ullam, ad culpa a.</p>
+                                        </div>
+                                        <!-- SUBHEADER 2 -------->
+                                        <div class="pl-4 pt-2">
+                                            <div class="pb-1 text-muted" style="font-size: 18px;">
+                                                <i class="fa-regular fa-bookmark"></i>
+                                                SUBHEADER
+                                            </div>
+                                                <!-- SUBHEADER CONTENT -->
+                                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam fugiat corporis eum provident excepturi minus? Error sit minus veritatis distinctio architecto eius, tempora alias at porro, ullam, ad culpa a.</p>
+                                        </div>
+                                        <!-- SUBHEADER 3 -------->
+                                        <div class="pl-4 pt-2">
+                                            <div class="pb-1 text-muted" style="font-size: 18px;">
+                                                <i class="fa-regular fa-bookmark"></i>
+                                                SUBHEADER
+                                            </div>
+                                                <!-- SUBHEADER CONTENT -->
+                                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam fugiat corporis eum provident excepturi minus? Error sit minus veritatis distinctio architecto eius, tempora alias at porro, ullam, ad culpa a.</p>
+                                        </div>
+
+                            </div>
+
+                        </div>
+                        <!-- END TAB 4 | HISTORY -------------------------------------------------------------->
+
+
+                        <!-- BEGIN TAB 5 | TRIVIA ------------------------------------------------------------->
+                        <div class="tab-pane fade" id="TRIVIA">
+
+                            <div class="py-2 px-4 text-justify" style="height: 545px; overflow-y: auto;">
+
+                                <!-- BEGIN MISC LIST ------------------------------------------>
+                                <div class="text-left" style="font-size: 22px;">
+                                    TRIVIA
+                                    <span class="pull-right">    <i class="fa-solid fa-location-pen"></i>    </span>
+                                        <hr class="mt-0 mb-1 bg-light">
+                                </div>
+
+                                    <!-- CONTENT HERE --------->
+                                    <ul class="fa-ul text-justify" style="font-size: 14px;">
+                                        <li><i class="fa-li far fa-thumbtack"></i>Content.</li>
+                                        <li><i class="fa-li far fa-thumbtack"></i>Content.</li>
+                                        <li><i class="fa-li far fa-thumbtack"></i>Content.</li>
+                                        <li><i class="fa-li far fa-thumbtack"></i>Content.</li>
+                                        <li><i class="fa-li far fa-thumbtack"></i>Content.</li>
+                                        <li><i class="fa-li far fa-thumbtack"></i>Content.</li>
+                                        <li><i class="fa-li far fa-thumbtack"></i>Content.</li>
+                                        <!-- add more above this line -->
+                                    </ul>
+                                <!-- END MISC LIST --------------------------------------------->
+
+                                <!-- BEGIN MOODBOARD ------------------------------------------->
+                                <div class="row no-gutters modal-open" style="border-radius: 1em;">
+                                    <!-- 1 -->
+                                    <div class="col-4">
+                                        <div style="padding-top: 100%;">
+                                            <!-- change background-image url -->
+                                            <div style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; background-size: cover; background-position: center; background-repeat: no-repeat;
+                                                background-image: url(https://via.placeholder.com/150x150);"></div>
+                                        </div>
+                                    </div>
+                                    <!-- 2 -->
+                                    <div class="col-4">
+                                        <div style="padding-top: 100%;">
+                                            <!-- change background-image url -->
+                                            <div style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; background-size: cover; background-position: center; background-repeat: no-repeat;
+                                                background-image: url(https://via.placeholder.com/150x150);"></div>
+                                        </div>
+                                    </div>
+                                    <!-- 3 -->
+                                    <div class="col-4">
+                                        <div style="padding-top: 100%;">
+                                            <!-- change background-image url -->
+                                            <div style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; background-size: cover; background-position: center; background-repeat: no-repeat;
+                                                background-image: url(https://via.placeholder.com/150x150);"></div>
+                                        </div>
+                                    </div>
+                                    <!-- 4 -->
+                                    <div class="col-4">
+                                        <div style="padding-top: 100%;">
+                                            <!-- change background-image url -->
+                                            <div style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; background-size: cover; background-position: center; background-repeat: no-repeat;
+                                                background-image: url(https://via.placeholder.com/150x150);"></div>
+                                        </div>
+                                    </div>
+                                    <!-- 5 -->
+                                    <div class="col-4">
+                                        <div style="padding-top: 100%;">
+                                            <!-- change background-image url -->
+                                            <div style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; background-size: cover; background-position: center; background-repeat: no-repeat;
+                                                background-image: url(https://via.placeholder.com/150x150);"></div>
+                                        </div>
+                                    </div>
+                                    <!-- 6 -->
+                                    <div class="col-4">
+                                        <div style="padding-top: 100%;">
+                                            <!-- change background-image url -->
+                                            <div style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; background-size: cover; background-position: center; background-repeat: no-repeat;
+                                                background-image: url(https://via.placeholder.com/150x150);"></div>
+                                        </div>
+                                    </div>
+                                    <!-- 7 -->
+                                    <div class="col-4">
+                                        <div style="padding-top: 100%;">
+                                            <!-- change background-image url -->
+                                            <div style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; background-size: cover; background-position: center; background-repeat: no-repeat;
+                                                background-image: url(https://via.placeholder.com/150x150);"></div>
+                                        </div>
+                                    </div>
+                                    <!-- 8 -->
+                                    <div class="col-4">
+                                        <div style="padding-top: 100%;">
+                                            <!-- change background-image url -->
+                                            <div style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; background-size: cover; background-position: center; background-repeat: no-repeat;
+                                                background-image: url(https://via.placeholder.com/150x150);"></div>
+                                        </div>
+                                    </div>
+                                    <!-- 9 -->
+                                    <div class="col-4">
+                                        <div style="padding-top: 100%;">
+                                            <!-- change background-image url -->
+                                            <div style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; background-size: cover; background-position: center; background-repeat: no-repeat;
+                                                background-image: url(https://via.placeholder.com/150x150);"></div>
+                                        </div>
+                                    </div>
+                                    <!-- add more above this line -->
+
+                                </div>
+                                <!-- END MOODBOARD --------------------------------------------->
+                                    <!-- MOODBOARD CREDITS ------------------->
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col">
+                                            <hr class="my-0" class="bg-secondary text-white">
+                                        </div>
+                                            <div class="col-auto px-2" style="letter-spacing: 5px; font-size: 10px;">
+                                                <!-- ADD CREDIT HERE --> 
+                                                <a href="LINK_HERE" class="text-muted">
+                                                    credit
+                                                </a>
+                                            </div>
+                                        <div class="col">
+                                            <hr class="my-0" class="bg-secondary text-white">
+                                        </div>
+                                    </div>
+                            
+                            </div>
+
+                        </div>
+                        <!-- END TAB 5 | TRIVIA --------------------------------------------------------------->
+
+
+                        <!-- BEGIN TAB 6 | LINKS -------------------------------------------------------------->
+                        <div class="tab-pane fade" id="LINKS">
+
+                            <div class="py-2 px-4 text-justify" style="height: 545px; overflow-y: auto;">
+
+                                <!-- 1 ------------------>
+                                <div class="row no-gutters">
+
+                                    <!-- LEFT COL ----------->
+                                    <div class="col-md-4">
+
+                                        <!-- IMAGE HERE -->
+                                            <img src="https://via.placeholder.com/145" class="rounded">
+
+                                    </div>
+
+                                    <!-- RIGHT COL ---------->
+                                    <div class="col-md-8 pl-md-2 pt-md-0 pt-2">
+
+                                        <!-- NAME --> <a href="LINK_HERE" style="font-size: 17px;">   NAME   </a>
+                                        <!-- RELATIONSHIP TYPE --> <span class="ml-1 text-muted" style="font-size: 17px;"> [relationship] </span>
+                                            <!-- HEARTS | fa-solid:full, fa-regular: hollow, fa-heart: regular heart, fa-heart-crack: broken heart -->
+                                            <span class="pull-right">
+                                                <i class="fa-solid fa-heart"></i>
+                                                <i class="fa-solid fa-heart"></i>
+                                                <i class="fa-solid fa-heart"></i>
+                                            </span>
+
+                                                <!-- WRITTEN CONTENT ---------------->
+                                                <div class="text-justify" style="font-size: 13px;">
+                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti laborum reiciendis sed non in pariatur quibusdam nobis debitis eius. Unde ratione ex, accusantium accusamus aut voluptatem? Dolore expedita voluptas at.</p>
+                                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione aspernatur reiciendis unde beatae modi suscipit inventore placeat, quasi ipsam saepe facere repellendus rerum earum, dolore dicta consequuntur illo distinctio. Rem.</p>
+                                                </div>
+
+                                    </div>
+
+                                </div>
+                                <!-- /1 ------------------>
+
+                                <!-- 2 ------------------>
+                                <div class="row no-gutters pt-4">
+
+                                    <!-- LEFT COL ----------->
+                                    <div class="col-md-4">
+
+                                        <!-- IMAGE HERE -->
+                                            <img src="https://via.placeholder.com/145" class="rounded">
+
+                                    </div>
+
+                                    <!-- RIGHT COL ---------->
+                                    <div class="col-md-8 pl-md-2 pt-md-0 pt-2">
+
+                                        <!-- NAME --> <a href="LINK_HERE" style="font-size: 17px;">   NAME   </a>
+                                        <!-- RELATIONSHIP TYPE --> <span class="ml-1 text-muted" style="font-size: 17px;"> [relationship] </span>
+                                            <!-- HEARTS | fa-solid:full, fa-regular: hollow, fa-heart: regular heart, fa-heart-crack: broken heart -->
+                                            <span class="pull-right">
+                                                <i class="fa-solid fa-heart"></i>
+                                                <i class="fa-regular fa-heart"></i>
+                                                <i class="fa-regular fa-heart"></i>
+                                            </span>
+
+                                                <!-- WRITTEN CONTENT ---------------->
+                                                <div class="text-justify" style="font-size: 13px;">
+                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti laborum reiciendis sed non in pariatur quibusdam nobis debitis eius. Unde ratione ex, accusantium accusamus aut voluptatem? Dolore expedita voluptas at.</p>
+                                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione aspernatur reiciendis unde beatae modi suscipit inventore placeat, quasi ipsam saepe facere repellendus rerum earum, dolore dicta consequuntur illo distinctio. Rem.</p>
+                                                </div>
+
+                                    </div>
+
+                                </div>
+                                <!-- /2 ------------------>
+
+                                <!-- 3 ------------------>
+                                <div class="row no-gutters pt-4">
+
+                                    <!-- LEFT COL ----------->
+                                    <div class="col-md-4">
+
+                                        <!-- IMAGE HERE -->
+                                            <img src="https://via.placeholder.com/145" class="rounded">
+
+                                    </div>
+
+                                    <!-- RIGHT COL ---------->
+                                    <div class="col-md-8 pl-md-2 pt-md-0 pt-2">
+
+                                        <!-- NAME --> <a href="LINK_HERE" style="font-size: 17px;">   NAME   </a>
+                                        <!-- RELATIONSHIP TYPE --> <span class="ml-1 text-muted" style="font-size: 17px;"> [relationship] </span>
+                                            <!-- HEARTS | fa-solid:full, fa-regular: hollow, fa-heart: regular heart, fa-heart-crack: broken heart -->
+                                            <span class="pull-right">
+                                                <i class="fa-solid fa-heart-crack"></i>
+                                                <i class="fa-solid fa-heart-crack"></i>
+                                                <i class="fa-solid fa-heart-crack"></i>
+                                            </span>
+
+                                                <!-- WRITTEN CONTENT ---------------->
+                                                <div class="text-justify" style="font-size: 13px;">
+                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti laborum reiciendis sed non in pariatur quibusdam nobis debitis eius. Unde ratione ex, accusantium accusamus aut voluptatem? Dolore expedita voluptas at.</p>
+                                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione aspernatur reiciendis unde beatae modi suscipit inventore placeat, quasi ipsam saepe facere repellendus rerum earum, dolore dicta consequuntur illo distinctio. Rem.</p>
+                                                </div>
+
+                                    </div>
+
+                                </div>
+                                <!-- /3 ------------------>
+
+                                <!-------- add more above this line ------------->
+
+                                </div>
+                                
+                            </div>
+
+                        </div>
+                        <!-- END TAB 6 | LINKS ---------------------------------------------------------------->
+
+
+                        <!--------- CREDIT | DO NOT REMOVE -------------->
+                        <span class="pull-right mt-1">
+                            <!-- CODE -->
+                            <a href="https://toyhou.se/acodingperson" target="_blank" class="mr-1 tooltipster" 
+                                title="code by ACP" data-placement="left"><i class="fas fa-blanket"></i></a>
+                            |
+                            <!-- BACKGROUND IMAGE -->
+                            <a href="LINK_HERE" target="_blank" class="ml-1 tooltipster" 
+                                title="background by _______________" data-placement="left"><i class="fas fa-camera-retro"></i></a>
+                        </span>
+
+
+                    </div>
+                    <!------------------------------ END TAB CONTENT HERE --------------------------------------->
+
+
+                </div>
+            </div>
+            <!-- END LEFT COLUMN ---------------------------------->
+
+        </div>
+
+    </div>
+    <!-- END CONTENT BLOCK --------------------------------------------------------->
+
+
+</div>
