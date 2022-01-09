@@ -1,0 +1,369 @@
+<!------- Smol & Sweet | Version 2 [Custom Colors] || Made by ACP (acodingperson) @Toyhou.se
+
+     HANDY WEBSITES:
+        > Font Awesome v5 (for old icons): https://fontawesome.com/
+        > Font Awesome v6 (for new icons): https://fontawesome.com/v6.0/icons
+        > W3 Schools Bootstrap: https://www.w3schools.com/bootstrap/
+        > W3 Schools HTML: https://www.w3schools.com/html/default.asp
+        > Bootstrap Docs: https://getbootstrap.com/docs/5.1/getting-started/introduction/
+
+    TO KEEP IN MIND:
+        > replace all placeholder images (those that begin with https://via.placeholder.com/) with the images of your choosing
+        > read through and understand my TOS - https://toyhou.se/~bulletins/491483.global-tos
+        > bump my thread~ - https://toyhou.se/~forums/16.htmlcss-graphics/245374.the-codes-of-a-person-acp-s-coding-thread
+        > you can erase this entire block for ease of use
+
+    COLORS USED:
+        > quote background-color: #fafafa
+        > credit text color: #fff
+        > status block background-color: #f3f3f3
+        > name & pronouns block background-color: #303033 | text color: #fff
+        > middle column background-color: #f3f3f3 | text color: #303033
+        > color of "A" in About Me text color: #b15858
+        > tag background-color: #303033 | text color: #fff
+        > links background-color: #fafafa | text color: #3d3d3d
+
+    THANK YOU FOR USING <3
+
+--------->
+
+
+
+
+
+<!--------------- CONTAINER -------------------------->
+    <!-- remove font-weight-light if preferred -->
+<div class="mx-auto my-5 font-weight-light" style="max-width: 750px;">
+
+    <div class="row no-gutters mx-auto">
+
+        <!------------- QUOTE ---------------------------->
+        <div class="col-12 order-md-last text-center mt-md-2 mb-md-0 mb-2 px-2 py-1" style="background-color: #fafafa; color: #0f0f0f; font-size: 12px; border-radius: 2em;">
+            <span class="pull-left"><i class="fas fa-quote-left"></i></span>
+
+                <!-- ADD HERE --> Quote quote quote.
+                
+            <span class="pull-right"><i class="fas fa-quote-right"></i></span>
+        </div>
+
+        <!---------------------------- LEFT COL --------------------------------->
+        <div class="col-md-3 col-4">
+            <div class="row no-gutters modal-open" style="border-radius: 0 2em 0 2em;">
+
+                <!------------ IMAGE BLOCK ------------->
+                <div class="col-12 mb-2">
+
+                    <!-- avi -------------->
+                    <div style="height: 200px; background-size: cover; background-position: center;
+
+                        background: url(https://f2.toyhou.se/file/f2-toyhou-se/images/15594720_8cDC9KA3PfmzkbX.png);">
+
+
+                            <div style="position: absolute; bottom: 5px; right: 10px;">
+
+                                <!-------- credit --------------->
+                                <a class="tooltipster" data-placement="left" style="color: #fff;"
+                                    
+                                    title="image by ARTIST"
+                                    href="LINK_HERE">
+
+                                    <i class="fas fa-pencil-paintbrush"></i>
+                                </a>
+
+                            </div>
+
+                    </div>
+                </div>
+
+                <!----------- COMS TRADES REQS BLOCK --------------->
+                <div class="col-12 mb-2">
+                    <div class="p-1 text-center" style="background-color: #f3f3f3;">
+
+                        <!-----
+                            #a31b1b = red | #32a31b = green | #e2750f = orange
+                            fa-times-circle = x-mark | fa-times-check = check | fa-question-circle = circle w question mark
+                        ------->
+
+                        <!---- COMMISSIONS ----------->
+                        <a href="LINK_HERE" class="tooltipster" data-placement="left" style="color: #a31b1b; text-decoration: none;"
+                            title="Commissions">
+                                <i class="fas 
+                                    fa-times-circle 
+                                fa-lg mr-3"></i>
+                        </a>
+
+                        <!-- TRADES ------------------>
+                        <a href="LINK_HERE" class="tooltipster" data-placement="left" style="color: #32a31b; text-decoration: none;"
+                            title="Trades">
+                                <i class="fas 
+                                    fa-check-circle 
+                                fa-lg mr-3"></i>
+                        </a>
+                        
+                        <!-- REQUESTS ---------------->
+                        <a href="LINK_HERE" class="tooltipster" data-placement="left" style="color: #e2750f; text-decoration: none;"
+                            title="Requests">
+                                <i class="fas 
+                                    fa-question-circle 
+                                fa-lg"></i>
+                        </a>
+                    
+                    </div>
+                </div>
+
+                <!----------- NAME & PRONOUNS BLOCK ----------->
+                <div class="col-12">
+                    <div class="py-4 px-3" style="background-color: #303033; color: #fff;">
+
+                        <!-- NAME -------->
+                        <div class="font-weight-bold" style="font-size: 20px; font-variant: small-caps; letter-spacing: 5px;">
+                            
+                            <!-- add here --> Name
+
+                        </div>
+
+                        <!-- PRONOUNS/GENDER------>
+                        <div class="font-italic">
+
+                            prn/prn
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-------------------------------- MID COL --------------------------------->
+        <div class="col pl-2">
+            <div class="p-3 h-100" style="background-color: #f3f3f3; color: #303033; border-radius: 2em 2em 2em 0;">
+                
+                <!----------- ABOUT HEADER ------------->
+                <div class="row no-gutters align-items-center" style="font-size: 20px;">
+                    <div class="col-auto">
+
+                        <span style="color: #b15858;">A</span>bout Me
+
+                    </div>
+                    <div class="col px-3">
+                        <hr class="m-0">
+                    </div>
+                    
+                    <!-- adjectives --------->
+                    <div class="col-auto align-items-center" style="font-size: 12px;">
+                        adj - adj - adj
+                    </div>
+
+                </div>
+
+                
+
+                    <!------------- WRITTEN CONTENT ------------------------->
+                    <div class="text-justify pr-2 mt-2" style="font-size: 12.5px; height: 150px; overflow-y: auto;">
+
+                        <p>
+                            Talk about yourself here.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque eaque voluptas obcaecati aperiam eum cumque quis ipsum modi. Corporis quaerat omnis nobis dolorem necessitatibus ea adipisci, error obcaecati impedit sit!  
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur libero, sed doloribus quae voluptas similique commodi est, aliquam quod reprehenderit tempore quo rerum nihil minus, molestias deserunt cupiditate ut excepturi.  
+                        </p>
+                        
+                        <p>
+                            Add more information here.  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa ipsam eligendi quasi harum nostrum autem laudantium, odit amet modi expedita in illum vitae eius corrupti debitis animi culpa iste minima?  
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae commodi corporis unde ut fugit dolorem animi ipsam cumque perferendis, quis autem modi adipisci perspiciatis harum quo ipsa dignissimos atque ipsum.
+                        </p>
+
+                    </div>
+
+
+
+                    <!--------- MOODBOARD/FEATURED | CHANGE BACKGROUND-IMAGE URL -------------------->
+                    <div class="row no-gutters mt-md-2 mt-3 mb-2">
+
+                        <!-- 1 -->
+                        <div class="col rounded mr-1" style="padding-top: 15%; 
+                            background-image: url(https://f2.toyhou.se/file/f2-toyhou-se/images/15594720_8cDC9KA3PfmzkbX.png);">
+                                <!-- LINK --> <a href="LINK_HERE" target="_blank" class="d-flex btn btn-outline-secondary faded rounded-0 border-0 w-100 h-100" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0;"></a>
+                        </div>
+
+                        <!-- 2 -->
+                        <div class="col rounded mr-1" style="padding-top: 15%; 
+                            background-image: url(https://f2.toyhou.se/file/f2-toyhou-se/images/15594720_8cDC9KA3PfmzkbX.png);">
+                                <!-- LINK --> <a href="LINK_HERE" target="_blank" class="d-flex btn btn-outline-secondary faded rounded-0 border-0 w-100 h-100" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0;"></a>
+                        </div>
+
+                        <!-- 3 -->
+                        <div class="col rounded mr-1" style="padding-top: 15%; 
+                            background-image: url(https://f2.toyhou.se/file/f2-toyhou-se/images/15594720_8cDC9KA3PfmzkbX.png);">
+                                <!-- LINK --> <a href="LINK_HERE" target="_blank" class="d-flex btn btn-outline-secondary faded rounded-0 border-0 w-100 h-100" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0;"></a>
+                        </div>
+
+                        <!-- 4 -->
+                        <div class="col rounded" style="padding-top: 15%; 
+                            background-image: url(https://f2.toyhou.se/file/f2-toyhou-se/images/15594720_8cDC9KA3PfmzkbX.png);">
+                                <!-- LINK --> <a href="LINK_HERE" target="_blank" class="d-flex btn btn-outline-secondary faded rounded-0 border-0 w-100 h-100" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0;"></a>
+                        </div>
+
+                    </div>
+
+
+
+                    <!---------- TAGS/FRIENDS/WHATEVER -------------------------->
+                    <p class="mt-2 text-center" style="font-size: 10px; letter-spacing: 2px;">
+
+                        <a href="LINK_HERE" target="_blank" style="text-decoration: none;"> 
+                            <span class="badge badge-pill" style="background-color: #303033; color: #fff;">
+                                #tag
+                            </span>
+                        </a>
+
+                        <a href="LINK_HERE" target="_blank" style="text-decoration: none;"> 
+                            <span class="badge badge-pill" style="background-color: #303033; color: #fff;">
+                                #tag
+                            </span>
+                        </a>
+
+                        <a href="LINK_HERE" target="_blank" style="text-decoration: none;"> 
+                            <span class="badge badge-pill" style="background-color: #303033; color: #fff;">
+                                #t a g
+                            </span>
+                        </a>
+
+                        <a href="LINK_HERE" target="_blank"> 
+                            <span class="badge badge-pill" style="background-color: #303033; color: #fff;">
+                                #longer tag
+                            </span>
+                        </a>
+
+                        <a href="LINK_HERE" target="_blank" style="text-decoration: none;"> 
+                            <span class="badge badge-pill" style="background-color: #303033; color: #fff;">
+                                #tag tag tag
+                            </span>
+                        </a>
+
+                        <a href="LINK_HERE" target="_blank" style="text-decoration: none;"> 
+                            <span class="badge badge-pill" style="background-color: #303033; color: #fff;">
+                                #tag or friend
+                            </span>
+                        </a>
+
+                        <a href="LINK_HERE" target="_blank" style="text-decoration: none;"> 
+                            <span class="badge badge-pill" style="background-color: #303033; color: #fff;">
+                                #tag
+                            </span>
+                        </a>
+
+                        <a href="LINK_HERE" target="_blank" style="text-decoration: none;"> 
+                            <span class="badge badge-pill" style="background-color: #303033; color: #fff;">
+                                #friend
+                            </span>
+                        </a>
+
+                        <a href="LINK_HERE" target="_blank" style="text-decoration: none;"> 
+                            <span class="badge badge-pill" style="background-color: #303033; color: #fff;">
+                                #tag
+                            </span>
+                        </a>
+
+                        <a href="LINK_HERE" target="_blank" style="text-decoration: none;"> 
+                            <span class="badge badge-pill" style="background-color: #303033; color: #fff;">
+                                #friend
+                            </span>
+                        </a>
+
+                        <a href="LINK_HERE" target="_blank" style="text-decoration: none;"> 
+                            <span class="badge badge-pill" style="background-color: #303033; color: #fff;">
+                                #friend with a long name
+                            </span>
+                        </a>
+
+                        <a href="LINK_HERE" target="_blank" style="text-decoration: none;"> 
+                            <span class="badge badge-pill" style="background-color: #303033; color: #fff;">
+                                #looooong
+                            </span>
+                        </a>
+
+                        <a href="LINK_HERE" target="_blank" style="text-decoration: none;"> 
+                            <span class="badge badge-pill" style="background-color: #303033; color: #fff;">
+                                #anotherone
+                            </span>
+                        </a>
+
+                        <a href="LINK_HERE" target="_blank" style="text-decoration: none;"> 
+                            <span class="badge badge-pill" style="background-color: #303033; color: #fff;">
+                                #thing
+                            </span>
+                        </a>
+                        
+                        <!-------- add more above this line ---------->
+
+                    </p>
+            
+            </div>
+        </div>
+
+
+        <!----------------------- RIGHT COL ------------------------------->
+        <div class="col-md-auto col-12 pl-md-2 text-center mt-md-0 mt-2">
+
+            <!------------------- LINKS -------------------->
+            <div class="px-md-1 py-md-3 px-3 py-1 h-100 d-flex flex-md-column justify-content-between" style="background-color: #fafafa; border-radius: 2em;">
+
+                
+                <a href="LINK_HERE" target="_blank" class="tooltipster" data-placement="right" style="color: #3d3d3d;"
+                    title="Twitter">
+                        <i class="fab fa-twitter"></i>
+                </a>
+
+                <a href="LINK_HERE" target="_blank" class="tooltipster" data-placement="right" style="color: #3d3d3d;"
+                    title="Tumblr">
+                        <i class="fab fa-tumblr"></i>
+                </a>
+
+                <a href="LINK_HERE" target="_blank" class="tooltipster" data-placement="right" style="color: #3d3d3d;"
+                    title="Instagram">
+                        <i class="fab fa-instagram"></i>
+                </a>
+
+                <a href="LINK_HERE" target="_blank" class="tooltipster" data-placement="right" style="color: #3d3d3d;"
+                    title="DeviantArt">
+                        <i class="fab fa-deviantart"></i>
+                </a>
+
+                <a href="LINK_HERE" target="_blank" class="tooltipster" data-placement="right" style="color: #3d3d3d;"
+                    title="Furaffinity">
+                        <i class="fas fa-paw"></i>
+                </a>
+
+                <a href="LINK_HERE" target="_blank" class="tooltipster" data-placement="right" style="color: #3d3d3d;"
+                    title="Carrd">
+                        <i class="fas fa-id-card"></i>
+                </a>
+
+                <a class="tooltipster" data-placement="right" style="color: #3d3d3d;"
+                    title="user#000">
+                        <i class="fab fa-discord"></i>
+                </a>
+
+                <a href="LINK_HERE" target="_blank" class="tooltipster" data-placement="right" style="color: #3d3d3d;"
+                    title="Pronouns.page">
+                        <i class="fas fa-tags"></i>
+                </a>
+
+                <!-- CODE CREDIT | DO NOT REMOVE -->
+                <a href="https://toyhou.se/acodingperson" target="_blank" class="tooltipster" data-placement="right" style="color: #3d3d3d;"
+                    title="Code Credit">
+                        <i class="fas fa-blanket"></i>
+                </a>
+
+                <!--- add more above this line ----->
+
+            </div>
+
+        </div>
+
+        
+
+    </div>
+
+</div>
