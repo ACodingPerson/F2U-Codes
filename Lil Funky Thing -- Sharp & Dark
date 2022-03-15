@@ -624,6 +624,13 @@
         
     style="text-decoration: none;" data-placement="left"><i class="fas fa-image-polaroid"></i></a>
 
+    <!-- song -->
+    <a href="LINK_HERE" target="_blank" class="text-muted tooltipster" 
+
+        title="song by ________" 
+        
+    style="text-decoration: none;" data-placement="left"><i class="fas fa-music"></i></a>
+
 </div>
 
 
