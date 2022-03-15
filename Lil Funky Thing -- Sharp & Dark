@@ -1,0 +1,634 @@
+<!------- Lil Funky Thing | Version 2 [Sharp & Dark] || Made by ACP (acodingperson) @Toyhou.se
+
+     HANDY WEBSITES:
+        > Font Awesome v5 (for old icons): https://fontawesome.com/
+        > Font Awesome v6 (for new icons): https://fontawesome.com/v6.0/icons
+        > W3 Schools Bootstrap: https://www.w3schools.com/bootstrap/
+        > W3 Schools HTML: https://www.w3schools.com/html/default.asp
+        > Bootstrap Docs: https://getbootstrap.com/docs/5.1/getting-started/introduction/
+
+    TO KEEP IN MIND:
+        > replace all placeholder images with the images of your choosing
+        > read through and understand my TOS - https://toyhou.se/~bulletins/491483.global-tos
+        > bump my thread~ - https://toyhou.se/~forums/16.htmlcss-graphics/245374.the-codes-of-a-person-acp-s-coding-thread
+        > you can erase this entire block for ease of use
+
+    COLORS USED:
+        > main accent: #abcbdd
+        > quote: rgba(171, 211, 221, 0.39)
+
+    THANK YOU FOR USING <3
+
+--------->
+
+
+
+<!-------- CONTAINER 
+    change max-width as desired ----------------->
+<div class="mx-auto my-lg-5 modal-open" style="max-width: 625px;">
+
+
+<!---------------- HEADER
+    change background url ----------------------->
+<div class="col-12" style="height: 100px; 
+    background-size: cover; 
+    background-position: center; 
+    background-image: url(
+
+            https://images.unsplash.com/photo-1459695452562-46cc57bef5f6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80
+            
+        );">
+
+            <!--------------- USERNAME
+                this is visible only on large screens --------------->
+            <div class="m-2 mt-lg-2 mt-3 text-white hidden-sm-down" style="position: absolute; bottom: 0; right: 0;
+
+                /********** adjust the following as desired **************/;
+                font-size: 22px; 
+                letter-spacing: 5px;
+                font-family: 'Courier New', Courier, monospace;">
+                    
+                    Username Goes Here
+
+            </div>
+
+</div>
+
+
+<!---------------- MAIN BODY ---------------------->
+<div class="bg-dark row no-gutters text-white">
+
+
+<!-----------------------------
+    
+    > PROFILE IMAGE
+    > LISTED CONTENT
+    > PALETTE
+
+------------------------------>
+<div class="col-lg-4 pr-lg-3 pl-lg-3 pl-2 pr-2">
+
+    <!-- PROFILE IMAGE GOES HERE 
+        change link -------------------------->
+    <div class="mt-n5 text-center">
+                    
+        <div class="p-2 m-lg-0 mx-4 bg-dark">
+            <div style="height: 160px; width: 100%; background-position: center; background-size: cover; background-image: url(
+
+                https://images.unsplash.com/photo-1485433592409-9018e83a1f0d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1814&q=80
+                
+            );"
+
+            ></div>
+        </div>
+
+    </div>
+
+
+    <!-- LISTED CONTENT GOES HERE 
+        do not add more / remove or layout will look weird ------------------------->
+    <div class="mt-1 mb-2 mt-1 mx-lg-1 mx-2 p-1" style="font-size: 10px; letter-spacing: 1px; background-color: rgba(255, 255, 255, 0.08);">
+
+        <div class="row no-gutters p-1">
+
+            <!-- FIRST HALF OF WORDED LIST --------->
+            <div class="col-lg-12 col-6 pr-lg-0 pr-2 row no-gutters">
+
+                <div class="col-lg-4 col-3 p-lg-1 pb-lg-0 pb-1" style="font-family:'Courier New', Courier, monospace"><i class="fas fa-comments"></i></div>
+                <div class="col-lg-8 col-9 p-lg-1 pb-lg-0 pb-1">
+                    Name
+                </div>
+
+                <div class="col-lg-4 col-3 p-lg-1 pb-lg-0 pb-1" style="font-family:'Courier New', Courier, monospace"><i class="fas fa-briefcase"></i></div>
+                <div class="col-lg-8 col-9 p-lg-1 pb-lg-0 pb-1">
+                    Occupation
+                </div>
+
+                <div class="col-lg-4 col-3 p-lg-1 pb-lg-0 pb-1" style="font-family:'Courier New', Courier, monospace"><i class="fas fa-transgender-alt"></i></div>
+                <div class="col-lg-8 col-9 p-lg-1 pb-lg-0 pb-1">
+                    Gender
+                </div>
+
+                <div class="col-lg-4 col-3 p-lg-1 pb-lg-0 pb-1" style="font-family:'Courier New', Courier, monospace"><i class="fas fa-tags"></i></div>
+                <div class="col-lg-8 col-9 p-lg-1 pb-lg-0 pb-1">
+                    prn/prn
+                </div>
+
+            </div>
+
+            <!-- SECOND HALF OF WORDED LIST --------->
+            <div class="col-lg-12 col-6 pl-lg-0 pl-2 row no-gutters">
+
+                <div class="col-lg-4 col-3 p-lg-1 pb-lg-0 pb-1" style="font-family:'Courier New', Courier, monospace"><i class="fas fa-birthday-cake"></i></div>
+                <div class="col-lg-8 col-9 p-lg-1 pb-lg-0 pb-1">
+                    Age
+                </div>
+
+                <div class="col-lg-4 col-3 p-lg-1 pb-lg-0 pb-1" style="font-family:'Courier New', Courier, monospace"><i class="fas fa-bells"></i></div>
+                <div class="col-lg-8 col-9 p-lg-1 pb-lg-0 pb-1">
+                    Status
+                </div>
+
+                <div class="col-lg-4 col-3 p-lg-1 pb-lg-0 pb-1" style="font-family:'Courier New', Courier, monospace"><i class="fas fa-globe-stand"></i></div>
+                <div class="col-lg-8 col-9 p-lg-1 pb-lg-0 pb-1">
+                    Location
+                </div>
+
+                <div class="col-lg-4 col-3 p-lg-1 pb-lg-0 pb-1" style="font-family:'Courier New', Courier, monospace"><i class="fas fa-scroll-old"></i></div>
+                <div class="col-lg-8 col-9 p-lg-1 pb-lg-0 pb-1">
+                    Language(s)
+                </div>
+
+            </div>
+
+            <!-- PROGRESS BAR LIST 1 ---------------->
+            <div class="col-lg-12 col-6 pr-lg-0 pr-2 row no-gutters mt-lg-0 mt-1">
+                
+                <!-- 1 ---------->
+                <div class="col-lg-4 col-3 p-lg-1 pb-lg-0 pb-1" style="font-family:'Courier New', Courier, monospace">
+                    <i class="fas fa-heart text-danger"></i>
+                </div>
+                <div class="col-lg-8 col-9 p-lg-1">
+
+                    <div class="progress bg-dark" style="height: 3px; margin-top: 6px;">
+                        <!-- adjust width -->
+                        <div class="progress-bar" style="
+                            
+                            width: 50%; 
+                            
+                        background: #abcbdd;"></div>
+                    </div>
+
+                </div>
+
+                <!-- 2 ---------->
+                <div class="col-lg-4 col-3 p-lg-1 pb-lg-0 pb-1" style="font-family:'Courier New', Courier, monospace">
+                    <i class="fas fa-brain text-warning"></i>
+                </div>
+                <div class="col-lg-8 col-9 p-lg-1">
+
+                    <div class="progress bg-dark" style="height: 3px; margin-top: 6px;">
+                        <!-- adjust width -->
+                        <div class="progress-bar" style="
+                            
+                            width: 50%; 
+                            
+                        background: #abcbdd;"></div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- PROGRESS BAR LIST 2 ----------------->
+            <div class="col-lg-12 col-6 pl-lg-0 pl-2 row no-gutters mt-lg-0 mt-1">
+
+                <!-- 3 ---------->
+                <div class="col-lg-4 col-3 p-lg-1 pb-lg-0 pb-1" style="font-family:'Courier New', Courier, monospace">
+                    <i class="fas fa-wand-sparkles text-info"></i>
+                </div>
+                <div class="col-lg-8 col-9 p-lg-1">
+
+                    <div class="progress bg-dark" style="height: 3px; margin-top: 6px;">
+                        <!-- adjust width -->
+                        <div class="progress-bar" style="
+                            
+                            width: 50%; 
+                            
+                        background: #abcbdd;"></div>
+                    </div>
+
+                </div>
+
+                <!-- 4 ---------->
+                <div class="col-lg-4 col-3 p-lg-1 pb-lg-0 pb-1" style="font-family:'Courier New', Courier, monospace">
+                    <i class="fas fa-person-running text-success"></i>
+                </div>
+                <div class="col-lg-8 col-9 p-lg-1">
+
+                    <div class="progress bg-dark" style="height: 3px; margin-top: 6px;">
+                        <!-- adjust width -->
+                        <div class="progress-bar" style="
+                            
+                            width: 50%; 
+                            
+                        background: #abcbdd;"></div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- PALETTE GOES HERE
+        change background colors --------->
+    <div class="row no-gutters modal-open mx-lg-1 mx-2 mb-2" style="height: 17px;">
+        <div class="col" style="background-color: #ccebf0"></div>
+        <div class="col" style="background-color: #abd1dd"></div>
+        <div class="col" style="background-color: #759a9b"></div>
+        <div class="col" style="background-color: #3d4d50"></div>
+        <!-- add more above this line -->
+    </div>
+
+</div>
+<!-- ==================== -->
+<!-- ==================== -->
+
+
+
+
+<!-- AT GOES HERE 
+    can only be seen on mobile ---------------------->
+<div class="w-100 mx-3 p-2 text-center hidden-md-up text-uppercase font-weight-bold" style="font-size: 15px; letter-spacing: 3px; background-color: rgba(255, 255, 255, 0.08);">
+    <i class="fas fa-at"></i>
+    
+    username
+
+</div>
+
+
+
+
+<!-----------------------------
+    
+    > ABOUT
+    > MUSIC
+    > QUOTE
+    > LIKES + DISLIKES
+    > LINKS
+    > STATUS
+
+------------------------------>
+<div class="col-lg-8 pr-lg-4 pr-3 pl-lg-0 pl-3 pt-lg-2 mb-3">
+
+
+    <!-- ABOUT CONTENT HERE 
+        keep as short as possible  -------------------->
+    <div class="row no-gutters align-items-center" style="font-size: 15px;">
+
+        <!-- HEADER | CAN ONLY BE SEEN ON PC --------------------->
+        <div class="col hidden-sm-down"><hr class="my-0 bg-white"></div>
+        <div class="col-auto pl-2 hidden-sm-down" style="letter-spacing: 6.5px;"> <span style="color: #abcbdd;">A</span>bout.</div>
+
+        <!-- WRITTEN CONTENT HERE -------------------------------->
+        <div class="w-100 text-justify p-2 mt-2" style="background-color: rgba(255, 255, 255, 0.08);">
+            <div class="p-1" style="font-size: 11.5px; height: 95px; overflow-y: auto;">
+
+                <!-- begin writing -->
+                <p>Write about yourself here!  Although this box scrolls, I recommend you keep this section as short as possible; it looks nicer that way!  Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Quia, iusto impedit. Sequi, a! Enim voluptatum nam suscipit rem dicta quae, repudiandae assumenda?
+                </p>
+            
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- MUSIC + QUOTE 
+        two lines max --------------------------------->
+    <div class="row no-gutters modal-open mt-2">
+
+        <!-- QUOTE GOES HERE ---------------->
+        <div class="col text-right">
+            <div class="h-100 p-2 align-items-center" style="background-color: rgba(255, 255, 255, 0.08);">
+                <i class="fa-duotone fa-quotes fa-2x" style="color: rgba(171, 211, 221, 0.39);"></i> <!-- change icon color -->
+
+                <p class="my-0 ml-n3 font-italic font-weight-bold" style="font-size: 10px; letter-spacing: 1.5px;">
+                    
+                    <!-- words here --> 
+                    It's lorem ipsum dolor sit amet consectetur adipisicing nam suscipit rem.
+
+                </p>
+
+            </div>
+        </div>
+
+        <!-- MUSIC GOES HERE --------------->
+        <div class="col-auto pl-2">
+            <div class="h-100 p-2 align-items-center" style="background-color: rgba(255, 255, 255, 0.08);">
+                <div class="w-100" style="overflow-y: hidden; overflow-x: hidden;">
+
+                    <!------ replace [ PUT_EMBED_HERE] with desired YT ID 
+                        (embed for your vid can be found after watch?v=) ------------->
+                    <iframe class="w-100" frameborder="0" style="position: absolute; top: -200px; left: -10px; height: 250px; opacity: .001; z-index: 5;"
+                    
+                        src="https://www.youtube.com/embed/PUT_EMBED_HERE?controls=0">
+                    
+                    </iframe>
+
+                </div>
+                    <!-- icon --> <i class="fal fa-compact-disc fa-spin fa-lg" style="color: #abcbdd;"></i>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row no-gutters">
+        <div class="col row no-gutters pr-lg-2">
+
+
+    <!-- LIKES + DISLIKES 
+        max of five items recommend ------------------->
+    <div class="col-12 mt-2 p-2" style="background-color: rgba(255, 255, 255, 0.08);">
+        <div class="row no-gutters" style="max-height: 107px; overflow-y: auto; font-size: 11px; letter-spacing: 1px;">
+
+            <!-- LIKES ------------------------>
+            <div class="col-6 pt-2 pr-2">
+                <ul class="fa-ul">
+                    
+                    <li><i class="fa-li fas fa-check text-success fa-xs mt-1"></i><span class="ml-2">
+                        Like.
+                    </span></li>
+
+                    <li><i class="fa-li fas fa-check text-success fa-xs mt-1"></i><span class="ml-2">
+                        Like.
+                    </span></li>
+
+                    <li><i class="fa-li fas fa-check text-success fa-xs mt-1"></i><span class="ml-2">
+                        Like.
+                    </span></li>
+
+                    <li><i class="fa-li fas fa-check text-success fa-xs mt-1"></i><span class="ml-2">
+                        Like.
+                    </span></li>
+
+                    <li><i class="fa-li fas fa-check text-success fa-xs mt-1"></i><span class="ml-2">
+                        Like.
+                    </span></li>
+
+                </ul>
+            </div>
+
+            <!-- DISLIKES --------------------->
+            <div class="col-6 pt-2 pl-2">
+                <ul class="fa-ul">
+
+                    <li><i class="fa-li fas fa-times text-danger fa-xs mt-1"></i><span class="ml-2">
+                        Dislike.
+                    </span></li>
+
+                    <li><i class="fa-li fas fa-times text-danger fa-xs mt-1"></i><span class="ml-2">
+                        Dislike.
+                    </span></li>
+                    
+                    <li><i class="fa-li fas fa-times text-danger fa-xs mt-1"></i><span class="ml-2">
+                        Dislike.
+                    </span></li>
+
+                    <li><i class="fa-li fas fa-times text-danger fa-xs mt-1"></i><span class="ml-2">
+                        Dislike.
+                    </span></li>
+
+                    <li><i class="fa-li fas fa-times text-danger fa-xs mt-1"></i><span class="ml-2">
+                        Dislike.
+                    </span></li>
+
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- STATUS STUFFS
+        keep to four ---------------------------------->
+    <div class="col-7 mt-2 pr-2">
+        <div class="p-2" style="max-height: 110px; overflow-y: auto; font-size: 10px; letter-spacing: 1px; background-color: rgba(255, 255, 255, 0.08);">
+
+            <!-- 
+                text-danger = red | text-warning = orange | text-success = green | text-info = light blue 
+                add [ style="text-decoration: none;" ] in "a" element (rec: after [ class="text-danger"] ) to remove hover lines
+            -->
+
+            <div class="w-100 justify-content-between">
+                <p class="my-1">coms</p>
+                <p class="my-1"><a href="LINK_HERE" target="_blank" 
+                    class="text-danger">
+                    
+                    closed
+
+                </a></p>
+            </div>
+
+            <div class="w-100 justify-content-between">
+                <p class="my-1">trades</p>
+                <p class="my-1"><a href="LINK_HERE" target="_blank" 
+                    class="text-warning">
+                    
+                    tentative
+                    
+                </a></p>
+            </div>
+            
+            <div class="w-100 justify-content-between">
+                <p class="my-1">collabs</p>
+                <p class="my-1"><a href="LINK_HERE" target="_blank" 
+                    class="text-success">
+                    
+                    open
+                    
+                </a></p>
+            </div>
+
+            <div class="w-100 justify-content-between">
+                <p class="my-1">requests</p>
+                <p class="my-1"><a href="LINK_HERE" target="_blank" 
+                    class="text-info">
+                    
+                    friends
+                    
+                </a></p>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <!-------------------------------
+
+        FEATURED CHARACTERS HERE
+
+    -------------------------------->
+    <div class="col-5 mt-2">
+        <!-- CAROUSEL BEGIN ----------->
+        <div class="carousel slide" id="FEATURED_CHARACTERS">
+            <div class="carousel-inner">
+
+                <!------------- FIRST CHARACTER ------------->
+                <div class="carousel-item active">
+                    <!-- CHANGE LINK -->
+                    <div style="height: 108px; background-position: center; background-size: cover; background-image: url(
+            
+                        https://images.unsplash.com/photo-1572994384812-d66fea58513f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1888&q=80
+            
+                    );">
+                    
+                    <!-- LINK TO CHARACTER HERE ------->
+                    <div style="position: absolute; bottom: 0; right: 0; left: 0;">
+                        <!-- PUT LINK IN [ LINK_HERE ] 
+                            change [ text-white ] to [ text-white ] for black text or [ ] for muted text -->
+                        <a 
+                            
+                            href="LINK_HERE"
+                        
+                        class="m-2 
+                            text-white
+                        "><i class="fas fa-external-link fa-xs"></i></a>
+                    </div>
+                
+                    </div>
+                </div>
+
+                <!------------- SECOND CHARACTER ------------>
+                <div class="carousel-item">
+                    <!-- CHANGE LINK -->
+                    <div style="height: 108px; background-position: center; background-size: cover; background-image: url(
+            
+                        https://images.unsplash.com/photo-1582699011340-21e302507754?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80
+            
+                    );">
+                    
+                    <!-- LINK TO CHARACTER HERE ------->
+                    <div style="position: absolute; bottom: 0; right: 0; left: 0;">
+                        <!-- PUT LINK IN [ LINK_HERE ] 
+                            change [ text-white ] to [ text-white ] for black text or [ ] for muted text -->
+                        <a 
+                            
+                            href="LINK_HERE"
+                        
+                        class="m-2 
+                            text-white
+                        "><i class="fas fa-external-link fa-xs"></i></a>
+                    </div>
+                
+                    </div>
+                </div>
+
+                <!------------- THIRD CHARACTER ------------->
+                <div class="carousel-item">
+                    <!-- CHANGE LINK -->
+                    <div style="height: 108px; background-position: center; background-size: cover; background-image: url(
+            
+                        https://images.unsplash.com/photo-1552394459-917cbbffbc84?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80
+            
+                    );">
+                    
+                    <!-- LINK TO CHARACTER HERE ------->
+                    <div style="position: absolute; bottom: 0; right: 0; left: 0;">
+                        <!-- PUT LINK IN [ LINK_HERE ] 
+                            change [ text-white ] to [ text-white ] for black text or [ ] for muted text -->
+                        <a 
+                            
+                            href="LINK_HERE"
+                        
+                        class="m-2 
+                            text-white
+                        "><i class="fas fa-external-link fa-xs"></i></a>
+                    </div>
+                
+                    </div>
+                </div>
+
+                <!-- add more above this line --------------->
+
+            </div>
+
+            <!-- button control -->
+            <a class="carousel-control-next" href="#FEATURED_CHARACTERS" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+                <span class="sr-only">Next</span>
+            </a>
+
+        </div>
+        <!-- CAROUSEL END ------------->
+    </div>
+
+
+        </div>
+
+
+
+
+    <!-- LINKS GO HERE
+        add as many as you'd like~ ------------------->
+    <div class="col-lg-auto col-12 text-center mt-2">
+        <div class="h-100 d-flex flex-lg-column justify-content-between p-lg-3 py-lg-0 py-1 px-lg-0 px-3" style="background-color: rgba(255, 255, 255, 0.08);">
+            
+            <!-- 
+                go to https://fontawesome.com/v5/search for fonts
+                fab = branded | fas = solid | far = regular | fal = thin | fad = duotone
+                    > INCLUDE [ fa-sm ] INSIDE CLASS FOR SMALL TEXT
+            -->
+
+            <a href="LINK_HERE" target="_blank" class="text-white">
+                <i class="fab fa-twitter fa-sm"></i>
+            </a>
+
+            <a href="LINK_HERE" target="_blank" class="text-white">
+                <i class="fab fa-tumblr fa-sm"></i>
+            </a>
+
+            <a href="LINK_HERE" target="_blank" class="text-white">
+                <i class="fab fa-instagram fa-sm"></i>
+            </a>
+
+            <a href="LINK_HERE" target="_blank" class="text-white">
+                <i class="fab fa-deviantart fa-sm"></i>
+            </a>
+
+            <a href="LINK_HERE" target="_blank" class="text-white tooltipster" data-placement="right"
+                title="user#000">
+                <i class="fab fa-discord fa-sm"></i>
+            </a>
+
+
+        </div>
+    </div>
+
+    </div>
+
+
+</div>
+<!-- ==================== -->
+<!-- ==================== -->
+
+
+
+</div>
+<!-- ====== END MAIN BODY ====== -->
+
+
+
+<!------------ CREDITS -------------->
+<div class="text-right mt-1 faded small" style="font-family:'Courier New', Courier, monospace">
+
+    <!-- code -->
+    <a href="acodingperson" target="_blank" class="text-muted" style="text-decoration: none;">code by acp</a>
+
+    <!-- avi -->
+    <a href="LINK_HERE" target="_blank" class="text-muted tooltipster" 
+
+        title="avatar by ________" 
+
+    style="text-decoration: none;" data-placement="left"><i class="fas fa-camera-retro"></i></a>
+
+    <!-- header -->
+    <a href="LINK_HERE" target="_blank" class="text-muted tooltipster" 
+
+        title="header by ________" 
+        
+    style="text-decoration: none;" data-placement="left"><i class="fas fa-image-polaroid"></i></a>
+
+</div>
+
+
+
+
+
+</div>
+<!-- ====== END CONTAINER ====== -->
