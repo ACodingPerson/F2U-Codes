@@ -36,7 +36,7 @@
         </div>
 
         <!---------------------------- LEFT COL --------------------------------->
-        <div class="col-md-3 col-4">
+        <div class="col-md-3 mb-md-0 mb-2">
             <div class="row no-gutters modal-open" style="border-radius: 0 2em 0 2em;">
 
                 <!------------ IMAGE BLOCK ------------->
@@ -126,7 +126,7 @@
 
 
         <!-------------------------------- MID COL --------------------------------->
-        <div class="col pl-2">
+        <div class="col pl-md-2">
             <div class="bg-light text-dark p-3 h-100" style="border-radius: 2em 2em 2em 0;">
                 
                 <!----------- ABOUT HEADER ------------->
