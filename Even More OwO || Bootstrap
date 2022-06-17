@@ -3926,7 +3926,7 @@
 
 
                                                     <!------ ICONS -------->
-                                                    <div class="text-white text-center bg-primary" style="padding-top: 2px; padding-bottom: 2px; font-size: 9.5px;>
+                                                    <div class="text-white text-center bg-primary" style="padding-top: 2px; padding-bottom: 2px; font-size: 9.5px;">
 
                                                         <!-- fas OR fa-solid = full || far OR fa-regular = hollow -->
                                                         <i class="fas fa-heart pr-1"></i>
