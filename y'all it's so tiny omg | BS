@@ -1,0 +1,797 @@
+<!----------- Y'ALL IT'S SO TINY OMG [Version 2 :: Bootstrap ] || by acodingperson@toyhou.se 
+
+    HANDY WEBSITES:
+        > Font Awesome v5 (for old icons): https://fontawesome.com/
+        > Font Awesome v6 (for new icons): https://fontawesome.com/v6.0/icons
+        > W3 Schools Bootstrap: https://www.w3schools.com/bootstrap/
+        > W3 Schools HTML: https://www.w3schools.com/html/default.asp
+        > Bootstrap Docs: https://getbootstrap.com/docs/5.1/getting-started/introduction/
+
+    TO KEEP IN MIND:
+        > replace all placeholder images with the images of your choosing
+        > read my TOS - https://toyhou.se/~bulletins/491483.global-tos
+        > bump my thread~ - https://toyhou.se/~forums/16.htmlcss-graphics/245374.the-codes-of-a-person-acp-s-coding-thread
+        > you can erase this entire block for ease of use
+
+    BOOTSTRAP COLORS OF NOTE:
+        > text-dark = blackish text
+        > text-muted = (default) grayish text
+        > text-white = white text
+        > text-danger = (default) red text
+        > text-warning = (default) orange text
+        > text-success = (default) green text
+        -
+        > bg-white = white background
+        > bg-secondary = (default) gray background
+        > bg-danger = (default) red background
+        > bg-warning = (default) orange background
+        > bg-success = (default) green background
+
+    THANK YOU FOR USING <3
+
+---------------------------->
+
+
+
+
+
+
+
+
+
+
+<!---------------- BEGIN CONTAINER ----------------->
+<div class="p-lg-5 p-4 align-items-center justify-content-center" style="height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url(
+
+        https://images.unsplash.com/photo-1531604250646-2f0e818c4f06?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1885&q=80
+
+);">
+<div class="row no-gutters">
+
+
+<!---------------------
+
+    MAIN CONTENT
+
+--------------------->
+<div class="col-lg row no-gutters flex-row-reverse order-md-2" style="max-width: 555px;">
+
+    <!---------- ========= CHARACTER NAME ========== -------->
+    <div class="col-lg-7 row-no-gutters order-lg-2 mb-lg-0 mb-4">
+        <div class="row no-gutters align-items-center p-2 font-weight-light text-shadow" style="font-size: 20px; font-variant: small-caps; letter-spacing: 3px;">
+            <div class="col pr-2"><hr class="bg-white"></div>
+
+            <div class="col-auto text-white" style="text-shadow: 0 0 8px #000000;">
+
+                <span class="mr-n2" style="font-size: 23px;">N</span>
+                ame
+
+            </div>
+
+            <div class="col pl-2 hidden-md-up"><hr class="bg-white"></div>
+        </div>
+    </div>
+    <!------------ =============================== ---------->
+
+
+    <!---------- ===== CHARACTER INFO CONTENT ===== --------->
+    <div class="col-lg-12">
+    <div class="card rounded-0 border-0 shadow mx-lg-0 mx-3" style="font-size: 80%;">
+        <div class="row no-gutters">
+
+        <!--------------------------------
+            
+            character image
+            
+        ---------------------------------->
+        <div class="col-lg-5 p-lg-2 mb-lg-0 mb-3">
+            <!------- replace link ------>
+            <div class="rounded mt-lg-n5 mb-lg-n5 m-lg-0 m-n3 order-lg-2" style="height: 290px;
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-image: url(
+
+                    https://images.unsplash.com/photo-1619855544858-e8e275c3b31a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80
+
+                );"></div>
+        </div>
+        <!-------------------------------->
+        <!-------------------------------->
+
+
+
+        <!--------------------------------
+            
+            tab content
+            
+        ---------------------------------->
+        <div class="col-lg-7 order-lg-2 p-1">
+            <div class="tab-content">
+            
+
+
+            <!-----
+                ===========
+
+                basic info + summary
+
+                =========== 
+            ------>
+            <div class="tab-pane fade show active" id="sunset1">
+                <div class="card rounded-0 border-0 p-2" style="overflow-y: auto; height: 200px;">
+                    <div class="row no-gutters">
+                        
+                        <!-------------- basic information -------------->
+                        <div class="col-12 row no-gutters">
+
+                            <!-- column 1 
+                                ---------------------->
+                            <div class="col-4 p-2" style="letter-spacing: 0.5px;">
+
+                                <div class="d-block mb-1">
+                                    <p class="text-lowercase mb-0">
+                                        
+                                        age here
+                                    
+                                    </p>
+                                    <p class="text-uppercase text-muted mb-0" style="font-size: 10px;">AGE</p>
+                                </div>
+
+                                <div class="d-block mb-1">
+                                    <p class="text-lowercase mb-0">
+                                        
+                                        species here
+                                    
+                                    </p>
+                                    <p class="text-uppercase text-muted mb-0" style="font-size: 10px;">SPECIES</p>
+                                </div>
+
+                                <!-- add more above this line -->
+
+                            </div>
+
+                            <!-- column 2 
+                                ---------------------->
+                            <div class="col-4 p-2">
+
+                                <div class="d-block mb-1">
+                                    <p class="text-lowercase mb-0">
+                                        
+                                        gender here
+                                    
+                                    </p>
+                                    <p class="text-uppercase text-muted mb-0" style="font-size: 10px;">GENDER</p>
+                                </div>
+
+                                <div class="d-block mb-1">
+                                    <p class="text-lowercase mb-0">
+                                        
+                                        prn/prn
+                                    
+                                    </p>
+                                    <p class="text-uppercase text-muted mb-0" style="font-size: 10px;">PRONOUNS</p>
+                                </div>
+
+                                <!-- add more above this line -->
+
+                            </div>
+
+                            <!-- column 3
+                                ---------------------->
+                            <div class="col-4 p-2">
+
+                                <div class="d-block mb-1">
+                                    <p class="text-lowercase mb-0">
+                                        
+                                        content here
+                                    
+                                    </p>
+                                    <p class="text-uppercase text-muted mb-0" style="font-size: 10px;">ORIENT.</p>
+                                </div>
+
+                                <div class="d-block mb-1">
+                                    <p class="text-lowercase mb-0">
+                                        
+                                        content here
+                                    
+                                    </p>
+                                    <p class="text-uppercase text-muted mb-0" style="font-size: 10px;">STATUS</p>
+                                </div>
+
+                                <!-- add more above this line -->
+
+                            </div>
+
+                        </div>
+                        <!-------------- /basic information ------------->
+
+
+                        <!------------- short text/summary -------------->
+                        <div class="col-12 mt-2 pr-2 pl-lg-0 pl-2 text-justify">
+
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis possimus velit quia reiciendis, iure nostrum voluptates distinctio impedit officia consectetur ab accusamus eius beatae dolorum totam quisquam asperiores molestiae animi!
+                            </p>
+
+                            <!-- add more paragraphs above this line -->
+
+                        </div>
+                        <!------------- /short text/summary ------------->
+
+                    </div>
+                </div>
+            </div>
+            <!-----
+                ====================== 
+            ------>
+
+
+
+
+            <!-----
+                ===========
+
+                design + prefs
+
+                =========== 
+            ------>
+            <div class="tab-pane fade" id="sunset2">
+                <div class="card rounded-0 border-0 p-2" style="overflow-y: auto; height: 200px;">
+                    <div class="row no-gutters">
+                        
+                        <!-------------- palette ------------------------>
+                        <div class="col-12 mx-n1 row no-gutters mt-2">
+
+                            <div class="col card border-0 px-1 py-2 m-1" style="
+                                background-color: #ffb169;"></div>
+
+                            <div class="col card border-0 px-1 py-2 m-1" style="
+                                background-color: #f08a86;"></div>
+
+                            <div class="col card border-0 px-1 py-2 m-1" style="
+                                background-color: #5e8799;"></div>
+
+                            <div class="col card border-0 px-1 py-2 m-1" style="
+                                background-color: #054a61;"></div>
+
+                            <div class="col card border-0 px-1 py-2 m-1" style="
+                                background-color: #2d1e29;"></div>
+
+                            <div class="col card border-0 px-1 py-2 m-1" style="
+                                background-color: #d5a9a9;"></div>
+
+                            <!-- add more above this line -->
+
+                        </div>
+                        <!-------------- /palette ----------------------->
+                        
+
+                        <!-------------- tidbits ------------------------->
+                        <div class="col-12 my-1 mx-2 row no-gutters">
+
+                            <!-- column 1 
+                                ---------------------->
+                            <div class="col-4">
+                                <div class="d-block mb-2">
+                                    <p class="text-lowercase mb-0">
+                                        
+                                        <a href="LINK_HERE" target="_blank">
+                                            designer
+                                        </a>
+                                    
+                                    </p>
+                                    <p class="text-uppercase mb-0 text-muted" style="font-size: 10px;">DESIGNER</p>
+                                </div>
+                            </div>
+
+                            <!-- column 2
+                                ---------------------->
+                            <div class="col-4">
+                                <div class="d-block mb-2">
+                                    <p class="text-lowercase mb-0">
+                                        
+                                        $worth
+                                    
+                                    </p>
+                                    <p class="text-uppercase mb-0 text-muted" style="font-size: 10px;">WORTH</p>
+                                </div>
+                            </div>
+
+                            <!-- column 3 
+                                ---------------------->
+                            <div class="col-4">
+                                <div class="d-block mb-2">
+                                    <p class="text-lowercase mb-0">
+                                        
+                                        content
+                                    
+                                    </p>
+                                    <p class="text-uppercase mb-0 text-muted" style="font-size: 10px;">OBTAINED VIA</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-------------- /tidbits ------------------------>
+
+
+                        <!-------------- design notes -------------------->
+                        <div class="col-lg-7 pr-lg-2">
+                            <ul class="fa-ul ml-3 text-justify mb-lg-n3" style="letter-spacing: 0.5px;">
+
+                                <li class="mb-1"><span class="fa-li"><i class="fal fa-angle-right fa-fw mr-1 text-muted"></i></span> 
+                                    
+                                    design notes. lorem ipsum dolor sit amet.
+
+                                </li>
+
+                                <li class="mb-1"><span class="fa-li"><i class="fal fa-angle-right fa-fw mr-1 text-muted"></i></span> 
+                                    
+                                    design notes.
+
+                                </li>
+
+                                <li class="mb-1"><span class="fa-li"><i class="fal fa-angle-right fa-fw mr-1 text-muted"></i></span> 
+                                    
+                                    design notes.
+                                    
+                                </li>
+
+                                <!-- add as many more as you like above this line -->
+
+                            </ul>
+                        </div>
+                        <!-------------- /design notes ------------------->
+
+                        
+                        <!------------- likes, dislikes ------------------>
+                        <div class="col-lg-5 row no-gutters text-muted pl-lg-2 px-lg-0 px-5 align-self-start" style="letter-spacing: 0.5px; position: sticky; top: 0;">
+                            <div class="col-lg-12 col-6 pr-lg-0 pr-2 mb-0">
+
+                                <!----- likes ------->
+                                <ul class="fa-ul ml-3">
+
+                                    <li class="align-items-center"><i class="fa-li fal fa-check text-success fa-xs"></i><div class="pl-2">
+
+                                        like
+
+                                    </div></li>
+                                    
+                                    <li class="align-items-center"><i class="fa-li fal fa-check text-success fa-xs"></i><div class="pl-2">
+
+                                        like
+
+                                    </div></li>
+
+                                    <!-- add more above this line | try to keep it >4 -->
+
+                                </ul>
+
+                            </div>
+                            <div class="col-lg-12 col-6 pl-lg-0 pl-2 mb-lg-n2">
+
+                                <!----- dislikes ------->
+                                <ul class="fa-ul ml-3">
+
+                                    <li class="align-items-center"><i class="fa-li fal fa-times text-danger fa-xs"></i><div class="pl-2">
+
+                                        dislike
+
+                                    </div></li>
+
+                                    <li class="align-items-center"><i class="fa-li fal fa-times text-danger fa-xs"></i><div class="pl-2">
+
+                                        dislike
+
+                                    </div></li>
+
+                                    <!-- add more above this line | try to keep it >4 -->
+
+                                </ul>
+
+                            </div>
+                        </div>
+                        <!------------- /likes, dislikes ----------------->
+
+
+                    </div>
+                </div>
+            </div>
+            <!-----
+                ====================== 
+            ------>
+
+            
+
+
+            <!-----
+                ===========
+
+                moodboard
+
+                =========== 
+            ------>
+            <div class="tab-pane fade" id="sunset3">
+                <div class="card rounded-0 border-0 p-2" style="overflow-y: auto; height: 200px;">
+                    <div class="row no-gutters mt-1">
+                    <div class="col-lg-8 row no-gutters pr-lg-2">
+                    
+                        <!-------------- first image -------------------->
+                        <div class="col-12 w-100">
+                            <div class="p-4" style="background-size: cover; background-position: center; background-image: url(
+
+                                https://images.unsplash.com/photo-1521763041807-c5f24b03ade7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80
+
+                            );"></div>
+                        </div>
+                        <!-------------- /first image ------------------->
+
+
+                        <!-------------- quote -------------------------->
+                        <div class="col-12 w-100 my-2">
+                            <div class="card rounded-0 d-flex justify-content-center align-items-center text-center p-3 font-italic text-muted" style="font-size: 11px;">
+                                <i class="fas fa-quote-left text-muted" style="position: absolute; top: 7px; left: 7px;"></i>
+                            <div class="mx-2">
+                                
+                                <!-- quote here --> Lorem ipsum dolor sit amet consectetur.
+                            
+                            </div>
+                                <i class="fas fa-quote-right text-muted" style="position: absolute; bottom: 7px; right: 7px;"></i>
+                            </div>
+                        </div>
+                        <!-------------- /quote ------------------------->
+
+
+                        <div class="col-12 row no-gutters align-items-center mb-lg-n1 mb-2">
+
+
+                        <!-------------- second image -------------------->
+                        <div class="col-lg-4 col-6 pr-1">
+                            <div class="p-4" style="background-size: cover; background-position: center; background-image: url(
+
+                                https://images.unsplash.com/photo-1500245804862-0692ee1bbee8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80
+
+                            );"></div>
+                        </div>
+                        <!-------------- /second image ------------------->
+
+
+                        <!-------------- music --------------------------->
+                        <div class="col-lg-8 col-6 pl-1 mb-lg-n1">
+                            <div class="row no-gutters align-items-center">
+                                <div class="col-lg-9 text-right pr-2 hidden-sm-down">
+                                    <div class="text-truncate">
+                                        
+                                        SONG TITLE
+                                    
+                                    </div>
+                                    <div class="text-truncate text-muted" style="letter-spacing: 1px;">
+                                        
+                                        artist
+                                    
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-12">
+                                    <div class="p-2 justify-content-center bg-secondary">
+                                        <div class="w-100" style="overflow-y: hidden; overflow-x: hidden;">
+                        
+                                            <!------ replace [ PUT_EMBED_HERE] with desired YT ID 
+                                                (embed for your vid can be found after watch?v=) ------------->
+                                            <iframe class="w-100" frameborder="0" style="position: absolute; bottom: 0; right: 0; height: 35px; z-index: 5; opacity: 0.0001;"
+                                            
+                                                src="https://www.youtube.com/embed/PUT_EMBED_HERE?controls=0">
+                                            
+                                            </iframe>
+                        
+                                        </div>
+                                            <!-- icon --> <i class="fal fa-compact-disc fa-spin text-white" style="font-size: 20px;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-------------- /music -------------------------->
+
+
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+
+
+                        <!-------------- long image ----------------------->
+                        <div class="h-100 p-5" style="background-size: cover; background-position: center; background-image: url(
+
+                            https://images.unsplash.com/photo-1498673394965-85cb14905c89?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80
+
+                        );"></div>
+                        <!-------------- /long image ---------------------->
+
+
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <!-----
+                ====================== 
+            ------>
+
+
+
+
+            <!-----
+                ===========
+
+                relationships + trivia
+
+                =========== 
+            ------>
+            <div class="tab-pane fade" id="sunset4">
+                <div class="card rounded-0 border-0 p-2" style="overflow-y: auto; height: 200px;">
+                    <div class="row no-gutters">
+
+                    <!------------------ relationships --------------------->
+                    <div class="w-100 col-12 row no-gutters mb-2 mx-lg-n1 justify-content-center">
+                
+                        <!------------- 1 ------------------>
+                        <div class="col-lg-4 col-6 px-lg-1 px-2 row no-gutters mb-2">
+                            <div class="col-12 order-2">
+                                <div class="rounded" style="height: 100px; background-size: cover; background-position: center; 
+                                
+                                /** CHARACTER IMAGE **/;
+                                background-image: url(
+
+                                    https://images.unsplash.com/photo-1658592597637-ed0d674acd0e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1964&q=80
+
+                                );"></div>
+                            </div>
+                            <div class="col-12 order-3 justify-content-center">
+                                <a style="font-variant: small-caps; font-size: 13px; margin-top: -13px;"
+                                
+                                    href="LINK_TO_CHARACTER_HERE"
+                                    
+                                target="_blank">
+                                    <span class="badge badge-pill bg-secondary text-white">
+                                
+                                    <!-- CHARACTER NAME -->
+                                    CHARACTER
+
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="col-12 order-1 justify-content-center">
+                                <span class="badge mb-n2 p-1 bg-danger text-white" style="border-radius: 50%;">
+                            
+                                <!-- ICON -->
+                                <i class="fas fa-heart"></i>
+
+                                </span>
+                            </div>
+                            <div class="col-12 order-4 justify-content-center text-muted" style="font-size: 10px;">
+
+                                <!-- RELATIONSHIP TYPE -->
+                                [ type ]
+                                
+                            </div>
+                        </div>
+                        <!---------------------------------->
+
+
+                        <!------------- 2 ------------------>
+                        <div class="col-lg-4 col-6 px-lg-1 px-2 row no-gutters mb-2">
+                            <div class="col-12 order-2">
+                                <div class="rounded" style="height: 100px; background-size: cover; background-position: center; 
+                                
+                                /** CHARACTER IMAGE **/;
+                                background-image: url(
+
+                                    https://images.unsplash.com/photo-1658592597637-ed0d674acd0e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1964&q=80
+
+                                );"></div>
+                            </div>
+                            <div class="col-12 order-3 justify-content-center">
+                                <a style="font-variant: small-caps; font-size: 13px; margin-top: -13px;"
+                                
+                                    href="LINK_TO_CHARACTER_HERE"
+                                    
+                                target="_blank">
+                                    <span class="badge badge-pill bg-secondary text-white">
+                                
+                                    <!-- CHARACTER NAME -->
+                                    CHARACTER
+
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="col-12 order-1 justify-content-center">
+                                <span class="badge mb-n2 p-1 bg-danger text-white" style="border-radius: 50%;">
+                            
+                                <!-- ICON -->
+                                <i class="fas fa-sparkles"></i>
+
+                                </span>
+                            </div>
+                            <div class="col-12 order-4 justify-content-center text-muted" style="font-size: 10px;">
+
+                                <!-- RELATIONSHIP TYPE -->
+                                [ type ]
+                                
+                            </div>
+                        </div>
+                        <!---------------------------------->
+
+
+                        <!------------- 3 ------------------>
+                        <div class="col-lg-4 col-6 px-lg-1 px-2 row no-gutters mb-2">
+                            <div class="col-12 order-2">
+                                <div class="rounded" style="height: 100px; background-size: cover; background-position: center; 
+                                
+                                /** CHARACTER IMAGE **/;
+                                background-image: url(
+
+                                    https://images.unsplash.com/photo-1658592597637-ed0d674acd0e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1964&q=80
+
+                                );"></div>
+                            </div>
+                            <div class="col-12 order-3 justify-content-center">
+                                <a style="font-variant: small-caps; font-size: 13px; margin-top: -13px;"
+                                
+                                    href="LINK_TO_CHARACTER_HERE"
+                                    
+                                target="_blank">
+                                    <span class="badge badge-pill bg-secondary text-white">
+                                
+                                    <!-- CHARACTER NAME -->
+                                    CHARACTER
+
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="col-12 order-1 justify-content-center">
+                                <span class="badge mb-n2 p-1 bg-danger text-white" style="border-radius: 50%;">
+                            
+                                <!-- ICON -->
+                                <i class="fas fa-skull"></i>
+
+                                </span>
+                            </div>
+                            <div class="col-12 order-4 justify-content-center text-muted" style="font-size: 10px;">
+
+                                <!-- RELATIONSHIP TYPE -->
+                                [ type ]
+                                
+                            </div>
+                        </div>
+                        <!---------------------------------->
+
+                    
+                        <!------------------ add more above this line ---------------->
+
+                    </div>
+                    <!------------------ /relationships -------------------->
+
+
+                    <!------------------ trivia points --------------------->
+                    <div class="col-12 w-100">
+                    <ul class="fa-ul ml-4 mr-2 text-justify" style="letter-spacing: 0.5px;">
+
+                        <li class="mb-1"><span class="fa-li"><i class="fal fa-thumbtack text-muted fa-fw mr-1"></i></span> 
+                            
+                            trivia and stuff. lorem ipsum dolor sit amet.
+
+                        </li>
+
+                        <li class="mb-1"><span class="fa-li"><i class="fal fa-thumbtack text-muted fa-fw mr-1"></i></span> 
+                            
+                            more trivia. lorem ipsum dolor sit amet consectetur, adipisicing elit.
+
+                        </li>
+
+                        <li class="mb-1"><span class="fa-li"><i class="fal fa-thumbtack text-muted fa-fw mr-1"></i></span> 
+                            
+                            even more trivia.
+                            
+                        </li>
+
+                        <!-- add as many more as you like above this line -->
+
+                    </ul>
+                    </div>
+                    <!------------------ /trivia points -------------------->
+
+
+                    </div>
+                </div>
+            </div>
+            <!-----
+                ====================== 
+            ------>
+
+
+
+
+            </div>
+        </div>
+        <!-------------------------------->
+        <!-------------------------------->
+
+
+        
+        </div>
+    </div>
+    </div>
+    <!------------ =============================== ---------->
+
+</div>
+
+
+
+<!---------------------
+
+    PC NAVIGATION
+
+--------------------->
+<div class="col-auto hidden-sm-down mt-lg-2">
+    <ul class="nav nav-pills nav-fill flex-lg-column mr-lg-n4" style="font-family: 'Times New Roman', Times, serif;">
+        <li class="nav-item mb-lg-2 text-center">
+            <a class="nav-link active btn btn-block border-0 bg-white text-dark" data-toggle="tab" style="font-size: 10px; border-radius: 0 50% 50% 0;" href="#sunset1">I</a>
+        </li>
+        <li class="nav-item mb-lg-2">
+            <a class="nav-link btn btn-block border-0 bg-white text-dark" data-toggle="tab" style="font-size: 10px; border-radius: 0 50% 50% 0;" href="#sunset2">II</a>
+        </li>
+        <li class="nav-item mb-lg-2">
+            <a class="nav-link btn btn-block border-0 bg-white text-dark" data-toggle="tab" style="font-size: 10px; border-radius: 0 50% 50% 0;" href="#sunset3">III</a>
+        </li>
+        <li class="nav-item mb-lg-2">
+            <a class="nav-link btn btn-block border-0 bg-white text-dark" data-toggle="tab" style="font-size: 10px; border-radius: 0 50% 50% 0;" href="#sunset4">IV</a>
+        </li>
+    </ul>
+</div>
+
+
+<!---------------------
+
+    MOBILE NAVIGATION
+
+--------------------->
+<div class="col-12 hidden-md-up mt-lg-2">
+    <div class="row no-gutters align-items-center p-2 font-weight-light text-shadow">
+        <div class="col pr-2"><hr class="bg-white"></div>
+
+        <div class="col-auto" style="text-shadow: 0 0 8px #000000;">
+            <ul class="nav flex-row mr-lg-n4" style="font-family: 'Times New Roman', Times, serif;">
+                <li class="nav-item mb-lg-2 text-center">
+                    <a class="nav-link active border-0 text-white" data-toggle="tab" style="font-size: 10px;" href="#sunset1">I</a>
+                </li>
+                <li class="nav-item mb-lg-2">
+                    <a class="nav-link border-0 text-white" data-toggle="tab" style="font-size: 10px;" href="#sunset2">II</a>
+                </li>
+                <li class="nav-item mb-lg-2">
+                    <a class="nav-link border-0 text-white" data-toggle="tab" style="font-size: 10px;" href="#sunset3">III</a>
+                </li>
+                <li class="nav-item mb-lg-2">
+                    <a class="nav-link border-0 text-white" data-toggle="tab" style="font-size: 10px;" href="#sunset4">IV</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="col pl-2"><hr class="bg-white"></div>
+    </div>
+</div>
+
+
+</div>
+</div>
+
+
+
+<!------------ 
+    
+    CREDIT 
+
+------------->
+<div class="text-center mt-2">
+    <div style="font-size: 10px;"><a href="acodingperson" class="text-muted faded"><i class="fal fa-code"></i></a></div>
+</div>
