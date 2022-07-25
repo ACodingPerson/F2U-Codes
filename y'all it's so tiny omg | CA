@@ -538,7 +538,7 @@
                         <!------------- 1 ------------------>
                         <div class="col-lg-4 col-6 px-lg-1 px-2 row no-gutters mb-2">
                             <div class="col-12 order-2">
-                                <div class="rounded" style="height: 100px; background-size: cover; background-position: center; 
+                                <div style="height: 100px; background-size: cover; background-position: center; 
                                 
                                 /** CHARACTER IMAGE **/;
                                 background-image: url(
@@ -553,7 +553,7 @@
                                     href="LINK_TO_CHARACTER_HERE"
                                     
                                 target="_blank">
-                                    <span class="badge badge-pill" style="background-color: #fdb675; color: #fff;">
+                                    <span class="badge" style="background-color: #fdb675; color: #fff; border-radius: 0;">
                                 
                                     <!-- CHARACTER NAME -->
                                     CHARACTER
@@ -582,7 +582,7 @@
                         <!------------- 2 ------------------>
                         <div class="col-lg-4 col-6 px-lg-1 px-2 row no-gutters mb-2">
                             <div class="col-12 order-2">
-                                <div class="rounded" style="height: 100px; background-size: cover; background-position: center; 
+                                <div style="height: 100px; background-size: cover; background-position: center; 
                                 
                                 /** CHARACTER IMAGE **/;
                                 background-image: url(
@@ -597,7 +597,7 @@
                                     href="LINK_TO_CHARACTER_HERE"
                                     
                                 target="_blank">
-                                    <span class="badge badge-pill" style="background-color: #fdb675; color: #fff;">
+                                    <span class="badge" style="background-color: #fdb675; color: #fff; border-radius: 0;">
                                 
                                     <!-- CHARACTER NAME -->
                                     CHARACTER
@@ -626,7 +626,7 @@
                         <!------------- 3 ------------------>
                         <div class="col-lg-4 col-6 px-lg-1 px-2 row no-gutters mb-2">
                             <div class="col-12 order-2">
-                                <div class="rounded" style="height: 100px; background-size: cover; background-position: center; 
+                                <div style="height: 100px; background-size: cover; background-position: center; 
                                 
                                 /** CHARACTER IMAGE **/;
                                 background-image: url(
@@ -641,7 +641,7 @@
                                     href="LINK_TO_CHARACTER_HERE"
                                     
                                 target="_blank">
-                                    <span class="badge badge-pill" style="background-color: #fdb675; color: #fff;">
+                                    <span class="badge" style="background-color: #fdb675; color: #fff; border-radius: 0;">
                                 
                                     <!-- CHARACTER NAME -->
                                     CHARACTER
