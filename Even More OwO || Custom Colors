@@ -423,7 +423,7 @@
                             <i class="fas fa-object-group text-light"></i>
                         </a>
                     </li>
-                    <li class="nav-item active pr-1">
+                    <li class="nav-item pr-1">
                         <a class="nav-link" data-toggle="tab" href="#APPEARANCE" style="border-radius: 0; background-color: #e4a3a3;">
                             <i class="fas fa-sparkles text-light"></i>
                         </a>
