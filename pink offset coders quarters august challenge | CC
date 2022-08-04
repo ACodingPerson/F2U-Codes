@@ -1,0 +1,951 @@
+<!----------- OFFSET PINK || by acodingperson@toyhou.se 
+
+    HANDY WEBSITES:
+        > Font Awesome v5 (for old icons): https://fontawesome.com/
+        > Font Awesome v6 (for new icons): https://fontawesome.com/v6.0/icons
+        > W3 Schools Bootstrap: https://www.w3schools.com/bootstrap/
+        > W3 Schools HTML: https://www.w3schools.com/html/default.asp
+        > Bootstrap Docs: https://getbootstrap.com/docs/5.1/getting-started/introduction/
+
+    MAIN CC COLORS USED:
+        > main background color: #212121
+        > main text color: #ededed
+        > main accent color: #ffc2c2
+        > highlight accent color: #c95d5d
+        > lighter white color: #fbfbfb
+        > pure white color: #fff
+
+    reminder to read my tos :3  ->   https://toyhou.se/~bulletins/491483.global-tos
+    help me bump my thread!!    ->   https://toyhou.se/~forums/16.htmlcss-graphics/245374.the-codes-of-a-person-acp-s-coding-thread
+
+    THANK YOU FOR USING <3
+
+---------------------------->
+
+
+
+<div class="mx-auto my-lg-5 p-5 shadow-lg" style="max-width: 900px; background-color: #212121; color: #ededed;">
+<div class="row no-gutters mx-n2">
+
+
+<!-- ======================= 
+
+    IMAGE + BASIC INFO
+
+======================== -->
+<div class="col-lg-4 p-lg-2">
+
+    <!--------------
+
+        IMAGE
+    
+    ---------------->
+    <div class="mb-3" style="border-style: solid; border-width: 2px; border-color: #ffc2c2; box-shadow: 0.5rem 0.5rem 0rem 0rem #ffc2c2;">
+        <img 
+        
+            src="https://f2.toyhou.se/file/f2-toyhou-se/images/53052568_ZHcMHZd8C8CDzw3.png"
+        
+        >
+    </div>
+    <!-------------------->
+
+
+    <!--------------
+
+        BASIC INFO
+    
+    ---------------->
+    <div class="py-2 ml-2" style="border-style: solid; border-width: 2px; border-color: #ffc2c2;">
+
+        <div class="row no-gutters d-flex align-items-center my-2">
+            <!-- ICON --> <div class="col-auto"><div class="pl-1 pr-2 py-2" style="border-style: solid; border-width: 2px 2px 2px 0px; background-color: #212121; border-color: #ffc2c2; margin-left: -2px;"><i class="fa-solid fa-pen-line fa-fw" style="color: #ffc2c2;"></i></div></div>
+            <!-- CONTENT --> <div class="col px-3 mr-3 py-1 font-weight-bold" style="font-size: 14px; letter-spacing: 0.8px; background-color: #ffc2c2; color: #212121;">
+
+                full name
+
+            </div>
+        </div>
+
+        <div class="row no-gutters d-flex align-items-center my-2">
+            <!-- ICON --> <div class="col-auto"><div class="pl-1 pr-2 py-2" style="border-style: solid; border-width: 2px 2px 2px 0px; background-color: #212121; border-color: #ffc2c2; margin-left: -2px;"><i class="fa-solid fa-timer fa-fw" style="color: #ffc2c2;"></i></div></div>
+            <!-- CONTENT --> <div class="col px-3 mr-3 py-1 font-weight-bold" style="font-size: 14px; letter-spacing: 0.8px; background-color: #ffc2c2; color: #212121;">
+
+                age (d.o.b.)
+
+            </div>
+        </div>
+
+        <div class="row no-gutters d-flex align-items-center my-2">
+            <!-- ICON --> <div class="col-auto"><div class="pl-1 pr-2 py-2" style="border-style: solid; border-width: 2px 2px 2px 0px; background-color: #212121; border-color: #ffc2c2; margin-left: -2px;"><i class="fa-solid fa-venus-mars fa-fw" style="color: #ffc2c2;"></i></div></div>
+            <!-- CONTENT --> <div class="col px-3 mr-3 py-1 font-weight-bold" style="font-size: 14px; letter-spacing: 0.8px; background-color: #ffc2c2; color: #212121;">
+
+                gender (prn/prn)
+
+            </div>
+        </div>
+
+        <div class="row no-gutters d-flex align-items-center my-2">
+            <!-- ICON --> <div class="col-auto"><div class="pl-1 pr-2 py-2" style="border-style: solid; border-width: 2px 2px 2px 0px; background-color: #212121; border-color: #ffc2c2; margin-left: -2px;"><i class="fa-solid fa-heart-pulse fa-fw" style="color: #ffc2c2;"></i></div></div>
+            <!-- CONTENT -->  <div class="col px-3 mr-3 py-1 font-weight-bold" style="font-size: 14px; letter-spacing: 0.8px; background-color: #ffc2c2; color: #212121;">
+
+                orientation
+
+            </div>
+        </div>
+
+        <div class="row no-gutters d-flex align-items-center my-2">
+            <!-- ICON --> <div class="col-auto"><div class="pl-1 pr-2 py-2" style="border-style: solid; border-width: 2px 2px 2px 0px; background-color: #212121; border-color: #ffc2c2; margin-left: -2px;"><i class="fa-solid fa-paw fa-fw" style="color: #ffc2c2;"></i></div></div>
+            <!-- CONTENT --> <div class="col px-3 mr-3 py-1 font-weight-bold" style="font-size: 14px; letter-spacing: 0.8px; background-color: #ffc2c2; color: #212121;">
+
+                species
+
+            </div>
+        </div>
+
+        <div class="row no-gutters d-flex align-items-center my-2">
+            <!-- ICON --> <div class="col-auto"><div class="pl-1 pr-2 py-2" style="border-style: solid; border-width: 2px 2px 2px 0px; background-color: #212121; border-color: #ffc2c2; margin-left: -2px;"><i class="fa-solid fa-briefcase fa-fw" style="color: #ffc2c2;"></i></div></div>
+            <!-- CONTENT -->  <div class="col px-3 mr-3 py-1 font-weight-bold" style="font-size: 14px; letter-spacing: 0.8px; background-color: #ffc2c2; color: #212121;">
+
+                occupation
+
+            </div>
+        </div>
+
+        <div class="row no-gutters d-flex align-items-center my-2">
+            <!-- ICON --> <div class="col-auto"><div class="pl-1 pr-2 py-2" style="border-style: solid; border-width: 2px 2px 2px 0px; background-color: #212121; border-color: #ffc2c2; margin-left: -2px;"><i class="fa-solid fa-scroll fa-fw" style="color: #ffc2c2;"></i></div></div>
+            <!-- CONTENT --> <div class="col px-3 mr-3 py-1 font-weight-bold" style="font-size: 14px; letter-spacing: 0.8px; background-color: #ffc2c2; color: #212121;">
+
+                status
+
+            </div>
+        </div>
+        
+    </div>
+    <!-------------------->
+
+
+</div>
+<!--=========================-->
+
+
+
+
+<!-- ======================= 
+
+    CONTENT BLOCK
+
+======================== -->
+<div class="col-lg-8 pl-lg-4 pr-lg-2">
+
+    <!--------------
+
+        NAME
+    
+    ---------------->
+    <div class="my-2 text-lowercase" style="color: #fbfbfb; letter-spacing: 6.5px; font-size: 40px; font-weight: 900; text-shadow: 0.15rem 0.15rem 0rem #c95d5d;">
+        
+        character name
+
+    </div>
+    <!-------------------->
+
+
+    <!--------------
+
+        ADJECTIVES
+    
+    ---------------->
+    <div class="font-italic font-weight-bold d-flex align-items-center mt-n1" style="letter-spacing: 1px;">
+
+        adjective
+
+            <span class="mx-2" style="font-size: 5px; color: #ffc2c2;"><i class="fas fa-circle"></i></span>
+
+        adjective
+
+            <span class="mx-2" style="font-size: 5px; color: #ffc2c2;"><i class="fas fa-circle"></i></span>
+
+        adjective
+
+        <!-- ADD MORE ABOVE THIS LINE -->
+
+    </div>
+    <!-------------------->
+
+
+
+    <!--------------
+
+       > SUMMARY
+       > MUSIC
+    
+    ---------------->
+    <div class="row no-gutters mt-2">
+
+        <!------------- SUMMARY -------------->
+        <div class="col-lg-9">
+        <div class="p-2 pr-lg-4 mr-lg-n4 text-justify" style="border-style: solid; border-width: 2px; border-color: #ffc2c2; height: 120px; overflow-y: auto; font-size: 13px;">
+
+            <p>This box scrolls!  Lorem ipsum dolor sit amet. Odio accusantium qui delectus.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum doloribus similique vel quis quidem recusandae minima voluptates dolor ratione, aspernatur, excepturi minus atque beatae. Quae labore sed ipsa porro odio.</p>
+
+        </div>
+        </div>
+        <!-- //////////// -->
+
+        <!-------------- MUSIC --------------->
+        <div class="col-lg-3 mt-lg-0 mt-3 mb-lg-0 mb-1">
+        <div class="row no-gutters">
+
+            <div class="col-lg-12 col-3 row no-gutters">
+            <div class="col-12 p-lg-4 p-3 h-100 d-flex justify-content-center align-items-center" style="background-color: #ffc2c2; color: #fff; overflow: hidden;">
+
+                <!------ replace [ PUT_EMBED_HERE] with desired YT ID 
+                    (embed for your vid can be found after watch?v=) ------------->
+                <iframe class="w-100" frameborder="0" style="position: absolute; height: 190px; opacity: .00420; z-index: 5;"
+                    
+                        src="https://www.youtube.com/embed/PUT_EMBED_HERE?controls=0">
+                    
+                </iframe>
+
+                <i class="fa-solid fa-compact-disc fa-5x fa-spin"></i>
+            </div>
+            </div>
+            <div class="hidden-md-up col-9">
+            <div class="p-3 h-100 align-items-center" style="border-style: solid; border-width: 2px; border-color: #ffc2c2;">
+            <div>
+                <p class="font-weight-bold mb-1">
+                    
+                    SONG TITLE <!-- can only be seen on mobile -->
+                
+                </p>
+                <p class="small my-0">
+                    
+                    name of artist <!-- can only be seen on mobile -->
+                
+                </p>
+            </div>
+            </div>
+            </div>
+        </div>
+        </div>
+        <!-- //////////// -->
+
+    </div>
+    <!-------------------->
+
+
+<div class="row no-gutters">
+<div class="col-lg-8 pr-lg-4">
+
+
+    <!--------------
+
+       NAVIGATION
+    
+    ---------------->
+    <ul class="nav nav-pills nav-fill my-2 mx-n2 font-weight-bold" style="font-size: 20px; font-family: 'Times New Roman', Times, serif;">
+    <li class="nav-item active p-2">
+    <a class="nav-link active p-2" data-toggle="tab" href="#I" style="border-radius: 0; background-color: #ffc2c2; color: #fbfbfb; box-shadow: 0.2rem 0.2rem 0rem 0rem #c95d5d;">
+        I
+    </a>
+    </li>
+    <li class="nav-item p-2">
+    <a class="nav-link p-2" data-toggle="tab" href="#II" style="border-radius: 0; background-color: #ffc2c2; color: #fbfbfb; box-shadow: 0.2rem 0.2rem 0rem 0rem #c95d5d;">
+        II
+    </a>
+    </li>
+    <li class="nav-item p-2">
+    <a class="nav-link p-2" data-toggle="tab" href="#III" style="border-radius: 0; background-color: #ffc2c2; color: #fbfbfb; box-shadow: 0.2rem 0.2rem 0rem 0rem #c95d5d;">
+        III
+    </a>
+    </li>
+    <li class="nav-item p-2">
+    <a class="nav-link p-2" data-toggle="tab" href="#IV" style="border-radius: 0; background-color: #ffc2c2; color: #fbfbfb; box-shadow: 0.2rem 0.2rem 0rem 0rem #c95d5d;">
+        IV
+    </a>
+    </li>
+    </ul>
+    <!-------------------->
+
+
+
+    <!----------------------
+        ================
+
+            TABS HERE
+
+        ================
+    ----------------------->
+    <div class="tab-content">
+
+
+
+        <!------------- 
+            ------
+
+            TAB I
+
+            -------  
+        --------------->
+        <div class="tab-pane fade in active show" id="I">
+        <div class="row no-gutters mb-lg-0 mb-2">
+
+            <!--------------- LIKES ---------------->
+            <div class="col-lg-6 row no-gutters pr-lg-2 mb-lg-0 mb-3">
+            <div class="col mr-lg-0 mr-2" style="border-style: solid; border-width: 2px; border-color: #ffc2c2;">
+            <div class="pr-2 mr-lg-n4" style="font-size: 12.5px; max-height: 110px; overflow-y: auto; letter-spacing: 0.5px;">
+            <ul class="fa-ul py-2 mb-0">
+
+                <li><span class="fa-li"><i class="fal fa-angle-right fa-fw mr-1" style="color:#ffc2c2;"></i></span>
+                
+                    likes.
+                
+                </li>
+
+                <li><span class="fa-li"><i class="fal fa-angle-right fa-fw mr-1" style="color:#ffc2c2;"></i></span>
+                
+                    likes.
+                
+                </li>
+
+                <li><span class="fa-li"><i class="fal fa-angle-right fa-fw mr-1" style="color:#ffc2c2;"></i></span>
+                
+                    likes.
+                
+                </li>
+
+                <li><span class="fa-li"><i class="fal fa-angle-right fa-fw mr-1" style="color:#ffc2c2;"></i></span>
+                
+                    likes.
+                
+                </li>
+
+                <li><span class="fa-li"><i class="fal fa-angle-right fa-fw mr-1" style="color:#ffc2c2;"></i></span>
+                
+                    likes.
+                
+                </li>
+
+                <li><span class="fa-li"><i class="fal fa-angle-right fa-fw mr-1" style="color:#ffc2c2;"></i></span>
+                
+                    likes.
+                
+                </li>
+
+                <!-- ADD MORE ABOVE THIS LINE -->
+
+            </ul>
+            </div>
+            </div>
+                <div class="col-auto"><div class="h-100 p-1" style="background-color: #ffc2c2; color: #fbfbfb;"><i class="far fa-heart"></i></div></div>
+            </div>
+            <!-- //////////// -->
+
+
+            <!-------------- DISLIKES -------------->
+            <div class="col-lg-6 row no-gutters pl-lg-2">
+            <div class="col mr-lg-0 mr-2" style="border-style: solid; border-width: 2px; border-color: #ffc2c2;">
+            <div class="pr-2 mr-lg-n4" style="font-size: 12.5px; max-height: 110px; overflow-y: auto; letter-spacing: 0.5px;">
+            <ul class="fa-ul py-2 mb-0">
+
+                <li><span class="fa-li"><i class="fal fa-angle-right fa-fw mr-1" style="color:#ffc2c2;"></i></span>
+                
+                    dislikes.
+                
+                </li>
+
+                <li><span class="fa-li"><i class="fal fa-angle-right fa-fw mr-1" style="color:#ffc2c2;"></i></span>
+                
+                    dislikes.
+                
+                </li>
+
+                <li><span class="fa-li"><i class="fal fa-angle-right fa-fw mr-1" style="color:#ffc2c2;"></i></span>
+                
+                    dislikes.
+                
+                </li>
+
+                <li><span class="fa-li"><i class="fal fa-angle-right fa-fw mr-1" style="color:#ffc2c2;"></i></span>
+                
+                    dislikes.
+                
+                </li>
+
+                <li><span class="fa-li"><i class="fal fa-angle-right fa-fw mr-1" style="color:#ffc2c2;"></i></span>
+                
+                    dislikes.
+                
+                </li>
+
+                <li><span class="fa-li"><i class="fal fa-angle-right fa-fw mr-1" style="color:#ffc2c2;"></i></span>
+                
+                    dislikes.
+                
+                </li>
+
+                <!-- ADD MORE ABOVE THIS LINE -->
+
+            </ul>
+            </div>
+            </div>
+                <div class="col-auto"><div class="h-100 p-1" style="background-color: #ffc2c2; color: #fbfbfb;"><i class="far fa-heart-broken"></i></div></div>
+            </div>
+            <!-- //////////// -->
+
+
+            <!--------------- STATS --------------->
+            <div class="col-lg-12 row no-gutters mt-2">
+            <div class="col-lg-6 pr-lg-2 my-n1">
+
+                <!----- 1 ------>
+                <div class="row no-gutters my-2 align-items-center">
+                    <div class="col-lg-4 col-3 text-truncate" style="letter-spacing: 3px; color: #fbfbfb; font-weight: 500; text-shadow: 0.05rem 0.05rem 0rem #c95d5d;">
+                        
+                        stat
+
+                    </div>
+                    <div class="col ml-2" style="border-style: solid; border-width: 2px; border-color: #ffc2c2;"">
+                    <div class="progress rounded-0" style="background: none; height: 15px; margin: -2px;">
+                    <div class="progress-bar" style="background-color: #ffc2c2;
+                    
+                        width: 25%;
+                        
+                    "></div>
+                    </div>
+                    </div>
+                </div>
+
+                <!----- 2 ------>
+                <div class="row no-gutters my-2 align-items-center">
+                    <div class="col-lg-4 col-3 text-truncate" style="letter-spacing: 3px; color: #fbfbfb; font-weight: 500; text-shadow: 0.05rem 0.05rem 0rem #c95d5d;">
+                        
+                        stat
+
+                    </div>
+                    <div class="col ml-2" style="border-style: solid; border-width: 2px; border-color: #ffc2c2;"">
+                    <div class="progress rounded-0" style="background: none; height: 15px; margin: -2px;">
+                    <div class="progress-bar" style="background-color: #ffc2c2;
+                    
+                        width: 25%;
+                        
+                    "></div>
+                    </div>
+                    </div>
+                </div>
+
+                <!-- DO NOT ADD MORE -->
+
+            </div>
+            <div class="col-lg-6 pl-lg-2 my-n1">
+
+                <!----- 1 ------>
+                <div class="row no-gutters my-2 align-items-center">
+                    <div class="col-lg-4 col-3 text-truncate" style="letter-spacing: 3px; color: #fbfbfb; font-weight: 500; text-shadow: 0.05rem 0.05rem 0rem #c95d5d;">
+                        
+                        stat
+
+                    </div>
+                    <div class="col ml-2" style="border-style: solid; border-width: 2px; border-color: #ffc2c2;"">
+                    <div class="progress rounded-0" style="background: none; height: 15px; margin: -2px;">
+                    <div class="progress-bar" style="background-color: #ffc2c2;
+                    
+                        width: 25%;
+                        
+                    "></div>
+                    </div>
+                    </div>
+                </div>
+
+                <!----- 2 ------>
+                <div class="row no-gutters my-2 align-items-center">
+                    <div class="col-lg-4 col-3 text-truncate" style="letter-spacing: 3px; color: #fbfbfb; font-weight: 500; text-shadow: 0.05rem 0.05rem 0rem #c95d5d;">
+                        
+                        stat
+
+                    </div>
+                    <div class="col ml-2" style="border-style: solid; border-width: 2px; border-color: #ffc2c2;">
+                    <div class="progress rounded-0" style="background: none; height: 15px; margin: -2px;">
+                    <div class="progress-bar" style="background-color: #ffc2c2;
+                    
+                        width: 25%;
+                        
+                    "></div>
+                    </div>
+                    </div>
+                </div>
+
+                <!-- DO NOT ADD MORE -->
+
+            </div>
+            </div>
+            <!-- //////////// -->
+
+
+            <!--------------- TRIVIA --------------->
+            <div class="col-lg-12 row no-gutters mt-2">
+                <div class="col mr-lg-0 mr-2" style="border-style: solid; border-width: 2px; border-color: #ffc2c2;">
+                <div class="pr-2 mr-lg-n4" style="font-size: 12.5px; max-height: 165px; overflow-y: auto; letter-spacing: 0.5px;">
+                <ul class="fa-ul py-2 mb-0">
+
+                    <li class="mb-1"><span class="fa-li"><i class="fal fa-angles-right fa-fw mr-1" style="color:#ffc2c2;"></i></span>
+                    
+                        trivia.  lorem ipsum dolor sit amet.
+                    
+                    </li>
+
+                    <li class="mb-1"><span class="fa-li"><i class="fal fa-angles-right fa-fw mr-1" style="color:#ffc2c2;"></i></span>
+                    
+                        trivia.  lorem ipsum dolor sit amet.
+                    
+                    </li>
+
+                    <li class="mb-1"><span class="fa-li"><i class="fal fa-angles-right fa-fw mr-1" style="color:#ffc2c2;"></i></span>
+                    
+                        trivia.  lorem ipsum dolor sit amet.
+                    
+                    </li>
+
+                    <li class="mb-1"><span class="fa-li"><i class="fal fa-angles-right fa-fw mr-1" style="color:#ffc2c2;"></i></span>
+                    
+                        trivia.  lorem ipsum dolor sit amet.
+                    
+                    </li>
+
+                    <li class="mb-1"><span class="fa-li"><i class="fal fa-angles-right fa-fw mr-1" style="color:#ffc2c2;"></i></span>
+                    
+                        trivia.  lorem ipsum dolor sit amet.
+                    
+                    </li>
+
+                    <li class="mb-1"><span class="fa-li"><i class="fal fa-angles-right fa-fw mr-1" style="color:#ffc2c2;"></i></span>
+                    
+                        trivia.  lorem ipsum dolor sit amet.
+                    
+                    </li>
+
+                    <li class="mb-1"><span class="fa-li"><i class="fal fa-angles-right fa-fw mr-1" style="color:#ffc2c2;"></i></span>
+                    
+                        trivia.  lorem ipsum dolor sit amet.
+                    
+                    </li>
+
+                    <li class="mb-1"><span class="fa-li"><i class="fal fa-angles-right fa-fw mr-1" style="color:#ffc2c2;"></i></span>
+                    
+                        trivia.  lorem ipsum dolor sit amet.
+                    
+                    </li>
+
+                    <li class="mb-1"><span class="fa-li"><i class="fal fa-angles-right fa-fw mr-1" style="color:#ffc2c2;"></i></span>
+                    
+                        trivia.  lorem ipsum dolor sit amet.
+                    
+                    </li>
+
+                    <!-- ADD MORE ABOVE THIS LINE -->
+
+                </ul>
+                </div>
+                </div>
+                <div class="col-auto"><div class="h-100 p-2" style="background-color: #ffc2c2; color: #fbfbfb;"><i class="far fa-thumbtack"></i></div></div>
+            </div>
+            <!-- //////////// -->
+
+        </div>
+        </div>
+        <!-- ------- ------ -->
+
+
+
+        <!------------- 
+            ------
+
+            TAB II
+
+            -------  
+        --------------->
+        <div class="tab-pane fade" id="II">
+        <div class="row no-gutters mb-lg-0 mb-2">
+
+            <!--------------- REFERENCE ---------------->
+            <div class="col mb-lg-0 mb-2">
+            <img class="p-lg-0 p-5" style="height: 100%;"
+                
+                src="https://f2.toyhou.se/file/f2-toyhou-se/images/53071638_z32jRolN8UxKHpc.png?1659583074"
+                
+            >
+            </div>
+            <!-- //////////// -->
+
+
+            <!--------------- PALETTE ---------------->
+            <div class="col-lg-auto col-12 mb-lg-0 mb-2 pl-lg-2">
+            <div class="row no-gutters d-flex flex-lg-column flex-row h-100 p-2" style="border-style: solid; border-width: 2px; border-color: #ffc2c2;">
+
+                <div class="col p-2" style="background-color: #ddaeae;"></div>
+                <div class="col p-2" style="background-color: #916b6b;"></div>
+                <div class="col p-2" style="background-color: #ebcdcd;"></div>
+                <div class="col p-2" style="background-color: #f4ebeb;"></div>
+                <div class="col p-2" style="background-color: #987070;"></div>
+
+            </div>
+            </div>
+            <!-- //////////// -->
+
+
+            <!--------------- NOTES --------------->
+            <div class="col-lg-12 row no-gutters mt-2">
+                <div class="col mr-lg-0 mr-2" style="border-style: solid; border-width: 2px; border-color: #ffc2c2;">
+                <div class="pr-2 mr-lg-n4" style="font-size: 12.5px; max-height: 70px; overflow-y: auto; letter-spacing: 0.5px;">
+                <ul class="fa-ul py-2 mb-0">
+
+                    <li class="mb-1"><span class="fa-li"><i class="fal fa-map-pin fa-rotate-270 fa-fw mr-1" style="color:#ffc2c2;"></i></span>
+                    
+                        design note.  lorem ipsum dolor sit amet.
+                    
+                    </li>
+
+                    <li class="mb-1"><span class="fa-li"><i class="fal fa-map-pin fa-rotate-270 fa-fw mr-1" style="color:#ffc2c2;"></i></span>
+                    
+                        design note.  lorem ipsum dolor sit amet.
+                    
+                    </li>
+
+                    <li class="mb-1"><span class="fa-li"><i class="fal fa-map-pin fa-rotate-270 fa-fw mr-1" style="color:#ffc2c2;"></i></span>
+                    
+                        design note.  lorem ipsum dolor sit amet.
+                    
+                    </li>
+
+                    <li class="mb-1"><span class="fa-li"><i class="fal fa-map-pin fa-rotate-270 fa-fw mr-1" style="color:#ffc2c2;"></i></span>
+                    
+                        design note.  lorem ipsum dolor sit amet.
+                    
+                    </li>
+
+                    <!-- ADD MORE ABOVE THIS LINE -->
+
+                </ul>
+                </div>
+                </div>
+                <div class="col-auto"><div class="h-100 p-2" style="background-color: #ffc2c2; color: #fbfbfb;"><i class="far fa-palette"></i></div></div>
+            </div>
+            <!-- //////////// -->
+
+        </div>
+        </div>
+        <!-- ------- ------ -->
+
+
+
+        <!------------- 
+            ------
+
+            TAB III
+
+            -------  
+        --------------->
+        <div class="tab-pane fade" id="III">
+        <div class="row no-gutters">
+        <div class="col mr-lg-0 mr-2" style="border-style: solid; border-width: 2px; border-color: #ffc2c2;">
+        <div class="row no-gutters pr-3 py-3 mr-lg-n4" style="font-size: 12.5px; height: 353px; overflow-y: auto; letter-spacing: 0.5px;">
+
+            <!--------------- 1 --------------->
+            <div class="col-lg-12">
+                <!-- header --> <div class="mr-4 py-1 px-2 font-weight-bold sticky-top" style="background-color:#ffc2c2; font-size: 15px;">    Header 1    </div>
+
+                <div class="px-3 p-2 mr-4 text-justify" style="font-size: 12px;">
+
+                    <p>History.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quas suscipit iste accusamus adipisci id quisquam, voluptas voluptatem officia vero accusantium nemo, maiores provident? Impedit cupiditate quos laudantium dolorum consectetur!</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia vel sunt, quas ab, inventore eos nulla magni accusamus, tempora iusto beatae? Temporibus autem eum debitis aperiam aspernatur vitae labore quo.</p>
+
+                </div>
+
+            </div>
+            <!-- //////////// -->
+
+
+            <!--------------- 2 --------------->
+            <div class="col-lg-12">
+                <!-- header --> <div class="mr-4 py-1 px-2 font-weight-bold sticky-top" style="background-color:#ffc2c2; font-size: 15px;">    Header 2    </div>
+
+                <div class="px-3 p-2 mr-4 text-justify" style="font-size: 12px;">
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quas suscipit iste accusamus adipisci id quisquam, voluptas voluptatem officia vero accusantium nemo, maiores provident? Impedit cupiditate quos laudantium dolorum consectetur!</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia vel sunt, quas ab, inventore eos nulla magni accusamus, tempora iusto beatae? Temporibus autem eum debitis aperiam aspernatur vitae labore quo.</p>
+
+                </div>
+
+            </div>
+            <!-- //////////// -->
+
+
+            <!--------------- 3 --------------->
+            <div class="col-lg-12">
+                <!-- header --> <div class="mr-4 py-1 px-2 font-weight-bold sticky-top" style="background-color:#ffc2c2; font-size: 15px;">    Header 3    </div>
+
+                <div class="px-3 p-2 mr-4 text-justify" style="font-size: 12px;">
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quas suscipit iste accusamus adipisci id quisquam, voluptas voluptatem officia vero accusantium nemo, maiores provident? Impedit cupiditate quos laudantium dolorum consectetur!</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia vel sunt, quas ab, inventore eos nulla magni accusamus, tempora iusto beatae? Temporibus autem eum debitis aperiam aspernatur vitae labore quo.</p>
+
+                </div>
+
+            </div>
+            <!-- //////////// -->
+        
+        </div>
+        </div>
+        <div class="col-auto"><div class="h-100 p-2" style="background-color: #ffc2c2; color: #fbfbfb;"><i class="far fa-books"></i></div></div>
+        </div>
+        </div>
+        <!-- ------- ------ -->
+
+
+
+        <!------------- 
+            ------
+
+            TAB IV
+
+            -------  
+        --------------->
+        <div class="tab-pane fade" id="IV">
+        <div class="row no-gutters">
+        <div class="col pr-lg-2">
+        <div class="mr-lg-n5 pr-lg-4 pr-2" style="height: 355px; overflow-y: auto;">
+        <div class="mb-n3">
+            
+            <!--------------- 1 --------------->
+            <div class="row no-gutters mb-3">
+
+                <!----- IMAGE ------>
+                <div class="col-lg-5 pr-lg-2 row no-gutters justify-content-center mb-lg-0 mb-2">
+                <div class="col-lg-12 col-5" style="border-style: solid; border-width: 2px; border-color: #ffc2c2; box-shadow: 0.2rem 0.2rem 0rem 0rem #ffc2c2;">
+                <img 
+                
+                    src="https://f2.toyhou.se/file/f2-toyhou-se/images/53101737_s8n6bLCMSmXtSMq.png"
+                
+                >
+                </div>
+                </div>
+
+                <!----- CHARACTER INFO ------>
+                <div class="col pl-lg-2">
+                    <a 
+
+                        href="LINK_HERE"
+                    
+                    class="my-2 text-lowercase" style="color: #fbfbfb; letter-spacing: 3.5px; font-size: 17px; font-weight: 700; text-shadow: 0.09rem 0.09rem 0rem #c95d5d;">
+            
+                        name
+
+                    </a>
+                    <div class="mt-1 pr-4 mr-lg-n4 text-justify" style="max-height: 95px; overflow-y: auto; font-size: 11px;">
+
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur impedit corporis hic nobis, assumenda enim illum, atque esse vero odio qui aliquam, distinctio harum. Impedit nisi sed quam veniam expedita.</p>
+
+                    </div>
+                </div>
+
+                <!----- ICON ------>
+                <div class="col-lg-auto col-12 mb-lg-0 mb-2 mt-lg-0 mt-1"><div class="h-100 p-1" style="background-color: #ffc2c2; color: #fbfbfb;">
+                    
+                    <i class="fa-regular fa-envelopes-bulk"></i>
+                
+                </div></div>
+
+            </div>
+            <!-- //////////// -->
+
+
+            <!--------------- 2 --------------->
+            <div class="row no-gutters mb-3">
+
+                <!----- IMAGE ------>
+                <div class="col-lg-5 pr-lg-2 row no-gutters justify-content-center mb-lg-0 mb-2">
+                <div class="col-lg-12 col-5" style="border-style: solid; border-width: 2px; border-color: #ffc2c2; box-shadow: 0.2rem 0.2rem 0rem 0rem #ffc2c2;">
+                <img 
+                
+                    src="https://f2.toyhou.se/file/f2-toyhou-se/images/53101737_s8n6bLCMSmXtSMq.png"
+                
+                >
+                </div>
+                </div>
+
+                <!----- CHARACTER INFO ------>
+                <div class="col pl-lg-2">
+                    <a 
+
+                        href="LINK_HERE"
+                    
+                    class="my-2 text-lowercase" style="color: #fbfbfb; letter-spacing: 3.5px; font-size: 17px; font-weight: 700; text-shadow: 0.09rem 0.09rem 0rem #c95d5d;">
+            
+                        name
+
+                    </a>
+                    <div class="mt-1 pr-4 mr-lg-n4 text-justify" style="max-height: 95px; overflow-y: auto; font-size: 11px;">
+
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur impedit corporis hic nobis, assumenda enim illum, atque esse vero odio qui aliquam, distinctio harum. Impedit nisi sed quam veniam expedita.</p>
+
+                    </div>
+                </div>
+
+                <!----- ICON ------>
+                <div class="col-lg-auto col-12 mb-lg-0 mb-2 mt-lg-0 mt-1"><div class="h-100 p-1" style="background-color: #ffc2c2; color: #fbfbfb;">
+                    
+                    <i class="fa-regular fa-envelopes-bulk"></i>
+                
+                </div></div>
+
+            </div>
+            <!-- //////////// -->
+
+
+            <!--------------- 3 --------------->
+            <div class="row no-gutters mb-3">
+
+                <!----- IMAGE ------>
+                <div class="col-lg-5 pr-lg-2 row no-gutters justify-content-center mb-lg-0 mb-2">
+                <div class="col-lg-12 col-5" style="border-style: solid; border-width: 2px; border-color: #ffc2c2; box-shadow: 0.2rem 0.2rem 0rem 0rem #ffc2c2;">
+                <img 
+                
+                    src="https://f2.toyhou.se/file/f2-toyhou-se/images/53101737_s8n6bLCMSmXtSMq.png"
+                
+                >
+                </div>
+                </div>
+
+                <!----- CHARACTER INFO ------>
+                <div class="col pl-lg-2">
+                    <a 
+
+                        href="LINK_HERE"
+                    
+                    class="my-2 text-lowercase" style="color: #fbfbfb; letter-spacing: 3.5px; font-size: 17px; font-weight: 700; text-shadow: 0.09rem 0.09rem 0rem #c95d5d;">
+            
+                        name
+
+                    </a>
+                    <div class="mt-1 pr-4 mr-lg-n4 text-justify" style="max-height: 95px; overflow-y: auto; font-size: 11px;">
+
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur impedit corporis hic nobis, assumenda enim illum, atque esse vero odio qui aliquam, distinctio harum. Impedit nisi sed quam veniam expedita.</p>
+
+                    </div>
+                </div>
+
+                <!----- ICON ------>
+                <div class="col-lg-auto col-12 mb-lg-0 mb-2 mt-lg-0 mt-1"><div class="h-100 p-1" style="background-color: #ffc2c2; color: #fbfbfb;">
+                    
+                    <i class="fa-regular fa-envelopes-bulk"></i>
+                
+                </div></div>
+
+            </div>
+            <!-- //////////// -->
+
+            <!-- ADD MORE ABOVE THIS LINE -->
+
+        </div>
+        </div>
+        </div>
+            <div class="col-auto pr-lg-0 pr-2 hidden-sm-down"><div class="h-100 p-2 mb-n2 mr-n5" style="background-color: #212121;"></div></div>
+        </div>
+        </div>
+        <!-- ------- ------ -->
+
+
+    </div>
+    <!--============= ============= -->
+
+
+
+</div>
+<div class="col-lg-4">
+
+
+    <!--------------
+
+       MOODBOARD
+    
+    ---------------->
+    <div class="mt-3">
+
+        <!----- 1 ------>
+        <div class="mb-3" style="padding: 38%; background-size: cover; background-position: center; background-image: url(
+
+            https://images.unsplash.com/photo-1617055407123-3d7130c1f940?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1935&q=80
+
+        );"></div>
+
+        <!----- 2 ------>
+        <div class="mb-3" style="padding: 38%; background-size: cover; background-position: center; background-image: url(
+
+            https://images.unsplash.com/photo-1519750783826-e2420f4d687f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80
+
+        );"></div>
+
+        <!----- 3 ------>
+        <div class="mb-3" style="padding: 38%; background-size: cover; background-position: center; background-image: url(
+
+            https://images.unsplash.com/photo-1465834342651-fca149ee1ee6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80
+
+        );"></div>
+
+    </div>
+    <!-------------------->
+
+
+</div>
+</div>
+
+</div>
+<!--=========================-->
+
+
+
+<!-- ======================= 
+
+    QUOTE + CREDIT
+
+======================== -->
+<div class="col-lg-12 row no-gutters d-flex align-items-center">
+
+<!--------------
+
+    QUOTE
+    
+---------------->
+<div class="col-lg-8 pr-lg-2 my-lg-0 my-2">
+<div class="p-2 font-italic text-white font-weight-bold justify-content-between" style="font-size: 11.5px; background-color: #ffc2c2;">
+    <i class="far fa-quote-left"></i>
+
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+
+    <i class="far fa-quote-right"></i>
+</div>
+</div>
+<!-------------------->
+
+
+<!--------------
+
+    CREDIT
+    
+---------------->
+<div class="col-lg-4 px-lg-2 row no-gutters align-items-center my-lg-0 my-2">
+    <div class="col pr-lg-2"><hr style="background-color: #ffc2c2;"></div>
+        <div class="col-auto px-2"><a href="acodingperson" target="_blank" style="color: #fbfbfb; font-size: 15px;"><i class="far fa-code"></i></a></div>
+    <div class="col hidden-md-up"><hr style="background-color: #ffc2c2;"></div>
+</div>
+<!-------------------->
+
+
+</div>
+<!--=========================-->
+
+
+
+</div>
+</div>
