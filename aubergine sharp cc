@@ -1,0 +1,578 @@
+<!----------- AUBERGINE (Sharp CC) || by acodingperson@toyhou.se 
+
+    HANDY WEBSITES:
+        > Font Awesome: https://fontawesome.com/
+        > W3 Schools Bootstrap: https://www.w3schools.com/bootstrap/
+        > W3 Schools HTML: https://www.w3schools.com/html/default.asp
+        > Bootstrap Docs: https://getbootstrap.com/docs/5.1/getting-started/introduction/
+        > Toyhou.se Help Thread: https://toyhou.se/~forums/16.htmlcss-graphics/48845.-help-thread-ask-your-questions-here-
+
+    CC COLORS USED:
+        > accent color: #e9c9c9
+
+    reminder to read my tos :3  ->   https://toyhou.se/~bulletins/491483.global-tos
+    leave a comment!! <33       ->   https://toyhou.se/~forums/16.htmlcss-graphics/245374.the-codes-of-a-person-acp-s-coding-thread
+
+    THANK YOU FOR USING <3
+
+---------------------------->
+<div class="mx-auto card border-0 rounded-0 p-2 mt-5" style="max-width: 665px;">
+    <div class="card rounded-0 pr-lg-4 p-lg-0 p-3">
+
+    <!-------------- 
+        
+        HEADER 
+        
+    ---------------->
+    <div class="ml-lg-n4 mt-3 card flex-row rounded-0 align-items-center" style="font-weight: 900; font-size: 27px; letter-spacing: 3px;">
+            
+        <!-- CLIP PATH / BACKGROUND OF ICON -------->
+        <div class="px-4 py-2" style="background-color: #e9c9c9; clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 0 100%, 0% 50%, 0 0);">
+            
+            <!-- ICON --> <i class="ml-n2 
+
+                fal 
+                fa-eggplant 
+                text-white
+
+            "></i>
+        
+        </div>
+        <!------------------------------------------>
+
+        <!-- PUT USERNAME HERE --------------------->
+        <div class="pl-4 py-1" style="color: #e9c9c9;">
+            
+            aubergine
+        
+        </div>
+        <!------------------------------------------>
+
+    </div>
+    <!-- ======================== -->
+
+
+
+    <!--------------------------- 
+        ====================
+        
+            BLOCK
+        
+        ====================
+    ---------------------------->
+    <div class="row no-gutters">
+        
+
+        <!-------------- 
+        
+            AVATAR
+        
+        ---------------->
+        <div class="col-lg-4">
+
+            <img class="ml-lg-n4 mt-3 mb-lg-n3"
+            
+                src="https://f2.toyhou.se/file/f2-toyhou-se/images/55246491_gZOSLr6cAQhCmN5.jpg" 
+            
+            >
+
+        </div>
+        <!-- ======================== -->
+
+
+        <!-------------------------- 
+        
+                MAIN CONTENT
+        
+        ---------------------------->
+        <div class="col-lg-8 pl-lg-1">
+        <div class="mt-3">
+
+            <!------------------ 
+                > ADJECTIVES
+            ------------------->
+            <div class="align-items-center" style="font-size: 13px; letter-spacing: 2px;">
+                
+                aubrey
+                
+                <i class="fa-light fa-angles-right mx-2 fa-sm pt-1" style="color: #e9c9c9;"></i>
+
+                she/her
+                
+                <i class="fa-light fa-angles-right mx-2 fa-sm pt-1" style="color: #e9c9c9;"></i>
+
+                teen
+
+            </div>
+            <!------------------ 
+                / END
+            ------------------->
+                
+            <div id="ACCORDION1">
+            <div class="mt-2" style="height: 100px;">
+
+
+            <!------------------ 
+                > ABOUT
+            ------------------->
+            <div class="collapse show" id="about1" data-parent="#ACCORDION1"><div class="card rounded-0 p-3 text-justify" style="font-size: 11px; height: 100px; overflow-y: auto;">
+
+                <!-- // this box scrolls, but try to keep it short.  it looks better that way! -->
+
+                <p>AUBREY is one of the main three deuteragonists in OMORI who join OMORI's party. However, in the FARAWAY TOWN sections of the game, she serves as a minor antagonist. When tagged as the leader, AUBREY can smash obstacles with a bat.</p>
+
+                <!-- you can add more above this line !! -->
+
+            </div></div>
+            <!------------------ 
+                / END
+            ------------------->
+
+
+            <!------------------ 
+                > NOTICE
+                > STATUS
+            ------------------->
+            <div class="collapse" id="misc1" data-parent="#ACCORDION1"><div class="card rounded-0 p-3 text-justify" style="font-size: 11px; height: 100px; overflow-y: auto;">
+            <div class="row no-gutters">
+                <div class="col-8 pr-3">
+
+                    <!--------- NOTICE BOARD ----------------->
+                    <ul class="fa-ul pl-0 ml-3 mb-0">
+
+                        <li><span class="fa-li"><i class="far fa-angle-right fa-fw fa-sm mr-1" style="color: #e9c9c9;"></i></span> 
+                            
+                            notice board.  add updates here.
+                        
+                        </li>
+
+                        <li><span class="fa-li"><i class="far fa-angle-right fa-fw fa-sm mr-1" style="color: #e9c9c9;"></i></span> 
+                            
+                            you can also add dates like <span class="font-weight-bold font-italic">05/23/20##</span>.
+                        
+                        </li>
+                        
+                        <li><span class="fa-li"><i class="far fa-angle-right fa-fw fa-sm mr-1" style="color: #e9c9c9;"></i></span> 
+                            
+                            you can add little to-do notes, too.
+                        
+                        </li>
+                        
+                        <li><span class="fa-li"><i class="far fa-angle-right fa-fw fa-sm mr-1" style="color: #e9c9c9;"></i></span> 
+                            
+                            keep things short.  looks better that way!
+                        
+                        </li>
+
+                        <!-- add more above this line !! -->
+                    
+                    </ul>
+                    <!--------- /NOTICE BOARD ---------------->
+
+                </div>
+                <div class="col-4">
+
+                    <!--------- STATUS ------------------------>
+                    <div>
+                        <div class="justify-content-between"><span class="font-weight-bold" style="color: #e9c9c9;">
+                            
+                            commissions
+                        
+                        </span> 
+                        <a 
+                        
+                            href="LINK_HERE">
+                            content
+                        
+                        </a></div>
+                    <!-- -->
+                        <div class="justify-content-between"><span class="font-weight-bold" style="color: #e9c9c9;">
+                            
+                            trades
+                        
+                        </span> 
+                        <a 
+                        
+                            href="LINK_HERE">
+                            content
+                        
+                        </a></div>
+                    <!-- -->
+                        <div class="justify-content-between"><span class="font-weight-bold" style="color: #e9c9c9;">
+                            
+                            collabs
+                        
+                        </span> 
+                        <a 
+                        
+                            href="LINK_HERE">
+                            content
+                        
+                        </a></div>
+                    <!-- -->
+                        <div class="justify-content-between"><span class="font-weight-bold" style="color: #e9c9c9;">
+                            
+                            requests
+                        
+                        </span> 
+                        <a 
+                        
+                            href="LINK_HERE">
+                            content
+                        
+                        </a></div>
+                    </div>
+                    <!--------- /STATUS ----------------------->
+
+                </div>
+            </div>
+            </div></div>
+            <!------------------ 
+                / END
+            ------------------->
+
+
+            <!------------------ 
+                > FOLDERS
+                > FRIENDS
+                > INTERESTS
+            ------------------->
+            <div class="collapse" id="nav_interests1" data-parent="#ACCORDION1"><div class="card rounded-0 p-3 text-justify" style="font-size: 11px; height: 100px; overflow-y: auto;">
+                <div class="row no-gutters">
+                    <div class="col-lg-8 pr-lg-3">
+                        
+                        <!--------- FOLDERS ---------------------->
+                        <div class="row no-gutters mx-n1">
+
+                            <!----- 1 ----->
+                            <div class="col mx-1 mb-2"><a class="btn btn-block btn-outline-secondary flex-column p-1 tooltipster" data-placement="bottom" style="font-size: 11px; border-radius: 0;"
+                                
+                                href="LINK_HERE"
+                                title="FOLDER NAME">
+                                    <i class="
+
+                                        fas 
+                                        fa-folder-open 
+
+                                    fa-lg py-2" style="color: #e9c9c9;"></i>
+                            </a></div>
+                            <!----- // ----->
+
+                            <!----- 2 ----->
+                            <div class="col mx-1 mb-2"><a class="btn btn-block btn-outline-secondary flex-column p-1 tooltipster" data-placement="bottom" style="font-size: 11px; border-radius: 0;"
+                                
+                                href="LINK_HERE"
+                                title="FOLDER NAME">
+                                    <i class="
+
+                                        fas 
+                                        fa-folder-open 
+                                        
+                                    fa-lg py-2" style="color: #e9c9c9;"></i>
+                            </a></div>
+                            <!----- // ----->
+
+                            <!----- 3 ----->
+                            <div class="col mx-1 mb-2"><a class="btn btn-block btn-outline-secondary flex-column p-1 tooltipster" data-placement="bottom" style="font-size: 11px; border-radius: 0;"
+                                
+                                href="LINK_HERE"
+                                title="FOLDER NAME">
+                                    <i class="
+
+                                        fas 
+                                        fa-folder-open 
+                                        
+                                    fa-lg py-2" style="color: #e9c9c9;"></i>
+                            </a></div>
+                            <!----- // ----->
+
+                            <!----- 4 ----->
+                            <div class="col mx-1 mb-2"><a class="btn btn-block btn-outline-secondary flex-column p-1 tooltipster" data-placement="bottom" style="font-size: 11px; border-radius: 0;"
+                                
+                                href="LINK_HERE"
+                                title="FOLDER NAME">
+                                    <i class="
+
+                                        fas 
+                                        fa-folder-open 
+                                        
+                                    fa-lg py-2" style="color: #e9c9c9;"></i>
+                            </a></div>
+                            <!----- // ----->
+
+                            <!-- you can add more above this line, but i recommend keeping it to >6 -->
+
+                        </div>
+                        <!--------- /FOLDERS --------------------->
+
+                        <!--------- FRIENDS ---------------------->
+                        <div class="px-1" style="font-size: 10px;">
+                                <span class="font-weight-bold pr-2" style="color: #e9c9c9;">check out my friends!!</span>
+
+                                <a href="LINK_HERE" class="text-muted" style="text-decoration: none;">
+                                    kim
+                                </a> 
+                                
+                                    <span class="px-1" style="color: #e9c9c9;">•</span>
+
+                                <a href="LINK_HERE" class="text-muted" style="text-decoration: none;">
+                                    hero
+                                </a> 
+                                
+                                    <span class="px-1" style="color: #e9c9c9;">•</span>
+
+                                <a href="LINK_HERE" class="text-muted" style="text-decoration: none;">
+                                    mari
+                                </a> 
+
+                                    <span class="px-1" style="color: #e9c9c9;">•</span>
+
+                                <a href="LINK_HERE" class="text-muted" style="text-decoration: none;">
+                                    kel
+                                </a>
+
+                                    <span class="px-1" style="color: #e9c9c9;">•</span>
+
+                                <a href="LINK_HERE" class="text-muted" style="text-decoration: none;">
+                                    sunny
+                                </a>
+                                
+                                    <span class="px-1" style="color: #e9c9c9;">•</span>
+
+                                <a href="LINK_HERE" class="text-muted" style="text-decoration: none;">
+                                    basil
+                                </a>
+
+                                <!-- add more above this line !! -->
+
+                        </div>
+                        <!--------- /FRIENDS --------------------->
+
+                    </div>
+
+                        <!--------- INTERESTS --------------------->
+                        <div class="col-lg-4 mt-lg-0 mt-2 row no-gutters">
+
+                            <!------- BELOVEDS ------->
+                            <div class="col-lg-12 col-4 pr-lg-0 pr-1">
+                                <ul class="fa-ul pl-0 ml-3 mb-0">
+
+                                    <li><span class="fa-li"><i style="color: #e9c9c9;" class="fa-fw fa-sm mr-1
+                                        fas 
+                                        fa-heart
+                                    "></i></span> 
+
+                                        eggplant.
+
+                                    </li>
+
+                                    <li><span class="fa-li"><i style="color: #e9c9c9;" class="fa-fw fa-sm mr-1
+                                        fas 
+                                        fa-heart
+                                    "></i></span> 
+
+                                        pink.
+
+                                    </li>
+
+                                    <!-- add more above this line !! -->
+
+                                </ul>
+                            </div>
+                            <!------- // ------->
+
+                            <!------- ADORED --------->
+                            <div class="col-lg-12 col-4 px-lg-0 px-1">
+                                <ul class="fa-ul pl-0 ml-3 mb-0">
+                                    
+                                    <li><span class="fa-li"><i style="color: #e9c9c9;" class="fa-fw fa-sm mr-1
+                                        far
+                                        fa-heart
+                                    "></i></span> 
+
+                                        pizza.
+
+                                    </li>
+
+                                    <!-- add more above this line !! -->
+
+                                </ul>
+                            </div>
+                            <!------- // ------->
+
+                            <!------- LOVED ----------->
+                            <div class="col-lg-12 col-4 pl-lg-0 pl-1">
+                                <ul class="fa-ul pl-0 ml-3 mb-0">
+                                    
+                                    <li><span class="fa-li"><i style="color: #e9c9c9;" class="fa-fw fa-sm mr-1
+                                        far
+                                        fa-thumbs-up
+                                    "></i></span> 
+
+                                        nails.
+
+                                    </li>
+
+                                    <!-- add more above this line !! -->
+
+                                </ul>
+                            </div>
+                            <!------- // ------->
+
+                        </div>
+                        <!--------- /INTERESTS -------------------->
+                        
+                </div>
+            </div></div>
+            <!------------------ 
+                / END
+            ------------------->
+
+
+            <!------------------ 
+                > FEATURED
+            ------------------->
+            <div class="collapse" id="featured1" data-parent="#ACCORDION1"><div class="card rounded-0 p-2 text-justify" style="font-size: 11px; height: 100px; overflow-y: auto;">
+            <div class="row no-gutters m-n1">
+
+                <!---- 1 ------>
+                <div class="col m-1">
+                    <a class="btn btn-block justify-content-center" style="height: 82px; border: 1px solid #e9c9c9; border-radius: 0; background-size: cover; background-position: center; background-image: url(
+                        
+                        https://f2.toyhou.se/file/f2-toyhou-se/images/55246520_NGdUMlpdV2RY3Ee.jpg
+                        
+                        );"
+                        
+                        href="LINK_HERE">
+                        <span class="text-white font-weight-bold" style="position: absolute; bottom: 5px; font-size: 10px; text-shadow: 0px 0px 1px #000;">
+                            
+                            character name
+                        
+                        </span>
+                    </a>
+                </div>
+                <!---- // ------>
+
+                <!---- 2 ------>
+                <div class="col m-1">
+                    <a class="btn btn-block justify-content-center" style="height: 82px; border: 1px solid #e9c9c9; border-radius: 0; background-size: cover; background-position: center; background-image: url(
+                        
+                        https://f2.toyhou.se/file/f2-toyhou-se/images/55246520_NGdUMlpdV2RY3Ee.jpg
+                        
+                        );"
+                        
+                        href="LINK_HERE">
+                        <span class="text-white font-weight-bold" style="position: absolute; bottom: 5px; font-size: 10px; text-shadow: 0px 0px 1px #000;">
+                            
+                            character name
+                        
+                        </span>
+                    </a>
+                </div>
+                <!---- // ------>
+
+                <!---- 3 ------>
+                <div class="col m-1">
+                    <a class="btn btn-block justify-content-center" style="height: 82px; border: 1px solid #e9c9c9; border-radius: 0; background-size: cover; background-position: center; background-image: url(
+                        
+                        https://f2.toyhou.se/file/f2-toyhou-se/images/55246520_NGdUMlpdV2RY3Ee.jpg
+                        
+                        );"
+                        
+                        href="LINK_HERE">
+                        <span class="text-white font-weight-bold" style="position: absolute; bottom: 5px; font-size: 10px; text-shadow: 0px 0px 1px #000;">
+                            
+                            character name
+                        
+                        </span>
+                    </a>
+                </div>
+                <!---- // ------>
+
+                <!-- i recommend keeping it to 3, but feel free to add more if you'd like !! -->
+
+            </div>
+            </div></div>
+            <!------------------ 
+                / END
+            ------------------->
+
+            </div>
+            <hr class="my-2 w-100">
+
+                
+                <!----------------
+
+                    LINKS
+                
+                ----------------->
+                <div class="row no-gutters mx-1">
+
+                    <!------------- PERSONAL LINKS --------------->
+                    <div class="col row no-gutters">
+
+                        <!----- 1 ----->
+                        <div class="col mx-1"><div style="background-color: #e9c9c9;"><a class="btn btn-block btn-outline-secondary border-0 py-1 px-2 text-white font-weight-bold" style="font-size: 11px; border-radius: 0;"
+                            
+                            href="LINK_HERE">
+                            link
+                        
+                        </a></div></div>
+                        <!----- // ----->
+
+                        <!----- 2 ----->
+                        <div class="col mx-1"><div style="background-color: #e9c9c9;"><a class="btn btn-block btn-outline-secondary border-0 py-1 px-2 text-white font-weight-bold" style="font-size: 11px; border-radius: 0;"
+                            
+                            href="LINK_HERE">
+                            link
+                        
+                        </a></div></div>
+                        <!----- // ----->
+
+                        <!----- 3 ----->
+                        <div class="col mx-1"><div style="background-color: #e9c9c9;"><a class="btn btn-block btn-outline-secondary border-0 py-1 px-2 text-white font-weight-bold" style="font-size: 11px; border-radius: 0;"
+                            
+                            href="LINK_HERE">
+                            link
+                        
+                        </a></div></div>
+                        <!----- // ----->
+
+                    </div>
+                    <!------------- /PERSONAL LINKS -------------->
+
+
+                    <!-- navigation -->
+                        <div class="col-auto mx-1"><div style="background-color: #e9c9c9;"><a href="#about1" data-toggle="collapse" aria-expanded="true" class="btn btn-block btn-outline-secondary border-0 py-1 px-2 text-white font-weight-bold" style="font-size: 11px; border-radius: 0;"><i class="far fa-paper-plane"></i></a></div></div>
+                        <div class="col-auto mx-1"><div style="background-color: #e9c9c9;"><a href="#misc1" data-toggle="collapse" aria-expanded="false" class="btn btn-block btn-outline-secondary border-0 py-1 px-2 text-white font-weight-bold" style="font-size: 11px; border-radius: 0;"><i class="far fa-list-tree"></i></a></div></div>
+                        <div class="col-auto mx-1"><div style="background-color: #e9c9c9;"><a href="#nav_interests1" data-toggle="collapse" aria-expanded="false" class="btn btn-block btn-outline-secondary border-0 py-1 px-2 text-white font-weight-bold" style="font-size: 11px; border-radius: 0;"><i class="far fa-star"></i></a></div></div>
+                        <div class="col-auto mx-1"><div style="background-color: #e9c9c9;"><a href="#featured1" data-toggle="collapse" aria-expanded="false" class="btn btn-block btn-outline-secondary border-0 py-1 px-2 text-white font-weight-bold" style="font-size: 11px; border-radius: 0;"><i class="far fa-award"></i></a></div></div>
+                    <!-- end navigation -->
+                    <div class="col-auto mx-1"><div class="h-100 w-100 p-1" style="background-color: #e9c9c9;"></div></div>
+                </div>
+
+            </div>
+            <hr class="my-2 w-100">
+        </div>
+        </div>
+        <!-- ============ -------- ============ -->
+
+
+    </div>
+    <!-- ======================== -->
+    <!-- ======================== -->
+
+    </div>
+
+    <!--------------- 
+        
+        CREDITS 
+    
+    -----------------> 
+    <div class="faded small text-right">
+        <!-- code --> <a href="https://toyhou.se/18146812.-f2u-aubergine"><i class="fas fa-code text-muted mr-1 fa-xs"></i></a>
+        <!-- image --> <a href="LINK_HERE"><i class="far fa-paintbrush-pencil text-muted fa-xs"></i></a>
+    </div>
+
+</div>
+<!-- end aubergine code -->
